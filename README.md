@@ -1,2 +1,3 @@
-# Industry-Accelerators
-Repository for storing IBM Industry Accelerator for Cloud Pak for Data artefacts
+# Industry Accelerators for Cloud Pak for Data V4.0.X
+This branch contains Industry Accelerators for Cloud Pak for Data V4 or higher. Navigate to individual folder to explore the Industry Accelerators.
+To know more about Industry Accelerators for Cloud Pak for Data please visit https://community.ibm.com/accelerators/ 

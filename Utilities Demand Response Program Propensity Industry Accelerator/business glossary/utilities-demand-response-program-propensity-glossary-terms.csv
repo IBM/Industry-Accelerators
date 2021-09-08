@@ -1,0 +1,245 @@
+﻿Name,Artifact Type,Category,Description,Tags,Classifications,Stewards,Related Terms,Part Of Terms,Data Classes
+Account Balance,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,"The total amount that is outstanding on the account, debit or credit.",,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Customer Account,
+Account Closed Date,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,The date when the account was closed.,,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Customer Account,Date
+Account Currency,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,Identifies the currency of the account.,,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Customer Account,Currency
+Account Name,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,A free-form text name of the account.,,Personally Identifiable Information,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Customer Account,
+Account Number,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,A unique business identifier for the account.,,Personally Identifiable Information,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Customer Account,Account Number
+Account Opened Date,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,The date when the account was opened.,,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Customer Account,Date
+Account Status,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,"The status of the account, for example: active, pending active, pending transfer, final, written off.",,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Customer Account,
+Account Type,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,The categorization of the account into distinct types.,,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Customer Account,
+Active Customer Agreements,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,The number of customer agreements that are active at the end of a given period of time.,,,,,,
+Active Customers,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,The number of customers that have at least one active customer agreement at the end of the period.,,,,,,
+Address Line 1 Description,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,"First line of the address, which includes street and building number.",,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Postal Address,Address Line 1
+Arrears Amount,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,"The total amount of money which is owed to an organization on payments due on the account, but not received as of the payment due date.",,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Customer Account,
+Authorization Date,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,"Identifies a date upon which an action has been authorized. For example, the date upon which a code is issued by a bank to authorize a Credit Card Payment.",,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Transaction,Date
+Base Usage,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,The amount of energy used in providing routine needs for the household included in the bill.,,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Billing,
+Bill Alternate Charge,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,The cost of energy used in addition to base usage included in the bill.,,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Billing,
+Bill Alternate Usage,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,The amount of energy used in addition to base usage included in the bill.,,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Billing,
+Bill Base Charge,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,The charges associated with base usage included in the bill.,,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Billing,
+Billing,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,"An invoice/bill issued by a seller to a customer, relating to a sale transaction and indicating the products, quantities, and agreed prices for products or services the seller had provided the buyer. ",,,,,,
+Bill Overdue Balance,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,The balance which has not been paid within specified payment dates.,,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Billing,
+Bill Payment Due Date,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,The date when the bill payment is due to be paid.,,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Billing,Date
+Bill Standing Charge,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,A fee to be paid to the energy supplier for providing access to the electricity or gas.,,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Billing,
+Bill Total Amount To Pay,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,The total amount of money which is owed to an organization on payments due on the account.,,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Billing,
+Bill Total Net,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,"The net billed amount including base charge, alternate charge, standing charge but excluding the levy.",,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Billing,
+Car Ownership Indicator,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,Indicates whether the household owns a car.,,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Household,
+City,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,A geographic area that defines the boundaries of a community where people live. It is generally an incorporated or chartered area of a state or province.,,,,,,City
+City Name,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,"Identifies the label assigned to or by which a city may be identified, for example: Chicago, Dublin, Sydney.",,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> City,City
+Closed Customer Agreements,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,The number of customer agreements that were closed in a given period of time.,,,,,,
+Communication,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,"The receiving or sending of an information between two parties. A communication may be in any medium such as a telephone call, a letter, an email, a meeting, and so on. ",,,,,,
+Communication End,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,The date and time when the communication was ended.,,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Communication,Date
+Communication Start,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,The date and time when the communication was initiated.,,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Communication,Date
+Communication Status,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,"The communication status distinguishes between communications according to their current state, for example: awaiting further information, closed, open.",,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Communication,
+Communication Type,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,"Indicates the type of communication that has occurred or is planned to occur, for example: campaign mailing, complaint, quotation request.",,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Communication,
+Country,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,A geographic area that defines the boundaries of a nation.,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Postal Address,,Country Name
+Country Code,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,"A code which identifies a country, for example: the country code for Ireland is 'IE'.",,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Country,Country Code
+Country Name,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,"Identifies the label assigned to or by which a country may be identified, for example: Ireland, India.",,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Country,Country Name
+County,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,The name of the county.,,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Postal Address,
+Credit Risk Score,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,A score that that indicates the exposure risk weighting of the account. Rating scores are viewed in terms of the specific type of assessment or set of values used to evaluate a particular aspect of a financial services marketplace.,,,,,,
+Customer,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,A person or organization buying goods or services from the organization.,,Personally Identifiable Information,,,,
+Customer Account,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,Customer account includes information from the customer agreements to create billings or invoices for a customer and receive payment.,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Customer,,
+Customer Account Address,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,The postal address associated with the customer account.,,Personally Identifiable Information,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Postal Address,Industry Accelerators >> Utilities Demand Response Program Propensity >> Customer Account,Address  Line 3
+,,,,,,,,,Address Line 2
+,,,,,,,,,Address Line 1
+Customer Account Life Cycle Status,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,Additional classification of customer account status that determines the status of the account based on its life cycle.,,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Customer Account,
+Customer Account Product Type,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,Classification of product or service that this account represents or is associated with this account.,,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Customer Account,
+Customer Acquisition Cost,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,The primary costs of establishing the customer. The money spent on convincing the customer to purchase the products or services of the organization.,,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Customer,
+Customer Active Accounts,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,Identifies the number of active customer accounts.,,,,,,
+Customer Agreement,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,An agreement between the customer and the organization to pay for goods or services. The agreement records billing information about the type of service and product that is provided.,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Customer,,
+,,,,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Customer Account,,
+Customer Agreement Number,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,The unique alphanumeric value that is assigned in the business process and identifies the customer agreement.,,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Customer Agreement,
+Customer Agreement Type,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,An organization specific classification of the customer agreement.,,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Customer Agreement,
+Customer Agreement Validity End,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,The date and time when the validity of the customer agreement ceased.,,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Customer Agreement,Date
+Customer Agreement Validity Start,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,The date and time when the validity of the customer agreement commenced.,,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Customer Agreement,Date
+Customer Annual Income,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,"The amount of money an individual earns in a single year. Usually includes person's salary and bonuses as well as any other non-employment related income such as dividends from holdings in stocks and shares, trusts.",,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Customer,
+Customer Building Type,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,"The type of property in which the customer resides e.g. Apartment, Condominium.",,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Customer,
+,,,,,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Household,
+Customer Call Duration,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,The net duration of the customer call measured from the time when the call is answered to the time the call ended usually expressed as number of minutes.,,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Customer Phone Call,
+Customer Calls,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,"Number of all phone calls with customers, both customer and organization initiated, in the assessed period.",,,,,,
+Customer Communication,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,The communication between the customer and the organization typically handled by a contact center.,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Customer,,
+,,,,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Communication,,
+Customer Complaints,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,Number of all customer complaints recorded in assessed period.,,,,,,
+Customer Credit Authority Level,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,"Scale of authority for credit of the customer on the market, for example: high, medium, low.",,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Customer,
+Customer Emails,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,Number of all customer emails received in assessed period.,,,,,,
+Customer Identifier,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,A unique number that identifies the customer.,,Personally Identifiable Information,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Customer,DUNS Number
+,,,,,,,,,Customer Number
+,,,,,,,,,Identifier
+Customer Importance,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,"The level of importance that the customer has to the organization, for example: low, normal, high, VIP.",,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Customer,
+Customer Income Segment,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,The customer classification that is used to group customers according to their available annual income.,,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Customer,
+Customer Language,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,Identifies the natural language associated with customer for use in communications.,,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Customer,Language Code or Name
+Customer Lifetime Value,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,The total projected earnings of a customer to the organization over its probable lifetime.,,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Customer,
+Customer Market Segment,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,The customer classification that is used to segment customers to produce and track the sales forecast.,,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Customer,
+Customer Name,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,"The name by which a customer is known and which is usually used to identify that customer. For example: International Business Machines Corporation (IBM), Joe Bloggs.",,Personally Identifiable Information,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Customer,Organization Name
+,,,,,,,,,Person Name
+Customer Net Gain,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,"The net gain in customers of the organization expressed as: the number of customers gained minus the number of customers lost, in a given period.",,,,,,
+Customer Net Present Value,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,The present value of the customer's net expected future cash flows minus the cost of investment (or cost of acquisition).,,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Customer,
+Customer Phone Call,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,A call between a customer and a contact center agent. This includes both contact center inbound and outbound phone calls.,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Customer Communication,,
+Customer Products,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,Number of products the customer owns or has a subscription for.,,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Customer,
+Customer Satisfaction,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,The overall satisfaction of the customer with the goods or services that are provided by the organization.,,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Customer,
+Customer Sentiment,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,The overall attitude of the customer to the goods or services provided by the organization.,,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Customer,
+Customer Social Media Account,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,The social network account used to communicate with the customer.,,Sensitive Personal Information,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Social Media Account,Industry Accelerators >> Utilities Demand Response Program Propensity >> Customer,
+Customer Social Media Posts,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,Number of all customer posts in social media addressed to the organization in the assessed period.,,Personally Identifiable Information,,,,
+,,,,,Sensitive Personal Information,,,,
+Customer Status,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,"The status of the customer based on whether there is an active agreement in place between the customer and the organization, for example: active, dormant, former, prospect.",,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Customer,
+Customer Tenure,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,The duration in years or months since the start date of the first agreement the customer had with the organization.,,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Customer,
+Customer Type,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,"The type of the customer based on the classification of the organization that is in a contractual or other relationship with the customer, for example: residential, industrial, commercial, government.",,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Customer,
+Date Of Birth,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,The date when an individual was born.,,Personally Identifiable Information,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Customer,Date of Birth
+Demand Response Program Enrollment Indicator,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,Indicates whether a customer is enrolled in a Demand Response program which rewards customers for reducing energy consumption during periods of peak demand.,,,,,,
+Demand Response Program Enrollment Probability,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,The probability that a customer will enroll in a Demand Response program which rewards customers for reducing energy consumption during periods of peak demand.,,,,,,
+Discount,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,A deduction made by the seller from the normal sales price of the product.,,,,,,
+Dormant Customers,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,The number of customers without account transaction and communication during a given period of time. The dormant customers are the customers without any active contracts.,,,,,,
+Driver License Number,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,The unique number assigned to an individual's driver license.,,Personally Identifiable Information,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Customer,Louisiana State Driver's License
+,,,,,Sensitive Personal Information,,,,Newfoundland and Labrador Province Driver's License
+,,,,,,,,,Kentucky State Driver's License
+,,,,,,,,,New York State Driver's License
+,,,,,,,,,Georgia State Driver's License
+,,,,,,,,,Missouri State Driver's License
+,,,,,,,,,Saskatchewan Province Driver's License
+,,,,,,,,,Wisconsin State Driver's License
+,,,,,,,,,Wyoming State Driver's License
+,,,,,,,,,Tennessee State Driver's License
+,,,,,,,,,Oklahoma State Driver's License
+,,,,,,,,,California State Driver's License
+,,,,,,,,,Rhode Island State Driver's License
+,,,,,,,,,Pennsylvania State Driver's License
+,,,,,,,,,Connecticut State Driver's License
+,,,,,,,,,West Virginia State Driver's License
+,,,,,,,,,Washington State Driver's License
+,,,,,,,,,Washington DC Driver's License
+,,,,,,,,,Ohio State Driver's License
+,,,,,,,,,Texas State Driver's License
+,,,,,,,,,Kansas State Driver's License
+,,,,,,,,,Maryland State Driver's License
+,,,,,,,,,Idaho State Driver's License
+,,,,,,,,,Iowa State Driver's License
+,,,,,,,,,North Carolina State Driver's License
+,,,,,,,,,Delaware State Driver's License
+,,,,,,,,,North Dakota State Driver's License
+,,,,,,,,,South Carolina State Driver's License
+,,,,,,,,,Utah State Driver's License
+,,,,,,,,,Nova Scotia Province Driver's License
+,,,,,,,,,Nebraska State Driver's License
+,,,,,,,,,Montana State Driver's License
+,,,,,,,,,Massachusetts State Driver's License
+,,,,,,,,,Manitoba Province Driver's License
+,,,,,,,,,New Hampshire State Driver's License
+,,,,,,,,,South Dakota State Driver's License
+,,,,,,,,,Alberta Province Driver's License
+,,,,,,,,,Driver's License
+,,,,,,,,,Prince Edward Island Province Driver's License
+,,,,,,,,,Arizona State Driver's License
+,,,,,,,,,Hawaii State Driver's License
+,,,,,,,,,Florida State Driver's License
+,,,,,,,,,Colorado State Driver's License
+,,,,,,,,,Quebec Province Driver's License
+,,,,,,,,,New Jersey State Driver's License
+,,,,,,,,,Indiana State Driver's License
+,,,,,,,,,Minnesota State Driver's License
+,,,,,,,,,Alaska State Driver's License
+,,,,,,,,,Oregon State Driver's License
+,,,,,,,,,Vermont State Driver's License
+,,,,,,,,,Mississippi State Driver's License
+,,,,,,,,,Michigan State Driver's License
+,,,,,,,,,Nevada State Driver's License
+,,,,,,,,,Arkansas State Driver's License
+,,,,,,,,,Illinois State Driver's License
+,,,,,,,,,Alabama State Driver's License
+,,,,,,,,,British Columbia Province Driver's License
+,,,,,,,,,Virginia State Driver's License
+,,,,,,,,,Maine State Driver's License
+,,,,,,,,,New Brunswick Province Driver's License
+,,,,,,,,,New Mexico State Driver's License
+,,,,,,,,,Ontario Province Driver's License
+Education Level,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,The highest level of education of the person.,,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Customer,
+Electric Vehicle Indicator,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,Indicates whether the household owns an electric vehicle.,,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Household,
+Electronic Bill Indicator,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,Indicates whether the customer is registered for electronic billing.,,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Household,
+Email Address,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,"An electronic address that can be used to send and receive correspondence over a computer network, for example: jsmith@jonesinc.com.",,Personally Identifiable Information,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Customer,Email Address
+Employment Status,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,"The employment status of an individual, for example: full-time, part-time, unemployed, retired.",,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Customer,Employment Status
+Energy Usage,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,"The amount of energy used by a customer, for example energy used in a given month or year.",,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Household,
+Ethnicity,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,"A classification of an individual based on their membership in a group that is united and defined to a greater or lesser degree by common history, beliefs, culture, nationality, etc.",,Sensitive Personal Information,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Customer,Ethnicity
+First Name,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,"A personal name typically used to refer to an individual in informal circumstances, for example: John, Mary.",,Personally Identifiable Information,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Customer,First Name
+Gained Customers,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,The number of customers with a new agreement in a given period of time that were not customers in the past.,,,,,,
+Gender,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,"Indicates an individual's gender, for example: male, female.",,Personally Identifiable Information,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Customer,Gender
+Home Address,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,The address of a person's home.,,Personally Identifiable Information,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Postal Address,Industry Accelerators >> Utilities Demand Response Program Propensity >> Customer,Address  Line 3
+,,,,,,,,,Address Line 2
+,,,,,,,,,Address Line 1
+Home Automation Indicator,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,"Indicates whether the household has one or more automation devices installed. For example: smart thermostat, automated lighting system.",,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Household,
+Home Energy Efficiency Ratio,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,"A ratio indicating the overall energy efficiency of the property, calculated by dividing the the size of the property by the energy usage per month.",,,,,,
+Home Size,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,"The floor space of a property, measured by multiplying the length by the width of the structure, usually expressed in square feet or square meters.",,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Household,
+Household,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,"A group of individuals, who can be resident at the same address and members of the same family, that share a common economic interest and are treated as a unit for certain purposes.",,Personally Identifiable Information,,,,
+Household Home Ownership,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,Indicates whether a member of the household is also the property owner.,,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Household,
+Inbound Calls,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,The number of calls to contact center initiated by the customer during the analyzed period. This includes both answered and abandoned calls.,,,,,,
+Inbound Communications,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,"The number of contacts with the organization that were initiated by the customers during the analyzed period. This includes phone calls, emails, text messages or communications using social media.",,,,,,
+Last Name,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,"Identifies an individual's name which belongs to the family the Individual is a part of, for example: Smith, Mueller.",,Personally Identifiable Information,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Customer,Last Name
+Levy,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,"An obligatory payment to a government or other agency, usually connected to a specific purpose or initiative.",,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Billing,
+Lost Customer Lifetime Value,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,The lost lifetime value when customer leaves the organization.,,,,,,
+Lost Customers,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,The number of customers that canceled or didn't renew their agreement in the given period of time and have no other active agreements.,,,,,,
+Marital Status,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,Current legal situation of the individual regarding marriage.,,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Customer,Legal Marital/Civil Status.
+Net Change In Customer Agreements,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,The net number of agreements at the end of the given period of time expressed as: the number of agreements created minus the number of agreements closed during that period of time.,,,,,,
+New Customer Agreements,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,The number of new customer agreements that were created in a given period of time.,,,,,,
+Number of Customer Accounts,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,The number of customer accounts in assessed period.,,,,,,
+Number of Customer Communications,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,"The number of all communications with customers, both customer and organization initiated, in the assessed period. This includes phone calls, letters, emails, texts, social media interactions, web and mobile chats.",,,,,,
+Outbound Calls,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,The number of contact center calls to customer during the analyzed period. This includes both calls answered by customer and calls ended by agent due to customer not answering.,,,,,,
+Outbound Communications,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,"The number of customer contacts with the organization that were initiated by the contact center during the analyzed period. This includes phone calls, email, text messages or communications using social media.",,,,,,
+Photovoltaic System Indicator,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,Indicates whether the household has a photovoltaic system installed.,,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Household,
+Photovoltaic Zone Indicator,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,Indicates whether the location is included in the Photovoltaic(PV) zone.,,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Household,
+Postal Address,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,The address to which mail is delivered.,,,,,,Address  Line 3
+,,,,,,,,,Address Line 2
+,,,,,,,,,Address Line 1
+Postal Address City,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,Identifies the city component of postal address. ,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> City,Industry Accelerators >> Utilities Demand Response Program Propensity >> Postal Address,City
+Postal Address Country,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,Identifies the country component of postal address.,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Country,Industry Accelerators >> Utilities Demand Response Program Propensity >> Postal Address,Country Name
+Postal Address State,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,Identifies the state component of postal address.,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> State,Industry Accelerators >> Utilities Demand Response Program Propensity >> Postal Address,UK Province Code
+,,,,,,,,,Canada Province Code
+,,,,,,,,,State/Province Name
+,,,,,,,,,ISO 3166-2 Code
+,,,,,,,,,US State Code
+Postal Code,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,A code that is included in a postal address to assist the sorting of mail.,,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Postal Address,Canada Post Code
+,,,,,,,,,US Zip Code
+,,,,,,,,,UK Post Code
+,,,,,,,,,Ireland Eircode
+Primary Account Holder,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,The primary account holder associated with the customer account.,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Customer,Industry Accelerators >> Utilities Demand Response Program Propensity >> Customer Account,
+Product Offer,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,Details of the offer of the product to a particular customer based on the industry. ,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Communication,,
+Product Warranty Indicator,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,Indicates whether the product is under warranty from an organization.,,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Household,
+Properties Owned,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,The number of properties owned by the customer.,,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Customer,
+Registered For Alerts Indicator,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,Indicates the registration of the customer for alerts. For example: an alert for payment due date.,,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Household,
+Returned Customers,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,The number of ex-customers that became active again by signing a new customer agreement in a given period of time.,,,,,,
+Smart Meter Indicator,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,Indicates whether the household has a smart meter installed.,,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Household,
+Social Media Account,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,A profile that pertains to the social media presence of a person or organization. A person or organization each can have more than one social media account.,,Sensitive Personal Information,,,,
+Social Media Account Name,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,"The online name that is used for the social media account, which can be a pseudonym, such as a nickname or alias.",,Personally Identifiable Information,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Social Media Account,
+Social Media Account Platform,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,The social network platform on which the account exists.,,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Social Media Account,
+Social Security Number,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,An identification number issued to citizens and permanent residents by a governmental agency for the purposes of qualifying for Social Security benefits.,,Personally Identifiable Information,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Customer,Canadian Social Insurance Number (SIN)
+,,,,,,,,,UK National Insurance Number
+,,,,,,,,,US Social Security Number
+,,,,,,,,,US Social Security Number Last 4
+Standard Yearly Usage,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,Indicates the energy usage per year.,,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Customer,
+,,,,,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Household,
+State,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,A geographic area that is a political subdivision of a country. This can be a state or Province.,,,,,,
+State Code,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,"A code which identifies a state or province, for example: the state code for Florida is 'FL'.",,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> State,UK Province Code
+,,,,,,,,,Canada Province Code
+,,,,,,,,,ISO 3166-2 Code
+,,,,,,,,,US State Code
+State Name,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,"Identifies the label assigned to or by which a state may be identified, for example: Florida, Texas, Kentucky.",,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> State,Canada Province Name
+,,,,,,,,,State/Province Name
+,,,,,,,,,US State Name
+Street,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,The name of the street of the address.,,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Postal Address,US Street Name
+Suspicious Activity Type,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,Identifies an activity or series of activities which has alerted the organization to the possibility of an occurrence of illegal or suspicious activity.,,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Transaction,
+Tax,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,"A money provision element part that represents statutory local, regional or national charges applying to a payment or charge.",,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Billing,
+Telephone Number,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,The general-purpose telephone information that is needed to contact a wired or wireless telephone device.,,Personally Identifiable Information,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Customer,US Phone Number
+,,,,,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Communication,
+Thermostat Indicator,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,Indicates whether the household has a thermostat installed.,,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Household,
+Top Spending Category,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,"The personal expenses category with highest customer spending, for example: food, health, housing, insurance, personal, recreation, savings, transportation, utilities.",,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Customer,
+Transaction,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,Identifies an activity that represents the recording of events on customer account.,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Customer,,
+,,,,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Customer Account,,
+Transaction Amount,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,The total gross value of the transaction.,,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Transaction,
+Transaction Count,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,"The number of transactions performed by, or on behalf of, the organization.",,,,,,
+Transaction Currency,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,Identifies a currency recorded on the transaction.,,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Transaction,Currency
+Transaction Date,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,The date on which the transaction actually occurred.,,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Transaction,Date
+Transaction Reason Type,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,"Identifies the reason for the transaction. For example, a bill payment, salary lodgment.",,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Transaction,
+Transaction Status,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,"The current state of the transaction. For example, settled, pending, rejected, completed, canceled.",,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Transaction,
+Transaction Time,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,The time on which the transaction actually occurred.,,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Transaction,
+Transaction Type,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,"Indicates the type of transaction. For example, payment, charge off etc.",,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Transaction,
+Wind Energy Indicator,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,Indicates whether a household has a wind energy generation unit.,,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Household,
+Wind Zone Indicator,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,Indicates whether a particular geographic area could be feasible for generating wind energy.,,,,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Household,
+Work Address,glossary_term,Industry Accelerators >> Utilities Demand Response Program Propensity,The address of a person's work.,,Personally Identifiable Information,,Industry Accelerators >> Utilities Demand Response Program Propensity >> Postal Address,Industry Accelerators >> Utilities Demand Response Program Propensity >> Customer,Address  Line 3
+,,,,,,,,,Address Line 2
+,,,,,,,,,Address Line 1
