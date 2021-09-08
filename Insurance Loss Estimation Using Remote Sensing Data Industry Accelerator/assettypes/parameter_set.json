@@ -1,0 +1,1 @@
+{"description":"parameter_set","fields":[{"key":"dummy_field","type":"string","facet":false,"is_array":false,"is_searchable_across_types":false}],"relationships":[],"name":"parameter_set","version":1,"scope":"GLOBAL"}

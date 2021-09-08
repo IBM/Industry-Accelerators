@@ -1,0 +1,1 @@
+{"description":"BN_data_flow","fields":[{"key":"sub_type","type":"string","facet":false,"is_array":false,"is_searchable_across_types":false}],"relationships":[],"name":"BN_data_flow","version":1,"scope":"PROJECT"}

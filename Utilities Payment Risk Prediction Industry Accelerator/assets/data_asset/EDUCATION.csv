@@ -1,0 +1,10 @@
+EDUCATION_ID,EDUCATION_CD,EDUCATION
+0,EDU_0,Less than 9th grade
+1,EDU_1,Some high school
+2,EDU_2,High school graduate
+3,EDU_3,Some college
+4,EDU_4,Associate degree
+5,EDU_5,Bachelor's degree
+6,EDU_6,Bachelor's degree or more
+7,EDU_7,Master's degree
+8,EDU_8,Doctoral degree

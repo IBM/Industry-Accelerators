@@ -1,0 +1,6 @@
+Name,Artifact Type,Category,Description,Tags,Classifications,Stewards,Related Terms,Part Of Terms
+Communication Start,glossary_term,Industry Accelerators >> Customer Life Event Prediction,The date and time when the communication was initiated.,,,,,
+Communication Status,glossary_term,Industry Accelerators >> Customer Life Event Prediction,"The communication status distinguishes between communications according to their current state, for example: awaiting further information, closed, open.",,,,,
+Communication Subject,glossary_term,Industry Accelerators >> Customer Life Event Prediction,A text reference that aids the identification and understanding of this communication content.,,,,,
+Communication Type,glossary_term,Industry Accelerators >> Customer Life Event Prediction,"Indicates the type of communication that has occurred or is planned to occur, for example: campaign mailing, complaint, quotation request.",,,,,
+Country,glossary_term,Industry Accelerators >> Customer Life Event Prediction,A geographic area that defines the boundaries of a nation.,,,,,

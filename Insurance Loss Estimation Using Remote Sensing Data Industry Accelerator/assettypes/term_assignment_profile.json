@@ -1,0 +1,1 @@
+{"description":"The Term Assignment Profile Asset Type.","fields":[{"key":"status","type":"String","facet":false,"is_array":false,"is_searchable_across_types":false},{"key":"attachment_id","type":"String","facet":false,"is_array":false,"is_searchable_across_types":false}],"relationships":[],"name":"term_assignment_profile","version":1,"scope":"GLOBAL"}

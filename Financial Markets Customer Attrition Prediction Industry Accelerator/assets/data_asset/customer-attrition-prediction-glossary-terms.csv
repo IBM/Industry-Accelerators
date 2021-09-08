@@ -1,0 +1,6 @@
+Name,Artifact Type,Category,Description,Tags,Classifications,Stewards,Related Terms,Part Of Terms
+Active Customer Agreements,glossary_term,Industry Accelerators >> Customer Attrition Prediction,The number of customer agreements that are active at the end of a given period of time.,,,,,
+Active Customers,glossary_term,Industry Accelerators >> Customer Attrition Prediction,The number of customers that have at least one active customer agreement at the end of the period.,,,,,
+Address Line 1 Description,glossary_term,Industry Accelerators >> Customer Attrition Prediction,"First line of the address, which includes street and building number.",,,,,
+Anti-money Laundering Monitoring Indicator,glossary_term,Industry Accelerators >> Customer Attrition Prediction,"Indicator if the customer account is monitored for transactions being suspicious of criminal activities involving the movement of money through accounts, banks and countries carried out using the financial institution.",,,,,
+Arrears Amount,glossary_term,Industry Accelerators >> Customer Attrition Prediction,"The total amount of money which is owed to an organization on payments due on the account, but not received as of the payment due date.",,,,,

@@ -1,0 +1,6 @@
+Name,Artifact Type,Category,Description,Tags,Classifications,Stewards,Related Terms,Part Of Terms
+Customer,glossary_term,Industry Accelerators >> Customer Offer Affinity,A person or organization buying goods or services from the organization.,,,,,
+Customer Account,glossary_term,Industry Accelerators >> Customer Offer Affinity,Customer account includes information from the customer agreements to create billings or invoices for a customer and receive payment.,,,,,
+Customer Account Address,glossary_term,Industry Accelerators >> Customer Offer Affinity,The postal address associated with the customer account.,,,,,
+Customer Account Collection Status,glossary_term,Industry Accelerators >> Customer Offer Affinity,"A high-level status that describes where a customer is in the collections business cycle, for example: active, inactive.",,,,,
+Customer Account Investment Objective,glossary_term,Industry Accelerators >> Customer Offer Affinity,"Primary goal that the product linked with this account is intended to satisfy. It can change over time, for example, funds for retirement may at first have a goal of capital appreciation, but as retirement approaches it may change to safety or liquidity.",,,,,

@@ -1,0 +1,6 @@
+Name,Artifact Type,Category,Description,Tags,Classifications,Stewards,Related Terms,Part Of Terms
+Bill Alternate Charge,glossary_term,Industry Accelerators >> Utilities Payment Risk Prediction,The cost of energy used in addition to base usage included in the bill.,,,,,
+Bill Alternate Usage,glossary_term,Industry Accelerators >> Utilities Payment Risk Prediction,The amount of energy used in addition to base usage included in the bill.,,,,,
+Bill Base Charge,glossary_term,Industry Accelerators >> Utilities Payment Risk Prediction,The charges associated with base usage included in the bill.,,,,,
+Billing,glossary_term,Industry Accelerators >> Utilities Payment Risk Prediction,"An invoice/bill issued by a seller to a customer, relating to a sale transaction and indicating the products, quantities, and agreed prices for products or services the seller had provided the buyer. ",,,,,
+Bill Overdue Balance,glossary_term,Industry Accelerators >> Utilities Payment Risk Prediction,The balance which has not been paid within specified payment dates.,,,,,

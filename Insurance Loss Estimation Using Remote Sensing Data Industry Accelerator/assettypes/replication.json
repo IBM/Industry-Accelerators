@@ -1,0 +1,1 @@
+{"description":"IBM Data Replication on Cloud replication asset type","fields":[{"key":"ibm_cloud_region","type":"string","facet":false,"is_array":false,"is_searchable_across_types":false}],"relationships":[],"name":"replication","version":1,"scope":"GLOBAL"}

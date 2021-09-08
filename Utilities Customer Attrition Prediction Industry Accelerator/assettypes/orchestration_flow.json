@@ -1,0 +1,1 @@
+{"fields":[{"key":"status","type":"string","facet":false,"is_array":false,"search_path":"status","is_searchable_across_types":false},{"key":"created_at","type":"number","facet":false,"is_array":false,"search_path":"created_at","is_searchable_across_types":false}],"relationships":[],"name":"orchestration_flow","version":1,"scope":"GLOBAL"}

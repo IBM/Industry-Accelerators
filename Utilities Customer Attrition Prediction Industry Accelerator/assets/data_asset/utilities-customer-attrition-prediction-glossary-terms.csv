@@ -1,0 +1,6 @@
+Name,Artifact Type,Category,Description,Tags,Classifications,Stewards,Related Terms,Part Of Terms
+Customer Account,glossary_term,Industry Accelerators >> Utilities Customer Attrition Prediction,Customer account includes information from the customer agreements to create billings or invoices for a customer and receive payment.,,,,,
+Customer Account Address,glossary_term,Industry Accelerators >> Utilities Customer Attrition Prediction,The postal address associated with the customer account.,,,,,
+Customer Account Life Cycle Status,glossary_term,Industry Accelerators >> Utilities Customer Attrition Prediction,Additional classification of customer account status that determines the status of the account based on its life cycle.,,,,,
+Customer Account Product Type,glossary_term,Industry Accelerators >> Utilities Customer Attrition Prediction,Classification of product or service that this account represents or is associated with this account.,,,,,
+Customer Account Revenue Class,glossary_term,Industry Accelerators >> Utilities Customer Attrition Prediction,"The classification of the customers revenue for accounting, for example: residential, commercial, industrial.",,,,,

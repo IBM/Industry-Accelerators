@@ -1,0 +1,839 @@
+CUSTOMER_MARKET_GROUP,CUSTOMER_SUMMARY_TOP_SPENDING_CATEGORY,CUSTOMER_URBAN_CODE,CUSTOMER_EMPLOYMENT_STATUS,CUSTOMER_CREDIT_AUTHORITY_LEVEL,CUSTOMER_SUMMARY_AMOUNT_OF_MANAGEMENT_FEES,CUSTOMER_GENDER,CUSTOMER_AGE_RANGE,CUSTOMER_EDUCATION_LEVEL,CUSTOMER_MARITAL_STATUS,CUSTOMER_IMPORTANCE_LEVEL_CODE,CUSTOMER_PURSUIT,CUSTOMER_ANNUAL_INCOME,CUSTOMER_CUSTOMER_BEHAVIOR,CUSTOMER_TENURE_IN_MONTHS,CLUSTERS
+Accumulating,Recreation,City,Employed,Medium,1757.13,Male,30 to 40,College,Married,Low priority,Capital Acquisition,325000.0,Moderate,8,6
+Gifting,Uncategorized,Urban,Selfemployed,Very High,17935.79,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,280000.0,Aggressive,10,1
+Accumulating,Travel,Urban,Homemaker,Very Low,1221.06,Female,55 to 65,PhD,Married,High priority,Increase Net Worth,130000.0,Growth,13,5
+Accumulating,Travel,Urban,Homemaker,Very Low,1176.59,Female,65 and over,PhD,Married,High priority,Increase Net Worth,120000.0,Growth,8,5
+Accumulating,Food,City,Employed,Medium,14452.36,Male,40 to 55,College,Married,Low priority,Estate Planning,350000.0,Moderate,8,7
+Spending,Giving,Urban,Retired,Very High,15260.43,Female,65 and over,Professional,Single,Normal priority,Increase Net Worth,125000.0,Aggressive,10,4
+Accumulating,Health,Urban,Homemaker,Low,3345.26,Female,55 to 65,PhD,Single,High priority,Increase Net Worth,100000.0,Growth,13,5
+Spending,Health,Urban,Homemaker,Very High,9355.93,Female,55 to 65,University,Married,High priority,Increase Net Worth,140000.0,Aggressive,21,4
+Starting,Recreation,City,Unemployed,Very High,3945.07,Male,23 to 30,High School,Married,Low priority,Education Planning,70000.0,Conserviti,7,3
+Accumulating,Health,City,Employed,Low,2701.22,Female,55 to 65,University,Married,High priority,Estate Planning,390000.0,Growth,26,2
+Spending,Insurance,Urban,Retired,Very High,8040.6,Female,65 and over,PhD,Single,Normal priority,Increase Net Worth,135000.0,Aggressive,0,4
+Accumulating,Housing,City,Employed,Medium,15912.95,Male,30 to 40,College,Married,High priority,Estate Planning,385000.0,Growth,32,7
+Accumulating,Insurance,Urban,Homemaker,Low,2558.0,Female,65 and over,PhD,Single,High priority,Increase Net Worth,95000.0,Growth,29,5
+Accumulating,Personal,Urban,Employed,Very Low,1008.98,Male,40 to 55,University,Married,High priority,Increase Net Worth,465000.0,Growth,15,2
+Gifting,Giving,Urban,Homemaker,Very High,18362.68,Female,65 and over,Professional,Single,Normal priority,Increase Net Worth,140000.0,Aggressive,7,4
+Accumulating,Personal,City,Homemaker,Low,2617.9,Male,40 to 55,University,Married,High priority,Increase Net Worth,110000.0,Growth,28,5
+Accumulating,Health,Urban,Homemaker,Very Low,1581.02,Female,55 to 65,PhD,Single,High priority,Increase Net Worth,120000.0,Growth,9,5
+Accumulating,Health,City,Homemaker,Medium,12261.07,Female,55 to 65,PhD,Married,High priority,Estate Planning,75000.0,Growth,11,7
+Spending,Savings,Urban,Retired,Very High,14119.39,Female,65 and over,Professional,Single,Normal priority,Increase Net Worth,120000.0,Aggressive,31,4
+Accumulating,Personal,City,Homemaker,Low,1620.31,Male,40 to 55,University,Married,High priority,Increase Net Worth,110000.0,Growth,0,5
+Accumulating,Utilities,City,Homemaker,Medium,15616.94,Female,40 to 55,University,Married,High priority,Estate Planning,80000.0,Growth,9,7
+Starting,Recreation,Rural,Unemployed,Very High,3491.73,Male,23 to 30,High School,Married,Low priority,Education Planning,55000.0,Conserviti,12,3
+Accumulating,Housing,City,Employed,High,4097.68,Male,30 to 40,College,Married,Low priority,Capital Acquisition,170000.0,Conserviti,29,6
+Accumulating,Personal,City,Employed,Low,3138.01,Male,40 to 55,College,Married,High priority,Estate Planning,550000.0,Growth,26,2
+Starting,Recreation,Rural,Unemployed,Very High,4273.52,Male,23 to 30,High School,Married,Low priority,Education Planning,60000.0,Conserviti,25,3
+Accumulating,Health,City,Homemaker,Low,2578.22,Female,55 to 65,PhD,Single,High priority,Philanthropy,85000.0,Growth,24,5
+Accumulating,Food,City,Employed,Medium,1942.84,Male,40 to 55,College,Married,Low priority,Capital Acquisition,215000.0,Moderate,15,6
+Accumulating,Health,City,Employed,Low,2301.23,Female,55 to 65,University,Married,High priority,Estate Planning,325000.0,Growth,25,2
+Accumulating,Health,City,Homemaker,Low,2703.22,Female,55 to 65,University,Married,High priority,Philanthropy,95000.0,Growth,15,5
+Accumulating,Health,City,Homemaker,Low,1984.36,Female,55 to 65,PhD,Single,High priority,Increase Net Worth,80000.0,Growth,21,5
+Accumulating,Personal,City,Employed,Low,2018.62,Male,40 to 55,University,Married,High priority,Estate Planning,340000.0,Growth,2,2
+Spending,Savings,Urban,Selfemployed,Very High,9537.09,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,275000.0,Aggressive,18,1
+Accumulating,Personal,City,Employed,Low,1654.88,Male,40 to 55,University,Married,High priority,Estate Planning,345000.0,Growth,29,2
+Accumulating,Insurance,Urban,Homemaker,Very Low,1215.28,Female,65 and over,PhD,Single,High priority,Increase Net Worth,105000.0,Growth,18,5
+Gifting,Uncategorized,Urban,Selfemployed,Very High,15098.08,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,295000.0,Aggressive,31,1
+Starting,Recreation,Rural,Unemployed,Very High,5669.29,Male,65 and over,High School,Married,Low priority,Education Planning,70000.0,Conserviti,32,3
+Accumulating,Food,City,Employed,Medium,13207.8,Male,40 to 55,College,Married,Low priority,Capital Acquisition,185000.0,Moderate,25,7
+Accumulating,Food,City,Employed,Low,2312.45,Male,40 to 55,College,Married,High priority,Estate Planning,300000.0,Growth,31,2
+Accumulating,Travel,City,Employed,Low,1732.3,Female,55 to 65,PhD,Married,High priority,Estate Planning,170000.0,Growth,15,5
+Accumulating,Recreation,City,Employed,High,5351.51,Male,30 to 40,College,Married,Low priority,Capital Acquisition,275000.0,Conserviti,9,6
+Starting,Recreation,City,Employed,Very High,3437.84,Male,30 to 40,High School,Married,Low priority,Education Planning,245000.0,Conserviti,25,3
+Accumulating,Recreation,City,Unemployed,High,4898.3,Male,23 to 30,High School,Married,Low priority,Capital Acquisition,85000.0,Moderate,2,6
+Starting,Recreation,City,Employed,Very High,5377.67,Male,30 to 40,High School,Married,Low priority,Education Planning,260000.0,Conserviti,7,3
+Accumulating,Health,City,Homemaker,Low,2660.0,Female,55 to 65,University,Married,High priority,Philanthropy,95000.0,Growth,1,5
+Accumulating,Utilities,City,Employed,Medium,13704.49,Female,40 to 55,University,Married,High priority,Estate Planning,365000.0,Growth,16,7
+Accumulating,Travel,Urban,Homemaker,Very Low,1348.41,Female,65 and over,PhD,Married,High priority,Increase Net Worth,120000.0,Growth,15,5
+Spending,Travel,Urban,Homemaker,Very High,12870.18,Female,65 and over,PhD,Married,Normal priority,Increase Net Worth,140000.0,Aggressive,0,4
+Accumulating,Food,City,Employed,Medium,1862.17,Male,40 to 55,College,Married,Low priority,Capital Acquisition,350000.0,Moderate,16,6
+Accumulating,Food,City,Employed,Medium,15567.96,Male,40 to 55,College,Married,High priority,Estate Planning,330000.0,Growth,10,7
+Accumulating,Food,City,Employed,Medium,14683.06,Male,40 to 55,College,Married,High priority,Estate Planning,395000.0,Growth,28,7
+Starting,Recreation,City,Employed,Very High,5895.35,Male,23 to 30,High School,Married,Low priority,Education Planning,120000.0,Conserviti,32,3
+Accumulating,Health,Urban,Homemaker,Low,3233.72,Female,55 to 65,PhD,Married,High priority,Increase Net Worth,105000.0,Growth,23,5
+Spending,Savings,Urban,Retired,Very High,11690.48,Female,65 and over,Professional,Divorced,Normal priority,Increase Net Worth,115000.0,Aggressive,28,4
+Accumulating,Health,City,Employed,Low,2395.11,Female,55 to 65,University,Married,High priority,Increase Net Worth,465000.0,Growth,27,2
+Starting,Recreation,Rural,Unemployed,Very High,5535.71,Male,30 to 40,High School,Married,Low priority,Education Planning,55000.0,Conserviti,6,3
+Accumulating,Food,City,Employed,Low,1639.03,Male,40 to 55,College,Married,High priority,Estate Planning,265000.0,Growth,14,2
+Gifting,Giving,Urban,Retired,Very High,9553.06,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,145000.0,Aggressive,27,1
+Gifting,Uncategorized,Urban,Selfemployed,Very High,14240.29,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,270000.0,Aggressive,31,1
+Accumulating,Health,Urban,Homemaker,Very Low,811.48,Female,55 to 65,PhD,Single,High priority,Increase Net Worth,125000.0,Growth,11,5
+Accumulating,Food,City,Employed,Low,2900.67,Male,40 to 55,College,Married,High priority,Estate Planning,460000.0,Growth,22,2
+Spending,Giving,Urban,Retired,Very High,14968.73,Female,65 and over,Professional,Divorced,Normal priority,Increase Net Worth,110000.0,Aggressive,28,4
+Accumulating,Recreation,City,Employed,Medium,10375.95,Male,30 to 40,College,Married,Low priority,Estate Planning,315000.0,Moderate,23,7
+Spending,Insurance,Urban,Retired,Very High,17159.1,Female,65 and over,PhD,Single,Normal priority,Increase Net Worth,145000.0,Aggressive,18,4
+Accumulating,Personal,City,Employed,Low,3445.92,Male,40 to 55,University,Married,High priority,Estate Planning,320000.0,Growth,32,2
+Accumulating,Travel,Urban,Retired,Low,3264.45,Female,65 and over,PhD,Single,High priority,Increase Net Worth,100000.0,Growth,0,5
+Gifting,Savings,Urban,Retired,Very High,9908.5,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,145000.0,Aggressive,28,1
+Starting,Recreation,City,Employed,Very High,4773.66,Male,23 to 30,High School,Married,Low priority,Education Planning,265000.0,Conserviti,20,3
+Starting,Recreation,City,Unemployed,Very High,5193.88,Male,23 to 30,High School,Married,Low priority,Education Planning,65000.0,Conserviti,15,3
+Accumulating,Recreation,City,Unemployed,High,5539.28,Male,23 to 30,High School,Married,Low priority,Education Planning,75000.0,Moderate,30,3
+Accumulating,Personal,City,Employed,Medium,1058.18,Male,40 to 55,University,Married,High priority,Estate Planning,245000.0,Moderate,2,6
+Spending,Savings,Urban,Retired,Very High,13311.03,Female,65 and over,Professional,Single,Normal priority,Increase Net Worth,115000.0,Aggressive,4,4
+Accumulating,Savings,Urban,Retired,Low,2605.51,Female,65 and over,Professional,Single,High priority,Increase Net Worth,75000.0,Growth,29,5
+Spending,Savings,Urban,Retired,Very High,14782.04,Female,65 and over,Professional,Single,Normal priority,Increase Net Worth,130000.0,Aggressive,30,4
+Accumulating,Personal,City,Employed,Medium,13586.57,Male,40 to 55,University,Married,High priority,Estate Planning,185000.0,Growth,29,7
+Accumulating,Savings,Urban,Retired,Low,2537.15,Female,65 and over,PhD,Single,High priority,Increase Net Worth,90000.0,Growth,1,5
+Gifting,Giving,Urban,Retired,Very High,15805.99,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,145000.0,Aggressive,14,1
+Accumulating,Health,City,Homemaker,Low,2533.95,Female,55 to 65,PhD,Married,High priority,Philanthropy,90000.0,Growth,1,5
+Accumulating,Utilities,City,Employed,Low,2930.56,Female,55 to 65,University,Married,High priority,Estate Planning,350000.0,Growth,27,2
+Accumulating,Utilities,City,Homemaker,Low,2692.88,Female,40 to 55,PhD,Single,High priority,Increase Net Worth,95000.0,Growth,19,5
+Accumulating,Utilities,Urban,Homemaker,Very Low,1111.83,Female,40 to 55,University,Married,High priority,Increase Net Worth,125000.0,Growth,4,5
+Accumulating,Personal,City,Employed,Low,1951.09,Male,40 to 55,University,Married,High priority,Estate Planning,365000.0,Growth,31,2
+Spending,Uncategorized,Urban,Selfemployed,Very High,13037.44,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,245000.0,Aggressive,29,1
+Starting,Recreation,City,Employed,Very High,3778.02,Male,23 to 30,High School,Married,Low priority,Education Planning,270000.0,Conserviti,16,3
+Spending,Savings,Urban,Selfemployed,Very High,16651.74,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,255000.0,Aggressive,5,1
+Starting,Recreation,Rural,Unemployed,Very High,4985.85,Male,65 and over,High School,Married,Low priority,Education Planning,50000.0,Conserviti,2,3
+Accumulating,Recreation,City,Employed,High,1068.78,Male,23 to 30,High School,Married,Low priority,Capital Acquisition,335000.0,Moderate,24,6
+Accumulating,Housing,City,Employed,Medium,1010.78,Male,30 to 40,College,Married,Low priority,Capital Acquisition,245000.0,Moderate,25,6
+Spending,Insurance,Urban,Homemaker,Very High,18236.48,Female,65 and over,PhD,Single,Normal priority,Increase Net Worth,140000.0,Aggressive,31,4
+Accumulating,Health,City,Homemaker,Low,1968.84,Female,55 to 65,PhD,Married,High priority,Estate Planning,80000.0,Growth,14,5
+Gifting,Uncategorized,Urban,Selfemployed,Very High,13340.92,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,400000.0,Aggressive,3,1
+Accumulating,Housing,City,Employed,Medium,10271.87,Male,30 to 40,College,Married,High priority,Estate Planning,395000.0,Moderate,26,7
+Starting,Recreation,Rural,Employed,Very High,4956.04,Male,23 to 30,High School,Married,Low priority,Education Planning,110000.0,Conserviti,3,3
+Accumulating,Personal,City,Employed,Low,2256.58,Male,40 to 55,University,Married,High priority,Estate Planning,400000.0,Growth,3,2
+Accumulating,Food,City,Employed,High,3953.62,Male,30 to 40,College,Married,Low priority,Capital Acquisition,130000.0,Conserviti,18,6
+Accumulating,Food,City,Employed,Medium,12270.6,Male,40 to 55,College,Married,High priority,Estate Planning,230000.0,Growth,1,7
+Accumulating,Food,City,Homemaker,Medium,14111.17,Male,40 to 55,University,Married,High priority,Estate Planning,95000.0,Moderate,23,7
+Accumulating,Insurance,Urban,Retired,Very Low,1325.28,Female,65 and over,PhD,Single,High priority,Increase Net Worth,100000.0,Growth,20,5
+Accumulating,Health,City,Employed,Very Low,1099.07,Female,55 to 65,University,Married,High priority,Increase Net Worth,350000.0,Growth,5,2
+Gifting,Uncategorized,Urban,Selfemployed,Very High,13964.04,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,260000.0,Aggressive,5,1
+Starting,Recreation,Rural,Unemployed,Very High,4246.18,Male,23 to 30,High School,Married,Low priority,Education Planning,55000.0,Conserviti,24,3
+Accumulating,Utilities,City,Employed,Low,2262.41,Female,40 to 55,University,Married,High priority,Estate Planning,290000.0,Growth,12,2
+Accumulating,Recreation,City,Employed,Medium,1787.47,Male,30 to 40,College,Married,Low priority,Estate Planning,340000.0,Moderate,14,6
+Accumulating,Health,Urban,Retired,Low,3287.57,Female,55 to 65,PhD,Single,High priority,Increase Net Worth,100000.0,Growth,1,5
+Spending,Uncategorized,Urban,Selfemployed,Very High,15437.14,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,285000.0,Aggressive,27,1
+Accumulating,Personal,City,Employed,Low,2083.28,Male,40 to 55,University,Married,High priority,Estate Planning,270000.0,Growth,21,2
+Accumulating,Travel,Urban,Homemaker,Very Low,1264.06,Female,55 to 65,PhD,Married,High priority,Increase Net Worth,120000.0,Growth,26,5
+Spending,Travel,Urban,Homemaker,Very High,12550.94,Female,65 and over,PhD,Single,Normal priority,Increase Net Worth,135000.0,Aggressive,8,4
+Accumulating,Utilities,City,Employed,Medium,1952.94,Female,40 to 55,University,Married,High priority,Estate Planning,220000.0,Moderate,10,6
+Spending,Travel,Urban,Homemaker,Very High,9662.61,Female,65 and over,PhD,Single,High priority,Increase Net Worth,125000.0,Aggressive,13,4
+Starting,Recreation,Rural,Unemployed,Very High,3874.08,Male,23 to 30,High School,Married,Low priority,Education Planning,50000.0,Conserviti,8,3
+Starting,Recreation,Rural,Unemployed,Very High,5754.01,Male,23 to 30,High School,Married,Low priority,Education Planning,50000.0,Conserviti,8,3
+Accumulating,Recreation,City,Unemployed,High,5397.92,Male,23 to 30,High School,Married,Low priority,Education Planning,70000.0,Conserviti,10,3
+Accumulating,Travel,Urban,Homemaker,Very Low,962.69,Female,65 and over,PhD,Single,High priority,Increase Net Worth,125000.0,Growth,13,5
+Accumulating,Personal,City,Employed,Medium,1570.05,Male,40 to 55,University,Married,High priority,Estate Planning,195000.0,Moderate,21,6
+Accumulating,Personal,City,Employed,Low,3142.37,Male,40 to 55,University,Married,High priority,Estate Planning,435000.0,Growth,7,2
+Accumulating,Recreation,City,Employed,High,4059.11,Male,23 to 30,High School,Married,Low priority,Capital Acquisition,180000.0,Conserviti,26,6
+Accumulating,Insurance,Urban,Retired,Very Low,1147.51,Female,65 and over,Professional,Single,High priority,Increase Net Worth,105000.0,Growth,0,5
+Starting,Recreation,Rural,Unemployed,Very High,4726.19,Male,23 to 30,High School,Married,Low priority,Education Planning,50000.0,Conserviti,32,3
+Accumulating,Utilities,City,Employed,Medium,18283.05,Female,40 to 55,University,Married,High priority,Estate Planning,200000.0,Growth,29,7
+Accumulating,Health,City,Homemaker,Low,2629.56,Female,55 to 65,University,Married,High priority,Philanthropy,95000.0,Growth,15,5
+Accumulating,Personal,City,Employed,Medium,12885.89,Male,40 to 55,University,Married,High priority,Estate Planning,195000.0,Moderate,7,7
+Starting,Recreation,City,Employed,Very High,4303.9,Male,23 to 30,High School,Married,Low priority,Education Planning,230000.0,Conserviti,28,3
+Accumulating,Personal,City,Employed,Low,2006.37,Male,40 to 55,University,Married,High priority,Estate Planning,250000.0,Growth,9,2
+Accumulating,Recreation,City,Employed,High,1775.96,Male,30 to 40,High School,Married,Low priority,Capital Acquisition,255000.0,Moderate,11,6
+Accumulating,Personal,City,Employed,Medium,16903.27,Male,40 to 55,University,Married,High priority,Estate Planning,400000.0,Growth,31,7
+Accumulating,Travel,City,Employed,Low,2084.51,Female,55 to 65,University,Married,High priority,Increase Net Worth,225000.0,Growth,0,5
+Accumulating,Health,City,Homemaker,Medium,9776.1,Female,55 to 65,University,Married,High priority,Estate Planning,75000.0,Growth,9,7
+Accumulating,Housing,City,Employed,Medium,12515.2,Male,30 to 40,College,Married,High priority,Capital Acquisition,470000.0,Growth,12,7
+Accumulating,Health,City,Employed,Low,2858.76,Female,55 to 65,University,Married,High priority,Estate Planning,235000.0,Growth,29,2
+Starting,Recreation,Rural,Unemployed,Very High,5948.41,Male,23 to 30,High School,Married,Low priority,Education Planning,65000.0,Conserviti,26,3
+Accumulating,Insurance,Urban,Homemaker,Very Low,1199.57,Female,65 and over,PhD,Single,High priority,Increase Net Worth,110000.0,Growth,25,5
+Starting,Recreation,Rural,Unemployed,Very High,5058.87,Male,23 to 30,High School,Married,Low priority,Education Planning,50000.0,Conserviti,24,3
+Accumulating,Food,City,Employed,High,4806.23,Male,40 to 55,College,Married,Low priority,Capital Acquisition,285000.0,Moderate,15,6
+Accumulating,Travel,Urban,Homemaker,Low,2862.76,Female,55 to 65,PhD,Single,High priority,Increase Net Worth,95000.0,Growth,25,5
+Accumulating,Recreation,City,Employed,High,4637.56,Male,30 to 40,College,Married,Low priority,Capital Acquisition,205000.0,Conserviti,15,6
+Spending,Savings,Urban,Retired,Very High,16478.88,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,145000.0,Aggressive,21,4
+Accumulating,Personal,City,Employed,Low,2032.48,Male,40 to 55,University,Married,High priority,Philanthropy,580000.0,Growth,2,2
+Starting,Recreation,City,Employed,Very High,3219.59,Male,30 to 40,College,Married,Low priority,Capital Acquisition,200000.0,Conserviti,18,3
+Gifting,Uncategorized,Urban,Selfemployed,Very High,11336.35,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,405000.0,Aggressive,29,1
+Accumulating,Food,City,Employed,High,4778.84,Male,40 to 55,College,Married,Low priority,Capital Acquisition,210000.0,Conserviti,18,6
+Accumulating,Recreation,City,Employed,High,1612.43,Male,30 to 40,High School,Married,Low priority,Capital Acquisition,170000.0,Moderate,31,6
+Starting,Recreation,City,Employed,Very High,3697.81,Male,30 to 40,High School,Married,Low priority,Education Planning,145000.0,Conserviti,32,3
+Accumulating,Food,City,Employed,Low,2667.71,Male,40 to 55,College,Married,High priority,Estate Planning,280000.0,Growth,25,2
+Gifting,Giving,Urban,Retired,Very High,11441.77,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,145000.0,Aggressive,31,1
+Gifting,Uncategorized,Urban,Selfemployed,Very High,11714.45,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,350000.0,Aggressive,15,1
+Accumulating,Recreation,City,Employed,Medium,1471.69,Male,23 to 30,High School,Married,Low priority,Capital Acquisition,285000.0,Moderate,9,6
+Gifting,Uncategorized,Urban,Selfemployed,Very High,10733.21,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,400000.0,Aggressive,25,1
+Accumulating,Insurance,Urban,Retired,Very Low,1225.57,Female,65 and over,PhD,Single,Normal priority,Increase Net Worth,115000.0,Growth,2,5
+Starting,Recreation,Rural,Unemployed,Very High,5472.31,Male,23 to 30,High School,Married,Low priority,Education Planning,50000.0,Conserviti,7,3
+Spending,Insurance,Urban,Homemaker,Very High,8832.87,Female,65 and over,PhD,Single,Normal priority,Increase Net Worth,125000.0,Aggressive,1,4
+Accumulating,Recreation,City,Employed,Medium,1464.92,Male,30 to 40,High School,Married,Low priority,Capital Acquisition,215000.0,Moderate,16,6
+Starting,Recreation,Rural,Employed,Very High,4827.24,Male,23 to 30,High School,Married,Low priority,Education Planning,150000.0,Conserviti,15,3
+Accumulating,Health,Urban,Homemaker,Low,2132.59,Female,55 to 65,University,Married,High priority,Increase Net Worth,115000.0,Growth,0,5
+Accumulating,Personal,City,Employed,Low,2635.15,Male,40 to 55,University,Married,High priority,Estate Planning,305000.0,Growth,16,2
+Accumulating,Housing,City,Employed,Medium,13312.45,Male,30 to 40,College,Married,Low priority,Capital Acquisition,215000.0,Moderate,10,7
+Spending,Travel,Urban,Homemaker,Very High,14598.12,Female,65 and over,PhD,Married,Normal priority,Increase Net Worth,130000.0,Aggressive,28,4
+Accumulating,Personal,City,Employed,Medium,15389.07,Male,40 to 55,University,Married,High priority,Estate Planning,320000.0,Growth,32,7
+Accumulating,Housing,City,Employed,Medium,9423.81,Male,30 to 40,University,Married,Low priority,Estate Planning,340000.0,Moderate,23,7
+Accumulating,Food,City,Employed,Medium,16812.1,Male,40 to 55,University,Married,High priority,Estate Planning,255000.0,Growth,28,7
+Accumulating,Recreation,City,Unemployed,High,4297.79,Male,23 to 30,High School,Married,Low priority,Capital Acquisition,85000.0,Moderate,27,6
+Accumulating,Recreation,City,Employed,High,4979.41,Male,23 to 30,High School,Married,Low priority,Capital Acquisition,280000.0,Moderate,6,6
+Accumulating,Personal,Urban,Homemaker,Very Low,1045.02,Male,40 to 55,University,Married,High priority,Increase Net Worth,130000.0,Growth,14,5
+Accumulating,Recreation,City,Unemployed,Medium,1836.02,Male,23 to 30,High School,Married,Low priority,Capital Acquisition,110000.0,Moderate,27,6
+Accumulating,Health,Urban,Homemaker,Very Low,965.1,Female,55 to 65,PhD,Married,High priority,Increase Net Worth,135000.0,Growth,31,5
+Accumulating,Savings,Urban,Retired,Low,2089.64,Female,65 and over,Professional,Divorced,High priority,Increase Net Worth,90000.0,Growth,11,5
+Accumulating,Recreation,City,Employed,High,5713.46,Male,23 to 30,High School,Married,Low priority,Capital Acquisition,315000.0,Conserviti,22,6
+Accumulating,Travel,City,Employed,Low,2316.64,Female,55 to 65,PhD,Married,High priority,Philanthropy,275000.0,Growth,28,2
+Starting,Recreation,City,Employed,Very High,3538.5,Male,23 to 30,High School,Married,Low priority,Education Planning,225000.0,Conserviti,23,3
+Accumulating,Travel,Urban,Retired,Very Low,1599.97,Female,65 and over,PhD,Single,High priority,Increase Net Worth,120000.0,Growth,18,5
+Accumulating,Utilities,City,Employed,Low,2356.55,Female,40 to 55,University,Married,High priority,Increase Net Worth,265000.0,Growth,32,2
+Accumulating,Health,City,Homemaker,Low,1687.11,Female,55 to 65,University,Married,High priority,Estate Planning,85000.0,Growth,0,5
+Accumulating,Food,City,Employed,High,4385.27,Male,40 to 55,College,Married,Low priority,Capital Acquisition,215000.0,Conserviti,28,6
+Accumulating,Food,City,Employed,Medium,1434.35,Male,40 to 55,University,Married,High priority,Estate Planning,215000.0,Moderate,20,6
+Spending,Insurance,Urban,Homemaker,Very High,14451.02,Female,65 and over,PhD,Single,Normal priority,Increase Net Worth,120000.0,Aggressive,15,4
+Accumulating,Recreation,City,Employed,Medium,1134.2,Male,23 to 30,High School,Married,Low priority,Capital Acquisition,245000.0,Moderate,30,6
+Accumulating,Health,City,Homemaker,Medium,1091.14,Female,55 to 65,PhD,Single,High priority,Estate Planning,55000.0,Moderate,2,5
+Spending,Savings,Urban,Retired,Very High,8197.34,Female,65 and over,Professional,Single,Normal priority,Increase Net Worth,120000.0,Aggressive,4,4
+Spending,Savings,Urban,Retired,Very High,18709.99,Female,65 and over,Professional,Single,Normal priority,Retirement Planning,140000.0,Aggressive,29,4
+Accumulating,Food,City,Employed,High,1449.37,Male,40 to 55,College,Married,Low priority,Capital Acquisition,260000.0,Moderate,30,6
+Accumulating,Recreation,City,Unemployed,High,1593.83,Male,23 to 30,High School,Married,Low priority,Capital Acquisition,90000.0,Moderate,29,6
+Accumulating,Health,City,Homemaker,Medium,18555.41,Female,55 to 65,PhD,Single,High priority,Estate Planning,60000.0,Moderate,1,7
+Accumulating,Recreation,City,Employed,Low,2885.47,Male,30 to 40,College,Married,High priority,Estate Planning,285000.0,Growth,14,2
+Accumulating,Food,City,Employed,High,1340.23,Male,40 to 55,College,Married,Low priority,Capital Acquisition,315000.0,Moderate,1,6
+Spending,Travel,Urban,Homemaker,Very High,9287.78,Female,55 to 65,PhD,Married,Normal priority,Increase Net Worth,140000.0,Aggressive,27,4
+Accumulating,Utilities,City,Homemaker,High,1510.4,Female,40 to 55,University,Married,High priority,Estate Planning,50000.0,Moderate,19,6
+Gifting,Uncategorized,Urban,Selfemployed,Very High,11226.8,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,425000.0,Aggressive,4,1
+Accumulating,Recreation,City,Unemployed,Low,1920.88,Male,30 to 40,High School,Married,High priority,Capital Acquisition,125000.0,Growth,31,6
+Accumulating,Travel,Urban,Homemaker,Low,2495.05,Female,55 to 65,PhD,Married,High priority,Increase Net Worth,105000.0,Growth,29,5
+Accumulating,Personal,City,Employed,Medium,13463.53,Male,40 to 55,University,Married,High priority,Estate Planning,195000.0,Moderate,16,7
+Starting,Recreation,City,Employed,Very High,3632.13,Male,23 to 30,High School,Married,Low priority,Education Planning,210000.0,Conserviti,5,3
+Accumulating,Utilities,City,Homemaker,Medium,14559.02,Female,40 to 55,University,Single,High priority,Philanthropy,85000.0,Growth,2,7
+Accumulating,Recreation,City,Employed,High,3987.05,Male,30 to 40,High School,Married,Low priority,Education Planning,275000.0,Conserviti,24,6
+Spending,Giving,Urban,Retired,Very High,14391.14,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,130000.0,Aggressive,25,4
+Accumulating,Personal,City,Employed,Low,1688.23,Male,40 to 55,University,Married,High priority,Estate Planning,265000.0,Growth,31,2
+Accumulating,Recreation,City,Employed,Medium,1357.52,Male,30 to 40,High School,Married,Low priority,Capital Acquisition,345000.0,Moderate,14,6
+Accumulating,Recreation,City,Employed,High,5645.48,Male,23 to 30,High School,Married,Low priority,Capital Acquisition,325000.0,Moderate,3,6
+Starting,Recreation,Rural,Unemployed,Very High,4107.48,Male,23 to 30,High School,Married,Low priority,Education Planning,55000.0,Conserviti,26,3
+Accumulating,Utilities,City,Employed,Low,2448.76,Female,55 to 65,University,Married,High priority,Estate Planning,310000.0,Growth,3,2
+Accumulating,Food,City,Employed,High,4543.88,Male,40 to 55,College,Married,Low priority,Capital Acquisition,125000.0,Conserviti,3,6
+Accumulating,Health,Urban,Homemaker,Very Low,1319.26,Female,55 to 65,PhD,Single,High priority,Increase Net Worth,125000.0,Growth,18,5
+Accumulating,Health,City,Homemaker,Low,3340.86,Female,55 to 65,University,Married,High priority,Increase Net Worth,100000.0,Growth,1,5
+Accumulating,Personal,City,Employed,High,1753.68,Male,40 to 55,College,Married,Low priority,Capital Acquisition,190000.0,Moderate,23,6
+Spending,Giving,Urban,Selfemployed,Very High,16915.62,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,375000.0,Aggressive,20,1
+Starting,Recreation,Rural,Unemployed,Very High,5599.98,Male,23 to 30,High School,Married,Low priority,Education Planning,55000.0,Conserviti,5,3
+Accumulating,Utilities,City,Homemaker,Low,1656.14,Female,40 to 55,University,Married,High priority,Philanthropy,100000.0,Growth,5,5
+Accumulating,Housing,City,Employed,Low,1958.54,Male,30 to 40,College,Married,High priority,Estate Planning,480000.0,Growth,24,2
+Accumulating,Health,Urban,Homemaker,Low,3049.72,Female,55 to 65,PhD,Married,High priority,Increase Net Worth,110000.0,Growth,12,5
+Starting,Recreation,Rural,Unemployed,Very High,3066.05,Male,65 and over,High School,Married,Low priority,Education Planning,50000.0,Conserviti,14,3
+Accumulating,Health,City,Homemaker,Medium,11498.86,Female,55 to 65,PhD,Married,High priority,Estate Planning,75000.0,Growth,1,7
+Starting,Recreation,Rural,Unemployed,Very High,3835.41,Male,65 and over,High School,Married,Low priority,Education Planning,50000.0,Conserviti,27,3
+Accumulating,Utilities,City,Employed,Medium,1005.05,Female,40 to 55,University,Married,High priority,Capital Acquisition,255000.0,Moderate,21,6
+Accumulating,Recreation,City,Employed,Medium,1186.3,Male,30 to 40,College,Married,Low priority,Capital Acquisition,275000.0,Moderate,26,6
+Accumulating,Giving,Urban,Retired,Low,3361.11,Female,65 and over,Professional,Divorced,High priority,Increase Net Worth,85000.0,Growth,8,5
+Accumulating,Utilities,City,Employed,Low,1899.76,Female,40 to 55,University,Married,High priority,Estate Planning,460000.0,Growth,10,2
+Accumulating,Food,City,Employed,Medium,1963.75,Male,40 to 55,College,Married,Low priority,Estate Planning,295000.0,Moderate,13,6
+Spending,Savings,Urban,Homemaker,Very High,9819.38,Female,65 and over,PhD,Single,Normal priority,Increase Net Worth,140000.0,Aggressive,8,4
+Accumulating,Personal,City,Employed,Medium,18709.81,Male,40 to 55,University,Married,High priority,Estate Planning,385000.0,Growth,8,7
+Accumulating,Food,City,Employed,Medium,15854.33,Male,40 to 55,College,Married,High priority,Estate Planning,390000.0,Growth,10,7
+Accumulating,Utilities,City,Homemaker,Medium,14246.12,Female,40 to 55,PhD,Single,High priority,Increase Net Worth,85000.0,Growth,13,7
+Starting,Recreation,City,Employed,Very High,5960.98,Male,23 to 30,High School,Married,Low priority,Education Planning,280000.0,Conserviti,21,3
+Spending,Savings,Urban,Retired,Very High,9955.59,Female,65 and over,Professional,Divorced,Normal priority,Increase Net Worth,120000.0,Aggressive,7,4
+Spending,Savings,Urban,Retired,Very High,10999.36,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,135000.0,Aggressive,26,4
+Accumulating,Food,City,Employed,Low,2403.55,Male,40 to 55,College,Married,High priority,Estate Planning,470000.0,Growth,0,2
+Spending,Savings,Urban,Retired,Very High,8287.43,Female,65 and over,Professional,Single,Normal priority,Increase Net Worth,120000.0,Aggressive,32,4
+Accumulating,Recreation,City,Employed,High,1392.69,Male,30 to 40,College,Married,Low priority,Capital Acquisition,395000.0,Moderate,29,6
+Spending,Savings,Urban,Retired,Very High,11636.77,Female,65 and over,Professional,Divorced,Normal priority,Increase Net Worth,125000.0,Aggressive,15,4
+Accumulating,Recreation,City,Employed,Medium,1123.02,Male,23 to 30,High School,Married,Low priority,Capital Acquisition,415000.0,Moderate,7,6
+Accumulating,Travel,Urban,Retired,Low,3272.89,Female,55 to 65,PhD,Single,High priority,Increase Net Worth,90000.0,Growth,28,5
+Starting,Recreation,Rural,Unemployed,Very High,4492.09,Male,23 to 30,High School,Married,Low priority,Education Planning,55000.0,Conserviti,9,3
+Accumulating,Recreation,City,Employed,High,4778.28,Male,30 to 40,High School,Married,Low priority,Capital Acquisition,215000.0,Conserviti,11,6
+Accumulating,Savings,Urban,Retired,Low,3227.87,Female,65 and over,Professional,Single,High priority,Increase Net Worth,95000.0,Growth,31,5
+Spending,Savings,Urban,Retired,Very High,9957.18,Female,65 and over,Professional,Divorced,Normal priority,Increase Net Worth,125000.0,Aggressive,0,4
+Accumulating,Food,City,Employed,Medium,1701.48,Male,40 to 55,College,Married,Low priority,Estate Planning,315000.0,Moderate,9,6
+Spending,Savings,Urban,Selfemployed,Very High,10708.94,Female,65 and over,Professional,Divorced,Normal priority,Increase Net Worth,265000.0,Aggressive,12,4
+Gifting,Giving,Urban,Retired,Very High,15501.48,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,145000.0,Aggressive,29,1
+Accumulating,Travel,Urban,Homemaker,Very Low,1416.75,Female,55 to 65,PhD,Single,High priority,Increase Net Worth,115000.0,Growth,26,5
+Accumulating,Food,City,Employed,Low,2034.53,Male,40 to 55,University,Married,High priority,Estate Planning,215000.0,Growth,25,2
+Starting,Recreation,City,Employed,Very High,4972.56,Male,23 to 30,High School,Married,Low priority,Education Planning,220000.0,Conserviti,24,3
+Accumulating,Recreation,City,Employed,Medium,1197.87,Male,30 to 40,College,Married,Low priority,Capital Acquisition,255000.0,Moderate,15,6
+Gifting,Uncategorized,Urban,Selfemployed,Very High,13847.57,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,230000.0,Aggressive,25,1
+Accumulating,Personal,City,Employed,High,5795.33,Male,40 to 55,University,Married,Low priority,Capital Acquisition,180000.0,Moderate,15,6
+Accumulating,Housing,City,Employed,Low,2999.92,Male,30 to 40,College,Married,High priority,Estate Planning,365000.0,Growth,21,2
+Accumulating,Utilities,Urban,Employed,Low,2285.8,Female,40 to 55,University,Married,High priority,Increase Net Worth,295000.0,Growth,2,2
+Spending,Travel,Urban,Homemaker,Very High,9763.26,Female,65 and over,PhD,Single,Normal priority,Increase Net Worth,140000.0,Aggressive,18,4
+Accumulating,Recreation,City,Employed,Medium,1457.68,Male,30 to 40,High School,Married,Low priority,Capital Acquisition,270000.0,Moderate,29,6
+Spending,Savings,Urban,Retired,Very High,13993.83,Female,65 and over,Professional,Divorced,Normal priority,Increase Net Worth,115000.0,Aggressive,18,4
+Accumulating,Food,City,Employed,High,5104.52,Male,40 to 55,College,Married,Low priority,Capital Acquisition,230000.0,Moderate,31,6
+Accumulating,Food,City,Employed,Low,2769.5,Male,40 to 55,College,Married,High priority,Estate Planning,395000.0,Growth,32,2
+Accumulating,Recreation,City,Employed,Medium,1730.46,Male,23 to 30,High School,Married,Low priority,Capital Acquisition,385000.0,Moderate,25,6
+Starting,Recreation,Rural,Unemployed,Very High,5755.58,Male,23 to 30,High School,Married,Low priority,Education Planning,50000.0,Conserviti,31,3
+Spending,Savings,Urban,Retired,Very High,11578.25,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,130000.0,Aggressive,15,4
+Accumulating,Food,City,Employed,High,1690.65,Male,40 to 55,College,Married,Low priority,Capital Acquisition,265000.0,Moderate,9,6
+Accumulating,Recreation,City,Employed,High,1290.23,Male,30 to 40,High School,Married,Low priority,Capital Acquisition,370000.0,Moderate,25,6
+Starting,Recreation,Rural,Unemployed,Very High,5908.87,Male,23 to 30,High School,Married,Low priority,Education Planning,60000.0,Conserviti,2,3
+Accumulating,Housing,City,Employed,Low,2022.95,Male,30 to 40,College,Married,High priority,Estate Planning,370000.0,Growth,7,2
+Accumulating,Health,City,Homemaker,Low,1661.77,Female,55 to 65,PhD,Single,High priority,Increase Net Worth,80000.0,Growth,1,5
+Spending,Savings,Urban,Retired,Very High,10414.42,Female,65 and over,Professional,Divorced,Normal priority,Increase Net Worth,110000.0,Aggressive,16,4
+Gifting,Giving,Urban,Selfemployed,Very High,9870.19,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,270000.0,Aggressive,15,1
+Accumulating,Housing,City,Employed,High,5256.63,Male,30 to 40,College,Married,Low priority,Capital Acquisition,180000.0,Conserviti,0,6
+Accumulating,Recreation,City,Unemployed,High,5849.74,Male,23 to 30,High School,Married,Low priority,Capital Acquisition,75000.0,Moderate,16,6
+Spending,Travel,Urban,Homemaker,Very High,13627.93,Female,55 to 65,PhD,Married,Normal priority,Increase Net Worth,135000.0,Aggressive,10,4
+Accumulating,Recreation,City,Employed,Low,2896.41,Male,30 to 40,College,Married,High priority,Estate Planning,625000.0,Growth,28,2
+Spending,Insurance,Urban,Retired,Very High,11062.95,Female,65 and over,PhD,Single,Normal priority,Increase Net Worth,135000.0,Aggressive,32,4
+Accumulating,Travel,Urban,Employed,Very Low,1375.45,Female,55 to 65,University,Married,High priority,Increase Net Worth,540000.0,Growth,23,2
+Accumulating,Personal,City,Employed,High,1309.05,Male,40 to 55,University,Married,Low priority,Capital Acquisition,240000.0,Moderate,28,6
+Spending,Uncategorized,Urban,Selfemployed,Very High,8021.9,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,200000.0,Aggressive,27,1
+Spending,Travel,Urban,Employed,Very High,10241.05,Female,65 and over,PhD,Married,High priority,Increase Net Worth,285000.0,Aggressive,6,4
+Spending,Uncategorized,Urban,Selfemployed,Very High,9559.67,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,245000.0,Aggressive,14,1
+Accumulating,Recreation,City,Employed,High,5584.22,Male,23 to 30,High School,Married,Low priority,Capital Acquisition,400000.0,Moderate,27,6
+Accumulating,Insurance,Urban,Retired,Very Low,955.23,Female,65 and over,PhD,Single,High priority,Increase Net Worth,115000.0,Growth,31,5
+Starting,Recreation,Rural,Unemployed,Very High,3992.51,Male,23 to 30,High School,Married,Low priority,Education Planning,50000.0,Conserviti,11,3
+Accumulating,Recreation,City,Employed,High,5475.91,Male,30 to 40,High School,Married,Low priority,Capital Acquisition,270000.0,Conserviti,22,6
+Gifting,Savings,Urban,Retired,Very High,11418.38,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,145000.0,Aggressive,28,1
+Gifting,Savings,Urban,Selfemployed,Very High,11509.4,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,240000.0,Aggressive,23,1
+Accumulating,Recreation,City,Employed,Medium,16391.55,Male,30 to 40,High School,Married,Low priority,Capital Acquisition,540000.0,Moderate,18,7
+Accumulating,Insurance,Urban,Retired,Low,3241.88,Female,65 and over,PhD,Single,High priority,Increase Net Worth,90000.0,Growth,32,5
+Starting,Recreation,Rural,Unemployed,Very High,3111.09,Male,23 to 30,High School,Married,Low priority,Education Planning,55000.0,Conserviti,0,3
+Accumulating,Travel,City,Homemaker,Low,1610.68,Female,65 and over,PhD,Single,High priority,Increase Net Worth,75000.0,Growth,28,5
+Accumulating,Personal,Urban,Homemaker,Low,2841.21,Male,40 to 55,University,Married,High priority,Increase Net Worth,120000.0,Growth,20,5
+Accumulating,Travel,Urban,Homemaker,Low,2514.8,Female,55 to 65,PhD,Single,High priority,Increase Net Worth,95000.0,Growth,15,5
+Accumulating,Food,City,Employed,Low,2449.33,Male,40 to 55,College,Married,High priority,Estate Planning,280000.0,Growth,30,2
+Spending,Savings,Urban,Selfemployed,Very High,9498.46,Female,65 and over,Professional,Divorced,Normal priority,Increase Net Worth,285000.0,Aggressive,2,4
+Gifting,Uncategorized,Urban,Selfemployed,Very High,16627.98,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,285000.0,Aggressive,4,1
+Accumulating,Food,City,Employed,Medium,1760.94,Male,40 to 55,College,Married,Low priority,Capital Acquisition,325000.0,Moderate,29,6
+Starting,Recreation,Rural,Unemployed,Very High,3203.24,Male,65 and over,High School,Married,Low priority,Education Planning,50000.0,Conserviti,30,3
+Accumulating,Health,City,Employed,Low,3545.25,Female,55 to 65,University,Married,High priority,Estate Planning,395000.0,Growth,29,2
+Starting,Recreation,Rural,Unemployed,Very High,5206.45,Male,23 to 30,High School,Married,Low priority,Education Planning,50000.0,Conserviti,1,3
+Accumulating,Insurance,Urban,Retired,Very Low,898.88,Female,65 and over,PhD,Single,High priority,Increase Net Worth,120000.0,Growth,14,5
+Accumulating,Travel,Urban,Homemaker,Very Low,1260.86,Female,55 to 65,PhD,Married,High priority,Increase Net Worth,130000.0,Growth,1,5
+Accumulating,Recreation,City,Unemployed,Medium,1284.23,Male,23 to 30,High School,Married,Low priority,Capital Acquisition,105000.0,Moderate,27,6
+Accumulating,Utilities,Urban,Homemaker,Low,3546.38,Female,40 to 55,University,Married,High priority,Increase Net Worth,110000.0,Growth,19,5
+Spending,Insurance,Urban,Homemaker,Very High,14970.02,Female,65 and over,PhD,Single,Normal priority,Increase Net Worth,145000.0,Aggressive,4,4
+Starting,Recreation,City,Employed,Very High,4118.21,Male,30 to 40,College,Married,Low priority,Capital Acquisition,230000.0,Conserviti,31,6
+Accumulating,Food,City,Employed,High,1935.8,Male,40 to 55,College,Married,Low priority,Capital Acquisition,285000.0,Moderate,29,6
+Starting,Recreation,City,Unemployed,Very High,3995.78,Male,23 to 30,High School,Married,Low priority,Education Planning,70000.0,Conserviti,16,3
+Spending,Travel,Urban,Homemaker,Very High,7810.77,Female,65 and over,PhD,Single,High priority,Increase Net Worth,125000.0,Aggressive,5,4
+Accumulating,Food,City,Employed,Medium,1400.84,Male,40 to 55,College,Married,Low priority,Capital Acquisition,280000.0,Moderate,2,6
+Spending,Giving,Urban,Selfemployed,Very High,10537.4,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,300000.0,Aggressive,24,1
+Accumulating,Personal,City,Homemaker,Medium,12633.59,Male,40 to 55,University,Married,High priority,Estate Planning,70000.0,Moderate,25,7
+Accumulating,Personal,City,Employed,Medium,12458.0,Male,40 to 55,College,Married,High priority,Estate Planning,205000.0,Growth,31,7
+Starting,Recreation,Rural,Unemployed,Very High,5734.64,Male,65 and over,High School,Married,Low priority,Education Planning,55000.0,Conserviti,14,3
+Accumulating,Health,City,Homemaker,Low,2053.27,Female,55 to 65,PhD,Single,High priority,Increase Net Worth,85000.0,Growth,3,5
+Accumulating,Recreation,City,Unemployed,Medium,1474.0,Male,23 to 30,High School,Married,Low priority,Capital Acquisition,100000.0,Moderate,26,6
+Accumulating,Insurance,Urban,Retired,Low,2571.27,Female,65 and over,PhD,Single,High priority,Increase Net Worth,90000.0,Growth,3,5
+Spending,Insurance,Urban,Retired,Very High,8373.39,Female,65 and over,Professional,Single,Normal priority,Increase Net Worth,125000.0,Aggressive,3,4
+Gifting,Savings,Urban,Retired,Very High,15027.49,Female,65 and over,Professional,Single,Normal priority,Retirement Planning,145000.0,Aggressive,18,1
+Accumulating,Recreation,City,Employed,High,3069.02,Male,30 to 40,High School,Married,Low priority,Capital Acquisition,260000.0,Conserviti,1,6
+Accumulating,Recreation,City,Employed,High,3075.63,Male,30 to 40,College,Married,Low priority,Capital Acquisition,265000.0,Conserviti,23,6
+Spending,Travel,Urban,Homemaker,Very High,15298.79,Female,65 and over,PhD,Single,Normal priority,Increase Net Worth,145000.0,Aggressive,20,4
+Accumulating,Food,City,Employed,Medium,1617.32,Male,40 to 55,University,Married,Low priority,Estate Planning,370000.0,Moderate,5,6
+Gifting,Uncategorized,Urban,Selfemployed,Very High,15661.56,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,335000.0,Aggressive,5,1
+Accumulating,Recreation,City,Employed,High,5306.32,Male,30 to 40,College,Married,Low priority,Capital Acquisition,340000.0,Conserviti,24,6
+Accumulating,Travel,Urban,Retired,Very Low,1573.44,Female,65 and over,PhD,Single,High priority,Increase Net Worth,120000.0,Growth,12,5
+Accumulating,Food,City,Employed,High,1934.56,Male,40 to 55,College,Married,Low priority,Capital Acquisition,280000.0,Moderate,14,6
+Accumulating,Travel,Urban,Retired,Very Low,1005.31,Female,65 and over,PhD,Single,High priority,Increase Net Worth,115000.0,Growth,1,5
+Spending,Giving,Urban,Selfemployed,Very High,13990.93,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,365000.0,Aggressive,27,1
+Spending,Savings,Urban,Retired,Very High,9885.23,Female,65 and over,Professional,Single,Normal priority,Increase Net Worth,115000.0,Aggressive,21,4
+Starting,Recreation,Rural,Unemployed,Very High,3461.0,Male,65 and over,High School,Married,Low priority,Education Planning,50000.0,Conserviti,26,3
+Accumulating,Food,City,Employed,High,4485.29,Male,40 to 55,College,Married,Low priority,Capital Acquisition,250000.0,Moderate,8,6
+Gifting,Uncategorized,Urban,Selfemployed,Very High,14214.66,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,270000.0,Aggressive,10,1
+Accumulating,Giving,Urban,Retired,Very Low,833.91,Female,65 and over,Professional,Divorced,Normal priority,Increase Net Worth,90000.0,Growth,13,5
+Spending,Insurance,Urban,Retired,Very High,9758.66,Female,65 and over,PhD,Single,Normal priority,Increase Net Worth,130000.0,Aggressive,8,4
+Starting,Recreation,Rural,Unemployed,Very High,5555.68,Male,23 to 30,High School,Married,Low priority,Education Planning,50000.0,Conserviti,8,3
+Spending,Savings,Urban,Retired,Very High,12447.72,Female,65 and over,Professional,Single,Normal priority,Increase Net Worth,125000.0,Aggressive,10,4
+Accumulating,Housing,City,Employed,Medium,9638.32,Male,30 to 40,College,Married,Low priority,Estate Planning,240000.0,Moderate,13,7
+Accumulating,Recreation,City,Unemployed,Medium,1660.29,Male,23 to 30,High School,Married,Low priority,Capital Acquisition,100000.0,Moderate,21,6
+Accumulating,Housing,City,Employed,Low,2639.3,Male,30 to 40,College,Married,High priority,Estate Planning,410000.0,Growth,7,2
+Accumulating,Personal,City,Employed,Medium,12394.26,Male,40 to 55,University,Married,High priority,Estate Planning,190000.0,Growth,26,7
+Accumulating,Food,City,Employed,Medium,18610.83,Male,40 to 55,College,Married,High priority,Capital Acquisition,250000.0,Growth,0,7
+Spending,Travel,Urban,Homemaker,Very High,13575.03,Female,65 and over,PhD,Single,Normal priority,Increase Net Worth,130000.0,Aggressive,32,4
+Starting,Recreation,Rural,Unemployed,Very High,4703.46,Male,65 and over,High School,Married,Low priority,Education Planning,50000.0,Conserviti,29,3
+Accumulating,Housing,City,Employed,High,1139.51,Male,30 to 40,College,Married,Low priority,Capital Acquisition,150000.0,Moderate,15,6
+Accumulating,Food,City,Employed,Medium,1804.89,Male,40 to 55,College,Married,Low priority,Capital Acquisition,345000.0,Moderate,7,6
+Accumulating,Recreation,City,Employed,Medium,1958.59,Male,30 to 40,College,Married,Low priority,Capital Acquisition,225000.0,Moderate,28,6
+Starting,Recreation,Rural,Unemployed,Very High,4038.49,Male,23 to 30,High School,Married,Low priority,Education Planning,55000.0,Conserviti,9,3
+Accumulating,Travel,Urban,Homemaker,Very Low,865.42,Female,65 and over,PhD,Single,High priority,Increase Net Worth,120000.0,Growth,11,5
+Accumulating,Recreation,City,Unemployed,High,1664.49,Male,23 to 30,High School,Married,Low priority,Capital Acquisition,95000.0,Moderate,31,6
+Accumulating,Food,City,Employed,Medium,13261.37,Male,40 to 55,College,Married,High priority,Estate Planning,265000.0,Moderate,0,7
+Accumulating,Personal,City,Employed,Low,2044.79,Male,40 to 55,University,Married,High priority,Philanthropy,535000.0,Growth,9,2
+Accumulating,Recreation,City,Employed,High,4455.48,Male,30 to 40,High School,Married,Low priority,Capital Acquisition,245000.0,Conserviti,12,6
+Starting,Recreation,Rural,Unemployed,Very High,3294.71,Male,65 and over,High School,Married,Low priority,Education Planning,50000.0,Conserviti,29,3
+Starting,Recreation,City,Employed,Very High,3102.33,Male,23 to 30,High School,Married,Low priority,Education Planning,120000.0,Conserviti,26,3
+Accumulating,Food,City,Employed,High,1664.5,Male,40 to 55,College,Married,Low priority,Capital Acquisition,170000.0,Moderate,25,6
+Accumulating,Health,City,Homemaker,Low,2006.36,Female,55 to 65,University,Married,High priority,Increase Net Worth,95000.0,Growth,24,5
+Accumulating,Food,City,Employed,Low,2813.65,Male,40 to 55,College,Married,High priority,Estate Planning,455000.0,Growth,15,2
+Accumulating,Giving,Urban,Selfemployed,Very Low,893.64,Female,65 and over,Professional,Divorced,Normal priority,Increase Net Worth,225000.0,Growth,25,5
+Accumulating,Health,City,Homemaker,Medium,1237.96,Female,55 to 65,University,Married,High priority,Estate Planning,60000.0,Moderate,15,5
+Accumulating,Personal,City,Homemaker,Medium,14436.47,Male,40 to 55,University,Married,High priority,Estate Planning,80000.0,Moderate,21,7
+Accumulating,Recreation,City,Employed,Medium,11014.83,Male,30 to 40,College,Married,Low priority,Capital Acquisition,360000.0,Moderate,2,7
+Accumulating,Recreation,City,Unemployed,Medium,16131.02,Male,23 to 30,High School,Married,Low priority,Capital Acquisition,115000.0,Moderate,18,7
+Accumulating,Health,City,Employed,Medium,16609.17,Female,55 to 65,University,Married,High priority,Estate Planning,365000.0,Growth,29,7
+Spending,Savings,Urban,Retired,Very High,7918.43,Female,65 and over,Professional,Single,Normal priority,Increase Net Worth,130000.0,Aggressive,18,4
+Accumulating,Housing,City,Employed,Medium,1905.0,Male,30 to 40,College,Married,Low priority,Capital Acquisition,310000.0,Moderate,31,6
+Accumulating,Personal,City,Employed,Low,1702.19,Male,40 to 55,University,Married,High priority,Estate Planning,350000.0,Growth,32,2
+Spending,Uncategorized,Urban,Selfemployed,Very High,10132.76,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,215000.0,Aggressive,25,1
+Accumulating,Housing,City,Employed,Medium,18302.33,Male,30 to 40,College,Married,High priority,Estate Planning,450000.0,Growth,31,7
+Accumulating,Personal,City,Employed,Low,2047.57,Male,40 to 55,College,Married,High priority,Estate Planning,315000.0,Growth,15,2
+Accumulating,Personal,City,Employed,Medium,14090.77,Male,40 to 55,College,Married,High priority,Estate Planning,260000.0,Growth,9,7
+Accumulating,Health,City,Employed,Medium,18287.87,Female,55 to 65,University,Married,High priority,Estate Planning,180000.0,Growth,25,7
+Gifting,Uncategorized,Urban,Selfemployed,Very High,16245.9,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,320000.0,Aggressive,2,1
+Accumulating,Housing,City,Employed,High,5452.53,Male,30 to 40,College,Married,Low priority,Capital Acquisition,305000.0,Moderate,7,6
+Starting,Recreation,Rural,Unemployed,Very High,4357.54,Male,23 to 30,High School,Married,Low priority,Education Planning,70000.0,Conserviti,1,3
+Accumulating,Travel,Urban,Homemaker,Very Low,1577.15,Female,55 to 65,PhD,Single,High priority,Increase Net Worth,120000.0,Growth,16,5
+Accumulating,Recreation,City,Employed,Low,2312.45,Male,23 to 30,High School,Married,High priority,Estate Planning,535000.0,Growth,15,2
+Accumulating,Food,City,Employed,High,3074.84,Male,40 to 55,College,Married,Low priority,Capital Acquisition,210000.0,Moderate,0,6
+Accumulating,Food,City,Employed,Low,2123.05,Male,40 to 55,College,Married,High priority,Estate Planning,315000.0,Growth,16,2
+Accumulating,Personal,City,Employed,Low,2533.35,Male,40 to 55,University,Married,High priority,Estate Planning,275000.0,Growth,10,2
+Accumulating,Personal,City,Homemaker,Low,1851.44,Male,40 to 55,University,Married,High priority,Estate Planning,95000.0,Growth,28,2
+Accumulating,Food,City,Employed,Medium,14166.59,Male,40 to 55,College,Married,High priority,Estate Planning,200000.0,Growth,32,7
+Accumulating,Health,Urban,Retired,Low,2706.66,Female,55 to 65,PhD,Single,High priority,Increase Net Worth,110000.0,Growth,23,5
+Spending,Uncategorized,Urban,Selfemployed,Very High,9933.3,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,265000.0,Aggressive,28,1
+Spending,Uncategorized,Urban,Selfemployed,Very High,13307.65,Female,65 and over,Professional,Divorced,Normal priority,Increase Net Worth,190000.0,Aggressive,27,1
+Gifting,Savings,Urban,Retired,Very High,9954.18,Female,65 and over,Professional,Single,Normal priority,Retirement Planning,145000.0,Aggressive,6,4
+Accumulating,Health,City,Employed,Low,2212.82,Female,55 to 65,University,Married,High priority,Estate Planning,230000.0,Growth,14,2
+Accumulating,Travel,Urban,Homemaker,Low,2317.13,Female,65 and over,PhD,Single,High priority,Increase Net Worth,90000.0,Growth,27,5
+Spending,Insurance,Urban,Retired,Very High,9636.95,Female,65 and over,PhD,Single,Normal priority,Increase Net Worth,120000.0,Aggressive,31,4
+Accumulating,Food,City,Employed,Medium,1941.69,Male,40 to 55,University,Married,Low priority,Estate Planning,280000.0,Moderate,11,6
+Accumulating,Personal,City,Employed,Medium,1546.13,Male,40 to 55,University,Married,High priority,Estate Planning,210000.0,Moderate,22,6
+Accumulating,Savings,Urban,Retired,Very Low,1058.89,Female,65 and over,Professional,Single,Normal priority,Increase Net Worth,115000.0,Growth,28,5
+Accumulating,Savings,Urban,Retired,Very Low,1450.84,Female,65 and over,Professional,Single,High priority,Increase Net Worth,110000.0,Growth,23,5
+Accumulating,Insurance,Urban,Homemaker,Low,3055.32,Female,65 and over,PhD,Single,High priority,Increase Net Worth,85000.0,Growth,18,5
+Gifting,Giving,Urban,Selfemployed,Very High,12118.52,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,285000.0,Aggressive,32,1
+Starting,Recreation,City,Employed,Very High,4888.85,Male,23 to 30,High School,Married,Low priority,Education Planning,155000.0,Conserviti,0,3
+Spending,Insurance,Urban,Homemaker,Very High,13339.38,Female,65 and over,PhD,Single,Normal priority,Increase Net Worth,135000.0,Aggressive,28,4
+Accumulating,Personal,City,Homemaker,Low,2777.34,Male,40 to 55,University,Married,High priority,Estate Planning,95000.0,Growth,20,2
+Accumulating,Food,City,Employed,Medium,9873.9,Male,40 to 55,College,Married,High priority,Capital Acquisition,215000.0,Growth,15,7
+Accumulating,Insurance,Urban,Retired,Very Low,932.86,Female,65 and over,PhD,Single,High priority,Increase Net Worth,105000.0,Growth,30,5
+Accumulating,Travel,City,Homemaker,Low,2742.58,Female,55 to 65,PhD,Married,High priority,Estate Planning,75000.0,Growth,2,5
+Spending,Uncategorized,Urban,Selfemployed,Very High,14642.0,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,250000.0,Aggressive,4,1
+Accumulating,Health,City,Homemaker,Low,1800.26,Female,55 to 65,PhD,Single,High priority,Philanthropy,80000.0,Growth,29,5
+Accumulating,Health,City,Homemaker,Medium,18628.98,Female,55 to 65,PhD,Married,High priority,Estate Planning,70000.0,Growth,30,7
+Accumulating,Health,Urban,Employed,Very Low,1282.68,Female,55 to 65,University,Married,High priority,Increase Net Worth,515000.0,Growth,29,2
+Accumulating,Housing,City,Employed,Medium,17481.01,Male,30 to 40,College,Married,High priority,Capital Acquisition,355000.0,Growth,1,7
+Spending,Savings,Urban,Selfemployed,Very High,9863.64,Female,65 and over,Professional,Divorced,Normal priority,Increase Net Worth,250000.0,Aggressive,14,4
+Accumulating,Recreation,City,Employed,Medium,17263.19,Male,30 to 40,High School,Married,Low priority,Capital Acquisition,495000.0,Moderate,1,7
+Accumulating,Food,City,Employed,Medium,1500.76,Male,40 to 55,College,Married,Low priority,Estate Planning,380000.0,Moderate,27,6
+Starting,Recreation,Rural,Unemployed,Very High,5890.8,Male,23 to 30,High School,Married,Low priority,Education Planning,50000.0,Conserviti,19,3
+Accumulating,Travel,Urban,Homemaker,Very Low,1289.43,Female,55 to 65,PhD,Married,High priority,Increase Net Worth,125000.0,Growth,4,5
+Accumulating,Food,City,Employed,Medium,1697.52,Male,40 to 55,College,Married,Low priority,Capital Acquisition,185000.0,Moderate,31,6
+Accumulating,Personal,City,Employed,Low,2451.17,Male,40 to 55,University,Married,High priority,Estate Planning,395000.0,Growth,29,2
+Accumulating,Food,City,Employed,Low,2929.37,Male,40 to 55,College,Married,High priority,Estate Planning,310000.0,Growth,16,2
+Accumulating,Savings,Urban,Retired,Very Low,1531.68,Female,65 and over,Professional,Divorced,High priority,Increase Net Worth,95000.0,Growth,5,5
+Accumulating,Recreation,City,Unemployed,High,1148.0,Male,23 to 30,High School,Married,Low priority,Capital Acquisition,95000.0,Moderate,2,6
+Accumulating,Travel,Urban,Retired,Very Low,868.55,Female,55 to 65,PhD,Single,High priority,Increase Net Worth,120000.0,Growth,24,5
+Starting,Recreation,Rural,Unemployed,Very High,5428.93,Male,23 to 30,High School,Married,Low priority,Education Planning,55000.0,Conserviti,25,3
+Accumulating,Health,City,Homemaker,Medium,15072.23,Female,55 to 65,University,Married,High priority,Estate Planning,75000.0,Growth,31,7
+Accumulating,Health,Urban,Homemaker,Very Low,1352.61,Female,55 to 65,PhD,Single,High priority,Increase Net Worth,120000.0,Growth,14,5
+Starting,Recreation,City,Employed,Very High,3209.36,Male,23 to 30,High School,Married,Low priority,Education Planning,120000.0,Conserviti,3,3
+Accumulating,Food,City,Employed,High,3659.41,Male,40 to 55,College,Married,Low priority,Capital Acquisition,270000.0,Moderate,26,6
+Accumulating,Insurance,City,Homemaker,Low,2068.88,Female,65 and over,PhD,Married,High priority,Increase Net Worth,100000.0,Growth,3,5
+Starting,Recreation,City,Employed,Very High,4803.48,Male,23 to 30,High School,Married,Low priority,Education Planning,190000.0,Conserviti,3,3
+Starting,Recreation,Rural,Unemployed,Very High,3179.54,Male,23 to 30,High School,Married,Low priority,Education Planning,50000.0,Conserviti,18,3
+Gifting,Giving,Urban,Selfemployed,Very High,9891.79,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,345000.0,Aggressive,1,1
+Spending,Savings,Urban,Retired,Very High,16298.4,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,135000.0,Aggressive,23,4
+Starting,Recreation,Rural,Unemployed,Very High,3992.17,Male,23 to 30,High School,Married,Low priority,Education Planning,55000.0,Conserviti,20,3
+Spending,Savings,Urban,Homemaker,Very High,11874.78,Female,65 and over,PhD,Married,Normal priority,Increase Net Worth,140000.0,Aggressive,5,4
+Accumulating,Food,City,Employed,Low,1914.4,Male,40 to 55,College,Married,High priority,Estate Planning,345000.0,Growth,5,2
+Accumulating,Housing,City,Employed,High,3781.64,Male,30 to 40,College,Married,Low priority,Capital Acquisition,245000.0,Moderate,24,6
+Starting,Recreation,Rural,Unemployed,Very High,4679.84,Male,65 and over,High School,Married,Low priority,Education Planning,50000.0,Conserviti,12,3
+Accumulating,Food,City,Employed,Low,2660.79,Male,40 to 55,College,Married,High priority,Estate Planning,555000.0,Growth,14,2
+Starting,Recreation,Rural,Unemployed,Very High,3777.06,Male,23 to 30,High School,Married,Low priority,Education Planning,65000.0,Conserviti,1,3
+Accumulating,Health,Urban,Homemaker,Low,2088.27,Female,55 to 65,PhD,Single,High priority,Increase Net Worth,95000.0,Growth,27,5
+Spending,Insurance,Urban,Retired,Very High,13001.78,Female,65 and over,PhD,Single,Normal priority,Increase Net Worth,130000.0,Aggressive,21,4
+Spending,Savings,Urban,Retired,Very High,14526.47,Female,65 and over,Professional,Divorced,Normal priority,Increase Net Worth,120000.0,Aggressive,26,4
+Accumulating,Recreation,City,Employed,High,1405.63,Male,30 to 40,College,Married,Low priority,Capital Acquisition,290000.0,Moderate,8,6
+Accumulating,Recreation,City,Employed,Medium,17264.64,Male,30 to 40,High School,Married,High priority,Capital Acquisition,535000.0,Growth,10,7
+Gifting,Uncategorized,Urban,Selfemployed,Very High,10179.35,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,390000.0,Aggressive,13,1
+Accumulating,Recreation,City,Employed,Medium,16862.05,Male,30 to 40,College,Married,Low priority,Estate Planning,290000.0,Growth,8,7
+Accumulating,Food,City,Employed,Medium,18385.97,Male,40 to 55,College,Married,High priority,Capital Acquisition,355000.0,Moderate,8,7
+Accumulating,Recreation,City,Unemployed,High,3405.73,Male,23 to 30,High School,Married,Low priority,Education Planning,75000.0,Conserviti,10,3
+Spending,Savings,Urban,Retired,Very High,13021.96,Female,65 and over,Professional,Single,Normal priority,Increase Net Worth,130000.0,Aggressive,13,4
+Gifting,Giving,Urban,Selfemployed,Very High,15748.09,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,380000.0,Aggressive,21,1
+Accumulating,Food,City,Employed,Medium,11875.57,Male,40 to 55,College,Married,High priority,Capital Acquisition,240000.0,Growth,7,7
+Accumulating,Food,City,Employed,Medium,15465.57,Male,40 to 55,College,Married,High priority,Estate Planning,475000.0,Growth,26,7
+Accumulating,Health,Urban,Homemaker,Low,2898.38,Female,55 to 65,PhD,Married,High priority,Increase Net Worth,110000.0,Growth,0,5
+Accumulating,Recreation,City,Employed,High,5352.25,Male,23 to 30,High School,Married,Low priority,Capital Acquisition,310000.0,Moderate,32,6
+Accumulating,Travel,Urban,Retired,Low,2540.41,Female,55 to 65,PhD,Single,High priority,Increase Net Worth,95000.0,Growth,29,5
+Accumulating,Savings,Urban,Selfemployed,Very Low,1398.06,Female,65 and over,Professional,Divorced,Normal priority,Increase Net Worth,170000.0,Growth,15,5
+Accumulating,Housing,City,Employed,Medium,18136.95,Male,30 to 40,College,Married,High priority,Estate Planning,275000.0,Growth,7,7
+Accumulating,Recreation,City,Employed,High,3266.27,Male,23 to 30,High School,Married,Low priority,Capital Acquisition,325000.0,Conserviti,28,6
+Starting,Recreation,City,Employed,Very High,4651.74,Male,23 to 30,High School,Married,Low priority,Education Planning,205000.0,Conserviti,9,3
+Gifting,Uncategorized,Urban,Selfemployed,Very High,15915.35,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,260000.0,Aggressive,11,1
+Spending,Uncategorized,Urban,Selfemployed,Very High,14190.85,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,245000.0,Aggressive,31,1
+Accumulating,Recreation,City,Unemployed,Medium,1382.85,Male,23 to 30,High School,Married,Low priority,Capital Acquisition,105000.0,Moderate,0,6
+Accumulating,Personal,City,Employed,Medium,13365.28,Male,40 to 55,University,Married,High priority,Estate Planning,220000.0,Moderate,9,7
+Accumulating,Food,City,Employed,Medium,9740.9,Male,40 to 55,University,Married,High priority,Estate Planning,220000.0,Moderate,12,7
+Accumulating,Housing,City,Employed,Medium,10257.13,Male,30 to 40,College,Married,Low priority,Capital Acquisition,325000.0,Moderate,29,6
+Accumulating,Health,Urban,Homemaker,Very Low,1489.31,Female,55 to 65,University,Married,High priority,Increase Net Worth,135000.0,Growth,26,5
+Starting,Recreation,City,Unemployed,Very High,5397.55,Male,23 to 30,High School,Married,Low priority,Education Planning,70000.0,Conserviti,25,3
+Accumulating,Food,City,Employed,High,5517.09,Male,30 to 40,College,Married,Low priority,Capital Acquisition,170000.0,Moderate,24,6
+Accumulating,Health,City,Homemaker,Medium,1247.93,Female,55 to 65,PhD,Single,High priority,Estate Planning,55000.0,Moderate,15,5
+Spending,Savings,Urban,Homemaker,Very High,9481.28,Female,65 and over,Professional,Single,Normal priority,Increase Net Worth,130000.0,Aggressive,25,4
+Accumulating,Recreation,City,Employed,High,1076.82,Male,30 to 40,College,Married,Low priority,Capital Acquisition,265000.0,Moderate,15,6
+Accumulating,Health,Urban,Employed,Very Low,844.29,Female,55 to 65,University,Married,High priority,Increase Net Worth,410000.0,Growth,21,2
+Gifting,Uncategorized,Urban,Selfemployed,Very High,18682.69,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,235000.0,Aggressive,2,1
+Starting,Recreation,Rural,Unemployed,Very High,5770.02,Male,65 and over,High School,Married,Low priority,Education Planning,50000.0,Conserviti,18,3
+Accumulating,Housing,City,Employed,Medium,17076.0,Male,30 to 40,College,Married,High priority,Estate Planning,335000.0,Growth,29,7
+Accumulating,Personal,City,Homemaker,High,5381.25,Male,40 to 55,University,Married,Low priority,Estate Planning,50000.0,Moderate,18,6
+Gifting,Uncategorized,Urban,Selfemployed,Very High,10159.69,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,265000.0,Aggressive,31,1
+Spending,Savings,Urban,Retired,Very High,14998.36,Female,65 and over,Professional,Single,Normal priority,Retirement Planning,135000.0,Aggressive,32,4
+Accumulating,Travel,Urban,Retired,Very Low,1019.88,Female,65 and over,PhD,Single,High priority,Increase Net Worth,120000.0,Growth,25,5
+Accumulating,Recreation,City,Employed,Medium,1789.01,Male,30 to 40,College,Married,Low priority,Capital Acquisition,245000.0,Moderate,31,6
+Accumulating,Utilities,City,Employed,Medium,1692.66,Female,40 to 55,University,Married,High priority,Estate Planning,235000.0,Moderate,15,6
+Accumulating,Utilities,City,Employed,Low,2519.14,Female,40 to 55,University,Married,High priority,Philanthropy,475000.0,Growth,9,2
+Starting,Recreation,Rural,Unemployed,Very High,3643.08,Male,65 and over,High School,Married,Low priority,Education Planning,70000.0,Conserviti,25,3
+Spending,Travel,Urban,Homemaker,Very High,13479.28,Female,55 to 65,PhD,Single,Normal priority,Increase Net Worth,140000.0,Aggressive,2,4
+Accumulating,Food,City,Employed,Medium,16773.6,Male,40 to 55,College,Married,High priority,Estate Planning,220000.0,Growth,7,7
+Accumulating,Food,City,Employed,Low,2996.79,Male,40 to 55,College,Married,High priority,Estate Planning,355000.0,Growth,1,2
+Accumulating,Food,City,Homemaker,Medium,15116.51,Male,40 to 55,University,Married,High priority,Philanthropy,95000.0,Growth,16,7
+Spending,Savings,Urban,Retired,Very High,11079.17,Female,65 and over,Professional,Single,Normal priority,Increase Net Worth,115000.0,Aggressive,15,4
+Spending,Giving,Urban,Selfemployed,Very High,15037.96,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,320000.0,Aggressive,0,1
+Accumulating,Personal,City,Employed,Low,2416.31,Male,40 to 55,University,Married,High priority,Estate Planning,240000.0,Growth,16,2
+Accumulating,Personal,City,Employed,Low,2953.42,Male,40 to 55,University,Married,High priority,Estate Planning,450000.0,Growth,10,2
+Starting,Recreation,Rural,Unemployed,Very High,3485.22,Male,23 to 30,High School,Married,Low priority,Education Planning,55000.0,Conserviti,28,3
+Accumulating,Food,City,Employed,Low,1908.59,Male,40 to 55,College,Married,High priority,Estate Planning,335000.0,Growth,32,2
+Accumulating,Recreation,City,Employed,Medium,11021.04,Male,30 to 40,High School,Married,Low priority,Capital Acquisition,380000.0,Moderate,23,6
+Starting,Recreation,Rural,Unemployed,Very High,3719.57,Male,65 and over,High School,Married,Low priority,Education Planning,55000.0,Conserviti,28,3
+Accumulating,Travel,Urban,Homemaker,Very Low,1497.04,Female,55 to 65,PhD,Single,High priority,Increase Net Worth,125000.0,Growth,27,5
+Accumulating,Savings,Urban,Retired,Very Low,1077.23,Female,65 and over,Professional,Single,Normal priority,Increase Net Worth,115000.0,Growth,6,5
+Accumulating,Recreation,City,Employed,High,3142.86,Male,30 to 40,College,Married,Low priority,Capital Acquisition,180000.0,Moderate,14,6
+Accumulating,Food,City,Employed,Low,2393.39,Male,40 to 55,College,Married,High priority,Estate Planning,290000.0,Growth,27,2
+Accumulating,Food,City,Employed,Medium,14589.91,Male,40 to 55,University,Married,High priority,Estate Planning,280000.0,Growth,31,7
+Accumulating,Utilities,City,Employed,Medium,16097.04,Female,40 to 55,University,Married,High priority,Estate Planning,375000.0,Growth,11,7
+Gifting,Savings,Urban,Retired,Very High,13040.04,Female,65 and over,Professional,Single,Normal priority,Retirement Planning,145000.0,Aggressive,22,1
+Gifting,Uncategorized,Urban,Selfemployed,Very High,10267.2,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,350000.0,Aggressive,28,1
+Spending,Giving,Urban,Retired,Very High,11794.75,Female,65 and over,Professional,Divorced,Normal priority,Increase Net Worth,115000.0,Aggressive,23,4
+Accumulating,Food,City,Employed,High,4702.32,Male,40 to 55,College,Married,Low priority,Capital Acquisition,220000.0,Conserviti,18,6
+Accumulating,Utilities,City,Employed,Low,2164.27,Female,40 to 55,University,Married,High priority,Increase Net Worth,470000.0,Growth,32,2
+Accumulating,Health,City,Employed,Low,2001.82,Female,55 to 65,University,Married,High priority,Estate Planning,420000.0,Growth,0,2
+Spending,Savings,Urban,Retired,Very High,10937.09,Female,65 and over,Professional,Single,Normal priority,Increase Net Worth,115000.0,Aggressive,28,4
+Starting,Recreation,City,Employed,Very High,3144.23,Male,30 to 40,High School,Married,Low priority,Education Planning,110000.0,Conserviti,20,3
+Accumulating,Travel,Urban,Homemaker,Low,2069.6,Female,55 to 65,PhD,Single,High priority,Increase Net Worth,100000.0,Growth,15,5
+Accumulating,Health,Urban,Homemaker,Low,2095.21,Female,55 to 65,PhD,Single,High priority,Increase Net Worth,100000.0,Growth,30,5
+Accumulating,Insurance,Urban,Retired,Very Low,1103.39,Female,65 and over,Professional,Single,High priority,Increase Net Worth,105000.0,Growth,2,5
+Accumulating,Housing,City,Employed,Medium,17368.34,Male,30 to 40,College,Married,High priority,Capital Acquisition,360000.0,Growth,4,7
+Accumulating,Health,Urban,Homemaker,Low,3296.35,Female,55 to 65,PhD,Single,High priority,Increase Net Worth,100000.0,Growth,29,5
+Gifting,Uncategorized,Urban,Selfemployed,Very High,12628.6,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,360000.0,Aggressive,30,1
+Spending,Insurance,Urban,Retired,Very High,12530.32,Female,65 and over,PhD,Single,Normal priority,Increase Net Worth,130000.0,Aggressive,29,4
+Accumulating,Recreation,City,Unemployed,High,5906.37,Male,23 to 30,High School,Married,Low priority,Capital Acquisition,85000.0,Moderate,1,6
+Accumulating,Recreation,City,Employed,High,3373.38,Male,30 to 40,College,Married,Low priority,Capital Acquisition,345000.0,Moderate,14,6
+Accumulating,Food,City,Employed,High,1080.67,Male,40 to 55,College,Married,Low priority,Capital Acquisition,190000.0,Moderate,1,6
+Accumulating,Travel,City,Homemaker,Low,2699.6,Female,55 to 65,PhD,Single,High priority,Increase Net Worth,80000.0,Growth,27,5
+Starting,Recreation,Rural,Unemployed,Very High,3486.51,Male,30 to 40,High School,Married,Low priority,Education Planning,55000.0,Conserviti,19,3
+Spending,Travel,Urban,Retired,Very High,8959.31,Female,65 and over,PhD,Single,High priority,Increase Net Worth,125000.0,Aggressive,4,4
+Gifting,Uncategorized,Urban,Selfemployed,Very High,17100.58,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,285000.0,Aggressive,31,1
+Spending,Insurance,Urban,Retired,Very High,13941.43,Female,65 and over,PhD,Single,Normal priority,Increase Net Worth,125000.0,Aggressive,29,4
+Accumulating,Housing,City,Employed,High,4816.17,Male,30 to 40,College,Married,Low priority,Capital Acquisition,135000.0,Conserviti,16,6
+Accumulating,Recreation,City,Employed,Medium,13946.74,Male,30 to 40,College,Married,Low priority,Capital Acquisition,190000.0,Moderate,5,7
+Starting,Recreation,City,Employed,Very High,4727.52,Male,30 to 40,High School,Married,Low priority,Education Planning,255000.0,Conserviti,2,3
+Starting,Recreation,Rural,Unemployed,Very High,3903.87,Male,65 and over,High School,Married,Low priority,Education Planning,50000.0,Conserviti,24,3
+Accumulating,Health,City,Homemaker,Medium,10272.2,Female,55 to 65,PhD,Single,High priority,Estate Planning,70000.0,Growth,25,5
+Accumulating,Housing,City,Employed,Low,2119.74,Male,30 to 40,College,Married,High priority,Philanthropy,575000.0,Growth,31,2
+Accumulating,Recreation,City,Employed,High,4238.85,Male,30 to 40,High School,Married,Low priority,Capital Acquisition,300000.0,Moderate,14,6
+Accumulating,Recreation,City,Employed,High,1705.78,Male,30 to 40,High School,Married,Low priority,Capital Acquisition,255000.0,Moderate,3,6
+Accumulating,Recreation,City,Unemployed,High,4864.28,Male,23 to 30,High School,Married,Low priority,Education Planning,75000.0,Conserviti,26,3
+Spending,Savings,Urban,Selfemployed,Very High,14736.62,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,300000.0,Aggressive,3,1
+Accumulating,Recreation,City,Employed,High,4939.37,Male,30 to 40,High School,Married,Low priority,Capital Acquisition,270000.0,Moderate,3,6
+Accumulating,Food,City,Employed,High,1161.22,Male,40 to 55,College,Married,Low priority,Capital Acquisition,230000.0,Moderate,18,6
+Accumulating,Savings,City,Homemaker,Low,1967.52,Female,65 and over,PhD,Single,High priority,Increase Net Worth,75000.0,Growth,1,5
+Accumulating,Health,Urban,Homemaker,Very Low,1278.36,Female,55 to 65,PhD,Married,High priority,Increase Net Worth,125000.0,Growth,23,5
+Spending,Travel,Urban,Homemaker,Very High,13787.15,Female,65 and over,PhD,Single,Normal priority,Increase Net Worth,135000.0,Aggressive,20,4
+Spending,Savings,Urban,Retired,Very High,14204.01,Female,65 and over,Professional,Single,Normal priority,Increase Net Worth,130000.0,Aggressive,5,4
+Accumulating,Housing,City,Employed,High,1400.04,Male,30 to 40,College,Married,Low priority,Capital Acquisition,345000.0,Moderate,5,6
+Accumulating,Food,City,Employed,Medium,17422.69,Male,40 to 55,College,Married,High priority,Capital Acquisition,380000.0,Moderate,24,7
+Starting,Recreation,City,Employed,Very High,5427.6,Male,30 to 40,High School,Married,Low priority,Education Planning,150000.0,Conserviti,12,3
+Spending,Travel,Urban,Retired,Very High,9840.53,Female,65 and over,PhD,Single,Normal priority,Increase Net Worth,140000.0,Aggressive,14,4
+Spending,Travel,Urban,Homemaker,Very High,8798.04,Female,65 and over,PhD,Single,Normal priority,Increase Net Worth,130000.0,Aggressive,1,4
+Accumulating,Housing,City,Employed,High,1462.43,Male,30 to 40,College,Married,Low priority,Capital Acquisition,200000.0,Moderate,27,6
+Accumulating,Utilities,Urban,Homemaker,Very Low,1117.46,Female,40 to 55,University,Married,High priority,Increase Net Worth,140000.0,Growth,21,5
+Spending,Savings,Urban,Retired,Very High,10749.49,Female,65 and over,PhD,Single,Normal priority,Increase Net Worth,120000.0,Aggressive,26,4
+Accumulating,Food,City,Employed,Medium,1136.04,Male,40 to 55,University,Married,Low priority,Estate Planning,350000.0,Moderate,8,6
+Accumulating,Recreation,City,Employed,High,3827.0,Male,30 to 40,High School,Married,Low priority,Capital Acquisition,320000.0,Moderate,10,6
+Accumulating,Personal,City,Employed,Medium,1239.58,Male,40 to 55,College,Married,High priority,Capital Acquisition,315000.0,Moderate,13,6
+Gifting,Savings,Urban,Retired,Very High,13250.49,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,145000.0,Aggressive,8,1
+Accumulating,Food,City,Employed,High,1716.98,Male,40 to 55,College,Married,Low priority,Capital Acquisition,255000.0,Moderate,8,6
+Accumulating,Housing,City,Employed,High,4753.45,Male,30 to 40,College,Married,Low priority,Capital Acquisition,240000.0,Conserviti,10,6
+Spending,Savings,Urban,Retired,Very High,8185.0,Female,65 and over,Professional,Single,Normal priority,Increase Net Worth,125000.0,Aggressive,13,4
+Spending,Savings,Urban,Homemaker,Very High,11837.48,Female,65 and over,PhD,Single,Normal priority,Increase Net Worth,140000.0,Aggressive,21,4
+Accumulating,Recreation,City,Employed,High,3237.71,Male,23 to 30,High School,Married,Low priority,Capital Acquisition,205000.0,Conserviti,7,6
+Accumulating,Food,City,Employed,Low,1527.26,Male,40 to 55,College,Married,High priority,Estate Planning,475000.0,Growth,26,2
+Accumulating,Travel,Urban,Homemaker,Low,2434.67,Female,55 to 65,PhD,Single,High priority,Increase Net Worth,100000.0,Growth,0,5
+Accumulating,Utilities,City,Employed,Low,1860.82,Female,55 to 65,University,Married,High priority,Estate Planning,315000.0,Growth,32,2
+Spending,Savings,Urban,Homemaker,Very High,11959.86,Female,65 and over,PhD,Single,Normal priority,Increase Net Worth,130000.0,Aggressive,29,4
+Accumulating,Food,City,Employed,Medium,1928.64,Male,40 to 55,College,Married,Low priority,Capital Acquisition,175000.0,Moderate,15,6
+Accumulating,Personal,City,Employed,Low,2579.78,Male,40 to 55,College,Married,High priority,Estate Planning,315000.0,Growth,7,2
+Accumulating,Food,City,Employed,High,1767.36,Male,40 to 55,College,Married,Low priority,Capital Acquisition,175000.0,Moderate,28,6
+Accumulating,Savings,Urban,Retired,Low,3511.61,Female,65 and over,Professional,Divorced,High priority,Increase Net Worth,80000.0,Growth,9,5
+Accumulating,Travel,Urban,Homemaker,Very Low,1262.18,Female,65 and over,PhD,Married,High priority,Increase Net Worth,110000.0,Growth,11,5
+Accumulating,Food,City,Employed,High,4805.6,Male,40 to 55,College,Married,Low priority,Capital Acquisition,275000.0,Moderate,31,6
+Gifting,Savings,Urban,Retired,Very High,14836.27,Female,65 and over,Professional,Single,Normal priority,Retirement Planning,145000.0,Aggressive,0,4
+Gifting,Giving,Urban,Selfemployed,Very High,12420.68,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,260000.0,Aggressive,9,1
+Accumulating,Recreation,City,Unemployed,High,5386.01,Male,23 to 30,High School,Married,Low priority,Capital Acquisition,90000.0,Moderate,12,6
+Starting,Recreation,Rural,Employed,Very High,4956.77,Male,23 to 30,High School,Married,Low priority,Education Planning,190000.0,Conserviti,29,3
+Accumulating,Food,City,Employed,Medium,1304.57,Male,40 to 55,College,Married,High priority,Estate Planning,275000.0,Moderate,26,6
+Accumulating,Travel,Urban,Retired,Low,1824.64,Female,65 and over,PhD,Divorced,High priority,Increase Net Worth,100000.0,Growth,25,5
+Accumulating,Recreation,City,Unemployed,High,5099.97,Male,23 to 30,High School,Married,Low priority,Education Planning,70000.0,Conserviti,24,3
+Starting,Recreation,City,Employed,Very High,4739.07,Male,23 to 30,High School,Married,Low priority,Education Planning,220000.0,Conserviti,15,3
+Accumulating,Personal,City,Employed,Low,2294.27,Male,40 to 55,University,Married,High priority,Estate Planning,350000.0,Growth,25,2
+Starting,Recreation,Rural,Unemployed,Very High,4302.91,Male,65 and over,High School,Married,Low priority,Education Planning,55000.0,Conserviti,15,3
+Accumulating,Housing,City,Employed,Medium,1661.15,Male,30 to 40,College,Married,Low priority,Capital Acquisition,215000.0,Moderate,21,6
+Accumulating,Health,City,Homemaker,Medium,14222.09,Female,55 to 65,PhD,Single,High priority,Philanthropy,80000.0,Growth,2,5
+Accumulating,Utilities,City,Employed,Low,2148.42,Female,40 to 55,University,Married,High priority,Estate Planning,455000.0,Growth,18,2
+Accumulating,Utilities,Urban,Homemaker,Very Low,1234.08,Female,40 to 55,University,Married,High priority,Increase Net Worth,140000.0,Growth,29,5
+Accumulating,Food,City,Employed,High,4565.74,Male,40 to 55,University,Married,Low priority,Capital Acquisition,130000.0,Moderate,18,6
+Accumulating,Personal,City,Employed,Low,2051.59,Male,40 to 55,University,Married,High priority,Estate Planning,335000.0,Growth,31,2
+Accumulating,Food,City,Employed,Medium,13438.42,Male,40 to 55,College,Married,High priority,Estate Planning,260000.0,Growth,32,7
+Starting,Recreation,City,Unemployed,Very High,3106.62,Male,23 to 30,High School,Married,Low priority,Education Planning,65000.0,Conserviti,25,3
+Accumulating,Housing,City,Employed,Medium,18142.11,Male,30 to 40,College,Married,High priority,Capital Acquisition,460000.0,Growth,31,7
+Spending,Giving,Urban,Selfemployed,Very High,15344.76,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,190000.0,Aggressive,15,1
+Accumulating,Recreation,City,Employed,Medium,1277.57,Male,30 to 40,College,Married,Low priority,Estate Planning,430000.0,Moderate,9,6
+Gifting,Giving,Urban,Selfemployed,Very High,14661.91,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,375000.0,Aggressive,25,1
+Starting,Recreation,Rural,Unemployed,Very High,3504.67,Male,23 to 30,High School,Married,Low priority,Education Planning,60000.0,Conserviti,2,3
+Accumulating,Travel,Urban,Retired,Low,2474.71,Female,65 and over,PhD,Single,High priority,Increase Net Worth,95000.0,Growth,7,5
+Starting,Recreation,City,Unemployed,Very High,5187.05,Male,23 to 30,High School,Married,Low priority,Education Planning,65000.0,Conserviti,1,3
+Accumulating,Travel,Urban,Homemaker,Low,2269.66,Female,65 and over,PhD,Single,High priority,Increase Net Worth,105000.0,Growth,16,5
+Starting,Recreation,City,Employed,Very High,3689.55,Male,30 to 40,High School,Married,Low priority,Education Planning,240000.0,Conserviti,15,3
+Accumulating,Utilities,City,Employed,Low,2096.5,Female,40 to 55,University,Married,High priority,Estate Planning,410000.0,Growth,0,2
+Accumulating,Insurance,Urban,Homemaker,Very Low,1429.89,Female,65 and over,PhD,Single,Normal priority,Increase Net Worth,115000.0,Growth,16,5
+Accumulating,Food,City,Employed,Medium,13769.19,Male,40 to 55,College,Married,High priority,Estate Planning,435000.0,Growth,10,7
+Accumulating,Food,City,Employed,Medium,14924.98,Male,40 to 55,College,Married,High priority,Capital Acquisition,270000.0,Moderate,28,7
+Accumulating,Food,City,Employed,Medium,1165.11,Male,40 to 55,College,Married,Low priority,Capital Acquisition,165000.0,Moderate,32,6
+Accumulating,Personal,City,Employed,Low,3525.48,Male,40 to 55,University,Married,High priority,Estate Planning,395000.0,Growth,23,2
+Spending,Giving,Urban,Selfemployed,Very High,11945.93,Female,65 and over,Professional,Divorced,Normal priority,Increase Net Worth,170000.0,Aggressive,28,4
+Gifting,Uncategorized,Urban,Selfemployed,Very High,10315.66,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,265000.0,Aggressive,27,1
+Gifting,Uncategorized,Urban,Selfemployed,Very High,17053.61,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,320000.0,Aggressive,6,1
+Accumulating,Personal,City,Homemaker,Medium,1013.84,Male,40 to 55,University,Married,High priority,Estate Planning,75000.0,Moderate,14,6
+Spending,Savings,Urban,Homemaker,Very High,14574.78,Female,65 and over,PhD,Single,Normal priority,Increase Net Worth,140000.0,Aggressive,27,4
+Accumulating,Insurance,Urban,Homemaker,Very Low,1397.91,Female,65 and over,PhD,Single,High priority,Increase Net Worth,110000.0,Growth,31,5
+Spending,Savings,Urban,Retired,Very High,8667.76,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,125000.0,Aggressive,11,4
+Accumulating,Food,City,Employed,High,4429.81,Male,40 to 55,University,Married,Low priority,Capital Acquisition,135000.0,Moderate,22,6
+Accumulating,Personal,City,Employed,Low,3487.13,Male,40 to 55,University,Married,High priority,Philanthropy,260000.0,Growth,28,2
+Accumulating,Giving,Urban,Retired,Very Low,1546.88,Female,65 and over,Professional,Single,Normal priority,Increase Net Worth,100000.0,Growth,23,5
+Spending,Travel,Urban,Homemaker,Very High,7569.35,Female,65 and over,PhD,Single,Normal priority,Increase Net Worth,125000.0,Aggressive,18,4
+Spending,Insurance,Urban,Homemaker,Very High,13143.69,Female,65 and over,PhD,Single,Normal priority,Increase Net Worth,120000.0,Aggressive,32,4
+Accumulating,Personal,City,Employed,Medium,14029.12,Male,40 to 55,University,Married,High priority,Estate Planning,355000.0,Moderate,0,7
+Accumulating,Insurance,Urban,Retired,Low,3571.74,Female,65 and over,Professional,Divorced,High priority,Increase Net Worth,85000.0,Growth,28,5
+Accumulating,Housing,City,Employed,High,1416.97,Male,30 to 40,College,Married,Low priority,Capital Acquisition,155000.0,Moderate,20,6
+Accumulating,Housing,City,Employed,Medium,18064.49,Male,30 to 40,College,Married,High priority,Capital Acquisition,445000.0,Growth,15,7
+Accumulating,Health,City,Homemaker,Low,2051.62,Female,55 to 65,PhD,Married,High priority,Estate Planning,85000.0,Growth,30,5
+Spending,Giving,Urban,Retired,Very High,17292.8,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,130000.0,Aggressive,2,4
+Accumulating,Food,City,Employed,High,3948.88,Male,40 to 55,College,Married,Low priority,Capital Acquisition,125000.0,Conserviti,4,6
+Accumulating,Housing,City,Employed,Low,2596.02,Male,30 to 40,College,Married,High priority,Estate Planning,265000.0,Growth,29,2
+Starting,Recreation,Rural,Unemployed,Very High,3599.02,Male,30 to 40,High School,Married,Low priority,Education Planning,55000.0,Conserviti,30,3
+Spending,Giving,Urban,Selfemployed,Very High,16832.82,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,380000.0,Aggressive,29,1
+Accumulating,Housing,City,Employed,Low,3576.75,Male,30 to 40,College,Married,High priority,Estate Planning,530000.0,Growth,1,2
+Accumulating,Health,Urban,Homemaker,Very Low,948.15,Female,55 to 65,University,Married,High priority,Increase Net Worth,130000.0,Growth,14,5
+Starting,Recreation,Rural,Unemployed,Very High,5867.35,Male,65 and over,High School,Married,Low priority,Education Planning,50000.0,Conserviti,1,3
+Spending,Uncategorized,Urban,Selfemployed,Very High,12448.95,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,200000.0,Aggressive,27,1
+Accumulating,Travel,City,Employed,Very Low,822.29,Female,55 to 65,University,Married,High priority,Increase Net Worth,310000.0,Growth,19,2
+Accumulating,Personal,City,Employed,Low,2915.8,Male,40 to 55,College,Married,High priority,Estate Planning,330000.0,Growth,4,2
+Accumulating,Insurance,Urban,Retired,Low,2689.37,Female,65 and over,PhD,Single,High priority,Increase Net Worth,95000.0,Growth,31,5
+Accumulating,Housing,City,Employed,Low,2790.42,Male,30 to 40,College,Married,High priority,Estate Planning,465000.0,Growth,29,2
+Accumulating,Travel,Urban,Homemaker,Very Low,1302.33,Female,55 to 65,PhD,Single,High priority,Increase Net Worth,115000.0,Growth,16,5
+Accumulating,Food,City,Employed,Low,2661.85,Male,40 to 55,College,Married,High priority,Estate Planning,295000.0,Growth,5,2
+Accumulating,Personal,City,Employed,Low,2227.65,Male,40 to 55,University,Married,High priority,Estate Planning,230000.0,Growth,2,2
+Accumulating,Food,City,Employed,High,1648.41,Male,40 to 55,College,Married,Low priority,Capital Acquisition,155000.0,Moderate,24,6
+Accumulating,Recreation,City,Employed,High,5206.23,Male,30 to 40,High School,Married,Low priority,Capital Acquisition,195000.0,Conserviti,25,6
+Accumulating,Food,City,Employed,Medium,1001.74,Male,40 to 55,College,Married,Low priority,Capital Acquisition,250000.0,Moderate,31,6
+Accumulating,Travel,City,Homemaker,Low,1649.86,Female,55 to 65,PhD,Married,High priority,Philanthropy,80000.0,Growth,14,5
+Spending,Travel,Urban,Retired,Very High,10227.45,Female,65 and over,PhD,Single,High priority,Increase Net Worth,125000.0,Aggressive,3,4
+Accumulating,Health,City,Homemaker,Low,1910.16,Female,55 to 65,PhD,Married,High priority,Increase Net Worth,95000.0,Growth,26,5
+Accumulating,Food,City,Employed,High,1382.99,Male,40 to 55,College,Married,Low priority,Capital Acquisition,245000.0,Moderate,3,6
+Starting,Recreation,Rural,Unemployed,Very High,4168.7,Male,23 to 30,High School,Married,Low priority,Education Planning,50000.0,Conserviti,3,3
+Gifting,Uncategorized,Urban,Selfemployed,Very High,13759.29,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,305000.0,Aggressive,18,1
+Accumulating,Health,Urban,Homemaker,Very Low,1365.08,Female,55 to 65,PhD,Married,High priority,Increase Net Worth,115000.0,Growth,1,5
+Starting,Recreation,City,Employed,Very High,4326.39,Male,30 to 40,High School,Married,Low priority,Education Planning,140000.0,Conserviti,23,3
+Accumulating,Recreation,City,Employed,High,3005.89,Male,23 to 30,High School,Married,Low priority,Education Planning,205000.0,Conserviti,20,3
+Accumulating,Personal,City,Employed,Medium,17544.2,Male,40 to 55,College,Married,High priority,Estate Planning,230000.0,Growth,5,7
+Starting,Recreation,City,Employed,Very High,5442.48,Male,23 to 30,High School,Married,Low priority,Education Planning,260000.0,Conserviti,5,3
+Accumulating,Housing,City,Employed,High,1901.84,Male,30 to 40,College,Married,Low priority,Capital Acquisition,155000.0,Moderate,24,6
+Accumulating,Personal,City,Employed,Medium,1351.51,Male,40 to 55,University,Married,High priority,Estate Planning,270000.0,Moderate,12,6
+Spending,Travel,Urban,Homemaker,Very High,9704.93,Female,55 to 65,PhD,Single,Normal priority,Increase Net Worth,145000.0,Aggressive,14,4
+Accumulating,Recreation,City,Employed,High,3840.93,Male,30 to 40,High School,Married,Low priority,Capital Acquisition,225000.0,Moderate,1,6
+Accumulating,Utilities,City,Employed,Low,1646.88,Female,40 to 55,University,Married,High priority,Estate Planning,345000.0,Growth,27,2
+Gifting,Uncategorized,Urban,Selfemployed,Very High,9660.97,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,220000.0,Aggressive,21,1
+Accumulating,Personal,City,Employed,Low,3461.82,Male,40 to 55,University,Married,High priority,Estate Planning,320000.0,Growth,26,2
+Accumulating,Personal,City,Homemaker,Low,1813.24,Male,40 to 55,University,Married,High priority,Philanthropy,105000.0,Growth,8,5
+Accumulating,Savings,Urban,Retired,Very Low,1345.94,Female,65 and over,Professional,Divorced,Normal priority,Increase Net Worth,110000.0,Growth,10,5
+Accumulating,Personal,City,Employed,Low,2652.54,Male,40 to 55,University,Married,High priority,Estate Planning,305000.0,Growth,13,2
+Starting,Recreation,Rural,Unemployed,Very High,3962.28,Male,23 to 30,High School,Married,Low priority,Education Planning,50000.0,Conserviti,8,3
+Accumulating,Food,City,Employed,Medium,12945.79,Male,30 to 40,College,Married,High priority,Capital Acquisition,250000.0,Moderate,8,7
+Accumulating,Recreation,City,Employed,High,5045.86,Male,30 to 40,High School,Married,Low priority,Capital Acquisition,220000.0,Moderate,10,6
+Accumulating,Savings,Urban,Retired,Very Low,928.28,Female,65 and over,PhD,Single,High priority,Increase Net Worth,110000.0,Growth,13,5
+Accumulating,Travel,City,Homemaker,Medium,13767.94,Female,55 to 65,PhD,Single,High priority,Increase Net Worth,70000.0,Growth,21,5
+Accumulating,Health,Urban,Homemaker,Low,2612.25,Female,55 to 65,PhD,Single,High priority,Increase Net Worth,105000.0,Growth,7,5
+Gifting,Giving,Urban,Selfemployed,Very High,17663.88,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,275000.0,Aggressive,26,1
+Accumulating,Recreation,City,Employed,Medium,14069.78,Male,30 to 40,College,Married,High priority,Capital Acquisition,225000.0,Growth,0,7
+Accumulating,Housing,City,Employed,High,1483.77,Male,30 to 40,College,Married,Low priority,Capital Acquisition,325000.0,Moderate,32,6
+Accumulating,Housing,City,Employed,High,3497.56,Male,30 to 40,College,Married,Low priority,Capital Acquisition,135000.0,Moderate,29,6
+Starting,Recreation,Rural,Unemployed,Very High,3030.54,Male,23 to 30,High School,Married,Low priority,Education Planning,55000.0,Conserviti,15,3
+Accumulating,Housing,City,Employed,Medium,10595.67,Male,30 to 40,College,Married,Low priority,Capital Acquisition,330000.0,Moderate,7,7
+Starting,Recreation,Rural,Unemployed,Very High,4209.56,Male,23 to 30,High School,Married,Low priority,Education Planning,60000.0,Conserviti,28,3
+Accumulating,Recreation,City,Employed,Low,2146.7,Male,30 to 40,College,Married,High priority,Estate Planning,330000.0,Growth,9,2
+Accumulating,Housing,City,Employed,Medium,12391.17,Male,30 to 40,College,Married,Low priority,Capital Acquisition,330000.0,Moderate,11,7
+Accumulating,Health,City,Homemaker,Medium,1434.44,Female,55 to 65,PhD,Single,High priority,Estate Planning,60000.0,Moderate,31,5
+Accumulating,Travel,Urban,Retired,Low,2982.0,Female,65 and over,PhD,Single,High priority,Increase Net Worth,70000.0,Growth,0,5
+Accumulating,Recreation,City,Employed,High,4842.67,Male,30 to 40,College,Married,Low priority,Capital Acquisition,300000.0,Conserviti,9,6
+Accumulating,Travel,Urban,Homemaker,Very Low,1058.13,Female,55 to 65,PhD,Married,High priority,Increase Net Worth,110000.0,Growth,12,5
+Accumulating,Health,City,Homemaker,Low,3044.36,Female,55 to 65,PhD,Married,High priority,Increase Net Worth,105000.0,Growth,29,5
+Accumulating,Housing,City,Employed,Medium,14937.06,Male,30 to 40,College,Married,High priority,Estate Planning,395000.0,Growth,26,7
+Accumulating,Utilities,City,Employed,Low,2821.75,Female,40 to 55,University,Married,High priority,Estate Planning,215000.0,Growth,25,2
+Accumulating,Food,City,Employed,Low,2051.03,Male,40 to 55,College,Married,High priority,Estate Planning,390000.0,Growth,24,2
+Accumulating,Recreation,City,Employed,High,1562.34,Male,30 to 40,College,Married,Low priority,Capital Acquisition,275000.0,Moderate,15,6
+Accumulating,Utilities,Urban,Employed,Very Low,1012.62,Female,40 to 55,University,Married,High priority,Increase Net Worth,490000.0,Growth,25,2
+Accumulating,Travel,City,Employed,Very Low,1301.31,Female,55 to 65,University,Married,High priority,Increase Net Worth,450000.0,Growth,15,2
+Starting,Recreation,City,Employed,Very High,5977.04,Male,30 to 40,College,Married,Low priority,Capital Acquisition,140000.0,Conserviti,21,3
+Accumulating,Housing,City,Employed,High,5497.77,Male,30 to 40,College,Married,Low priority,Capital Acquisition,140000.0,Conserviti,2,6
+Starting,Recreation,Rural,Unemployed,Very High,4099.23,Male,23 to 30,High School,Married,Low priority,Education Planning,70000.0,Conserviti,18,3
+Accumulating,Personal,City,Employed,Low,2950.02,Male,40 to 55,University,Married,High priority,Estate Planning,455000.0,Growth,29,2
+Accumulating,Personal,Urban,Employed,Very Low,1111.67,Male,40 to 55,University,Married,High priority,Increase Net Worth,345000.0,Growth,18,2
+Gifting,Giving,Urban,Retired,Very High,14085.3,Female,65 and over,Professional,Single,Normal priority,Retirement Planning,145000.0,Aggressive,31,1
+Accumulating,Travel,Urban,Homemaker,Very Low,1053.07,Female,55 to 65,PhD,Married,High priority,Increase Net Worth,115000.0,Growth,32,5
+Accumulating,Housing,City,Employed,High,1956.75,Male,30 to 40,College,Married,Low priority,Capital Acquisition,355000.0,Moderate,25,6
+Starting,Recreation,Rural,Unemployed,Very High,5959.87,Male,23 to 30,High School,Married,Low priority,Education Planning,50000.0,Conserviti,31,3
+Spending,Insurance,Urban,Homemaker,Very High,9720.95,Female,65 and over,PhD,Single,Normal priority,Increase Net Worth,135000.0,Aggressive,15,4
+Accumulating,Recreation,City,Employed,High,4054.41,Male,30 to 40,College,Married,Low priority,Capital Acquisition,270000.0,Moderate,9,6
+Accumulating,Personal,City,Employed,Low,1512.28,Male,40 to 55,University,Married,High priority,Estate Planning,440000.0,Growth,25,2
+Spending,Uncategorized,Urban,Selfemployed,Very High,8811.27,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,210000.0,Aggressive,2,1
+Starting,Recreation,City,Employed,Very High,5808.18,Male,30 to 40,High School,Married,Low priority,Education Planning,180000.0,Conserviti,7,3
+Accumulating,Recreation,City,Unemployed,High,3088.31,Male,23 to 30,High School,Married,Low priority,Capital Acquisition,80000.0,Moderate,1,6
+Accumulating,Travel,Urban,Retired,Very Low,880.78,Female,65 and over,PhD,Single,High priority,Increase Net Worth,120000.0,Growth,16,5
+Accumulating,Personal,City,Employed,Medium,1420.65,Male,40 to 55,University,Married,High priority,Capital Acquisition,270000.0,Moderate,15,6
+Accumulating,Insurance,Urban,Retired,Very Low,1385.16,Female,65 and over,PhD,Single,High priority,Increase Net Worth,115000.0,Growth,0,5
+Accumulating,Food,City,Employed,Medium,1268.88,Male,40 to 55,College,Married,Low priority,Capital Acquisition,245000.0,Moderate,16,6
+Accumulating,Recreation,City,Employed,High,3917.9,Male,30 to 40,College,Married,Low priority,Capital Acquisition,280000.0,Conserviti,10,6
+Accumulating,Food,City,Employed,High,1305.47,Male,40 to 55,College,Married,Low priority,Capital Acquisition,250000.0,Moderate,28,6
+Accumulating,Food,City,Employed,Medium,11864.13,Male,40 to 55,College,Married,High priority,Capital Acquisition,335000.0,Moderate,32,7
+Accumulating,Food,City,Employed,Low,1839.15,Male,40 to 55,College,Married,High priority,Estate Planning,305000.0,Growth,23,2
+Accumulating,Utilities,City,Employed,Low,2812.32,Female,40 to 55,University,Married,High priority,Increase Net Worth,460000.0,Growth,28,2
+Accumulating,Utilities,City,Employed,Medium,13220.99,Female,40 to 55,University,Married,High priority,Estate Planning,330000.0,Growth,27,7
+Starting,Recreation,Rural,Unemployed,Very High,5185.4,Male,23 to 30,High School,Married,Low priority,Education Planning,60000.0,Conserviti,6,3
+Accumulating,Health,City,Employed,Medium,12146.73,Female,55 to 65,University,Married,High priority,Estate Planning,195000.0,Growth,14,7
+Accumulating,Food,City,Employed,Medium,15467.82,Male,40 to 55,College,Married,High priority,Estate Planning,235000.0,Growth,27,7
+Accumulating,Personal,City,Employed,Medium,9775.68,Male,40 to 55,University,Married,High priority,Estate Planning,365000.0,Moderate,31,7
+Accumulating,Savings,Urban,Retired,Low,1613.71,Female,65 and over,Professional,Divorced,High priority,Increase Net Worth,70000.0,Growth,11,5
+Spending,Health,Urban,Homemaker,Very High,14214.73,Female,55 to 65,University,Married,High priority,Increase Net Worth,140000.0,Aggressive,22,4
+Accumulating,Travel,City,Homemaker,Low,1973.26,Female,55 to 65,PhD,Married,High priority,Increase Net Worth,95000.0,Growth,28,5
+Starting,Recreation,Rural,Employed,Very High,4118.78,Male,23 to 30,High School,Married,Low priority,Education Planning,255000.0,Conserviti,23,3
+Accumulating,Recreation,City,Unemployed,High,1542.51,Male,23 to 30,High School,Married,Low priority,Capital Acquisition,100000.0,Moderate,18,6
+Spending,Insurance,Urban,Homemaker,Very High,15264.09,Female,65 and over,PhD,Single,Normal priority,Increase Net Worth,140000.0,Aggressive,32,4
+Accumulating,Health,City,Employed,Very Low,1319.42,Female,55 to 65,University,Married,High priority,Estate Planning,390000.0,Growth,0,2
+Spending,Health,Urban,Homemaker,Very High,11658.22,Female,55 to 65,PhD,Single,High priority,Increase Net Worth,140000.0,Aggressive,28,4
+Accumulating,Housing,City,Employed,High,1717.19,Male,30 to 40,College,Married,Low priority,Capital Acquisition,295000.0,Moderate,20,6
+Accumulating,Food,City,Employed,Medium,17629.01,Male,40 to 55,College,Married,High priority,Estate Planning,440000.0,Growth,15,7
+Accumulating,Travel,City,Homemaker,Low,2319.02,Female,55 to 65,PhD,Single,High priority,Increase Net Worth,85000.0,Growth,30,5
+Accumulating,Food,City,Employed,Low,2718.28,Male,40 to 55,College,Married,High priority,Estate Planning,350000.0,Growth,2,2
+Accumulating,Recreation,City,Employed,High,1810.7,Male,30 to 40,College,Married,Low priority,Capital Acquisition,390000.0,Moderate,4,6
+Spending,Savings,Urban,Selfemployed,Very High,12856.8,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,215000.0,Aggressive,29,1
+Spending,Insurance,Urban,Employed,Very High,11564.52,Female,65 and over,PhD,Married,Normal priority,Increase Net Worth,465000.0,Aggressive,30,1
+Gifting,Uncategorized,Urban,Selfemployed,Very High,11219.32,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,335000.0,Aggressive,29,1
+Accumulating,Food,City,Employed,Medium,14390.15,Male,40 to 55,College,Married,High priority,Capital Acquisition,440000.0,Growth,1,7
+Accumulating,Health,City,Homemaker,Medium,13029.29,Female,55 to 65,University,Married,High priority,Estate Planning,75000.0,Growth,14,7
+Accumulating,Personal,City,Employed,Medium,16880.1,Male,40 to 55,University,Married,High priority,Estate Planning,375000.0,Moderate,1,7
+Accumulating,Recreation,City,Employed,Medium,16229.6,Male,30 to 40,College,Married,Low priority,Capital Acquisition,455000.0,Moderate,27,7
+Accumulating,Personal,City,Employed,Low,1644.45,Male,40 to 55,University,Married,High priority,Estate Planning,260000.0,Growth,19,2
+Accumulating,Personal,City,Employed,Low,2439.92,Male,40 to 55,University,Married,High priority,Estate Planning,420000.0,Growth,4,2
+Gifting,Uncategorized,Urban,Selfemployed,Very High,13573.57,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,330000.0,Aggressive,31,1
+Gifting,Uncategorized,Urban,Selfemployed,Very High,9416.95,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,420000.0,Aggressive,29,1
+Spending,Savings,Urban,Retired,Very High,15491.52,Female,65 and over,Professional,Single,Normal priority,Increase Net Worth,140000.0,Aggressive,16,4
+Accumulating,Utilities,City,Homemaker,Low,2243.96,Female,40 to 55,University,Married,High priority,Philanthropy,95000.0,Growth,5,5
+Spending,Savings,Urban,Retired,Very High,14818.85,Female,65 and over,Professional,Divorced,Normal priority,Increase Net Worth,130000.0,Aggressive,2,4
+Starting,Recreation,Rural,Unemployed,Very High,4492.9,Male,65 and over,High School,Married,Low priority,Education Planning,50000.0,Conserviti,24,3
+Spending,Savings,Urban,Retired,Very High,18005.13,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,140000.0,Aggressive,25,4
+Accumulating,Personal,City,Homemaker,Medium,9503.83,Male,40 to 55,University,Married,High priority,Estate Planning,75000.0,Moderate,31,7
+Spending,Savings,Urban,Selfemployed,Very High,10778.3,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,185000.0,Aggressive,14,1
+Accumulating,Recreation,City,Employed,High,1418.79,Male,23 to 30,High School,Married,Low priority,Capital Acquisition,260000.0,Moderate,3,6
+Accumulating,Utilities,City,Homemaker,Low,1836.88,Female,40 to 55,University,Married,High priority,Increase Net Worth,105000.0,Growth,26,5
+Starting,Recreation,Rural,Employed,Very High,3915.83,Male,23 to 30,High School,Married,Low priority,Education Planning,245000.0,Conserviti,3,3
+Accumulating,Food,City,Employed,Medium,17216.2,Male,40 to 55,College,Married,High priority,Estate Planning,200000.0,Growth,3,7
+Spending,Savings,Urban,Retired,Very High,10541.13,Female,65 and over,Professional,Single,Normal priority,Increase Net Worth,135000.0,Aggressive,18,4
+Gifting,Giving,Urban,Selfemployed,Very High,10836.75,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,350000.0,Aggressive,1,1
+Starting,Recreation,Rural,Unemployed,Very High,3934.39,Male,23 to 30,High School,Married,Low priority,Education Planning,50000.0,Conserviti,23,3
+Accumulating,Personal,City,Employed,Medium,9615.99,Male,40 to 55,University,Married,High priority,Estate Planning,275000.0,Growth,20,7
+Accumulating,Recreation,City,Employed,Low,3437.53,Male,30 to 40,College,Married,High priority,Estate Planning,420000.0,Growth,5,2
+Spending,Insurance,Urban,Homemaker,Very High,9678.31,Female,65 and over,PhD,Single,Normal priority,Increase Net Worth,140000.0,Aggressive,5,4
+Accumulating,Travel,Urban,Homemaker,Low,2319.35,Female,55 to 65,PhD,Married,High priority,Increase Net Worth,105000.0,Growth,24,5
+Accumulating,Personal,City,Employed,Low,2356.73,Male,40 to 55,University,Married,High priority,Estate Planning,205000.0,Growth,12,2
+Spending,Travel,Urban,Retired,Very High,14360.21,Female,65 and over,PhD,Single,Normal priority,Increase Net Worth,130000.0,Aggressive,14,4
+Accumulating,Housing,City,Employed,Low,1688.5,Male,30 to 40,College,Married,High priority,Estate Planning,595000.0,Growth,1,2
+Starting,Recreation,Rural,Employed,Very High,4632.21,Male,23 to 30,High School,Married,Low priority,Education Planning,120000.0,Conserviti,27,3
+Accumulating,Health,Urban,Homemaker,Very Low,1357.9,Female,55 to 65,University,Married,High priority,Increase Net Worth,120000.0,Growth,21,5
+Starting,Recreation,Rural,Unemployed,Very High,5864.96,Male,65 and over,High School,Married,Low priority,Education Planning,55000.0,Conserviti,26,3
+Accumulating,Health,City,Retired,Low,2019.84,Female,55 to 65,PhD,Single,High priority,Increase Net Worth,75000.0,Growth,18,5
+Accumulating,Food,City,Employed,Medium,17392.48,Male,40 to 55,College,Married,High priority,Estate Planning,455000.0,Growth,27,7
+Accumulating,Food,City,Employed,High,1684.94,Male,40 to 55,University,Married,Low priority,Capital Acquisition,200000.0,Moderate,16,6
+Spending,Travel,Urban,Homemaker,Very High,11745.18,Female,65 and over,PhD,Single,Normal priority,Increase Net Worth,140000.0,Aggressive,16,4
+Accumulating,Recreation,City,Employed,High,5169.09,Male,23 to 30,High School,Married,Low priority,Capital Acquisition,220000.0,Moderate,26,6
+Accumulating,Health,City,Employed,Low,2070.47,Female,55 to 65,University,Married,High priority,Estate Planning,255000.0,Growth,30,2
+Gifting,Uncategorized,Urban,Selfemployed,Very High,16210.68,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,315000.0,Aggressive,28,1
+Starting,Recreation,City,Employed,Very High,3947.71,Male,23 to 30,High School,Married,Low priority,Education Planning,125000.0,Conserviti,30,3
+Accumulating,Recreation,City,Employed,High,5321.03,Male,30 to 40,High School,Married,Low priority,Capital Acquisition,150000.0,Moderate,20,6
+Accumulating,Savings,Urban,Retired,Very Low,1068.54,Female,65 and over,Professional,Single,High priority,Increase Net Worth,100000.0,Growth,26,5
+Starting,Recreation,City,Employed,Very High,5004.46,Male,23 to 30,High School,Married,Low priority,Education Planning,210000.0,Conserviti,4,3
+Accumulating,Savings,Urban,Retired,Low,2318.04,Female,65 and over,Professional,Divorced,High priority,Increase Net Worth,85000.0,Growth,10,5
+Starting,Recreation,City,Employed,Very High,3561.31,Male,30 to 40,College,Married,Low priority,Capital Acquisition,110000.0,Conserviti,30,3
+Accumulating,Health,City,Homemaker,Low,1951.1,Female,55 to 65,University,Married,High priority,Philanthropy,90000.0,Growth,18,5
+Accumulating,Personal,City,Employed,Low,3396.59,Male,40 to 55,University,Married,High priority,Estate Planning,340000.0,Growth,19,2
+Accumulating,Savings,Urban,Retired,Very Low,1168.71,Female,65 and over,Professional,Single,Normal priority,Increase Net Worth,115000.0,Growth,30,5
+Accumulating,Insurance,Urban,Retired,Very Low,980.33,Female,65 and over,PhD,Single,Normal priority,Increase Net Worth,115000.0,Growth,20,5
+Starting,Recreation,Rural,Employed,Very High,3964.32,Male,23 to 30,High School,Married,Low priority,Education Planning,125000.0,Conserviti,12,3
+Accumulating,Recreation,City,Employed,High,3008.31,Male,30 to 40,High School,Married,Low priority,Capital Acquisition,190000.0,Conserviti,3,6
+Spending,Savings,Urban,Retired,Very High,13168.56,Female,65 and over,Professional,Single,Normal priority,Increase Net Worth,125000.0,Aggressive,0,4
+Accumulating,Uncategorized,Urban,Selfemployed,Very Low,980.54,Female,65 and over,Professional,Divorced,Normal priority,Increase Net Worth,290000.0,Growth,26,5
+Accumulating,Food,City,Employed,High,4793.76,Male,40 to 55,University,Married,Low priority,Capital Acquisition,130000.0,Conserviti,7,6
+Accumulating,Recreation,City,Employed,High,5503.5,Male,30 to 40,High School,Married,Low priority,Capital Acquisition,145000.0,Conserviti,19,6
+Accumulating,Health,City,Employed,Low,1507.15,Female,55 to 65,University,Married,High priority,Estate Planning,420000.0,Growth,16,2
+Starting,Recreation,Rural,Unemployed,Very High,3903.56,Male,23 to 30,High School,Married,Low priority,Education Planning,50000.0,Conserviti,18,3
+Accumulating,Utilities,City,Homemaker,Medium,16364.37,Female,40 to 55,University,Married,High priority,Estate Planning,80000.0,Growth,26,7
+Accumulating,Travel,Urban,Homemaker,Very Low,1010.09,Female,65 and over,PhD,Married,High priority,Increase Net Worth,120000.0,Growth,15,5
+Spending,Insurance,Urban,Retired,Very High,10554.22,Female,65 and over,PhD,Single,Normal priority,Increase Net Worth,120000.0,Aggressive,32,4
+Starting,Recreation,City,Employed,Very High,3882.75,Male,23 to 30,High School,Married,Low priority,Education Planning,245000.0,Conserviti,13,3
+Accumulating,Travel,Urban,Retired,Very Low,1431.2,Female,65 and over,PhD,Single,High priority,Increase Net Worth,120000.0,Growth,18,5
+Gifting,Uncategorized,Urban,Selfemployed,Very High,15625.82,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,370000.0,Aggressive,20,1
+Gifting,Giving,Urban,Retired,Very High,17730.88,Female,65 and over,Professional,Single,Normal priority,Retirement Planning,140000.0,Aggressive,28,1
+Starting,Recreation,Rural,Unemployed,Very High,4375.29,Male,65 and over,High School,Married,Low priority,Education Planning,50000.0,Conserviti,22,3
+Starting,Recreation,City,Unemployed,Very High,4395.57,Male,23 to 30,High School,Married,Low priority,Education Planning,65000.0,Conserviti,20,3
+Accumulating,Health,City,Homemaker,Low,1888.13,Female,55 to 65,PhD,Married,High priority,Increase Net Worth,90000.0,Growth,7,5
+Accumulating,Health,City,Homemaker,Low,2156.69,Female,55 to 65,University,Married,High priority,Increase Net Worth,105000.0,Growth,32,5
+Accumulating,Utilities,City,Employed,Medium,11481.94,Female,40 to 55,University,Married,High priority,Estate Planning,155000.0,Moderate,32,7
+Accumulating,Personal,City,Employed,Medium,14416.29,Male,40 to 55,University,Married,High priority,Estate Planning,350000.0,Growth,16,7
+Accumulating,Personal,City,Employed,Low,2963.6,Male,40 to 55,University,Married,High priority,Estate Planning,285000.0,Growth,23,2
+Accumulating,Food,City,Employed,High,3397.59,Male,40 to 55,University,Married,Low priority,Capital Acquisition,135000.0,Moderate,21,6
+Accumulating,Health,Urban,Employed,Very Low,1425.38,Female,55 to 65,University,Married,High priority,Increase Net Worth,510000.0,Growth,10,2
+Spending,Uncategorized,Urban,Selfemployed,Very High,14535.57,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,310000.0,Aggressive,27,1
+Accumulating,Recreation,City,Employed,High,1773.4,Male,30 to 40,College,Married,Low priority,Capital Acquisition,215000.0,Moderate,12,6
+Accumulating,Housing,City,Employed,Medium,15238.96,Male,30 to 40,College,Married,High priority,Estate Planning,420000.0,Growth,19,7
+Accumulating,Utilities,Urban,Employed,Very Low,985.53,Female,40 to 55,University,Married,High priority,Increase Net Worth,460000.0,Growth,29,2
+Accumulating,Health,City,Employed,Medium,16279.09,Female,55 to 65,University,Married,High priority,Estate Planning,220000.0,Moderate,22,7
+Accumulating,Savings,Urban,Selfemployed,Low,2165.56,Female,65 and over,Professional,Divorced,High priority,Increase Net Worth,165000.0,Growth,8,5
+Accumulating,Personal,City,Employed,Low,2579.36,Male,40 to 55,University,Married,High priority,Philanthropy,405000.0,Growth,17,2
+Accumulating,Recreation,City,Unemployed,Medium,1826.52,Male,23 to 30,High School,Married,Low priority,Capital Acquisition,95000.0,Moderate,9,6
+Starting,Recreation,Rural,Unemployed,Very High,4939.32,Male,65 and over,High School,Married,Low priority,Education Planning,50000.0,Conserviti,5,3
+Accumulating,Insurance,Urban,Retired,Very Low,948.87,Female,65 and over,PhD,Single,High priority,Increase Net Worth,110000.0,Growth,12,5
+Accumulating,Personal,City,Homemaker,Low,1556.08,Male,40 to 55,University,Married,High priority,Philanthropy,95000.0,Growth,9,5
+Starting,Recreation,City,Employed,Very High,4741.2,Male,30 to 40,College,Married,Low priority,Capital Acquisition,150000.0,Conserviti,8,3
+Starting,Recreation,Rural,Unemployed,Very High,3599.11,Male,65 and over,High School,Married,Low priority,Education Planning,50000.0,Conserviti,13,3
+Accumulating,Personal,City,Homemaker,Low,2939.25,Male,40 to 55,University,Married,High priority,Increase Net Worth,115000.0,Growth,19,5
+Spending,Giving,Urban,Retired,Very High,14785.45,Female,65 and over,Professional,Divorced,Normal priority,Increase Net Worth,120000.0,Aggressive,27,4
+Accumulating,Insurance,Urban,Retired,Low,1883.21,Female,65 and over,PhD,Single,High priority,Increase Net Worth,100000.0,Growth,26,5
+Accumulating,Health,Urban,Homemaker,Very Low,1326.57,Female,55 to 65,PhD,Single,High priority,Increase Net Worth,135000.0,Growth,27,5
+Spending,Insurance,Urban,Retired,Very High,12990.19,Female,65 and over,PhD,Single,Normal priority,Retirement Planning,145000.0,Aggressive,30,4
+Accumulating,Food,City,Employed,Medium,13500.59,Male,40 to 55,College,Married,Low priority,Capital Acquisition,260000.0,Moderate,10,7
+Spending,Travel,Urban,Homemaker,Very High,13216.75,Female,55 to 65,PhD,Married,High priority,Increase Net Worth,130000.0,Aggressive,10,4
+Gifting,Uncategorized,Urban,Selfemployed,Very High,11203.64,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,385000.0,Aggressive,14,1
+Starting,Recreation,Rural,Unemployed,Very High,5976.53,Male,23 to 30,High School,Married,Low priority,Education Planning,50000.0,Conserviti,28,3
+Accumulating,Health,Urban,Homemaker,Very Low,1271.3,Female,55 to 65,PhD,Single,High priority,Increase Net Worth,120000.0,Growth,5,5
+Spending,Uncategorized,Urban,Selfemployed,Very High,10098.3,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,215000.0,Aggressive,12,1
+Spending,Health,Urban,Employed,Very High,7591.58,Female,55 to 65,University,Married,High priority,Increase Net Worth,640000.0,Aggressive,18,2
+Starting,Recreation,Rural,Unemployed,Very High,3463.62,Male,23 to 30,High School,Married,Low priority,Education Planning,55000.0,Conserviti,29,3
+Accumulating,Health,Urban,Homemaker,Very Low,1468.77,Female,55 to 65,University,Married,High priority,Increase Net Worth,130000.0,Growth,31,5
+Accumulating,Personal,City,Homemaker,Medium,15138.89,Male,40 to 55,University,Married,High priority,Estate Planning,70000.0,Moderate,1,7
+Accumulating,Health,Urban,Homemaker,Low,3083.39,Female,55 to 65,University,Married,High priority,Increase Net Worth,120000.0,Growth,2,5
+Accumulating,Food,City,Employed,Medium,1566.16,Male,40 to 55,University,Married,High priority,Estate Planning,165000.0,Moderate,24,6
+Accumulating,Housing,City,Employed,Medium,17739.36,Male,30 to 40,College,Married,High priority,Estate Planning,280000.0,Growth,2,7
+Accumulating,Health,City,Employed,Low,3092.31,Female,55 to 65,University,Married,High priority,Increase Net Worth,345000.0,Growth,20,2
+Accumulating,Housing,City,Employed,Low,2559.56,Male,30 to 40,College,Married,High priority,Estate Planning,550000.0,Growth,28,2
+Spending,Travel,Urban,Homemaker,Very High,8367.89,Female,65 and over,PhD,Single,Normal priority,Increase Net Worth,125000.0,Aggressive,2,4
+Accumulating,Recreation,City,Unemployed,Medium,1561.91,Male,23 to 30,High School,Married,Low priority,Capital Acquisition,100000.0,Moderate,25,6
+Accumulating,Recreation,City,Unemployed,High,1335.65,Male,23 to 30,High School,Married,Low priority,Capital Acquisition,95000.0,Moderate,25,6
+Accumulating,Recreation,City,Unemployed,Medium,1458.85,Male,23 to 30,High School,Married,Low priority,Capital Acquisition,100000.0,Moderate,21,6
+Accumulating,Recreation,City,Employed,Medium,12228.93,Male,23 to 30,High School,Married,Low priority,Capital Acquisition,560000.0,Moderate,2,7
+Accumulating,Personal,City,Employed,Low,2146.4,Male,40 to 55,University,Married,High priority,Increase Net Worth,525000.0,Growth,29,2
+Accumulating,Food,City,Employed,Low,2778.67,Male,40 to 55,College,Married,High priority,Estate Planning,345000.0,Growth,32,2
+Accumulating,Health,Urban,Homemaker,Very Low,819.62,Female,55 to 65,PhD,Single,High priority,Increase Net Worth,135000.0,Growth,3,5
+Accumulating,Recreation,City,Employed,Medium,1431.62,Male,30 to 40,High School,Married,Low priority,Capital Acquisition,500000.0,Moderate,23,6
+Accumulating,Personal,City,Employed,Very Low,880.21,Male,40 to 55,College,Married,High priority,Increase Net Worth,385000.0,Growth,27,2
+Starting,Recreation,Rural,Unemployed,Very High,3683.14,Male,23 to 30,High School,Married,Low priority,Education Planning,55000.0,Conserviti,9,3
+Accumulating,Food,City,Employed,High,5182.32,Male,40 to 55,College,Married,Low priority,Capital Acquisition,140000.0,Moderate,32,6
+Accumulating,Food,City,Employed,Medium,14736.09,Male,40 to 55,College,Married,High priority,Estate Planning,420000.0,Moderate,20,7
+Accumulating,Travel,Urban,Retired,Very Low,1250.42,Female,55 to 65,PhD,Single,High priority,Increase Net Worth,125000.0,Growth,3,5
+Accumulating,Health,City,Homemaker,Low,1757.46,Female,55 to 65,PhD,Single,High priority,Philanthropy,80000.0,Growth,17,5
+Gifting,Uncategorized,Urban,Selfemployed,Very High,12619.43,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,325000.0,Aggressive,3,1
+Accumulating,Personal,City,Homemaker,High,3937.85,Male,40 to 55,University,Married,Low priority,Estate Planning,50000.0,Moderate,8,6
+Accumulating,Recreation,City,Employed,High,3836.02,Male,30 to 40,High School,Married,Low priority,Capital Acquisition,145000.0,Conserviti,31,6
+Accumulating,Health,City,Homemaker,Low,1987.46,Female,55 to 65,PhD,Single,High priority,Increase Net Worth,85000.0,Growth,31,5
+Spending,Savings,Urban,Selfemployed,Very High,10054.41,Female,65 and over,Professional,Divorced,Normal priority,Retirement Planning,320000.0,Aggressive,17,1
+Accumulating,Housing,City,Employed,Medium,11631.27,Male,30 to 40,College,Married,High priority,Estate Planning,420000.0,Growth,13,7
+Accumulating,Recreation,City,Employed,High,3975.98,Male,30 to 40,High School,Married,Low priority,Capital Acquisition,260000.0,Conserviti,26,6

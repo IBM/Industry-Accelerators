@@ -1,0 +1,1 @@
+{"description":"Data definition asset type","fields":[{"key":"data_asset","type":"object","facet":false,"is_array":false,"is_searchable_across_types":false}],"external_asset_preview":{},"relationships":[],"name":"data_definition","version":1,"scope":"GLOBAL"}

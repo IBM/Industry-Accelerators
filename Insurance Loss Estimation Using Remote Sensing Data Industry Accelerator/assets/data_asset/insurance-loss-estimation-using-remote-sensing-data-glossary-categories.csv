@@ -1,0 +1,3 @@
+Name,Artifact Type,Category,Description,Tags
+Industry Accelerators,category,,The IBM Industry Accelerators are a suite of collections of various artifacts intended to address a particular business or industry issue. ,
+Insurance Loss Estimation using Remote Sensing Data,category,Industry Accelerators,"The collection of concepts and metrics useful for estimation of insurance claims of properties using satellite remote sensing data during natural catastrophes such as floods (example included in use case), drought, storm events, tropical cyclones, etc. © Copyright IBM Corp. 2020, 2021. All Rights Reserved",

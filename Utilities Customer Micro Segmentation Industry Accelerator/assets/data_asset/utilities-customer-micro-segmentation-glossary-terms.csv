@@ -1,0 +1,5 @@
+Name,Artifact Type,Category,Description,Tags,Classifications,Stewards,Related Terms,Part Of Terms
+Account Balance,glossary_term,Industry Accelerators >> Utilities Customer Micro-Segmentation,"The total amount that is outstanding on the account, debit or credit.",,,,,
+Account Closed Date,glossary_term,Industry Accelerators >> Utilities Customer Micro-Segmentation,The date when the account was closed.,,,,,
+Account Currency,glossary_term,Industry Accelerators >> Utilities Customer Micro-Segmentation,Identifies the currency of the account.,,,,,
+Account Name,glossary_term,Industry Accelerators >> Utilities Customer Micro-Segmentation,A free-form text name of the account.,,,,,
