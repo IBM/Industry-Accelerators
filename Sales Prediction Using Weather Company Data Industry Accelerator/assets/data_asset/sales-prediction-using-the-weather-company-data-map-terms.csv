@@ -1,0 +1,247 @@
+Business Terms,Column_header,Table,File
+Air temperature,TemperatureLocalDayMin,WEATHER-SIGNALS,REALWEATHER
+Air temperature,TemperatureLocalAfternoonMin,WEATHER-SIGNALS,REALWEATHER
+Air temperature,TemperatureLocalEveningAvg,WEATHER-SIGNALS,REALWEATHER
+Air temperature,TemperatureLocalDaytimeMax,WEATHER-SIGNALS,REALWEATHER
+Air temperature,TemperatureLocalEveningMax,WEATHER-SIGNALS,REALWEATHER
+Air temperature,TemperatureLocalDaytimeMin,WEATHER-SIGNALS,REALWEATHER
+Air temperature,TemperatureLocalMorningMin,WEATHER-SIGNALS,REALWEATHER
+Air temperature,TemperatureLocalDaytimeAvg,WEATHER-SIGNALS,REALWEATHER
+Air temperature,TemperatureLocalOvernightMin,WEATHER-SIGNALS,REALWEATHER
+Air temperature,TemperatureLocalDayMax,WEATHER-SIGNALS,REALWEATHER
+Air temperature,TemperatureLocalMorningMax,WEATHER-SIGNALS,REALWEATHER
+Air temperature,TemperatureLocalDayAvg,WEATHER-SIGNALS,REALWEATHER
+Air temperature,TemperatureLocalNighttimeMin,WEATHER-SIGNALS,REALWEATHER
+Air temperature,TemperatureLocalAfternoonMax,WEATHER-SIGNALS,REALWEATHER
+Air temperature,TemperatureLocalMorningAvg,WEATHER-SIGNALS,REALWEATHER
+Air temperature,TemperatureLocalAfternoonAvg,WEATHER-SIGNALS,REALWEATHER
+Air temperature,TemperatureLocalOvernightMax,WEATHER-SIGNALS,REALWEATHER
+Air temperature,TemperatureLocalOvernightAvg,WEATHER-SIGNALS,REALWEATHER
+Air temperature,TemperatureLocalNighttimeAvg,WEATHER-SIGNALS,REALWEATHER
+Air temperature,TemperatureLocalNighttimeMax,WEATHER-SIGNALS,REALWEATHER
+Air temperature,TemperatureLocalEveningMin,WEATHER-SIGNALS,REALWEATHER
+Country Code,countrycode,WEATHER-SIGNALS,FAUXSALES
+Dew point temperature,DewpointLocalEveningMax,WEATHER-SIGNALS,REALWEATHER
+Dew point temperature,DewpointLocalDaytimeAvg,WEATHER-SIGNALS,REALWEATHER
+Dew point temperature,DewpointLocalMorningMin,WEATHER-SIGNALS,REALWEATHER
+Dew point temperature,DewpointLocalAfternoonMax,WEATHER-SIGNALS,REALWEATHER
+Dew point temperature,DewpointLocalOvernightAvg,WEATHER-SIGNALS,REALWEATHER
+Dew point temperature,DewpointLocalMorningAvg,WEATHER-SIGNALS,REALWEATHER
+Dew point temperature,DewpointLocalEveningAvg,WEATHER-SIGNALS,REALWEATHER
+Dew point temperature,DewpointLocalOvernightMin,WEATHER-SIGNALS,REALWEATHER
+Dew point temperature,DewpointLocalDayMax,WEATHER-SIGNALS,REALWEATHER
+Dew point temperature,DewpointLocalOvernightMax,WEATHER-SIGNALS,REALWEATHER
+Dew point temperature,DewpointLocalMorningMax,WEATHER-SIGNALS,REALWEATHER
+Dew point temperature,DewpointLocalNighttimeMin,WEATHER-SIGNALS,REALWEATHER
+Dew point temperature,DewpointLocalDayMin,WEATHER-SIGNALS,REALWEATHER
+Dew point temperature,DewpointLocalAfternoonMin,WEATHER-SIGNALS,REALWEATHER
+Dew point temperature,DewpointLocalEveningMin,WEATHER-SIGNALS,REALWEATHER
+Dew point temperature,DewpointLocalNighttimeAvg,WEATHER-SIGNALS,REALWEATHER
+Dew point temperature,DewpointLocalNighttimeMax,WEATHER-SIGNALS,REALWEATHER
+Dew point temperature,DewpointLocalAfternoonAvg,WEATHER-SIGNALS,REALWEATHER
+Dew point temperature,DewpointLocalDayAvg,WEATHER-SIGNALS,REALWEATHER
+Dew point temperature,DewpointLocalDaytimeMax,WEATHER-SIGNALS,REALWEATHER
+Dew point temperature,DewpointLocalDaytimeMin,WEATHER-SIGNALS,REALWEATHER
+Discount,discount,WEATHER-SIGNALS,FAUXSALES
+Feels like temperature,FeelsLikeLocalMorningAvg,WEATHER-SIGNALS,REALWEATHER
+Feels like temperature,FeelsLikeLocalDaytimeAvg,WEATHER-SIGNALS,REALWEATHER
+Feels like temperature,FeelsLikeLocalMorningMax,WEATHER-SIGNALS,REALWEATHER
+Feels like temperature,FeelsLikeLocalNighttimeMax,WEATHER-SIGNALS,REALWEATHER
+Feels like temperature,FeelsLikeLocalEveningAvg,WEATHER-SIGNALS,REALWEATHER
+Feels like temperature,FeelsLikeLocalOvernightMin,WEATHER-SIGNALS,REALWEATHER
+Feels like temperature,FeelsLikeLocalDayMin,WEATHER-SIGNALS,REALWEATHER
+Feels like temperature,FeelsLikeLocalOvernightMax,WEATHER-SIGNALS,REALWEATHER
+Feels like temperature,FeelsLikeLocalDayMax,WEATHER-SIGNALS,REALWEATHER
+Feels like temperature,FeelsLikeLocalDaytimeMin,WEATHER-SIGNALS,REALWEATHER
+Feels like temperature,FeelsLikeLocalAfternoonAvg,WEATHER-SIGNALS,REALWEATHER
+Feels like temperature,FeelsLikeLocalOvernightAvg,WEATHER-SIGNALS,REALWEATHER
+Feels like temperature,FeelsLikeLocalDaytimeMax,WEATHER-SIGNALS,REALWEATHER
+Feels like temperature,FeelsLikeLocalNighttimeAvg,WEATHER-SIGNALS,REALWEATHER
+Feels like temperature,FeelsLikeLocalEveningMax,WEATHER-SIGNALS,REALWEATHER
+Feels like temperature,FeelsLikeLocalEveningMin,WEATHER-SIGNALS,REALWEATHER
+Feels like temperature,FeelsLikeLocalAfternoonMax,WEATHER-SIGNALS,REALWEATHER
+Feels like temperature,FeelsLikeLocalAfternoonMin,WEATHER-SIGNALS,REALWEATHER
+Feels like temperature,FeelsLikeLocalMorningMin,WEATHER-SIGNALS,REALWEATHER
+Feels like temperature,FeelsLikeLocalNighttimeMin,WEATHER-SIGNALS,REALWEATHER
+Feels like temperature,FeelsLikeLocalDayAvg,WEATHER-SIGNALS,REALWEATHER
+Mean sea level pressure,MSLPLocalMorningMax,WEATHER-SIGNALS,REALWEATHER
+Mean sea level pressure,MSLPLocalOvernightAvg,WEATHER-SIGNALS,REALWEATHER
+Mean sea level pressure,MSLPLocalOvernightMax,WEATHER-SIGNALS,REALWEATHER
+Mean sea level pressure,MSLPLocalDayAvg,WEATHER-SIGNALS,REALWEATHER
+Mean sea level pressure,MSLPLocalNighttimeAvg,WEATHER-SIGNALS,REALWEATHER
+Mean sea level pressure,MSLPLocalEveningMax,WEATHER-SIGNALS,REALWEATHER
+Mean sea level pressure,MSLPLocalAfternoonMin,WEATHER-SIGNALS,REALWEATHER
+Mean sea level pressure,MSLPLocalMorningMin,WEATHER-SIGNALS,REALWEATHER
+Mean sea level pressure,MSLPLocalDayMax,WEATHER-SIGNALS,REALWEATHER
+Mean sea level pressure,MSLPLocalAfternoonAvg,WEATHER-SIGNALS,REALWEATHER
+Mean sea level pressure,MSLPLocalDayMin,WEATHER-SIGNALS,REALWEATHER
+Mean sea level pressure,MSLPLocalDaytimeMax,WEATHER-SIGNALS,REALWEATHER
+Mean sea level pressure,MSLPLocalEveningMin,WEATHER-SIGNALS,REALWEATHER
+Mean sea level pressure,MSLPLocalDaytimeMin,WEATHER-SIGNALS,REALWEATHER
+Mean sea level pressure,MSLPLocalOvernightMin,WEATHER-SIGNALS,REALWEATHER
+Mean sea level pressure,MSLPLocalNighttimeMax,WEATHER-SIGNALS,REALWEATHER
+Mean sea level pressure,MSLPLocalAfternoonMax,WEATHER-SIGNALS,REALWEATHER
+Mean sea level pressure,MSLPLocalDaytimeAvg,WEATHER-SIGNALS,REALWEATHER
+Mean sea level pressure,MSLPLocalNighttimeMin,WEATHER-SIGNALS,REALWEATHER
+Mean sea level pressure,MSLPLocalEveningAvg,WEATHER-SIGNALS,REALWEATHER
+Mean sea level pressure,MSLPLocalMorningAvg,WEATHER-SIGNALS,REALWEATHER
+Observation date time,dateandtime,WEATHER-SIGNALS,FAUXSALES
+Observation date time,date,WEATHER-SIGNALS,REALWEATHER
+Observation date time,date,WEATHER-SIGNALS,FAUXSALES
+Postal Code,postalcode,WEATHER-SIGNALS,REALWEATHER
+Postal Code,postalcode,WEATHER-SIGNALS,FAUXSALES
+Precipitation amount,PrecipAmountLocalAfternoonMin,WEATHER-SIGNALS,REALWEATHER
+Precipitation amount,PrecipAmountLocalMorningMax,WEATHER-SIGNALS,REALWEATHER
+Precipitation amount,PrecipAmountLocalEveningMax,WEATHER-SIGNALS,REALWEATHER
+Precipitation amount,PrecipAmountLocalOvernightMin,WEATHER-SIGNALS,REALWEATHER
+Precipitation amount,PrecipAmountLocalNighttimeMin,WEATHER-SIGNALS,REALWEATHER
+Precipitation amount,PrecipAmountLocalDayAvg,WEATHER-SIGNALS,REALWEATHER
+Precipitation amount,PrecipAmountLocalOvernightAvg,WEATHER-SIGNALS,REALWEATHER
+Precipitation amount,PrecipAmountLocalDaytimeMax,WEATHER-SIGNALS,REALWEATHER
+Precipitation amount,PrecipAmountLocalOvernightMax,WEATHER-SIGNALS,REALWEATHER
+Precipitation amount,PrecipAmountLocalNighttimeMax,WEATHER-SIGNALS,REALWEATHER
+Precipitation amount,PrecipAmountLocalEveningAvg,WEATHER-SIGNALS,REALWEATHER
+Precipitation amount,PrecipAmountLocalDayMin,WEATHER-SIGNALS,REALWEATHER
+Precipitation amount,PrecipAmountLocalEveningMin,WEATHER-SIGNALS,REALWEATHER
+Precipitation amount,PrecipAmountLocalAfternoonMax,WEATHER-SIGNALS,REALWEATHER
+Precipitation amount,PrecipAmountLocalAfternoonAvg,WEATHER-SIGNALS,REALWEATHER
+Precipitation amount,PrecipAmountLocalMorningAvg,WEATHER-SIGNALS,REALWEATHER
+Precipitation amount,PrecipAmountLocalNighttimeAvg,WEATHER-SIGNALS,REALWEATHER
+Precipitation amount,PrecipAmountLocalDayMax,WEATHER-SIGNALS,REALWEATHER
+Precipitation amount,PrecipAmountLocalMorningMin,WEATHER-SIGNALS,REALWEATHER
+Precipitation amount,PrecipAmountLocalDaytimeMin,WEATHER-SIGNALS,REALWEATHER
+Precipitation amount,PrecipAmountLocalDaytimeAvg,WEATHER-SIGNALS,REALWEATHER
+Product Name,productname,WEATHER-SIGNALS,FAUXSALES
+Product Type,producttype,WEATHER-SIGNALS,FAUXSALES
+Relative humidity,RelativeHumidityLocalEveningMax,WEATHER-SIGNALS,REALWEATHER
+Relative humidity,RelativeHumidityLocalAfternoonMax,WEATHER-SIGNALS,REALWEATHER
+Relative humidity,RelativeHumidityLocalDaytimeMax,WEATHER-SIGNALS,REALWEATHER
+Relative humidity,RelativeHumidityLocalNighttimeAvg,WEATHER-SIGNALS,REALWEATHER
+Relative humidity,RelativeHumidityLocalDayMax,WEATHER-SIGNALS,REALWEATHER
+Relative humidity,RelativeHumidityLocalEveningMin,WEATHER-SIGNALS,REALWEATHER
+Relative humidity,RelativeHumidityLocalEveningAvg,WEATHER-SIGNALS,REALWEATHER
+Relative humidity,RelativeHumidityLocalAfternoonMin,WEATHER-SIGNALS,REALWEATHER
+Relative humidity,RelativeHumidityLocalNighttimeMin,WEATHER-SIGNALS,REALWEATHER
+Relative humidity,RelativeHumidityLocalMorningAvg,WEATHER-SIGNALS,REALWEATHER
+Relative humidity,RelativeHumidityLocalOvernightMax,WEATHER-SIGNALS,REALWEATHER
+Relative humidity,RelativeHumidityLocalDayMin,WEATHER-SIGNALS,REALWEATHER
+Relative humidity,RelativeHumidityLocalAfternoonAvg,WEATHER-SIGNALS,REALWEATHER
+Relative humidity,RelativeHumidityLocalDaytimeAvg,WEATHER-SIGNALS,REALWEATHER
+Relative humidity,RelativeHumidityLocalNighttimeMax,WEATHER-SIGNALS,REALWEATHER
+Relative humidity,RelativeHumidityLocalDayAvg,WEATHER-SIGNALS,REALWEATHER
+Relative humidity,RelativeHumidityLocalMorningMax,WEATHER-SIGNALS,REALWEATHER
+Relative humidity,RelativeHumidityLocalDaytimeMin,WEATHER-SIGNALS,REALWEATHER
+Relative humidity,RelativeHumidityLocalOvernightMin,WEATHER-SIGNALS,REALWEATHER
+Relative humidity,RelativeHumidityLocalMorningMin,WEATHER-SIGNALS,REALWEATHER
+Relative humidity,RelativeHumidityLocalOvernightAvg,WEATHER-SIGNALS,REALWEATHER
+Sales Amount,sales,WEATHER-SIGNALS,FAUXSALES
+Sales Date,date,WEATHER-SIGNALS,FAUXSALES
+Sales DateTime,dateandtime,WEATHER-SIGNALS,FAUXSALES
+Sales Status,closed,WEATHER-SIGNALS,FAUXSALES
+Snow accumulation amount,SnowAmountLocalEveningMax,WEATHER-SIGNALS,REALWEATHER
+Snow accumulation amount,SnowAmountLocalMorningAvg,WEATHER-SIGNALS,REALWEATHER
+Snow accumulation amount,SnowAmountLocalOvernightAvg,WEATHER-SIGNALS,REALWEATHER
+Snow accumulation amount,SnowAmountLocalOvernightMin,WEATHER-SIGNALS,REALWEATHER
+Snow accumulation amount,SnowAmountLocalAfternoonMin,WEATHER-SIGNALS,REALWEATHER
+Snow accumulation amount,SnowAmountLocalNighttimeAvg,WEATHER-SIGNALS,REALWEATHER
+Snow accumulation amount,SnowAmountLocalEveningAvg,WEATHER-SIGNALS,REALWEATHER
+Snow accumulation amount,SnowAmountLocalDaytimeMax,WEATHER-SIGNALS,REALWEATHER
+Snow accumulation amount,SnowAmountLocalDayMax,WEATHER-SIGNALS,REALWEATHER
+Snow accumulation amount,SnowAmountLocalMorningMin,WEATHER-SIGNALS,REALWEATHER
+Snow accumulation amount,SnowAmountLocalEveningMin,WEATHER-SIGNALS,REALWEATHER
+Snow accumulation amount,SnowAmountLocalDaytimeAvg,WEATHER-SIGNALS,REALWEATHER
+Snow accumulation amount,SnowAmountLocalOvernightMax,WEATHER-SIGNALS,REALWEATHER
+Snow accumulation amount,SnowAmountLocalDayMin,WEATHER-SIGNALS,REALWEATHER
+Snow accumulation amount,SnowAmountLocalMorningMax,WEATHER-SIGNALS,REALWEATHER
+Snow accumulation amount,SnowAmountLocalDayAvg,WEATHER-SIGNALS,REALWEATHER
+Snow accumulation amount,SnowAmountLocalDaytimeMin,WEATHER-SIGNALS,REALWEATHER
+Snow accumulation amount,SnowAmountLocalAfternoonAvg,WEATHER-SIGNALS,REALWEATHER
+Snow accumulation amount,SnowAmountLocalNighttimeMin,WEATHER-SIGNALS,REALWEATHER
+Snow accumulation amount,SnowAmountLocalNighttimeMax,WEATHER-SIGNALS,REALWEATHER
+Snow accumulation amount,SnowAmountLocalAfternoonMax,WEATHER-SIGNALS,REALWEATHER
+Store Identifier,placeId,WEATHER-SIGNALS,FAUXSALES
+Store name,placeName,WEATHER-SIGNALS,FAUXSALES
+Ultraviolet index,UVIndexLocalAfternoonAvg,WEATHER-SIGNALS,REALWEATHER
+Ultraviolet index,UVIndexLocalMorningAvg,WEATHER-SIGNALS,REALWEATHER
+Ultraviolet index,UVIndexLocalMorningMax,WEATHER-SIGNALS,REALWEATHER
+Ultraviolet index,UVIndexLocalDaytimeMin,WEATHER-SIGNALS,REALWEATHER
+Ultraviolet index,UVIndexLocalOvernightMax,WEATHER-SIGNALS,REALWEATHER
+Ultraviolet index,UVIndexLocalOvernightMin,WEATHER-SIGNALS,REALWEATHER
+Ultraviolet index,UVIndexLocalDaytimeMax,WEATHER-SIGNALS,REALWEATHER
+Ultraviolet index,UVIndexLocalDayAvg,WEATHER-SIGNALS,REALWEATHER
+Ultraviolet index,UVIndexLocalEveningMax,WEATHER-SIGNALS,REALWEATHER
+Ultraviolet index,UVIndexLocalNighttimeAvg,WEATHER-SIGNALS,REALWEATHER
+Ultraviolet index,UVIndexLocalEveningMin,WEATHER-SIGNALS,REALWEATHER
+Ultraviolet index,UVIndexLocalOvernightAvg,WEATHER-SIGNALS,REALWEATHER
+Ultraviolet index,UVIndexLocalDayMin,WEATHER-SIGNALS,REALWEATHER
+Ultraviolet index,UVIndexLocalNighttimeMax,WEATHER-SIGNALS,REALWEATHER
+Ultraviolet index,UVIndexLocalAfternoonMin,WEATHER-SIGNALS,REALWEATHER
+Ultraviolet index,UVIndexLocalDayMax,WEATHER-SIGNALS,REALWEATHER
+Ultraviolet index,UVIndexLocalNighttimeMin,WEATHER-SIGNALS,REALWEATHER
+Ultraviolet index,UVIndexLocalAfternoonMax,WEATHER-SIGNALS,REALWEATHER
+Ultraviolet index,UVIndexLocalMorningMin,WEATHER-SIGNALS,REALWEATHER
+Ultraviolet index,UVIndexLocalDaytimeAvg,WEATHER-SIGNALS,REALWEATHER
+Ultraviolet index,UVIndexLocalEveningAvg,WEATHER-SIGNALS,REALWEATHER
+Visibility,VisibilityLocalOvernightMin,WEATHER-SIGNALS,REALWEATHER
+Visibility,VisibilityLocalAfternoonAvg,WEATHER-SIGNALS,REALWEATHER
+Visibility,VisibilityLocalDayMax,WEATHER-SIGNALS,REALWEATHER
+Visibility,VisibilityLocalDaytimeMin,WEATHER-SIGNALS,REALWEATHER
+Visibility,VisibilityLocalDayMin,WEATHER-SIGNALS,REALWEATHER
+Visibility,VisibilityLocalNighttimeMax,WEATHER-SIGNALS,REALWEATHER
+Visibility,VisibilityLocalAfternoonMax,WEATHER-SIGNALS,REALWEATHER
+Visibility,VisibilityLocalOvernightMax,WEATHER-SIGNALS,REALWEATHER
+Visibility,VisibilityLocalEveningMax,WEATHER-SIGNALS,REALWEATHER
+Visibility,VisibilityLocalDaytimeMax,WEATHER-SIGNALS,REALWEATHER
+Visibility,VisibilityLocalMorningMin,WEATHER-SIGNALS,REALWEATHER
+Visibility,VisibilityLocalDaytimeAvg,WEATHER-SIGNALS,REALWEATHER
+Visibility,VisibilityLocalEveningMin,WEATHER-SIGNALS,REALWEATHER
+Visibility,VisibilityLocalAfternoonMin,WEATHER-SIGNALS,REALWEATHER
+Visibility,VisibilityLocalNighttimeMin,WEATHER-SIGNALS,REALWEATHER
+Visibility,VisibilityLocalNighttimeAvg,WEATHER-SIGNALS,REALWEATHER
+Visibility,VisibilityLocalMorningAvg,WEATHER-SIGNALS,REALWEATHER
+Visibility,VisibilityLocalDayAvg,WEATHER-SIGNALS,REALWEATHER
+Visibility,VisibilityLocalOvernightAvg,WEATHER-SIGNALS,REALWEATHER
+Visibility,VisibilityLocalEveningAvg,WEATHER-SIGNALS,REALWEATHER
+Visibility,VisibilityLocalMorningMax,WEATHER-SIGNALS,REALWEATHER
+Wind gust speed,GustLocalDaytimeAvg,WEATHER-SIGNALS,REALWEATHER
+Wind gust speed,GustLocalDaytimeMax,WEATHER-SIGNALS,REALWEATHER
+Wind gust speed,GustLocalAfternoonMax,WEATHER-SIGNALS,REALWEATHER
+Wind gust speed,GustLocalEveningMax,WEATHER-SIGNALS,REALWEATHER
+Wind gust speed,GustLocalNighttimeAvg,WEATHER-SIGNALS,REALWEATHER
+Wind gust speed,GustLocalMorningMin,WEATHER-SIGNALS,REALWEATHER
+Wind gust speed,GustLocalOvernightMax,WEATHER-SIGNALS,REALWEATHER
+Wind gust speed,GustLocalNighttimeMin,WEATHER-SIGNALS,REALWEATHER
+Wind gust speed,GustLocalNighttimeMax,WEATHER-SIGNALS,REALWEATHER
+Wind gust speed,GustLocalDaytimeMin,WEATHER-SIGNALS,REALWEATHER
+Wind gust speed,GustLocalMorningAvg,WEATHER-SIGNALS,REALWEATHER
+Wind gust speed,GustLocalDayMin,WEATHER-SIGNALS,REALWEATHER
+Wind gust speed,GustLocalDayAvg,WEATHER-SIGNALS,REALWEATHER
+Wind gust speed,GustLocalEveningAvg,WEATHER-SIGNALS,REALWEATHER
+Wind gust speed,GustLocalMorningMax,WEATHER-SIGNALS,REALWEATHER
+Wind gust speed,GustLocalDayMax,WEATHER-SIGNALS,REALWEATHER
+Wind gust speed,GustLocalEveningMin,WEATHER-SIGNALS,REALWEATHER
+Wind gust speed,GustLocalAfternoonMin,WEATHER-SIGNALS,REALWEATHER
+Wind gust speed,GustLocalOvernightMin,WEATHER-SIGNALS,REALWEATHER
+Wind gust speed,GustLocalAfternoonAvg,WEATHER-SIGNALS,REALWEATHER
+Wind gust speed,GustLocalOvernightAvg,WEATHER-SIGNALS,REALWEATHER
+Wind speed,WindSpeedLocalOvernightMin,WEATHER-SIGNALS,REALWEATHER
+Wind speed,WindSpeedLocalNighttimeMin,WEATHER-SIGNALS,REALWEATHER
+Wind speed,WindSpeedLocalAfternoonMin,WEATHER-SIGNALS,REALWEATHER
+Wind speed,WindSpeedLocalMorningMin,WEATHER-SIGNALS,REALWEATHER
+Wind speed,WindSpeedLocalMorningAvg,WEATHER-SIGNALS,REALWEATHER
+Wind speed,WindSpeedLocalNighttimeMax,WEATHER-SIGNALS,REALWEATHER
+Wind speed,WindSpeedLocalNighttimeAvg,WEATHER-SIGNALS,REALWEATHER
+Wind speed,WindSpeedLocalAfternoonAvg,WEATHER-SIGNALS,REALWEATHER
+Wind speed,WindSpeedLocalEveningMin,WEATHER-SIGNALS,REALWEATHER
+Wind speed,WindSpeedLocalMorningMax,WEATHER-SIGNALS,REALWEATHER
+Wind speed,WindSpeedLocalDaytimeMax,WEATHER-SIGNALS,REALWEATHER
+Wind speed,WindSpeedLocalOvernightMax,WEATHER-SIGNALS,REALWEATHER
+Wind speed,WindSpeedLocalDayMax,WEATHER-SIGNALS,REALWEATHER
+Wind speed,WindSpeedLocalOvernightAvg,WEATHER-SIGNALS,REALWEATHER
+Wind speed,WindSpeedLocalEveningMax,WEATHER-SIGNALS,REALWEATHER
+Wind speed,WindSpeedLocalEveningAvg,WEATHER-SIGNALS,REALWEATHER
+Wind speed,WindSpeedLocalAfternoonMax,WEATHER-SIGNALS,REALWEATHER
+Wind speed,WindSpeedLocalDaytimeAvg,WEATHER-SIGNALS,REALWEATHER
+Wind speed,WindSpeedLocalDayMin,WEATHER-SIGNALS,REALWEATHER
+Wind speed,WindSpeedLocalDayAvg,WEATHER-SIGNALS,REALWEATHER
+Wind speed,WindSpeedLocalDaytimeMin,WEATHER-SIGNALS,REALWEATHER

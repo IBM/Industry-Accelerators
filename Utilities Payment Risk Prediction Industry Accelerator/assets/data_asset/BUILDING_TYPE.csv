@@ -1,0 +1,12 @@
+BUILDING_TYPE_ID,BUILDING_TYPE_CD,BUILDING_TYPE
+0,BT0,Single Family
+1,BT1,Townhouse
+2,BT2,Condominium
+3,BT3,Apartment
+4,BT4,Dormitory
+5,BT5,Duplex
+6,BT6,Bungalow
+7,BT7,Villa
+8,BT8,Semi-detached
+9,BT9,Housebarn
+10,BT10,Other

@@ -1,0 +1,1 @@
+{"description":"Virtual Data Asset Type","fields":[{"key":"virtual_asset_type","type":"string","facet":true,"is_array":false,"is_searchable_across_types":false}],"external_asset_preview":{},"relationships":[],"name":"virtual_data_asset","version":1}
