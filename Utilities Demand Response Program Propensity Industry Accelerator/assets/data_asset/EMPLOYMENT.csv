@@ -1,0 +1,11 @@
+EMPLOYMENT_ID,EMPLOYMENT_CD,EMPLOYMENT
+1,E1,Employed full-time
+2,E2,"Employed full-time, Student"
+3,E3,Employed part-time
+4,E4,"Employed part-time, Stay at home parent"
+5,E5,"Employed part-time, Student"
+6,E6,Not currently employed
+7,E7,Retired
+8,E8,Stay at home parent
+9,E9,Student
+10,E10,Unknown

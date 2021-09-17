@@ -1,0 +1,16 @@
+Name,Artifact Type,Category,Description
+Bigram,glossary_term,Industry Accelerators >> Comments Organizer,A sequence of two words.
+Part-of-speech Tag,glossary_term,Industry Accelerators >> Comments Organizer,Part of speech tag of each unigram in the bigram.
+Sentiment Score,glossary_term,Industry Accelerators >> Comments Organizer,The predicted sentiment score.
+Unigram,glossary_term,Industry Accelerators >> Comments Organizer,A single word.
+Negative Dominator,glossary_term,Industry Accelerators >> Comments Organizer,"A list of negative composition words belonging to the dominator semantic class. The dominator dictates the sentiment of the bigram, overriding any conflicting sentiment of the other unigram."
+Positive Dominator,glossary_term,Industry Accelerators >> Comments Organizer,"A list of positive composition words belonging to the dominator semantic class. The dominator dictates the sentiment of the bigram, overriding any conflicting sentiment of the other unigram."
+Positive Propagator,glossary_term,Industry Accelerators >> Comments Organizer,"A list of positive composition words belonging to the propagator semantic class. Propagators are sentiment words that, when followed by a word with opposite sentiment, propagate the sentiment of the other word to the bigram level."
+Negative Propagator,glossary_term,Industry Accelerators >> Comments Organizer,"A list of negative composition words belonging to propagator semantic class. Propagators are sentiment words that, when followed by a word with opposite sentiment, propagate the sentiment of the other word to the bigram level."
+Positive Reverser,glossary_term,Industry Accelerators >> Comments Organizer,A list of positive composition words belonging to reverser semantic class. 
+Negative Reverser,glossary_term,Industry Accelerators >> Comments Organizer,A list of negative composition words belonging to reverser semantic class.
+Article Title,glossary_term,Industry Accelerators >> Comments Organizer,The name of the article from which the sentence was extracted.
+Sentence,glossary_term,Industry Accelerators >> Comments Organizer,The text of the sentence.
+SectionTitle,glossary_term,Industry Accelerators >> Comments Organizer,The title of the section from which the sentence was extracted.
+Article Link,glossary_term,Industry Accelerators >> Comments Organizer,A link to the Wikipedia article from which the sentence was extracted.
+Adjectives,glossary_term,Industry Accelerators >> Comments Organizer,A list of words for adjectives.

@@ -1,0 +1,1 @@
+{"description":"Flow attachment asset type","fields":[{"key":"properties","type":"object","facet":false,"is_array":false,"is_searchable_across_types":false}],"external_asset_preview":{},"relationships":[],"name":"machine-learning-canvas-flow","version":1}

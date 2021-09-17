@@ -1,0 +1,1 @@
+{"description":"data_flow","fields":[{"key":"sub_type","type":"string","facet":false,"is_array":false,"is_searchable_across_types":false}],"relationships":[],"name":"data_flow","version":1}

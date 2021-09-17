@@ -1,0 +1,112 @@
+Name,Artifact Type,Category,Description,Tags,Classifications,Stewards,Related Terms,Part Of Terms
+Address Line 1 Description,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,"First line of the address, which includes street and building number.",,,,,
+Agreement,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,"A mutual understanding between two or more parties, each committing themselves to fulfill one or more obligations. An agreement can be a financial services contract, an intermediary agreement, a provider agreement or an employment agreement. ",,,,,
+Area Polygon,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,A set of points on a map which define a boundary. ,,,,,
+Area within Impact Zone,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,A binary flag that indicates whether a given property falls under a loss impact zone.,,,,,
+Assessment and Score,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,An assessment or score that indicates the magnitude of an event,,,,,
+Base Flood Elevation,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,The elevation to which the flood is anticipated to rise during the base flood.,,,,,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data >> Event
+Basement Surface Area,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,The surface area of the building basement floor. ,,,,,
+Calendar Date,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,Calendar date expressed in the standard format of the insurance company. Time in day is a dimension member of Calendar Date and indicates the time in day when activity or event has taken place.,,,,,
+Catastrophe Code,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,"Code used by the insurance authorities, for example the Association of British Insurers, to identify the event. ",,,,,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data >> Event
+City Name,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,"Identifies the label assigned to or by which a city may be identified, for example: Chicago, Dublin, Sydney.",,,,,
+Claim,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,A formal process to an insurance company asking for a payment based on the terms of an insurance policy.,,,,,
+Claim Deductible Amount,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,Total deductible (or excess) amount which must be paid by the insured under the claim or claim item. At elementary claim level derived from the applicable deductibles for the coverage components against which the claim benefit is requested.  At claim folder level derived from the deductibles at the elementary claim level adjusted with deductibles applied to the insurance policies against which the claim is recorded.,,,,,
+Claim Description,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data, A free-text statement used to explain what is represented by this claim.,,,,,
+Claim Handler Party,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,"Person, for example the insurance company employee or independent loss adjuster, who is responsible for settling the claim. ",,,,,
+Claim Identifier,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,The number or code assigned to the claim by the insurance company for identification or communication purposes.,,,,,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data >> Claim
+Claim Outstanding Amount,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data, Amount which the insurance company still expects to pay out in respect of the claim or claim item. ,,,,,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data >> Claim
+Claims paid net of reinsurance,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,"Net claims paid for the financial year in question, after reinsurance and excluding claims management costs. ",,,,,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data >> Claim
+Construction End Date,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,The date the construction of the property was ended.,,,,,
+Construction Material,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,Identifies a classification of buildings (Structures) according to their construction material. ,,,,,
+Construction Start Date,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,The date the construction of the property was started.,,,,,
+Construction Type,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,With regard to residential building insurance a distinction is made based on the material used for the construction.,,,,,
+Coordinates,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,"The location of the place, expressed in measurements with respect to a commonly used reference system.  The coordinates identify both the reference system and the values with respect to the dimensions of the reference system. Coordinates can be used to define targeted areas in marketing activities. ",,,,,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data >> Flood Area
+,,,,,,,,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data >> Area Polygon
+Damage Impact Zone,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,A zone that is classified as to whether it is impacted due to the event in terms of damage magnitude.,,,,,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data >> Assessment and Score
+Distance,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,The distance between one point and the next point in the shape. ,,,,,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data >> Geometric Shape
+,,,,,,,,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data >> Flood Area
+,,,,,,,,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data >> Area Polygon
+Distance to Nearest Impact Zone,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,Distance to the nearest zone that is classified as to whether it is impacted due to the event in terms of damage magnitude. ,,,,,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data >> Assessment and Score
+Email Address,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,"An electronic address that can be used to send and receive correspondence over a computer network, for example: jsmith@jonesinc.com.",,,,,
+Estimated Claim Amount,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,Likely total value of the claim estimated by the insurance company when the claim was opened up to the point that the claim is finally settled. ,,,,,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data >> Claim
+Estimated Claim Settlement,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,Total value of the claim settlement cost estimated by the insurance company for a property when the claim was opened up to the point that the claim is finally settled. ,,,,,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data >> Claim
+Event,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data, A happening that is of interest to the modelled organization. ,,,,,
+Event Area,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,Geographical area impacted by the event.,,,,,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data >> Event
+Event Duration,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,Duration of the event (days from start). ,,,,,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data >> Event
+Event Time,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data, The time at which the event is considered to have happened. ,,,,,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data >> Event
+Extended Coverage,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,"The insurance of additional perils. For example : willful damages, strike, etc. In most cases extended coverage constitutes a supplement to fire and fire business interruption insurance for industrial and commercial enterprises.  It indicates that the insurance contains all perils and liability in the event, may be higher than with standard insurance policies.",,,,,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data >> Agreement
+Flood Area,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,"A risk area that identifies a geographical area as a single unit to which a same set of flood risk characteristics apply.
+It describes the boundaries of the area that is considered as exposed to a same level of flood risk.",,,,,
+Geometric Shape,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,"A geometric shape is a shape used to describe the outline of a boundary, line or area.",,,,,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data >> Flood Area
+,,,,,,,,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data >> Area Polygon
+Geometric Shape Name,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,Name of geometric shape. ,,,,,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data >> Geometric Shape
+,,,,,,,,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data >> Flood Area
+,,,,,,,,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data >> Area Polygon
+Impact Score,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,The metric showing the assessed or observed severity of the damage incurred to the property. This could be based on a physical inspection or based on observation based on change detected from satellite observations before and after the loss event.,,,,,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data >> Assessment and Score
+Insurance Claim Amount,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,Amount claimed as insurance from the policy provider. ,,,,,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data >> Claim
+Insurance Policy,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,The unique identifier of an insurance policy.,,,,,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data >> Agreement
+Insurance Product,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,"A definition of a type of financial services product, that is complete and has or can be released to the market. ",,,,,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data >> Product
+Insurer,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,A party who offers protection to the insured in a financial services agreement. It is the insurance company that actually underwrites and issues the insurance contract.,,,,,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data >> Party
+Latitude,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,A geographic coordinate that specifies the north-south position of a point on the Earth's surface. Values can range from -90 (south) to 90 (north). ,,,,,
+Layer Reference,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,The external reference given for layer shape in a map. ,,,,,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data >> Geometric Shape
+,,,,,,,,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data >> Flood Area
+,,,,,,,,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data >> Area Polygon
+Line of Business,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,"Identification of the line of business, as defined in Annex I to Delegated Regulation (EU) 2015/35, reported. The following closed list shall be used:
+1 — 1 and 13 Medical expense insurance
+2 — 2 and 14 Income protection insurance
+3 — 3 and 15 Workers' compensation insurance
+4 — 4 and 16 Motor vehicle liability insurance
+5 — 5 and 17 Other motor insurance
+6 — 6 and 18 Marine, aviation and transport insurance
+7 — 7 and 19 Fire and other damage to property insurance
+8 — 8 and 20 General liability insurance
+9 — 9 and 21 Credit and suretyship insurance
+10 — 10 and 22 Legal expenses insurance
+11 — 11 and 23 Assistance
+12 — 12 and 24 Miscellaneous financial loss
+25 — Non–proportional health reinsurance
+26 — Non–proportional casualty reinsurance
+27 — Non–proportional marine, aviation and transport reinsurance
+28 — Non–proportional property reinsurance
+{Alt Definition}
+Line of business as defined in Annex 1 of Delegated Regulation (EU) 2015/35The following closed list shall be used:
+29 Health insurance
+30 Insurance with profit participation
+31 Index linked and unit linked insurance
+32 Other life insurance
+33 Annuities stemming from nonlife insurance contracts and relating to health insurance obligations
+34 Annuities stemming from nonlife insurance contracts and relating to insurance obligations other than health insurance obligations
+35 Health reinsurance
+36 Life reinsurance",,,,,
+Location Resolution,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,The resolution of a shape which defines how precise the location information is. ,,,,,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data >> Geometric Shape
+Longitude,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,A geographic coordinate that specifies the east-west position of a point on the Earth's surface.,,,,,
+Loss Event,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,A specific incident that results or may result in a claim for an insurance benefit.,,,,,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data >> Claim
+Natural Phenomenon Name,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,Name of the loss event that occurs and is unavoidable because it is not the responsibility of an object or human being. For example : Hurricane Laura.,,,,,
+Nearest Impacted Zone Score,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,The metric showing the assessed or observed severity of the damage incurred to the property in the nearest impacted zone.,,,,,
+Nearest Impact Zone,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,The nearest zone that is classified as to whether it is impacted due to the event in terms of damage magnitude. ,,,,,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data >> Assessment and Score
+Number of Points,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,Number of points used to capture the shape of a boundary or line. ,,,,,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data >> Geometric Shape
+,,,,,,,,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data >> Flood Area
+Number of Rooms,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,The number of rooms the property was constructed with.,,,,,
+Occupancy Period,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,"The period of occupancy of the property. For example : including day and night, daytime only, weekends only.",,,,,
+Owner Name,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,Name of the owner of the property.,,,,,
+Party,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,A person or an organization. ,,,,,
+Place Population Density,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,The classification of places by their density of human population. ,,,,,
+Previous Claims,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,The number of previous claims made for the property.,,,,,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data >> Claim
+Product,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,"Product identifies goods and services that can be offered, sold, or purchased by the customers.",,,,,
+Property Damage Cost,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,The cost of the damages incurred to the property.,,,,,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data >> Claim
+Property Identifier,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,The unique identifier of a property.,,,,,
+Property Size,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,The size of property in terms of area.,,,,,
+Property Type,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,Code indicating the structure type of the building in which the household lives. For example : commercial or residential.,,,,,
+Property Value,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,The market value of the household's primary residential home.,,,,,
+Protection Category,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,"The category of protection of the property. For example : flood protected, unprotected. ",,,,,
+Renovation Date,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,The date of renovation of the property.,,,,,
+Replacement Value,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,The cost of replacing an existing property with a similar property at the current market price.,,,,,
+Risk Area,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,A place that identifies a geographical area as a single unit to which a same set of risk conditions apply. It describes the boundaries of the area that is considered as exposed to a same level of risk.  Identifies a place as it can be found on a risk place map. ,,,,,
+Standard Policy Deductible,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,The total deductible applicable for a given coverage.,,,,,
+Sum Insured Limit,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,The highest limit of amount that the insurer can be obliged to pay out under the policy. ,,,,,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data >> Agreement
+Telephone Number,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,The general-purpose telephone information that is needed to contact a wired or wireless telephone device.,,,,,
+Year Electricity Upgraded,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,Year when the building was last electrically wired or re-wired.,,,,,
+Year Heating Upgraded,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,Year when the heating system in the building was last upgraded. ,,,,,
+Year Plumbing Upgraded,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,Year when the plumbing system in the building was last upgraded. ,,,,,
+Year Roof Upgraded,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,Year when the roof of the building was constructed of the current materials. ,,,,,
+Years Since Construction,glossary_term,Industry Accelerators >> Insurance Loss Estimation using Remote Sensing Data,Number of years since the construction of a property.,,,,,

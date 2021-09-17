@@ -1,0 +1,1 @@
+{"description":"RShiny","fields":[{"key":"name","type":"string","facet":false,"is_array":false,"is_searchable_across_types":false},{"key":"entity","type":"object","facet":false,"is_array":false,"is_searchable_across_types":false}],"external_asset_preview":{},"relationships":[],"name":"shiny_asset","version":2}

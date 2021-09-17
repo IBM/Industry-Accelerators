@@ -1,0 +1,1 @@
+{"fields":[{"key":"name","type":"string","facet":false,"is_array":false,"is_searchable_across_types":false},{"key":"entity","type":"object","facet":false,"is_array":false,"is_searchable_across_types":false}],"relationships":[],"name":"auto_ml","version":1}
