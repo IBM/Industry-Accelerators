@@ -1,5 +1,5 @@
 # Customer 360 Degree View
-Download the project `customer-360-degree-view-industry-accelerator.tar.gz` from the Releases `CPDv3.5.x` and import it into Cloud Pak for Data V3.5. You can also follow the instructions from the [community page link](https://https://community.ibm.com/community/user/cloudpakfordata/viewdocument/customer-360-degree-view) to download and import the project.
+Download the project `customer-360-degree-view-industry-accelerator.tar.gz` from the Releases `CPDv3.0.x` and import it into Cloud Pak for Data V2.5. You can also follow the instructions from the [community page link](https://https://community.ibm.com/community/user/cloudpakfordata/viewdocument/customer-360-degree-view) to download and import the project.
 ## Introduction
 Customer 360 Degree View accelerator includes a structured glossary of more than 100 business terms and set of sample data science artefacts. The glossary provides the information architecture that you need to understand your customers better. Jump-start your analysis to get a complete picture of your customer base. Your data scientists can use the data associated with this glossary to gain insight into facets such as:
 - Customer segmentation

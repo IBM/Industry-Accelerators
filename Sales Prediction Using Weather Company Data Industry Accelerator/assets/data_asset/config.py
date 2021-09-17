@@ -51,7 +51,7 @@ from sklearn.linear_model import LinearRegression, SGDRegressor, Lasso, Logistic
 # from sklearn.externals import joblib
 
 #
-from ibm_watson_machine_learning import APIClient
+from watson_machine_learning_client import WatsonMachineLearningAPIClient
 
 # notify scientist: completed analyses
 print("DONE: 'STEP 0.1a: Import Software Packages' analysis")
@@ -552,12 +552,11 @@ num_jobs = 2
 space_name = "{}_{}".format(name_offering, name_client)
 
 # specify the WML client credentials
-
 wml_credentials = {
-   "token": os.environ['USER_ACCESS_TOKEN'],
-   "instance_id" : "openshift",
-   "url": os.environ['RUNTIME_ENV_APSX_URL'],
-   "version": "3.5"
+    "token": os.environ['USER_ACCESS_TOKEN'],
+    "instance_id": "openshift",
+    "url": os.environ['RUNTIME_ENV_APSX_URL'],
+    "version": "3.0.0"
 }
 
 # notify scientist: completed analyses

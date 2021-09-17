@@ -1,6 +1,6 @@
 # Retail Analytics with Weather
 
-Download the project `retail-analytics-with-weather-industry-accelerator.tar.gz` from the Releases `CPDv3.5.x` and import it into Cloud Pak for Data v3.5.x. You can also follow the instructions from [Community Page](https://community.ibm.com/community/user/cloudpakfordata/viewdocument/retail-predictive-analytics-with-we) to download and import the project.
+Download the project `retail-analytics-with-weather-industry-accelerator.tar.gz` from the Releases `CPDv3.0.x` and import it into Cloud Pak for Data v3.0.x. You can also follow the instructions from [Community Page](https://community.ibm.com/community/user/cloudpakfordata/viewdocument/retail-predictive-analytics-with-we) to download and import the project.
 
 
 Easily visualize which retail locations, products, and weather conditions have higher predicted revenue

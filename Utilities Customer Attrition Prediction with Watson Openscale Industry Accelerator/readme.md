@@ -1,6 +1,6 @@
 # Utilities Customer Attrition Prediction with Watson Openscale
 
-Download the project `utilities-customer-attrition-prediction-using-WatsonOpenscale-industry-accelerator.tar.gz` from the Releases `CPDv3.5.x` and import it into Cloud Pak for Data V3.5.x. You can also follow the instructions from the [Community Page](https://community.ibm.com/community/user/cloudpakfordata/viewdocument/utilities-customer-attrition-predic) to download and import the project.
+Download the project `utilities-customer-attrition-prediction-using-WatsonOpenscale-industry-accelerator.tar.gz` from the Releases `CPDv3.0.x` and import it into Cloud Pak for Data V3.0.x. You can also follow the instructions from the [Community Page](https://community.ibm.com/community/user/cloudpakfordata/viewdocument/utilities-customer-attrition-predic) to download and import the project.
 
 ## Introduction
 

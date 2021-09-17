@@ -1,6 +1,6 @@
 # Manufacturing Analytics With Weather
 
-Download the project `manufacturing-analytics-with-weather-industry-accelerator.tar.gz` from the Releases `CPDv3.5.x` and import it into Cloud Pak for Data v3.5.x. You can also follow the instructions from [Community Page](https://community.ibm.com/community/user/cloudpakfordata/viewdocument/manufacturing-analytics-with-weathe) to download and import the project.
+Download the project `manufacturing-analytics-with-weather-industry-accelerator.tar.gz` from the Releases `CPDv3.0.x` and import it into Cloud Pak for Data v3.0.x. You can also follow the instructions from [Community Page](https://community.ibm.com/community/user/cloudpakfordata/viewdocument/manufacturing-analytics-with-weathe) to download and import the project.
 
 
 Manufacturers need to quickly identify the reasons why there are high amounts of scrap rate to save

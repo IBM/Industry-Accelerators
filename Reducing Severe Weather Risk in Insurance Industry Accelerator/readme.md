@@ -1,6 +1,5 @@
-## Using The Cloud Pak For Data To Reduce Severe Weather Risk
-
-Download the project `reducing-severe-weather-risk-in-insurance-industry-accelerator.tar.gz` from the Releases `CPDv3.5.x` and import it into Cloud Pak for Data v3.5.x. You can also follow the instructions from [Community Page](https://community.ibm.com/community/user/cloudpakfordata/viewdocument/reducing-severe-weather-risk) to download and import the project.
+## Using The Cloud Pak For Data Platform To Reduce Severe Weather Risk
+Download the project `reducing-severe-weather-risk-in-insurance-industry-accelerator.tar.gz` from the Releases `CPDv3.0.x` and import it into Cloud Pak for Data v3.0.x. You can also follow the instructions from [Community Page](https://community.ibm.com/community/user/cloudpakfordata/viewdocument/reducing-severe-weather-risk) to download and import the project.
 
 Severe weather has a significant impact on insurers and their policyholders. This industry accelerator
 simulates a point in history where there were billions of dollars of damage caused by fire, wind and hail
