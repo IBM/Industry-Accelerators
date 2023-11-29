@@ -59,9 +59,9 @@ For further information, see [Setting up reporting for IBM Knowledge Catalog](ht
 
 ## Create database views
 #### Create database functions to retrieve category paths and IAV topic
-- Once reporting has been established, connect to the database, and create the functions [getCathPath](https://github.com/IBM/Industry-Accelerators/blob/master/CPD%204.8.0.0/reg-governance-dashboard/F_getCatPath.sql) and [getIAV](https://github.com/IBM/Industry-Accelerators/blob/master/CPD%204.8.0.0/reg-governance-dashboard/F_getIAV.sql)
+- Once reporting has been established, connect to the database, and create the functions [getCathPath](https://github.com/IBM/Industry-Accelerators/blob/master/CPD%204.8.0.0/reg-governance-dashboard/F_getCatPath.SQL) and [getIAV](https://github.com/IBM/Industry-Accelerators/blob/master/CPD%204.8.0.0/reg-governance-dashboard/F_getIAV.sql)
 #### Create views to join across multiple required tables
-- Connect to the database, and create the views listed in [database views](https://github.com/IBM/Industry-Accelerators/blob/master/CPD%204.8.0.0/reg-governance-dashboard/V_REG_GOVERNANCE_VIEWS)
+- Connect to the database, and create the views listed in [database views](https://github.com/IBM/Industry-Accelerators/blob/master/CPD%204.8.0.0/reg-governance-dashboard/V_REG_GOVERNANCE_VIEWS.sql)
 
 ## Create the dashboard
 #### Create a dashboard to visualize your data. 
@@ -81,7 +81,7 @@ For further information, see [Setting up reporting for IBM Knowledge Catalog](ht
      1. Once data preparation is complete, drag and drop fields from the data source to create visualizations on the canvas. Tip: You can also import the pre-defined report. See the next section for steps.
 
 #### If you want to import the pre-defined report into the dashboard you created, follow these steps.
-1.	Copy the contents of [JSON dashboard source](https://github.com/IBM/Industry-Accelerators/blob/master/CPD%204.8.0.0/reg-governance-dashboard/reg_gov_dashboard_json) to the clipboard
+1.	Copy the contents of [JSON dashboard source](https://github.com/IBM/Industry-Accelerators/blob/master/CPD%204.8.0.0/reg-governance-dashboard/reg_governance_dashboard.json) to the clipboard
 2.	Click on the dashboard then on your keyboard, press the following keys together `ctrl` + `q` + `/` (forward slash) to open the json specification.
 3.	Select all and paste to overwrite with the pre-defined dashboard. 
 4.	Click Update.

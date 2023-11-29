@@ -59,7 +59,7 @@ For further information, see [Setting up reporting for IBM Knowledge Catalog](ht
 
 ## Create a database view
 #### Create a database function to retrieve category paths
-- Once reporting has been established, connect to the database, and create the function [getCatPath](https://github.com/IBM/Industry-Accelerators/blob/master/CPD%204.8.0.0/ldm-asset-dashboard/F_getCatPath.sql)
+- Once reporting has been established, connect to the database, and create the function [getCatPath](https://github.com/IBM/Industry-Accelerators/blob/master/CPD%204.8.0.0/ldm-asset-dashboard/F_getCatPath.SQL)
 #### Create a view to join across multiple required tables
 - Connect to the database, and create the [database view](https://github.com/IBM/Industry-Accelerators/blob/master/CPD%204.8.0.0/ldm-asset-dashboard/V_LDM_ENT_ATT_TERMS.sql)
 
