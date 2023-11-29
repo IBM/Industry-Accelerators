@@ -1,0 +1,2091 @@
+{
+    "name": "Privacy dashboard",
+    "theme": "carbonGrey10",
+    "version": 3000,
+    "eventGroups": [
+        {
+            "id": "model00000186a380a339_00000002:1",
+            "widgetIds": [
+                "model00000186a381db96_00000000",
+                "model00000186a38260c3_00000000",
+                "model00000186a6cf1762_00000000",
+                "model00000186a6e74558_00000000",
+                "model00000186b7fc56f9_00000000"
+            ]
+        },
+        {
+            "id": "model00000186a74138fb_00000000:1",
+            "widgetIds": [
+                "model00000186a75d7e69_00000000",
+                "model00000186a7cd5b5e_00000000",
+                "model00000186a7d0cadc_00000000",
+                "model00000186a7d226e5_00000000",
+                "model00000186b7e6487e_00000000"
+            ]
+        },
+        {
+            "id": "model00000186a7bd7e83_00000000:1",
+            "widgetIds": [
+                "model00000186b7c5640e_00000000"
+            ]
+        }
+    ],
+    "properties": {
+        "dashboardColorSet": "userPaletteColor",
+        "customColors": {
+            "colors": [
+                "#161616",
+                "#6f6f6f",
+                "#343334",
+                "#1D2473",
+                "#8d8d8d",
+                "#e0e0e0"
+            ]
+        },
+        "defaultLocale": "Default",
+        "fredIsRed": true
+    },
+    "fredIsRed": {
+        "id": "model00000186a380a338_00000004",
+        "colorMap": {
+            "1": {
+                "v": 11,
+                "s": 4
+            },
+            "28": {
+                "v": 9,
+                "s": 4
+            },
+            "Sensitive Personal Information": {
+                "v": 0,
+                "s": 14
+            },
+            "Personally Identifiable Information": {
+                "v": 1,
+                "s": 6
+            },
+            "Personal Information": {
+                "v": 2,
+                "s": 14
+            },
+            "(no value)": {
+                "v": 3,
+                "s": 14
+            },
+            "DPR Cand - Obfuscate Customer Number": {
+                "v": 4,
+                "s": 6
+            },
+            "DPR Cand - Redact Person Age": {
+                "v": 5,
+                "s": 6
+            },
+            "COL_NAMEcountdistinct": {
+                "v": 6,
+                "s": 4
+            },
+            "C_RULE_COVERAGEcalculated": {
+                "v": 7,
+                "s": 4
+            },
+            "RULE_COVERAGEcalculated": {
+                "v": 8,
+                "s": 4
+            },
+            "RULE_COVERAGEsum": {
+                "v": 10,
+                "s": 4
+            },
+            "no rule": {
+                "v": 12,
+                "s": 6
+            },
+            "rule": {
+                "v": 13,
+                "s": 6
+            },
+            "DPR Cand - Obfuscate Address": {
+                "v": 14,
+                "s": 6
+            },
+            "DPR Cand - Obfuscate Date Of Birth": {
+                "v": 15,
+                "s": 6
+            },
+            "DPR Cand - Obfuscate First Name": {
+                "v": 16,
+                "s": 6
+            },
+            "DPR Cand - Obfuscate Last Name": {
+                "v": 17,
+                "s": 6
+            }
+        },
+        "saveId": 14
+    },
+    "pageContext": [
+        {
+            "origin": "filter",
+            "table": "",
+            "alias": "0",
+            "sourceId": "model00000186a3810279_00000002",
+            "scope": "global",
+            "hierarchyNames": [
+                "CONTAINER_NAME"
+            ],
+            "hierarchyUniqueNames": [
+                "V_PRIVACY_REPORT.CONTAINER_NAME"
+            ],
+            "exclude": false,
+            "isNamedSet": false,
+            "isModeledFilter": false,
+            "tupleSet": "{}"
+        },
+        {
+            "origin": "filter",
+            "table": "",
+            "alias": "0",
+            "sourceId": "model00000186a3810279_00000002",
+            "scope": "global",
+            "hierarchyNames": [
+                "ARTIFACT_TYPE"
+            ],
+            "hierarchyUniqueNames": [
+                "V_PRIVACY_REPORT.ARTIFACT_TYPE"
+            ],
+            "exclude": false,
+            "isNamedSet": false,
+            "isModeledFilter": false,
+            "tupleSet": "{}"
+        },
+        {
+            "origin": "filter",
+            "table": "",
+            "alias": "0",
+            "sourceId": "model00000186a3810279_00000002",
+            "scope": "global",
+            "hierarchyNames": [
+                "ASSIGNMENT_STATE"
+            ],
+            "hierarchyUniqueNames": [
+                "V_PRIVACY_REPORT.ASSIGNMENT_STATE"
+            ],
+            "exclude": false,
+            "isNamedSet": false,
+            "isModeledFilter": false,
+            "tupleSet": "{\"V_PRIVACY_REPORT.ASSIGNMENT_STATE->[ASSIGNED]\":{\"u\":\"V_PRIVACY_REPORT.ASSIGNMENT_STATE->[ASSIGNED]\",\"d\":\"ASSIGNED\"}}"
+        },
+        {
+            "origin": "filter",
+            "table": "",
+            "alias": "0",
+            "sourceId": "model00000186a3810279_00000002",
+            "scope": "global",
+            "hierarchyNames": [
+                "TABLE_NAME"
+            ],
+            "hierarchyUniqueNames": [
+                "V_PRIVACY_REPORT.TABLE_NAME"
+            ],
+            "exclude": false,
+            "isNamedSet": false,
+            "isModeledFilter": false,
+            "tupleSet": "null"
+        }
+    ],
+    "dataSources": {
+        "version": "1.0",
+        "sources": [
+            {
+                "id": "model00000186a3810279_00000002",
+                "assetId": "641e362f-f714-49dc-9177-7baf62c399da",
+                "type": "data_asset",
+                "name": "V_PRIVACY_REPORT",
+                "shaping": {
+                    "shapingId": "__initialShapingID__",
+                    "references": {},
+                    "embeddedModuleId": "bbbbe75c-2615-4ee3-8940-565d5bf562ac:641e362f-f714-49dc-9177-7baf62c399da",
+                    "embeddedModuleName": "model00000189029d29cd_00000002",
+                    "embeddedModuleUpToDate": true,
+                    "moserJSON": {
+                        "container": "C",
+                        "dataRetrievalMode": "liveConnection",
+                        "drillGroup": [
+                            {
+                                "idForExpression": "CONTAINER_NAME_TAG_NAME",
+                                "identifier": "CONTAINER_NAME_TAG_NAME",
+                                "label": "CONTAINER_NAME - TAG_NAME",
+                                "propertyOverride": [
+                                    "NEW"
+                                ],
+                                "segment": [
+                                    {
+                                        "identifier": "CONTAINER_NAME",
+                                        "label": "CONTAINER_NAME",
+                                        "ref": "V_PRIVACY_REPORT.CONTAINER_NAME"
+                                    },
+                                    {
+                                        "identifier": "TABLE_NAME",
+                                        "label": "TABLE_NAME",
+                                        "ref": "V_PRIVACY_REPORT.TABLE_NAME"
+                                    },
+                                    {
+                                        "identifier": "COL_NAME",
+                                        "label": "COL_NAME",
+                                        "ref": "V_PRIVACY_REPORT.COL_NAME"
+                                    },
+                                    {
+                                        "identifier": "GOV_ARTIFACT_NAME",
+                                        "label": "GOV_ARTIFACT_NAME",
+                                        "ref": "V_PRIVACY_REPORT.GOV_ARTIFACT_NAME"
+                                    },
+                                    {
+                                        "identifier": "ARTIFACT_TYPE",
+                                        "label": "ARTIFACT_TYPE",
+                                        "ref": "V_PRIVACY_REPORT.ARTIFACT_TYPE"
+                                    },
+                                    {
+                                        "identifier": "ASSIGNMENT_STATE",
+                                        "label": "ASSIGNMENT_STATE",
+                                        "ref": "V_PRIVACY_REPORT.ASSIGNMENT_STATE"
+                                    },
+                                    {
+                                        "identifier": "CLASSIFICATION",
+                                        "label": "CLASSIFICATION",
+                                        "ref": "V_PRIVACY_REPORT.CLASSIFICATION"
+                                    },
+                                    {
+                                        "identifier": "RULE_NAME",
+                                        "label": "RULE_NAME",
+                                        "ref": "V_PRIVACY_REPORT.RULE_NAME"
+                                    },
+                                    {
+                                        "identifier": "RULE_ACTION",
+                                        "label": "RULE_ACTION",
+                                        "ref": "V_PRIVACY_REPORT.RULE_ACTION"
+                                    },
+                                    {
+                                        "identifier": "TAG_NAME",
+                                        "label": "TAG_NAME",
+                                        "ref": "V_PRIVACY_REPORT.TAG_NAME"
+                                    }
+                                ]
+                            }
+                        ],
+                        "expressionLocale": "en-us",
+                        "identifier": "model00000186a3810279_00000002",
+                        "label": "model00000189029d29cd_00000002",
+                        "querySubject": [
+                            {
+                                "identifier": "V_PRIVACY_REPORT",
+                                "instanceType": "reference",
+                                "item": [
+                                    {
+                                        "queryItem": {
+                                            "datatype": "VARCHAR(7)",
+                                            "expression": "if (RULE_NAME is null) then ('no rule')  else ('rule') \n\n",
+                                            "facetDefinition": {
+                                                "enabled": "false"
+                                            },
+                                            "identifier": "C_RULE_COVERAGE",
+                                            "label": "RULE_COVERAGE",
+                                            "nullable": true,
+                                            "property": [
+                                                {
+                                                    "name": "_MUI_expr",
+                                                    "value": "{\"func\":\"customCalculation\",\"version\":\"16.0\"}"
+                                                },
+                                                {
+                                                    "name": "_MUI_propertySetByUser_regularAggregate",
+                                                    "value": "\"true\""
+                                                },
+                                                {
+                                                    "name": "_path",
+                                                    "value": "0"
+                                                }
+                                            ],
+                                            "propertyOverride": [
+                                                "NEW",
+                                                "label",
+                                                "expression",
+                                                "regularAggregate",
+                                                "datatype",
+                                                "datatypeCategory",
+                                                "highlevelDatatype",
+                                                "nullable",
+                                                "usage"
+                                            ],
+                                            "regularAggregate": "total",
+                                            "usage": "attribute"
+                                        }
+                                    },
+                                    {
+                                        "queryItem": {
+                                            "identifier": "CONTAINER_NAME",
+                                            "label": "CONTAINER_NAME",
+                                            "propertyOverride": [
+                                                "regularAggregate",
+                                                "taxonomy",
+                                                "label",
+                                                "usage"
+                                            ],
+                                            "regularAggregate": "countDistinct",
+                                            "taxonomy": [
+                                                {
+                                                    "class": "cNone",
+                                                    "domain": "cognos",
+                                                    "family": "cNone"
+                                                }
+                                            ],
+                                            "usage": "attribute"
+                                        }
+                                    },
+                                    {
+                                        "queryItem": {
+                                            "identifier": "CONTAINER_TYPE",
+                                            "label": "CONTAINER_TYPE",
+                                            "propertyOverride": [
+                                                "regularAggregate",
+                                                "taxonomy",
+                                                "label",
+                                                "usage"
+                                            ],
+                                            "regularAggregate": "countDistinct",
+                                            "taxonomy": [
+                                                {
+                                                    "class": "cNone",
+                                                    "domain": "cognos",
+                                                    "family": "cNone"
+                                                }
+                                            ],
+                                            "usage": "attribute"
+                                        }
+                                    },
+                                    {
+                                        "queryItem": {
+                                            "identifier": "TABLE_NAME",
+                                            "label": "TABLE_NAME",
+                                            "propertyOverride": [
+                                                "regularAggregate",
+                                                "taxonomy",
+                                                "label",
+                                                "usage"
+                                            ],
+                                            "regularAggregate": "countDistinct",
+                                            "taxonomy": [
+                                                {
+                                                    "class": "cNone",
+                                                    "domain": "cognos",
+                                                    "family": "cNone"
+                                                }
+                                            ],
+                                            "usage": "attribute"
+                                        }
+                                    },
+                                    {
+                                        "queryItem": {
+                                            "identifier": "COL_NAME",
+                                            "label": "COL_NAME",
+                                            "propertyOverride": [
+                                                "regularAggregate",
+                                                "taxonomy",
+                                                "label",
+                                                "usage"
+                                            ],
+                                            "regularAggregate": "countDistinct",
+                                            "taxonomy": [
+                                                {
+                                                    "class": "cNone",
+                                                    "domain": "cognos",
+                                                    "family": "cNone"
+                                                }
+                                            ],
+                                            "usage": "attribute"
+                                        }
+                                    },
+                                    {
+                                        "queryItem": {
+                                            "identifier": "GOV_ARTIFACT_NAME",
+                                            "label": "GOV_ARTIFACT_NAME",
+                                            "propertyOverride": [
+                                                "regularAggregate",
+                                                "taxonomy",
+                                                "label",
+                                                "usage"
+                                            ],
+                                            "regularAggregate": "countDistinct",
+                                            "taxonomy": [
+                                                {
+                                                    "class": "cNone",
+                                                    "domain": "cognos",
+                                                    "family": "cNone"
+                                                }
+                                            ],
+                                            "usage": "attribute"
+                                        }
+                                    },
+                                    {
+                                        "queryItem": {
+                                            "identifier": "ARTIFACT_TYPE",
+                                            "label": "ARTIFACT_TYPE",
+                                            "propertyOverride": [
+                                                "regularAggregate",
+                                                "taxonomy",
+                                                "label",
+                                                "usage"
+                                            ],
+                                            "regularAggregate": "countDistinct",
+                                            "taxonomy": [
+                                                {
+                                                    "class": "cNone",
+                                                    "domain": "cognos",
+                                                    "family": "cNone"
+                                                }
+                                            ],
+                                            "usage": "attribute"
+                                        }
+                                    },
+                                    {
+                                        "queryItem": {
+                                            "identifier": "ASSIGNMENT_STATE",
+                                            "label": "ASSIGNMENT_STATE",
+                                            "propertyOverride": [
+                                                "regularAggregate",
+                                                "taxonomy",
+                                                "label",
+                                                "usage"
+                                            ],
+                                            "regularAggregate": "countDistinct",
+                                            "taxonomy": [
+                                                {
+                                                    "class": "cGeoLocation",
+                                                    "domain": "cognos",
+                                                    "family": "cStateProvince"
+                                                }
+                                            ],
+                                            "usage": "attribute"
+                                        }
+                                    },
+                                    {
+                                        "queryItem": {
+                                            "identifier": "CLASSIFICATION",
+                                            "label": "CLASSIFICATION",
+                                            "propertyOverride": [
+                                                "regularAggregate",
+                                                "taxonomy",
+                                                "label",
+                                                "usage"
+                                            ],
+                                            "regularAggregate": "countDistinct",
+                                            "taxonomy": [
+                                                {
+                                                    "class": "cNone",
+                                                    "domain": "cognos",
+                                                    "family": "cNone"
+                                                }
+                                            ],
+                                            "usage": "attribute"
+                                        }
+                                    },
+                                    {
+                                        "queryItem": {
+                                            "identifier": "RULE_NAME",
+                                            "label": "RULE_NAME",
+                                            "propertyOverride": [
+                                                "regularAggregate",
+                                                "taxonomy",
+                                                "label",
+                                                "usage"
+                                            ],
+                                            "regularAggregate": "countDistinct",
+                                            "taxonomy": [
+                                                {
+                                                    "class": "cNone",
+                                                    "domain": "cognos",
+                                                    "family": "cNone"
+                                                }
+                                            ],
+                                            "usage": "attribute"
+                                        }
+                                    },
+                                    {
+                                        "queryItem": {
+                                            "identifier": "RULE_ACTION",
+                                            "label": "RULE_ACTION",
+                                            "propertyOverride": [
+                                                "regularAggregate",
+                                                "taxonomy",
+                                                "label",
+                                                "usage"
+                                            ],
+                                            "regularAggregate": "countDistinct",
+                                            "taxonomy": [
+                                                {
+                                                    "class": "cNone",
+                                                    "domain": "cognos",
+                                                    "family": "cNone"
+                                                }
+                                            ],
+                                            "usage": "attribute"
+                                        }
+                                    },
+                                    {
+                                        "queryItem": {
+                                            "identifier": "TAG_NAME",
+                                            "label": "TAG_NAME",
+                                            "propertyOverride": [
+                                                "regularAggregate",
+                                                "taxonomy",
+                                                "label",
+                                                "usage"
+                                            ],
+                                            "regularAggregate": "countDistinct",
+                                            "taxonomy": [
+                                                {
+                                                    "class": "cNone",
+                                                    "domain": "cognos",
+                                                    "family": "cNone"
+                                                }
+                                            ],
+                                            "usage": "attribute"
+                                        }
+                                    }
+                                ],
+                                "ref": [
+                                    "ES.V_PRIVACY_REPORT"
+                                ]
+                            }
+                        ],
+                        "useSpec": [
+                            {
+                                "identifier": "ES",
+                                "imports": "*",
+                                "storeID": "641e362f-f714-49dc-9177-7baf62c399da",
+                                "type": "database"
+                            }
+                        ],
+                        "version": "18.0"
+                    }
+                }
+            }
+        ]
+    },
+    "layout": {
+        "id": "model00000186a380a339_00000000",
+        "style": {
+            "height": "100%"
+        },
+        "type": "tab",
+        "showGrid": true,
+        "snapGrid": true,
+        "snapObjects": true,
+        "pageSize": {
+            "width": 1280,
+            "height": 720
+        },
+        "layoutPositioning": "relative",
+        "fitPage": true,
+        "selectedTabId": "model00000186a380a339_00000002",
+        "items": [
+            {
+                "id": "model00000186a380a339_00000002",
+                "type": "container",
+                "title": {
+                    "translationTable": {
+                        "Default": "Privacy classifications"
+                    }
+                },
+                "templateName": "Template3",
+                "items": [
+                    {
+                        "id": "model00000186a380a339_00000004",
+                        "css": "templateBox aspectRatio_default",
+                        "type": "genericPage",
+                        "layoutPositioning": "relative",
+                        "items": [
+                            {
+                                "id": "model00000186a380a339_00000006",
+                                "style": {
+                                    "top": "0%",
+                                    "left": "0%",
+                                    "right": "50%",
+                                    "bottom": "75%"
+                                },
+                                "type": "templateDropZone",
+                                "templateName": "dz1",
+                                "relatedLayouts": ""
+                            },
+                            {
+                                "id": "model00000186a380a339_00000008",
+                                "css": "noBorderLeft",
+                                "style": {
+                                    "top": "0%",
+                                    "left": "50%",
+                                    "right": "0%",
+                                    "bottom": "75%"
+                                },
+                                "type": "templateDropZone",
+                                "templateName": "dz3"
+                            },
+                            {
+                                "id": "model00000186a380a33a_00000000",
+                                "css": "noBorderTop",
+                                "style": {
+                                    "top": "25%",
+                                    "left": "0%",
+                                    "right": "0%",
+                                    "bottom": "0%"
+                                },
+                                "type": "templateDropZone",
+                                "templateName": "dz2"
+                            },
+                            {
+                                "id": "model00000186a381db96_00000000",
+                                "style": {
+                                    "width": "22.05792682926829%",
+                                    "height": "17.93590785907859%",
+                                    "top": "0%",
+                                    "left": "0%"
+                                },
+                                "type": "widget",
+                                "relatedLayouts": "",
+                                "clones": 1,
+                                "features": {
+                                    "Models_internal": {
+                                        "type": "live",
+                                        "id": "model00000186a381db96_00000000",
+                                        "visId": "summary",
+                                        "titleMode": "noTitle",
+                                        "name": {
+                                            "translationTable": {}
+                                        },
+                                        "data": {
+                                            "dataViews": [
+                                                {
+                                                    "id": "model00000186a381edc3_00000000",
+                                                    "modelRef": "model00000186a3810279_00000002",
+                                                    "dataItems": [
+                                                        {
+                                                            "id": "id1932515766",
+                                                            "itemId": "V_PRIVACY_REPORT.TABLE_NAME",
+                                                            "itemLabel": "TABLE_NAME"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "visTypeLocked": true,
+                                        "slotmapping": {
+                                            "slots": [
+                                                {
+                                                    "name": "actual",
+                                                    "dataItems": [
+                                                        "id1932515766"
+                                                    ]
+                                                }
+                                            ],
+                                            "multiMeasureGroups": {}
+                                        },
+                                        "style": {
+                                            "width": "300px",
+                                            "height": "300px",
+                                            "top": "0px",
+                                            "left": "0px"
+                                        },
+                                        "savedPrompts": null,
+                                        "queryRefresh": {
+                                            "autoRefresh": true,
+                                            "unit": "seconds",
+                                            "value": "60",
+                                            "lastRefreshed": 1688559502734
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "id": "model00000186a38260c3_00000000",
+                                "style": {
+                                    "left": "23.09451219512195%",
+                                    "top": "0.13550135501355012%",
+                                    "height": "17.712330623306233%",
+                                    "width": "22.287881097560973%"
+                                },
+                                "type": "widget",
+                                "relatedLayouts": "",
+                                "features": {
+                                    "Models_internal": {
+                                        "type": "live",
+                                        "id": "model00000186a38260c3_00000000",
+                                        "visId": "summary",
+                                        "titleMode": "noTitle",
+                                        "name": {
+                                            "translationTable": {}
+                                        },
+                                        "data": {
+                                            "dataViews": [
+                                                {
+                                                    "id": "model00000186a38271c4_00000000",
+                                                    "modelRef": "model00000186a3810279_00000002",
+                                                    "dataItems": [
+                                                        {
+                                                            "id": "id524574148",
+                                                            "itemId": "V_PRIVACY_REPORT.COL_NAME",
+                                                            "itemLabel": "COL_NAME"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "visTypeLocked": true,
+                                        "slotmapping": {
+                                            "slots": [
+                                                {
+                                                    "name": "actual",
+                                                    "dataItems": [
+                                                        "id524574148"
+                                                    ]
+                                                }
+                                            ],
+                                            "multiMeasureGroups": {}
+                                        },
+                                        "savedPrompts": null,
+                                        "queryRefresh": {
+                                            "autoRefresh": true,
+                                            "unit": "seconds",
+                                            "value": "60",
+                                            "lastRefreshed": 1688559502734
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "id": "model00000186a6cf1762_00000000",
+                                "style": {
+                                    "left": "0%",
+                                    "top": "19.51219512195122%",
+                                    "height": "30.62330623306233%",
+                                    "width": "46.18269817073171%"
+                                },
+                                "type": "widget",
+                                "relatedLayouts": "",
+                                "features": {
+                                    "Models_internal": {
+                                        "type": "live",
+                                        "id": "model00000186a6cf1762_00000000",
+                                        "visId": "com.ibm.vis.rave2bundlepie",
+                                        "titleHtml": {
+                                            "translationTable": {
+                                                "Default": "<div class=\"widgetTitle mediumTitle\" title=\"Columns by classification\" aria-labelledby=\"model00000186a6cf1762_00000000Title\" walkme-data-id=\"widgetTitle\"><div class=\"textArea\"><div class=\"summernote\" style=\"display: none;\"></div><div class=\"note-editor\"><div class=\"note-dropzone\">  <div class=\"note-dropzone-message\"></div></div><div class=\"note-editing-area\"><div class=\"note-handle\"><div class=\"note-control-selection\" style=\"display: none;\"><div class=\"note-control-selection-bg\"></div><div class=\"note-control-holder note-control-nw\"></div><div class=\"note-control-holder note-control-ne\"></div><div class=\"note-control-holder note-control-sw\"></div><div class=\"note-control-sizing note-control-se\"></div><div class=\"note-control-selection-info\"></div></div></div><div tabindex=\"-1\" style=\"position: absolute; left: -100000px; opacity: 0;\" contenteditable=\"true\"></div><div class=\"note-editable\" id=\"model00000186a6cf1762_00000000Title\" contenteditable=\"false\"><span class=\"textFitted responsiveColor responsiveFontSize responsiveFontFamily\"><p><span>Columns by classification</span></p></span></div></div></div></div></div>"
+                                            }
+                                        },
+                                        "titleMode": "customTitle",
+                                        "name": {
+                                            "translationTable": {
+                                                "Default": "Columns by classification"
+                                            }
+                                        },
+                                        "data": {
+                                            "dataViews": [
+                                                {
+                                                    "id": "model00000186a6cf38d3_00000000",
+                                                    "modelRef": "model00000186a3810279_00000002",
+                                                    "dataItems": [
+                                                        {
+                                                            "id": "id2134884384",
+                                                            "itemId": "V_PRIVACY_REPORT.CLASSIFICATION",
+                                                            "itemLabel": "CLASSIFICATION"
+                                                        },
+                                                        {
+                                                            "id": "id524574148",
+                                                            "itemId": "V_PRIVACY_REPORT.COL_NAME",
+                                                            "itemLabel": "COL_NAME"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "visTypeLocked": true,
+                                        "slotmapping": {
+                                            "slots": [
+                                                {
+                                                    "name": "categories",
+                                                    "dataItems": [
+                                                        "id2134884384"
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "values",
+                                                    "dataItems": [
+                                                        "id524574148"
+                                                    ]
+                                                }
+                                            ],
+                                            "multiMeasureGroups": {}
+                                        },
+                                        "annotations": {
+                                            "selectedAnnotations": []
+                                        },
+                                        "localFilters": [
+                                            {
+                                                "id": "V_PRIVACY_REPORT.ASSIGNMENT_STATE",
+                                                "columnId": "V_PRIVACY_REPORT.ASSIGNMENT_STATE",
+                                                "values": [
+                                                    {
+                                                        "d": "ASSIGNED",
+                                                        "u": "V_PRIVACY_REPORT.ASSIGNMENT_STATE->[ASSIGNED]"
+                                                    }
+                                                ],
+                                                "excludedValues": [],
+                                                "operator": "in",
+                                                "type": null
+                                            }
+                                        ],
+                                        "savedPrompts": null,
+                                        "queryRefresh": {
+                                            "autoRefresh": true,
+                                            "unit": "seconds",
+                                            "value": "60",
+                                            "lastRefreshed": 1688559501372
+                                        },
+                                        "properties": [
+                                            {
+                                                "id": "widget.legend.position",
+                                                "value": "left"
+                                            },
+                                            {
+                                                "id": "label.percentage",
+                                                "value": true
+                                            },
+                                            {
+                                                "id": "labels.visible",
+                                                "value": true
+                                            },
+                                            {
+                                                "id": "labelLocation",
+                                                "value": "outsideDense"
+                                            },
+                                            {
+                                                "id": "widget.legend.size",
+                                                "value": "45.7%"
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            {
+                                "id": "model00000186a6e74558_00000000",
+                                "style": {
+                                    "left": "0%",
+                                    "top": "51.49051490514905%",
+                                    "height": "47.6219512195122%",
+                                    "width": "100%"
+                                },
+                                "type": "widget",
+                                "relatedLayouts": "",
+                                "features": {
+                                    "Models_internal": {
+                                        "type": "live",
+                                        "id": "model00000186a6e74558_00000000",
+                                        "visId": "JQGrid",
+                                        "titleMode": "noTitle",
+                                        "name": {
+                                            "translationTable": {}
+                                        },
+                                        "data": {
+                                            "dataViews": [
+                                                {
+                                                    "id": "model00000186b8002912_00000000",
+                                                    "modelRef": "model00000186a3810279_00000002",
+                                                    "dataItems": [
+                                                        {
+                                                            "id": "id1932515766",
+                                                            "itemId": "V_PRIVACY_REPORT.TABLE_NAME",
+                                                            "itemLabel": "TABLE_NAME"
+                                                        },
+                                                        {
+                                                            "id": "id524574148",
+                                                            "itemId": "V_PRIVACY_REPORT.COL_NAME",
+                                                            "itemLabel": "COL_NAME"
+                                                        },
+                                                        {
+                                                            "id": "id_366064563",
+                                                            "itemId": "V_PRIVACY_REPORT.GOV_ARTIFACT_NAME",
+                                                            "itemLabel": "GOV_ARTIFACT_NAME"
+                                                        },
+                                                        {
+                                                            "id": "id455181837",
+                                                            "itemId": "V_PRIVACY_REPORT.ARTIFACT_TYPE",
+                                                            "itemLabel": "ARTIFACT_TYPE"
+                                                        },
+                                                        {
+                                                            "id": "id1355945529",
+                                                            "itemId": "V_PRIVACY_REPORT.ASSIGNMENT_STATE",
+                                                            "itemLabel": "ASSIGNMENT_STATE"
+                                                        },
+                                                        {
+                                                            "id": "id2134884384",
+                                                            "itemId": "V_PRIVACY_REPORT.CLASSIFICATION",
+                                                            "itemLabel": "CLASSIFICATION"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "visTypeLocked": true,
+                                        "slotmapping": {
+                                            "slots": [
+                                                {
+                                                    "name": "grid_cols",
+                                                    "dataItems": [
+                                                        "id1932515766",
+                                                        "id524574148",
+                                                        "id_366064563",
+                                                        "id455181837",
+                                                        "id2134884384",
+                                                        "id1355945529"
+                                                    ]
+                                                }
+                                            ],
+                                            "multiMeasureGroups": {}
+                                        },
+                                        "localFilters": [
+                                            {
+                                                "id": "V_PRIVACY_REPORT.ASSIGNMENT_STATE",
+                                                "columnId": "V_PRIVACY_REPORT.ASSIGNMENT_STATE",
+                                                "values": [
+                                                    {
+                                                        "d": "ASSIGNED",
+                                                        "u": "V_PRIVACY_REPORT.ASSIGNMENT_STATE->[ASSIGNED]"
+                                                    }
+                                                ],
+                                                "excludedValues": [],
+                                                "operator": "in",
+                                                "type": null
+                                            }
+                                        ],
+                                        "queryRefresh": {
+                                            "autoRefresh": true,
+                                            "unit": "seconds",
+                                            "value": "60",
+                                            "lastRefreshed": 1688559502115
+                                        },
+                                        "savedPrompts": null
+                                    }
+                                }
+                            },
+                            {
+                                "id": "model00000186b7fc56f9_00000000",
+                                "style": {
+                                    "left": "46.924634314771794%",
+                                    "top": "0%",
+                                    "height": "50.33244977678572%",
+                                    "width": "53.075365685228206%"
+                                },
+                                "type": "widget",
+                                "relatedLayouts": "",
+                                "features": {
+                                    "Models_internal": {
+                                        "type": "live",
+                                        "id": "model00000186b7fc56f9_00000000",
+                                        "visId": "com.ibm.vis.rave2bundlestackedbar",
+                                        "titleMode": "noTitle",
+                                        "name": {
+                                            "translationTable": {}
+                                        },
+                                        "data": {
+                                            "dataViews": [
+                                                {
+                                                    "id": "model00000186b7fc6ad6_00000000",
+                                                    "modelRef": "model00000186a3810279_00000002",
+                                                    "dataItems": [
+                                                        {
+                                                            "id": "id1932515766",
+                                                            "itemId": "V_PRIVACY_REPORT.TABLE_NAME",
+                                                            "itemLabel": "TABLE_NAME"
+                                                        },
+                                                        {
+                                                            "id": "id524574148",
+                                                            "itemId": "V_PRIVACY_REPORT.COL_NAME",
+                                                            "itemLabel": "COL_NAME"
+                                                        },
+                                                        {
+                                                            "id": "id2134884384",
+                                                            "itemId": "V_PRIVACY_REPORT.CLASSIFICATION",
+                                                            "itemLabel": "CLASSIFICATION"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "visTypeLocked": true,
+                                        "slotmapping": {
+                                            "slots": [
+                                                {
+                                                    "name": "categories",
+                                                    "dataItems": [
+                                                        "id1932515766"
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "values",
+                                                    "dataItems": [
+                                                        "id524574148"
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "color",
+                                                    "dataItems": [
+                                                        "id2134884384"
+                                                    ]
+                                                }
+                                            ],
+                                            "multiMeasureGroups": {}
+                                        },
+                                        "annotations": {
+                                            "selectedAnnotations": []
+                                        },
+                                        "savedPrompts": null
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "model00000186a7bd7e83_00000000",
+                "type": "container",
+                "title": {
+                    "translationTable": {
+                        "Default": "Data Protection heat map"
+                    }
+                },
+                "templateName": "Template3",
+                "items": [
+                    {
+                        "id": "model00000186a7bd7e83_00000002",
+                        "css": "templateBox aspectRatio_default",
+                        "type": "genericPage",
+                        "layoutPositioning": "relative",
+                        "items": [
+                            {
+                                "id": "model00000186a7bd7e84_00000000",
+                                "style": {
+                                    "top": "0%",
+                                    "left": "0%",
+                                    "right": "50%",
+                                    "bottom": "75%"
+                                },
+                                "type": "templateDropZone",
+                                "templateName": "dz1",
+                                "relatedLayouts": ""
+                            },
+                            {
+                                "id": "model00000186a7bd7e84_00000002",
+                                "css": "noBorderLeft",
+                                "style": {
+                                    "top": "0%",
+                                    "left": "50%",
+                                    "right": "0%",
+                                    "bottom": "75%"
+                                },
+                                "type": "templateDropZone",
+                                "templateName": "dz3"
+                            },
+                            {
+                                "id": "model00000186a7bd7e84_00000004",
+                                "css": "noBorderTop",
+                                "style": {
+                                    "top": "25%",
+                                    "left": "0%",
+                                    "right": "0%",
+                                    "bottom": "0%"
+                                },
+                                "type": "templateDropZone",
+                                "templateName": "dz2"
+                            },
+                            {
+                                "id": "model00000186b7c5640e_00000000",
+                                "style": {
+                                    "height": "97.88848238482385%",
+                                    "width": "100%",
+                                    "top": "0%",
+                                    "left": "0%"
+                                },
+                                "type": "widget",
+                                "relatedLayouts": "",
+                                "features": {
+                                    "Models_internal": {
+                                        "type": "live",
+                                        "id": "model00000186b7c5640e_00000000",
+                                        "visId": "com.ibm.vis.rave2heat",
+                                        "titleMode": "noTitle",
+                                        "name": {
+                                            "translationTable": {}
+                                        },
+                                        "data": {
+                                            "dataViews": [
+                                                {
+                                                    "id": "model00000186b7c57b1f_00000000",
+                                                    "modelRef": "model00000186a3810279_00000002",
+                                                    "dataItems": [
+                                                        {
+                                                            "id": "id1932515766",
+                                                            "itemId": "V_PRIVACY_REPORT.TABLE_NAME",
+                                                            "itemLabel": "TABLE_NAME"
+                                                        },
+                                                        {
+                                                            "id": "id524574148",
+                                                            "itemId": "V_PRIVACY_REPORT.COL_NAME",
+                                                            "itemLabel": "COL_NAME"
+                                                        },
+                                                        {
+                                                            "id": "id_1121438348",
+                                                            "itemId": "V_PRIVACY_REPORT.RULE_NAME",
+                                                            "itemLabel": "RULE_NAME",
+                                                            "aggregate": "countdistinct"
+                                                        },
+                                                        {
+                                                            "id": "id2134884384",
+                                                            "itemId": "V_PRIVACY_REPORT.CLASSIFICATION",
+                                                            "itemLabel": "CLASSIFICATION"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "visTypeLocked": true,
+                                        "slotmapping": {
+                                            "slots": [
+                                                {
+                                                    "name": "color",
+                                                    "dataItems": [
+                                                        "id_1121438348"
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "series",
+                                                    "dataItems": [
+                                                        "id1932515766"
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "categories",
+                                                    "dataItems": [
+                                                        "id524574148"
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "repeatHorizontal",
+                                                    "dataItems": [
+                                                        "id2134884384"
+                                                    ]
+                                                }
+                                            ],
+                                            "multiMeasureGroups": {}
+                                        },
+                                        "annotations": {
+                                            "selectedAnnotations": []
+                                        },
+                                        "properties": [
+                                            {
+                                                "id": "itemAxis.labels.layoutMode",
+                                                "value": "rotate"
+                                            },
+                                            {
+                                                "id": "itemAxis.alignment",
+                                                "value": "bottom"
+                                            }
+                                        ],
+                                        "localFilters": [
+                                            {
+                                                "id": "V_PRIVACY_REPORT.CLASSIFICATION",
+                                                "columnId": "V_PRIVACY_REPORT.CLASSIFICATION",
+                                                "values": [
+                                                    {
+                                                        "d": "Personal Information",
+                                                        "u": "V_PRIVACY_REPORT.CLASSIFICATION->[Personal Information]"
+                                                    },
+                                                    {
+                                                        "d": "Personally Identifiable Information",
+                                                        "u": "V_PRIVACY_REPORT.CLASSIFICATION->[Personally Identifiable Information]"
+                                                    },
+                                                    {
+                                                        "d": "Sensitive Personal Information",
+                                                        "u": "V_PRIVACY_REPORT.CLASSIFICATION->[Sensitive Personal Information]"
+                                                    }
+                                                ],
+                                                "excludedValues": [],
+                                                "operator": "in",
+                                                "type": null
+                                            }
+                                        ],
+                                        "queryRefresh": {
+                                            "autoRefresh": true,
+                                            "unit": "seconds",
+                                            "value": "60",
+                                            "lastRefreshed": 1688559574624
+                                        },
+                                        "savedPrompts": null
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "model00000186a74138fb_00000000",
+                "type": "container",
+                "title": {
+                    "translationTable": {
+                        "Default": "Data protection rule coverage"
+                    }
+                },
+                "templateName": "Template3",
+                "items": [
+                    {
+                        "id": "model00000186a74138fb_00000002",
+                        "css": "templateBox aspectRatio_default",
+                        "type": "genericPage",
+                        "layoutPositioning": "relative",
+                        "items": [
+                            {
+                                "id": "model00000186a74138fb_00000004",
+                                "style": {
+                                    "top": "0%",
+                                    "left": "0%",
+                                    "right": "50%",
+                                    "bottom": "75%"
+                                },
+                                "type": "templateDropZone",
+                                "templateName": "dz1",
+                                "relatedLayouts": ""
+                            },
+                            {
+                                "id": "model00000186a74138fc_00000000",
+                                "css": "noBorderLeft",
+                                "style": {
+                                    "top": "0%",
+                                    "left": "50%",
+                                    "right": "0%",
+                                    "bottom": "75%"
+                                },
+                                "type": "templateDropZone",
+                                "templateName": "dz3"
+                            },
+                            {
+                                "id": "model00000186a74138fc_00000002",
+                                "css": "noBorderTop",
+                                "style": {
+                                    "top": "25%",
+                                    "left": "0%",
+                                    "right": "0%",
+                                    "bottom": "0%"
+                                },
+                                "type": "templateDropZone",
+                                "templateName": "dz2"
+                            },
+                            {
+                                "id": "model00000186a75d7e69_00000000",
+                                "style": {
+                                    "left": "0.5493125745495637%",
+                                    "top": "54.96651785714286%",
+                                    "height": "42.940848214285715%",
+                                    "width": "99.45068742545044%"
+                                },
+                                "type": "widget",
+                                "relatedLayouts": "",
+                                "features": {
+                                    "Models_internal": {
+                                        "type": "live",
+                                        "id": "model00000186a75d7e69_00000000",
+                                        "visId": "JQGrid",
+                                        "titleMode": "noTitle",
+                                        "name": {
+                                            "translationTable": {}
+                                        },
+                                        "data": {
+                                            "dataViews": [
+                                                {
+                                                    "id": "model0000018902aa8856_00000000",
+                                                    "modelRef": "model00000186a3810279_00000002",
+                                                    "dataItems": [
+                                                        {
+                                                            "id": "id1932515766",
+                                                            "itemId": "V_PRIVACY_REPORT.TABLE_NAME",
+                                                            "itemLabel": "TABLE_NAME"
+                                                        },
+                                                        {
+                                                            "id": "id524574148",
+                                                            "itemId": "V_PRIVACY_REPORT.COL_NAME",
+                                                            "itemLabel": "COL_NAME"
+                                                        },
+                                                        {
+                                                            "id": "id2134884384",
+                                                            "itemId": "V_PRIVACY_REPORT.CLASSIFICATION",
+                                                            "itemLabel": "CLASSIFICATION"
+                                                        },
+                                                        {
+                                                            "id": "id_366064563",
+                                                            "itemId": "V_PRIVACY_REPORT.GOV_ARTIFACT_NAME",
+                                                            "itemLabel": "GOV_ARTIFACT_NAME"
+                                                        },
+                                                        {
+                                                            "id": "id455181837",
+                                                            "itemId": "V_PRIVACY_REPORT.ARTIFACT_TYPE",
+                                                            "itemLabel": "ARTIFACT_TYPE"
+                                                        },
+                                                        {
+                                                            "id": "id_1121438348",
+                                                            "itemId": "V_PRIVACY_REPORT.RULE_NAME",
+                                                            "itemLabel": "RULE_NAME"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "visTypeLocked": true,
+                                        "slotmapping": {
+                                            "slots": [
+                                                {
+                                                    "name": "grid_cols",
+                                                    "dataItems": [
+                                                        "id1932515766",
+                                                        "id524574148",
+                                                        "id2134884384",
+                                                        "id_366064563",
+                                                        "id455181837",
+                                                        "id_1121438348"
+                                                    ]
+                                                }
+                                            ],
+                                            "multiMeasureGroups": {}
+                                        },
+                                        "savedPrompts": null,
+                                        "queryRefresh": {
+                                            "autoRefresh": true,
+                                            "unit": "seconds",
+                                            "value": "60",
+                                            "lastRefreshed": 1688559522167
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "id": "model00000186a7cd5b5e_00000000",
+                                "style": {
+                                    "left": "0.5493125745495637%",
+                                    "top": "0.5580357142857143%",
+                                    "height": "19.10114397321429%",
+                                    "width": "18.620362232406304%"
+                                },
+                                "type": "widget",
+                                "relatedLayouts": "",
+                                "clones": 1,
+                                "features": {
+                                    "Models_internal": {
+                                        "type": "live",
+                                        "id": "model00000186a7cd5b5e_00000000",
+                                        "visId": "summary",
+                                        "titleMode": "noTitle",
+                                        "name": {
+                                            "translationTable": {}
+                                        },
+                                        "data": {
+                                            "dataViews": [
+                                                {
+                                                    "id": "model00000186a820c09a_00000000",
+                                                    "modelRef": "model00000186a3810279_00000002",
+                                                    "dataItems": [
+                                                        {
+                                                            "id": "id524574148",
+                                                            "itemId": "V_PRIVACY_REPORT.COL_NAME",
+                                                            "itemLabel": "COL_NAME"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "visTypeLocked": true,
+                                        "slotmapping": {
+                                            "slots": [
+                                                {
+                                                    "name": "actual",
+                                                    "dataItems": [
+                                                        "id524574148"
+                                                    ]
+                                                }
+                                            ],
+                                            "multiMeasureGroups": {}
+                                        },
+                                        "properties": [
+                                            {
+                                                "id": "baseValueLabel",
+                                                "value": {
+                                                    "translationTable": {
+                                                        "Default": "Privacy columns"
+                                                    }
+                                                }
+                                            }
+                                        ],
+                                        "localFilters": [
+                                            {
+                                                "id": "V_PRIVACY_REPORT.CLASSIFICATION",
+                                                "columnId": "V_PRIVACY_REPORT.CLASSIFICATION",
+                                                "values": [
+                                                    {
+                                                        "d": "Personal Information",
+                                                        "u": "V_PRIVACY_REPORT.CLASSIFICATION->[Personal Information]"
+                                                    },
+                                                    {
+                                                        "d": "Sensitive Personal Information",
+                                                        "u": "V_PRIVACY_REPORT.CLASSIFICATION->[Sensitive Personal Information]"
+                                                    }
+                                                ],
+                                                "excludedValues": [],
+                                                "operator": "in",
+                                                "type": null
+                                            }
+                                        ],
+                                        "queryRefresh": {
+                                            "autoRefresh": true,
+                                            "unit": "minutes",
+                                            "value": "60",
+                                            "lastRefreshed": 1688559402156
+                                        },
+                                        "savedPrompts": null
+                                    }
+                                }
+                            },
+                            {
+                                "id": "model00000186a7d0cadc_00000000",
+                                "from": "model00000186a7cd5b5e_00000000",
+                                "style": {
+                                    "left": "19.147466884299078%",
+                                    "top": "0.5580357142857143%",
+                                    "height": "19.10114397321429%",
+                                    "width": "17.919360914056124%"
+                                },
+                                "type": "widget",
+                                "relatedLayouts": "",
+                                "clones": 1,
+                                "features": {
+                                    "Models_internal": {
+                                        "type": "live",
+                                        "id": "model00000186a7d0cadc_00000000",
+                                        "visId": "summary",
+                                        "titleMode": "noTitle",
+                                        "name": {
+                                            "translationTable": {}
+                                        },
+                                        "data": {
+                                            "dataViews": [
+                                                {
+                                                    "id": "model00000186a832878b_00000000",
+                                                    "modelRef": "model00000186a3810279_00000002",
+                                                    "dataItems": [
+                                                        {
+                                                            "id": "id524574148",
+                                                            "itemId": "V_PRIVACY_REPORT.COL_NAME",
+                                                            "itemLabel": "COL_NAME"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "visTypeLocked": true,
+                                        "slotmapping": {
+                                            "slots": [
+                                                {
+                                                    "name": "actual",
+                                                    "dataItems": [
+                                                        "id524574148"
+                                                    ]
+                                                }
+                                            ],
+                                            "multiMeasureGroups": {}
+                                        },
+                                        "localFilters": [
+                                            {
+                                                "id": "V_PRIVACY_REPORT.RULE_ACTION",
+                                                "columnId": "V_PRIVACY_REPORT.RULE_ACTION",
+                                                "values": [],
+                                                "excludedValues": [],
+                                                "conditions": {
+                                                    "not": {
+                                                        "operator": "in",
+                                                        "itemId": "V_PRIVACY_REPORT.RULE_ACTION",
+                                                        "ignoreCase": true,
+                                                        "values": [
+                                                            "(no value)"
+                                                        ],
+                                                        "valueType": "display"
+                                                    }
+                                                },
+                                                "operator": "in",
+                                                "type": null
+                                            }
+                                        ],
+                                        "queryRefresh": {
+                                            "autoRefresh": true,
+                                            "unit": "minutes",
+                                            "value": "60",
+                                            "lastRefreshed": 1688559402164
+                                        },
+                                        "savedPrompts": null,
+                                        "properties": [
+                                            {
+                                                "id": "baseValueLabel",
+                                                "value": {
+                                                    "translationTable": {
+                                                        "Default": "Columns covered by rules"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            {
+                                "id": "model00000186a7d226e5_00000000",
+                                "from": "model00000186a7d0cadc_00000000",
+                                "style": {
+                                    "left": "36.64699604494947%",
+                                    "top": "0.5580357142857143%",
+                                    "height": "19.10114397321429%",
+                                    "width": "18.003091845062468%"
+                                },
+                                "type": "widget",
+                                "relatedLayouts": "",
+                                "clones": 0,
+                                "features": {
+                                    "Models_internal": {
+                                        "type": "live",
+                                        "id": "model00000186a7d226e5_00000000",
+                                        "visId": "summary",
+                                        "titleMode": "noTitle",
+                                        "name": {
+                                            "translationTable": {}
+                                        },
+                                        "data": {
+                                            "dataViews": [
+                                                {
+                                                    "id": "model00000186b7ac8afd_00000000",
+                                                    "modelRef": "model00000186a3810279_00000002",
+                                                    "dataItems": [
+                                                        {
+                                                            "id": "id_1121438348",
+                                                            "itemId": "V_PRIVACY_REPORT.RULE_NAME",
+                                                            "itemLabel": "RULE_NAME",
+                                                            "aggregate": "countdistinct"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "visTypeLocked": true,
+                                        "slotmapping": {
+                                            "slots": [
+                                                {
+                                                    "name": "actual",
+                                                    "dataItems": [
+                                                        "id_1121438348"
+                                                    ]
+                                                }
+                                            ],
+                                            "multiMeasureGroups": {}
+                                        },
+                                        "queryRefresh": {
+                                            "autoRefresh": true,
+                                            "unit": "minutes",
+                                            "value": "60",
+                                            "lastRefreshed": 1688559402171
+                                        },
+                                        "savedPrompts": null,
+                                        "properties": [
+                                            {
+                                                "id": "baseValueLabel",
+                                                "value": {
+                                                    "translationTable": {
+                                                        "Default": "Rules"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            {
+                                "id": "model00000186b7e6487e_00000000",
+                                "style": {
+                                    "left": "0.5493125745495637%",
+                                    "top": "19.53125%",
+                                    "height": "35.72823660714286%",
+                                    "width": "99.45068742545044%"
+                                },
+                                "type": "widget",
+                                "relatedLayouts": "",
+                                "features": {
+                                    "Models_internal": {
+                                        "type": "live",
+                                        "id": "model00000186b7e6487e_00000000",
+                                        "visId": "com.ibm.vis.rave2bundlecolumn",
+                                        "titleMode": "noTitle",
+                                        "name": {
+                                            "translationTable": {}
+                                        },
+                                        "data": {
+                                            "dataViews": [
+                                                {
+                                                    "id": "model00000186b817279c_00000000",
+                                                    "modelRef": "model00000186a3810279_00000002",
+                                                    "dataItems": [
+                                                        {
+                                                            "id": "id524574148",
+                                                            "itemId": "V_PRIVACY_REPORT.COL_NAME",
+                                                            "itemLabel": "COL_NAME"
+                                                        },
+                                                        {
+                                                            "id": "id_1121438348",
+                                                            "itemId": "V_PRIVACY_REPORT.RULE_NAME",
+                                                            "itemLabel": "RULE_NAME",
+                                                            "aggregate": "countdistinct"
+                                                        },
+                                                        {
+                                                            "id": "id2134884384",
+                                                            "itemId": "V_PRIVACY_REPORT.CLASSIFICATION",
+                                                            "itemLabel": "CLASSIFICATION"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "visTypeLocked": true,
+                                        "slotmapping": {
+                                            "slots": [
+                                                {
+                                                    "name": "categories",
+                                                    "dataItems": [
+                                                        "id524574148"
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "color",
+                                                    "dataItems": [
+                                                        "id_1121438348"
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "values",
+                                                    "dataItems": [
+                                                        "id2134884384"
+                                                    ]
+                                                }
+                                            ],
+                                            "multiMeasureGroups": {}
+                                        },
+                                        "annotations": {
+                                            "selectedAnnotations": []
+                                        },
+                                        "queryRefresh": {
+                                            "autoRefresh": true,
+                                            "unit": "seconds",
+                                            "value": "60",
+                                            "lastRefreshed": 1688559522198
+                                        },
+                                        "savedPrompts": null
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "features": {
+        "DataSources": [
+            {
+                "id": "model00000186a3810279_00000002",
+                "assetId": "641e362f-f714-49dc-9177-7baf62c399da",
+                "type": "data_asset",
+                "name": "V_PRIVACY_REPORT",
+                "shaping": {
+                    "shapingId": "__initialShapingID__",
+                    "references": {},
+                    "embeddedModuleId": "bbbbe75c-2615-4ee3-8940-565d5bf562ac:641e362f-f714-49dc-9177-7baf62c399da",
+                    "embeddedModuleName": "model00000189029d29cd_00000002",
+                    "embeddedModuleUpToDate": true,
+                    "moserJSON": {
+                        "container": "C",
+                        "dataRetrievalMode": "liveConnection",
+                        "drillGroup": [
+                            {
+                                "idForExpression": "CONTAINER_NAME_TAG_NAME",
+                                "identifier": "CONTAINER_NAME_TAG_NAME",
+                                "label": "CONTAINER_NAME - TAG_NAME",
+                                "propertyOverride": [
+                                    "NEW"
+                                ],
+                                "segment": [
+                                    {
+                                        "identifier": "CONTAINER_NAME",
+                                        "label": "CONTAINER_NAME",
+                                        "ref": "V_PRIVACY_REPORT.CONTAINER_NAME"
+                                    },
+                                    {
+                                        "identifier": "TABLE_NAME",
+                                        "label": "TABLE_NAME",
+                                        "ref": "V_PRIVACY_REPORT.TABLE_NAME"
+                                    },
+                                    {
+                                        "identifier": "COL_NAME",
+                                        "label": "COL_NAME",
+                                        "ref": "V_PRIVACY_REPORT.COL_NAME"
+                                    },
+                                    {
+                                        "identifier": "GOV_ARTIFACT_NAME",
+                                        "label": "GOV_ARTIFACT_NAME",
+                                        "ref": "V_PRIVACY_REPORT.GOV_ARTIFACT_NAME"
+                                    },
+                                    {
+                                        "identifier": "ARTIFACT_TYPE",
+                                        "label": "ARTIFACT_TYPE",
+                                        "ref": "V_PRIVACY_REPORT.ARTIFACT_TYPE"
+                                    },
+                                    {
+                                        "identifier": "ASSIGNMENT_STATE",
+                                        "label": "ASSIGNMENT_STATE",
+                                        "ref": "V_PRIVACY_REPORT.ASSIGNMENT_STATE"
+                                    },
+                                    {
+                                        "identifier": "CLASSIFICATION",
+                                        "label": "CLASSIFICATION",
+                                        "ref": "V_PRIVACY_REPORT.CLASSIFICATION"
+                                    },
+                                    {
+                                        "identifier": "RULE_NAME",
+                                        "label": "RULE_NAME",
+                                        "ref": "V_PRIVACY_REPORT.RULE_NAME"
+                                    },
+                                    {
+                                        "identifier": "RULE_ACTION",
+                                        "label": "RULE_ACTION",
+                                        "ref": "V_PRIVACY_REPORT.RULE_ACTION"
+                                    },
+                                    {
+                                        "identifier": "TAG_NAME",
+                                        "label": "TAG_NAME",
+                                        "ref": "V_PRIVACY_REPORT.TAG_NAME"
+                                    }
+                                ]
+                            }
+                        ],
+                        "expressionLocale": "en-us",
+                        "identifier": "model00000186a3810279_00000002",
+                        "label": "model00000189029d29cd_00000002",
+                        "querySubject": [
+                            {
+                                "identifier": "V_PRIVACY_REPORT",
+                                "instanceType": "reference",
+                                "item": [
+                                    {
+                                        "queryItem": {
+                                            "datatype": "VARCHAR(7)",
+                                            "expression": "if (RULE_NAME is null) then ('no rule')  else ('rule') \n\n",
+                                            "facetDefinition": {
+                                                "enabled": "false"
+                                            },
+                                            "identifier": "C_RULE_COVERAGE",
+                                            "label": "RULE_COVERAGE",
+                                            "nullable": true,
+                                            "property": [
+                                                {
+                                                    "name": "_MUI_expr",
+                                                    "value": "{\"func\":\"customCalculation\",\"version\":\"16.0\"}"
+                                                },
+                                                {
+                                                    "name": "_MUI_propertySetByUser_regularAggregate",
+                                                    "value": "\"true\""
+                                                },
+                                                {
+                                                    "name": "_path",
+                                                    "value": "0"
+                                                }
+                                            ],
+                                            "propertyOverride": [
+                                                "NEW",
+                                                "label",
+                                                "expression",
+                                                "regularAggregate",
+                                                "datatype",
+                                                "datatypeCategory",
+                                                "highlevelDatatype",
+                                                "nullable",
+                                                "usage"
+                                            ],
+                                            "regularAggregate": "total",
+                                            "usage": "attribute"
+                                        }
+                                    },
+                                    {
+                                        "queryItem": {
+                                            "identifier": "CONTAINER_NAME",
+                                            "label": "CONTAINER_NAME",
+                                            "propertyOverride": [
+                                                "regularAggregate",
+                                                "taxonomy",
+                                                "label",
+                                                "usage"
+                                            ],
+                                            "regularAggregate": "countDistinct",
+                                            "taxonomy": [
+                                                {
+                                                    "class": "cNone",
+                                                    "domain": "cognos",
+                                                    "family": "cNone"
+                                                }
+                                            ],
+                                            "usage": "attribute"
+                                        }
+                                    },
+                                    {
+                                        "queryItem": {
+                                            "identifier": "CONTAINER_TYPE",
+                                            "label": "CONTAINER_TYPE",
+                                            "propertyOverride": [
+                                                "regularAggregate",
+                                                "taxonomy",
+                                                "label",
+                                                "usage"
+                                            ],
+                                            "regularAggregate": "countDistinct",
+                                            "taxonomy": [
+                                                {
+                                                    "class": "cNone",
+                                                    "domain": "cognos",
+                                                    "family": "cNone"
+                                                }
+                                            ],
+                                            "usage": "attribute"
+                                        }
+                                    },
+                                    {
+                                        "queryItem": {
+                                            "identifier": "TABLE_NAME",
+                                            "label": "TABLE_NAME",
+                                            "propertyOverride": [
+                                                "regularAggregate",
+                                                "taxonomy",
+                                                "label",
+                                                "usage"
+                                            ],
+                                            "regularAggregate": "countDistinct",
+                                            "taxonomy": [
+                                                {
+                                                    "class": "cNone",
+                                                    "domain": "cognos",
+                                                    "family": "cNone"
+                                                }
+                                            ],
+                                            "usage": "attribute"
+                                        }
+                                    },
+                                    {
+                                        "queryItem": {
+                                            "identifier": "COL_NAME",
+                                            "label": "COL_NAME",
+                                            "propertyOverride": [
+                                                "regularAggregate",
+                                                "taxonomy",
+                                                "label",
+                                                "usage"
+                                            ],
+                                            "regularAggregate": "countDistinct",
+                                            "taxonomy": [
+                                                {
+                                                    "class": "cNone",
+                                                    "domain": "cognos",
+                                                    "family": "cNone"
+                                                }
+                                            ],
+                                            "usage": "attribute"
+                                        }
+                                    },
+                                    {
+                                        "queryItem": {
+                                            "identifier": "GOV_ARTIFACT_NAME",
+                                            "label": "GOV_ARTIFACT_NAME",
+                                            "propertyOverride": [
+                                                "regularAggregate",
+                                                "taxonomy",
+                                                "label",
+                                                "usage"
+                                            ],
+                                            "regularAggregate": "countDistinct",
+                                            "taxonomy": [
+                                                {
+                                                    "class": "cNone",
+                                                    "domain": "cognos",
+                                                    "family": "cNone"
+                                                }
+                                            ],
+                                            "usage": "attribute"
+                                        }
+                                    },
+                                    {
+                                        "queryItem": {
+                                            "identifier": "ARTIFACT_TYPE",
+                                            "label": "ARTIFACT_TYPE",
+                                            "propertyOverride": [
+                                                "regularAggregate",
+                                                "taxonomy",
+                                                "label",
+                                                "usage"
+                                            ],
+                                            "regularAggregate": "countDistinct",
+                                            "taxonomy": [
+                                                {
+                                                    "class": "cNone",
+                                                    "domain": "cognos",
+                                                    "family": "cNone"
+                                                }
+                                            ],
+                                            "usage": "attribute"
+                                        }
+                                    },
+                                    {
+                                        "queryItem": {
+                                            "identifier": "ASSIGNMENT_STATE",
+                                            "label": "ASSIGNMENT_STATE",
+                                            "propertyOverride": [
+                                                "regularAggregate",
+                                                "taxonomy",
+                                                "label",
+                                                "usage"
+                                            ],
+                                            "regularAggregate": "countDistinct",
+                                            "taxonomy": [
+                                                {
+                                                    "class": "cGeoLocation",
+                                                    "domain": "cognos",
+                                                    "family": "cStateProvince"
+                                                }
+                                            ],
+                                            "usage": "attribute"
+                                        }
+                                    },
+                                    {
+                                        "queryItem": {
+                                            "identifier": "CLASSIFICATION",
+                                            "label": "CLASSIFICATION",
+                                            "propertyOverride": [
+                                                "regularAggregate",
+                                                "taxonomy",
+                                                "label",
+                                                "usage"
+                                            ],
+                                            "regularAggregate": "countDistinct",
+                                            "taxonomy": [
+                                                {
+                                                    "class": "cNone",
+                                                    "domain": "cognos",
+                                                    "family": "cNone"
+                                                }
+                                            ],
+                                            "usage": "attribute"
+                                        }
+                                    },
+                                    {
+                                        "queryItem": {
+                                            "identifier": "RULE_NAME",
+                                            "label": "RULE_NAME",
+                                            "propertyOverride": [
+                                                "regularAggregate",
+                                                "taxonomy",
+                                                "label",
+                                                "usage"
+                                            ],
+                                            "regularAggregate": "countDistinct",
+                                            "taxonomy": [
+                                                {
+                                                    "class": "cNone",
+                                                    "domain": "cognos",
+                                                    "family": "cNone"
+                                                }
+                                            ],
+                                            "usage": "attribute"
+                                        }
+                                    },
+                                    {
+                                        "queryItem": {
+                                            "identifier": "RULE_ACTION",
+                                            "label": "RULE_ACTION",
+                                            "propertyOverride": [
+                                                "regularAggregate",
+                                                "taxonomy",
+                                                "label",
+                                                "usage"
+                                            ],
+                                            "regularAggregate": "countDistinct",
+                                            "taxonomy": [
+                                                {
+                                                    "class": "cNone",
+                                                    "domain": "cognos",
+                                                    "family": "cNone"
+                                                }
+                                            ],
+                                            "usage": "attribute"
+                                        }
+                                    },
+                                    {
+                                        "queryItem": {
+                                            "identifier": "TAG_NAME",
+                                            "label": "TAG_NAME",
+                                            "propertyOverride": [
+                                                "regularAggregate",
+                                                "taxonomy",
+                                                "label",
+                                                "usage"
+                                            ],
+                                            "regularAggregate": "countDistinct",
+                                            "taxonomy": [
+                                                {
+                                                    "class": "cNone",
+                                                    "domain": "cognos",
+                                                    "family": "cNone"
+                                                }
+                                            ],
+                                            "usage": "attribute"
+                                        }
+                                    }
+                                ],
+                                "ref": [
+                                    "ES.V_PRIVACY_REPORT"
+                                ]
+                            }
+                        ],
+                        "useSpec": [
+                            {
+                                "identifier": "ES",
+                                "imports": "*",
+                                "storeID": "641e362f-f714-49dc-9177-7baf62c399da",
+                                "type": "database"
+                            }
+                        ],
+                        "version": "18.0"
+                    }
+                }
+            }
+        ],
+        "CascadingFilters": {
+            "cascadeGlobalToTab": true,
+            "cascadeStrategy": "cascadeStrategy_FirstToLast"
+        },
+        "LocalDataStore": {
+            "autogenerateOnSave": false,
+            "dataStoreDefinitions": []
+        }
+    }
+}

@@ -1,0 +1,1717 @@
+{
+    "name": "AI Governance Dashboard",
+    "theme": "carbonGrey10",
+    "version": 3000,
+    "eventGroups": [
+        {
+            "id": "model0000018ba3f30347_00000002:1",
+            "widgetIds": [
+                "model0000018ba3f40d3e_00000000",
+                "model0000018ba993c4b8_00000000",
+                "model0000018ba9999d1c_00000000",
+                "model0000018baa367be1_00000000",
+                "model0000018baa36fb2b_00000000"
+            ]
+        },
+        {
+            "id": "model0000018baa2ff125_00000000:1",
+            "widgetIds": [
+                "model0000018baa30bf8b_00000000",
+                "model0000018baa31197b_00000000",
+                "model0000018baafed3c3_00000000",
+                "model0000018bae6f4150_00000000",
+                "model0000018bae77f8cc_00000000",
+                "model0000018baa316f2a_00000000"
+            ]
+        },
+        {
+            "id": "model0000018baea688b9_00000000:1",
+            "widgetIds": [
+                "model0000018baf1d2e86_00000000",
+                "model0000018baf1dc7d6_00000000"
+            ]
+        }
+    ],
+    "properties": {
+        "customColors": {
+            "colors": [
+                "#1D2473",
+                "#161616",
+                "#6f6f6f",
+                "#8d8d8d",
+                "#e0e0e0",
+                "#D0E2FF",
+                "#9EF0F0",
+                "#009D9A",
+                "#FF832B",
+                "#FFB784",
+                "#EB6200",
+                "#212529",
+                "#003b3a"
+            ]
+        },
+        "defaultLocale": "Default",
+        "fredIsRed": true
+    },
+    "fredIsRed": {
+        "id": "model0000018ba3f30346_0000001a",
+        "colorMap": {
+            "Mortgage Approval Model Use Case": {
+                "v": 0,
+                "s": 7
+            },
+            "Limited Risk": {
+                "v": 1,
+                "s": 23
+            },
+            "None": {
+                "v": 2,
+                "s": 17
+            },
+            "Credit Risk Analysis": {
+                "v": 3,
+                "s": 7
+            },
+            "Non-Performing Loans": {
+                "v": 4,
+                "s": 2
+            },
+            "Sensitive Personal Information": {
+                "v": 5,
+                "s": 23
+            },
+            "(no value)": {
+                "v": 6,
+                "s": 23
+            },
+            "Personal Information": {
+                "v": 7,
+                "s": 23
+            },
+            "Verify Address Information": {
+                "v": 8,
+                "s": 7
+            },
+            "Verify Date Of Birth For Data Subjects": {
+                "v": 9,
+                "s": 7
+            },
+            "Verify Identification Of Data Subjects": {
+                "v": 10,
+                "s": 7
+            },
+            "De-Identify Personal Data In Use For Authorized AI Purposes": {
+                "v": 11,
+                "s": 7
+            },
+            "Delete Audit Logs Containing PI After Retention Period": {
+                "v": 12,
+                "s": 7
+            },
+            "Delete Personal Data After Specified Use": {
+                "v": 13,
+                "s": 7
+            },
+            "Mask or De-identify Personal Information": {
+                "v": 14,
+                "s": 7
+            },
+            "Prevent Unauthorized Extraction Of Personal Information": {
+                "v": 15,
+                "s": 7
+            },
+            "Record All Storage Locations Of Personal Information": {
+                "v": 16,
+                "s": 7
+            },
+            "Record Any Transfers Of Personal Information": {
+                "v": 17,
+                "s": 7
+            },
+            "Redact Sensitive Personal Information": {
+                "v": 18,
+                "s": 7
+            },
+            "Store Personal Information On Secure Media": {
+                "v": 19,
+                "s": 7
+            },
+            "Customer Life Event Prediction": {
+                "v": 20,
+                "s": 7
+            },
+            "Identify Potential Protected Attributes": {
+                "v": 21,
+                "s": 7
+            },
+            "Masking Personal Data": {
+                "v": 22,
+                "s": 7
+            },
+            "Personal Information - Custodianship": {
+                "v": 23,
+                "s": 7
+            },
+            "Personal Information - Disclosure": {
+                "v": 24,
+                "s": 7
+            },
+            "Personal Information - Minimization": {
+                "v": 25,
+                "s": 7
+            },
+            "Personal Information - Purpose Limitation": {
+                "v": 26,
+                "s": 7
+            },
+            "Personal Information - Retention": {
+                "v": 27,
+                "s": 7
+            },
+            "Protecting Personal Data": {
+                "v": 28,
+                "s": 7
+            },
+            "Verify Collected Data": {
+                "v": 29,
+                "s": 7
+            },
+            "Verify Retained Data": {
+                "v": 30,
+                "s": 7
+            },
+            "(no value),RULE_NAMEcountdistinct": {
+                "v": 31,
+                "s": 8
+            },
+            "(no value),POLICY_NAMEcountdistinct": {
+                "v": 32,
+                "s": 8
+            },
+            "Personal Information,RULE_NAMEcountdistinct": {
+                "v": 33,
+                "s": 8
+            },
+            "Personal Information,POLICY_NAMEcountdistinct": {
+                "v": 34,
+                "s": 8
+            },
+            "Sensitive Personal Information,RULE_NAMEcountdistinct": {
+                "v": 35,
+                "s": 8
+            },
+            "Sensitive Personal Information,POLICY_NAMEcountdistinct": {
+                "v": 36,
+                "s": 8
+            },
+            "RULE_NAMEcountdistinct": {
+                "v": 37,
+                "s": 23
+            },
+            "POLICY_NAMEcountdistinct": {
+                "v": 38,
+                "s": 23
+            },
+            "Medium Risk": {
+                "v": 39,
+                "s": 23
+            }
+        },
+        "saveId": 23
+    },
+    "pageContext": [],
+    "dataSources": {
+        "version": "1.0",
+        "sources": [
+            {
+                "id": "model0000018ba3f30345_00000003",
+                "assetId": "7ded8f1e-3513-4b1e-b73e-2d938c7ecda2",
+                "type": "data_asset",
+                "name": "V_MDLUC_JOINS",
+                "shaping": {
+                    "references": {},
+                    "embeddedModuleUpToDate": true
+                }
+            },
+            {
+                "id": "model0000018ba3f30346_00000001",
+                "assetId": "8e35c1f6-f62f-4132-9544-f2a654c515f1",
+                "type": "data_asset",
+                "name": "ASSET_ARTIFACT_RELATIONS",
+                "shaping": {
+                    "references": {},
+                    "embeddedModuleUpToDate": true
+                }
+            },
+            {
+                "id": "model0000018ba3f30346_00000004",
+                "assetId": "b8ebafe9-3c37-4693-bbbe-906b80dd7d1f",
+                "type": "data_asset",
+                "name": "BUSINESS_TERM_ASSOCIATIONS",
+                "shaping": {
+                    "references": {},
+                    "embeddedModuleUpToDate": true
+                }
+            },
+            {
+                "id": "model0000018ba3f30346_00000007",
+                "assetId": "286b96d2-bdfd-4d44-bdbb-0abe7d42dc1c",
+                "type": "data_asset",
+                "name": "CLASSIFICATION_ASSOCIATIONS",
+                "shaping": {
+                    "references": {},
+                    "embeddedModuleUpToDate": true
+                }
+            },
+            {
+                "id": "model0000018ba3f30346_0000000d",
+                "assetId": "cb68aa89-7c0f-49d2-8919-adc652b2949b",
+                "type": "data_asset",
+                "name": "CONTAINER_DATA_ASSET_COLUMNS",
+                "shaping": {
+                    "references": {},
+                    "embeddedModuleUpToDate": true
+                }
+            },
+            {
+                "id": "model0000018ba3f30346_00000010",
+                "assetId": "1d7e8388-28e6-4dda-a458-ee91d0fdf621",
+                "type": "data_asset",
+                "name": "CONTAINER_DATA_ASSETS",
+                "shaping": {
+                    "references": {},
+                    "embeddedModuleUpToDate": true
+                }
+            },
+            {
+                "id": "model0000018ba3f30346_00000013",
+                "assetId": "0cdd05d4-6154-4c88-b47d-0094641cdeae",
+                "type": "data_asset",
+                "name": "GOVERNANCE_ARTIFACT_ASSOCIATIONS",
+                "shaping": {
+                    "references": {},
+                    "embeddedModuleUpToDate": true
+                }
+            },
+            {
+                "id": "model0000018ba3f30346_00000016",
+                "assetId": "f0a1bf44-b16a-46e0-993a-35f0aa334b3a",
+                "type": "data_asset",
+                "name": "GOVERNANCE_ARTIFACT_CONTAINER_ASSOCIATIONS",
+                "shaping": {
+                    "references": {},
+                    "embeddedModuleUpToDate": true
+                }
+            }
+        ]
+    },
+    "layout": {
+        "id": "model0000018ba3f30347_00000000",
+        "style": {
+            "height": "100%"
+        },
+        "type": "tab",
+        "showGrid": true,
+        "snapGrid": true,
+        "snapObjects": true,
+        "pageSize": {
+            "width": 1280,
+            "height": 720
+        },
+        "layoutPositioning": "relative",
+        "selectedTabId": "model0000018ba3f30347_00000002",
+        "items": [
+            {
+                "id": "model0000018ba3f30347_00000002",
+                "type": "container",
+                "title": {
+                    "translationTable": {
+                        "Default": "AI Models and Data Privacy"
+                    }
+                },
+                "templateName": "Template1",
+                "items": [
+                    {
+                        "id": "model0000018ba3f30347_00000004",
+                        "css": "templateBox aspectRatio_default",
+                        "type": "genericPage",
+                        "layoutPositioning": "relative",
+                        "items": [
+                            {
+                                "id": "model0000018baa6cfb33_00000000",
+                                "style": {
+                                    "top": "0%",
+                                    "left": "0%",
+                                    "right": "0%",
+                                    "bottom": "0%"
+                                },
+                                "type": "templateIndicator",
+                                "relatedLayouts": ""
+                            },
+                            {
+                                "id": "model0000018ba3f40d3e_00000000",
+                                "style": {
+                                    "left": "16.96136214800262%",
+                                    "top": "1.397082193838169%",
+                                    "height": "37.76778864009183%",
+                                    "width": "26.01944990176817%"
+                                },
+                                "type": "widget",
+                                "relatedLayouts": "",
+                                "features": {
+                                    "Models_internal": {
+                                        "type": "live",
+                                        "id": "model0000018ba3f40d3e_00000000",
+                                        "visId": "com.ibm.vis.rave2bundlepie",
+                                        "titleHtml": {
+                                            "translationTable": {
+                                                "Default": "<div class=\"widgetTitle titleShown mediumTitle\" title=\"Model Usecase Risk Levels\" aria-labelledby=\"model0000018ba3f40d3e_00000000Title\" walkme-data-id=\"widgetTitle\"><div class=\"textArea\"><div class=\"summernote\" style=\"display: none;\"></div><div class=\"note-editor\"><div class=\"note-dropzone\">  <div class=\"note-dropzone-message\"></div></div><div class=\"note-editing-area\"><div class=\"note-handle\"><div class=\"note-control-selection\" style=\"display: none;\"><div class=\"note-control-selection-bg\"></div><div class=\"note-control-holder note-control-nw\"></div><div class=\"note-control-holder note-control-ne\"></div><div class=\"note-control-holder note-control-sw\"></div><div class=\"note-control-sizing note-control-se\"></div><div class=\"note-control-selection-info\"></div></div></div><div tabindex=\"-1\" contenteditable=\"true\" style=\"position: absolute; left: -100000px; opacity: 0;\"></div><div class=\"note-editable\" contenteditable=\"true\" id=\"model0000018ba3f40d3e_00000000Title\" spellcheck=\"false\"><span class=\"textFitted responsiveColor responsiveFontSize responsiveFontFamily\"><p>Model Usecase Risk Levels<br></p></span></div></div></div></div></div>"
+                                            }
+                                        },
+                                        "titleMode": "customTitle",
+                                        "name": {
+                                            "translationTable": {
+                                                "Default": "Model Usecase Risk Levels"
+                                            }
+                                        },
+                                        "data": {
+                                            "dataViews": [
+                                                {
+                                                    "id": "model0000018ba9938351_00000000",
+                                                    "modelRef": "model0000018ba3f30345_00000003",
+                                                    "dataItems": [
+                                                        {
+                                                            "id": "id_242825549",
+                                                            "itemId": "V_MDLUC_JOINS.MODEL_USECASE_NAME",
+                                                            "itemLabel": "MODEL_USECASE_NAME"
+                                                        },
+                                                        {
+                                                            "id": "id171403292",
+                                                            "itemId": "V_MDLUC_JOINS.MODEL_USECASE_RISK_LEVEL",
+                                                            "itemLabel": "MODEL_USECASE_RISK_LEVEL",
+                                                            "format": {
+                                                                "formatSpec": null
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "visTypeLocked": true,
+                                        "slotmapping": {
+                                            "slots": [
+                                                {
+                                                    "name": "categories",
+                                                    "dataItems": [
+                                                        "id171403292"
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "values",
+                                                    "dataItems": [
+                                                        "id_242825549"
+                                                    ]
+                                                }
+                                            ],
+                                            "multiMeasureGroups": {}
+                                        },
+                                        "annotations": {
+                                            "selectedAnnotations": []
+                                        },
+                                        "savedPrompts": null,
+                                        "properties": [
+                                            {
+                                                "id": "label.percentage",
+                                                "value": true
+                                            },
+                                            {
+                                                "id": "widget.legend.titleVisible",
+                                                "value": false
+                                            },
+                                            {
+                                                "id": "categories.title",
+                                                "value": {
+                                                    "translationTable": {
+                                                        "Default": "Model Risk Level"
+                                                    }
+                                                }
+                                            }
+                                        ],
+                                        "fillColor": "customColorD0E2FF"
+                                    }
+                                }
+                            },
+                            {
+                                "id": "model0000018ba993c4b8_00000000",
+                                "style": {
+                                    "left": "51.21152586771447%",
+                                    "top": "1.7463527422977112%",
+                                    "height": "37.453445146478245%",
+                                    "width": "28.871447282252785%"
+                                },
+                                "type": "widget",
+                                "relatedLayouts": "",
+                                "features": {
+                                    "Models_internal": {
+                                        "type": "live",
+                                        "id": "model0000018ba993c4b8_00000000",
+                                        "visId": "com.ibm.vis.rave2bundlepie",
+                                        "titleHtml": {
+                                            "translationTable": {
+                                                "Default": "<div class=\"widgetTitle titleShown mediumTitle\" title=\"Model Usecase Classification\" aria-labelledby=\"model0000018ba993c4b8_00000000Title\" walkme-data-id=\"widgetTitle\"><div class=\"textArea\"><div class=\"summernote\" style=\"display: none;\"></div><div class=\"note-editor\"><div class=\"note-dropzone\">  <div class=\"note-dropzone-message\"></div></div><div class=\"note-editing-area\"><div class=\"note-handle\"><div class=\"note-control-selection\" style=\"display: none;\"><div class=\"note-control-selection-bg\"></div><div class=\"note-control-holder note-control-nw\"></div><div class=\"note-control-holder note-control-ne\"></div><div class=\"note-control-holder note-control-sw\"></div><div class=\"note-control-sizing note-control-se\"></div><div class=\"note-control-selection-info\"></div></div></div><div tabindex=\"-1\" contenteditable=\"true\" style=\"position: absolute; left: -100000px; opacity: 0;\"></div><div class=\"note-editable\" contenteditable=\"true\" id=\"model0000018ba993c4b8_00000000Title\"><span class=\"textFitted responsiveColor responsiveFontSize responsiveFontFamily\"><p>Model Usecase Classification<br></p></span></div></div></div></div></div>"
+                                            }
+                                        },
+                                        "titleMode": "customTitle",
+                                        "name": {
+                                            "translationTable": {
+                                                "Default": "Model Usecase Classification"
+                                            }
+                                        },
+                                        "data": {
+                                            "dataViews": [
+                                                {
+                                                    "id": "model0000018ba993eafc_00000000",
+                                                    "modelRef": "model0000018ba3f30345_00000003",
+                                                    "dataItems": [
+                                                        {
+                                                            "id": "id_242825549",
+                                                            "itemId": "V_MDLUC_JOINS.MODEL_USECASE_NAME",
+                                                            "itemLabel": "MODEL_USECASE_NAME"
+                                                        },
+                                                        {
+                                                            "id": "id34888206",
+                                                            "itemId": "V_MDLUC_JOINS.MODEL_USECASE_CLASSIFICATION",
+                                                            "itemLabel": "MODEL_USECASE_CLASSIFICATION"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "visTypeLocked": true,
+                                        "slotmapping": {
+                                            "slots": [
+                                                {
+                                                    "name": "values",
+                                                    "dataItems": [
+                                                        "id_242825549"
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "categories",
+                                                    "dataItems": [
+                                                        "id34888206"
+                                                    ]
+                                                }
+                                            ],
+                                            "multiMeasureGroups": {}
+                                        },
+                                        "annotations": {
+                                            "selectedAnnotations": []
+                                        },
+                                        "savedPrompts": null,
+                                        "properties": [
+                                            {
+                                                "id": "widget.legend.display",
+                                                "value": true
+                                            },
+                                            {
+                                                "id": "label.percentage",
+                                                "value": true
+                                            },
+                                            {
+                                                "id": "widget.legend.splitter",
+                                                "value": true
+                                            },
+                                            {
+                                                "id": "widget.legend.titleVisible",
+                                                "value": false
+                                            }
+                                        ],
+                                        "fillColor": "customColor9EF0F0"
+                                    }
+                                }
+                            },
+                            {
+                                "id": "model0000018ba9999d1c_00000000",
+                                "style": {
+                                    "left": "0.9823182711198428%",
+                                    "top": "40.98107768591962%",
+                                    "height": "46.49571037554734%",
+                                    "width": "80.06024885396202%"
+                                },
+                                "type": "widget",
+                                "relatedLayouts": "",
+                                "features": {
+                                    "Models_internal": {
+                                        "type": "live",
+                                        "id": "model0000018ba9999d1c_00000000",
+                                        "visId": "com.ibm.vis.rave2bundlebar",
+                                        "titleHtml": {
+                                            "translationTable": {
+                                                "Default": "<div class=\"widgetTitle titleShown mediumTitle\" title=\"Model Use case Data Columns by Classification\" aria-labelledby=\"model0000018ba9999d1c_00000000Title\" walkme-data-id=\"widgetTitle\"><div class=\"textArea\"><div class=\"summernote\" style=\"display: none;\"></div><div class=\"note-editor\"><div class=\"note-dropzone\">  <div class=\"note-dropzone-message\"></div></div><div class=\"note-editing-area\"><div class=\"note-handle\"><div class=\"note-control-selection\" style=\"display: none;\"><div class=\"note-control-selection-bg\"></div><div class=\"note-control-holder note-control-nw\"></div><div class=\"note-control-holder note-control-ne\"></div><div class=\"note-control-holder note-control-sw\"></div><div class=\"note-control-sizing note-control-se\"></div><div class=\"note-control-selection-info\"></div></div></div><div tabindex=\"-1\" contenteditable=\"true\" style=\"position: absolute; left: -100000px; opacity: 0;\"></div><div class=\"note-editable\" contenteditable=\"true\" id=\"model0000018ba9999d1c_00000000Title\"><span class=\"textFitted responsiveColor responsiveFontSize responsiveFontFamily\"><p><span>Model Use case Data Columns by Classification<br></span></p></span></div></div></div></div></div>"
+                                            }
+                                        },
+                                        "titleMode": "customTitle",
+                                        "name": {
+                                            "translationTable": {
+                                                "Default": "Model Use case Data Columns by Classification"
+                                            }
+                                        },
+                                        "data": {
+                                            "dataViews": [
+                                                {
+                                                    "id": "model0000018ba99a11e6_00000000",
+                                                    "modelRef": "model0000018ba3f30345_00000003",
+                                                    "dataItems": [
+                                                        {
+                                                            "id": "id_1160230107",
+                                                            "itemId": "V_MDLUC_JOINS.COLUMN_CLASSIFICATION",
+                                                            "itemLabel": "COLUMN_CLASSIFICATION"
+                                                        },
+                                                        {
+                                                            "id": "id_904275830",
+                                                            "itemId": "V_MDLUC_JOINS.COLUMN_NAME",
+                                                            "itemLabel": "COLUMN_NAME"
+                                                        },
+                                                        {
+                                                            "id": "id_242825549",
+                                                            "itemId": "V_MDLUC_JOINS.MODEL_USECASE_NAME",
+                                                            "itemLabel": "MODEL_USECASE_NAME"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "visTypeLocked": true,
+                                        "slotmapping": {
+                                            "slots": [
+                                                {
+                                                    "name": "color",
+                                                    "dataItems": [
+                                                        "id_1160230107"
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "values",
+                                                    "dataItems": [
+                                                        "id_904275830"
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "categories",
+                                                    "dataItems": [
+                                                        "id_242825549"
+                                                    ]
+                                                }
+                                            ],
+                                            "multiMeasureGroups": {}
+                                        },
+                                        "annotations": {
+                                            "selectedAnnotations": []
+                                        },
+                                        "savedPrompts": null,
+                                        "properties": [
+                                            {
+                                                "id": "widget.legend.display",
+                                                "value": true
+                                            },
+                                            {
+                                                "id": "itemAxis.title",
+                                                "value": {
+                                                    "translationTable": {
+                                                        "Default": "Model Usecase"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "id": "valueAxis.title",
+                                                "value": {
+                                                    "translationTable": {
+                                                        "Default": "Data Columns"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "id": "widget.legend.titleVisible",
+                                                "value": true
+                                            },
+                                            {
+                                                "id": "color.title",
+                                                "value": {
+                                                    "translationTable": {
+                                                        "Default": "Data Classifications"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "id": "colorPalette",
+                                                "value": "carbonColorPalette0"
+                                            }
+                                        ],
+                                        "fillColor": "color1"
+                                    }
+                                }
+                            },
+                            {
+                                "id": "model0000018baa367be1_00000000",
+                                "style": {
+                                    "left": "1.0143702451394758%",
+                                    "top": "0%",
+                                    "height": "16.13235291907675%",
+                                    "width": "14.042011834319528%"
+                                },
+                                "type": "widget",
+                                "relatedLayouts": "",
+                                "features": {
+                                    "Models_internal": {
+                                        "type": "live",
+                                        "id": "model0000018baa367be1_00000000",
+                                        "visId": "summary",
+                                        "titleHtml": {
+                                            "translationTable": {
+                                                "Default": "<div class=\"widgetTitle titleShown smallTitle\" title=\"Number of Model Usecases\" aria-labelledby=\"model0000018baa367be1_00000000Title\" walkme-data-id=\"widgetTitle\"><div class=\"textArea\"><div class=\"summernote\" style=\"display: none;\"></div><div class=\"note-editor\"><div class=\"note-dropzone\">  <div class=\"note-dropzone-message\"></div></div><div class=\"note-editing-area\"><div class=\"note-handle\"><div class=\"note-control-selection\" style=\"display: none;\"><div class=\"note-control-selection-bg\"></div><div class=\"note-control-holder note-control-nw\"></div><div class=\"note-control-holder note-control-ne\"></div><div class=\"note-control-holder note-control-sw\"></div><div class=\"note-control-sizing note-control-se\"></div><div class=\"note-control-selection-info\"></div></div></div><div tabindex=\"-1\" contenteditable=\"true\" style=\"position: absolute; left: -100000px; opacity: 0;\"></div><div class=\"note-editable\" contenteditable=\"true\" id=\"model0000018baa367be1_00000000Title\"><span class=\"textFitted responsiveColor responsiveFontSize responsiveFontFamily\"><p>Number of Model Usecases<br></p></span></div></div></div></div></div>"
+                                            }
+                                        },
+                                        "titleMode": "customTitle",
+                                        "name": {
+                                            "translationTable": {
+                                                "Default": "Number of Model Usecases"
+                                            }
+                                        },
+                                        "data": {
+                                            "dataViews": [
+                                                {
+                                                    "id": "model0000018baa36aed1_00000000",
+                                                    "modelRef": "model0000018ba3f30345_00000003",
+                                                    "dataItems": [
+                                                        {
+                                                            "id": "id_242825549",
+                                                            "itemId": "V_MDLUC_JOINS.MODEL_USECASE_NAME",
+                                                            "itemLabel": "MODEL_USECASE_NAME"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "visTypeLocked": true,
+                                        "slotmapping": {
+                                            "slots": [
+                                                {
+                                                    "name": "actual",
+                                                    "dataItems": [
+                                                        "id_242825549"
+                                                    ]
+                                                }
+                                            ],
+                                            "multiMeasureGroups": {}
+                                        },
+                                        "savedPrompts": null,
+                                        "properties": [
+                                            {
+                                                "id": "elementColor",
+                                                "value": "transparent"
+                                            },
+                                            {
+                                                "id": "showItemLabel",
+                                                "value": false
+                                            }
+                                        ],
+                                        "fillColor": "color8"
+                                    }
+                                }
+                            },
+                            {
+                                "id": "model0000018baa36fb2b_00000000",
+                                "style": {
+                                    "left": "0.9823182711198428%",
+                                    "top": "17.812797971436655%",
+                                    "height": "17.78369209239836%",
+                                    "width": "14.056974459724952%"
+                                },
+                                "type": "widget",
+                                "relatedLayouts": "",
+                                "features": {
+                                    "Models_internal": {
+                                        "type": "live",
+                                        "id": "model0000018baa36fb2b_00000000",
+                                        "visId": "summary",
+                                        "titleHtml": {
+                                            "translationTable": {
+                                                "Default": "<div class=\"widgetTitle titleShown smallTitle\" title=\"Number of Data Columns\" aria-labelledby=\"model0000018baa36fb2b_00000000Title\" walkme-data-id=\"widgetTitle\"><div class=\"textArea\"><div class=\"summernote\" style=\"display: none;\"></div><div class=\"note-editor\"><div class=\"note-dropzone\">  <div class=\"note-dropzone-message\"></div></div><div class=\"note-editing-area\"><div class=\"note-handle\"><div class=\"note-control-selection\" style=\"display: none;\"><div class=\"note-control-selection-bg\"></div><div class=\"note-control-holder note-control-nw\"></div><div class=\"note-control-holder note-control-ne\"></div><div class=\"note-control-holder note-control-sw\"></div><div class=\"note-control-sizing note-control-se\"></div><div class=\"note-control-selection-info\"></div></div></div><div tabindex=\"-1\" contenteditable=\"true\" style=\"position: absolute; left: -100000px; opacity: 0;\"></div><div class=\"note-editable\" contenteditable=\"true\" id=\"model0000018baa36fb2b_00000000Title\"><span class=\"textFitted responsiveColor responsiveFontSize responsiveFontFamily\"><p>Number of Data Columns<br></p></span></div></div></div></div></div>"
+                                            }
+                                        },
+                                        "titleMode": "customTitle",
+                                        "name": {
+                                            "translationTable": {
+                                                "Default": "Number of Data Columns"
+                                            }
+                                        },
+                                        "data": {
+                                            "dataViews": [
+                                                {
+                                                    "id": "model0000018bb40c5958_00000000",
+                                                    "modelRef": "model0000018ba3f30345_00000003",
+                                                    "dataItems": [
+                                                        {
+                                                            "id": "id_904275830",
+                                                            "itemId": "V_MDLUC_JOINS.COLUMN_NAME",
+                                                            "itemLabel": "COLUMN_NAME",
+                                                            "aggregate": "countdistinct"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "visTypeLocked": true,
+                                        "slotmapping": {
+                                            "slots": [
+                                                {
+                                                    "name": "actual",
+                                                    "dataItems": [
+                                                        "id_904275830"
+                                                    ]
+                                                }
+                                            ],
+                                            "multiMeasureGroups": {}
+                                        },
+                                        "savedPrompts": null,
+                                        "properties": [
+                                            {
+                                                "id": "showItemLabel",
+                                                "value": false
+                                            }
+                                        ],
+                                        "fillColor": "color11"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "model0000018baea688b9_00000000",
+                "type": "container",
+                "title": {
+                    "translationTable": {
+                        "Default": "PI and SPI Data"
+                    }
+                },
+                "templateName": "Template1",
+                "items": [
+                    {
+                        "id": "model0000018baea688b9_00000002",
+                        "css": "templateBox aspectRatio_default",
+                        "type": "genericPage",
+                        "layoutPositioning": "relative",
+                        "items": [
+                            {
+                                "id": "model0000018baea688b9_00000004",
+                                "style": {
+                                    "top": "0%",
+                                    "left": "0%",
+                                    "right": "0%",
+                                    "bottom": "0%"
+                                },
+                                "type": "templateIndicator"
+                            },
+                            {
+                                "id": "model0000018baf1d2e86_00000000",
+                                "style": {
+                                    "left": "22.992392223161453%",
+                                    "top": "2.103893254467392%",
+                                    "height": "19.27571971934064%",
+                                    "width": "37.389433643279794%"
+                                },
+                                "type": "widget",
+                                "relatedLayouts": "",
+                                "features": {
+                                    "Models_internal": {
+                                        "type": "live",
+                                        "id": "model0000018baf1d2e86_00000000",
+                                        "visId": "dropdownList",
+                                        "titleHtml": {
+                                            "translationTable": {
+                                                "Default": "<div class=\"widgetTitle titleShown smallTitle\" title=\"Select Model Usecase\" aria-labelledby=\"model0000018baf1d2e86_00000000Title\" walkme-data-id=\"widgetTitle\"><div class=\"textArea\"><div class=\"summernote\" style=\"display: none;\"></div><div class=\"note-editor\"><div class=\"note-dropzone\">  <div class=\"note-dropzone-message\"></div></div><div class=\"note-editing-area\"><div class=\"note-handle\"><div class=\"note-control-selection\" style=\"display: none;\"><div class=\"note-control-selection-bg\"></div><div class=\"note-control-holder note-control-nw\"></div><div class=\"note-control-holder note-control-ne\"></div><div class=\"note-control-holder note-control-sw\"></div><div class=\"note-control-sizing note-control-se\"></div><div class=\"note-control-selection-info\"></div></div></div><div tabindex=\"-1\" contenteditable=\"true\" style=\"position: absolute; left: -100000px; opacity: 0;\"></div><div class=\"note-editable\" contenteditable=\"false\" id=\"model0000018baf1d2e86_00000000Title\"><span class=\"textFitted responsiveColor responsiveFontSize responsiveFontFamily\"><p>Select Model Usecase<br></p></span></div></div></div></div></div>"
+                                            }
+                                        },
+                                        "titleMode": "customTitle",
+                                        "name": {
+                                            "translationTable": {
+                                                "Default": "Select Model Usecase"
+                                            }
+                                        },
+                                        "data": {
+                                            "dataViews": [
+                                                {
+                                                    "id": "model0000018baf1d4171_00000000",
+                                                    "modelRef": "model0000018ba3f30345_00000003",
+                                                    "dataItems": [
+                                                        {
+                                                            "id": "id_242825549",
+                                                            "itemId": "V_MDLUC_JOINS.MODEL_USECASE_NAME",
+                                                            "itemLabel": "MODEL_USECASE_NAME"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "visTypeLocked": true,
+                                        "slotmapping": {
+                                            "slots": [
+                                                {
+                                                    "name": "selections",
+                                                    "dataItems": [
+                                                        "id_242825549"
+                                                    ]
+                                                }
+                                            ],
+                                            "multiMeasureGroups": {}
+                                        },
+                                        "savedPrompts": null
+                                    }
+                                }
+                            },
+                            {
+                                "id": "model0000018baf1dc7d6_00000000",
+                                "style": {
+                                    "left": "0%",
+                                    "top": "22.842269619931685%",
+                                    "height": "73.34066690410606%",
+                                    "width": "100%"
+                                },
+                                "type": "widget",
+                                "relatedLayouts": "",
+                                "features": {
+                                    "Models_internal": {
+                                        "type": "live",
+                                        "id": "model0000018baf1dc7d6_00000000",
+                                        "visId": "JQGrid",
+                                        "titleHtml": {
+                                            "translationTable": {
+                                                "Default": "<div class=\"widgetTitle titleShown mediumTitle\" title=\"Business Terms assignments to Data Columns\" aria-labelledby=\"model0000018baf1dc7d6_00000000Title\" walkme-data-id=\"widgetTitle\"><div class=\"textArea\"><div class=\"summernote\" style=\"display: none;\"></div><div class=\"note-editor\"><div class=\"note-dropzone\">  <div class=\"note-dropzone-message\"></div></div><div class=\"note-editing-area\"><div class=\"note-handle\"><div class=\"note-control-selection\" style=\"display: none;\"><div class=\"note-control-selection-bg\"></div><div class=\"note-control-holder note-control-nw\"></div><div class=\"note-control-holder note-control-ne\"></div><div class=\"note-control-holder note-control-sw\"></div><div class=\"note-control-sizing note-control-se\"></div><div class=\"note-control-selection-info\"></div></div></div><div tabindex=\"-1\" contenteditable=\"true\" style=\"position: absolute; left: -100000px; opacity: 0;\"></div><div class=\"note-editable\" contenteditable=\"true\" id=\"model0000018baf1dc7d6_00000000Title\"><span class=\"textFitted responsiveColor responsiveFontSize responsiveFontFamily\"><p>Business Terms assignments to Data Columns<br></p></span></div></div></div></div></div>"
+                                            }
+                                        },
+                                        "titleMode": "customTitle",
+                                        "name": {
+                                            "translationTable": {
+                                                "Default": "Business Terms assignments to Data Columns"
+                                            }
+                                        },
+                                        "data": {
+                                            "dataViews": [
+                                                {
+                                                    "id": "model0000018bb3e68432_00000000",
+                                                    "modelRef": "model0000018ba3f30345_00000003",
+                                                    "dataItems": [
+                                                        {
+                                                            "id": "id1416516575",
+                                                            "itemId": "V_MDLUC_JOINS.COLUMN_TERM_NAME",
+                                                            "itemLabel": "COLUMN_TERM_NAME",
+                                                            "selection": [
+                                                                {
+                                                                    "operation": "order",
+                                                                    "sort": {
+                                                                        "type": "asc",
+                                                                        "by": "caption",
+                                                                        "priority": 0
+                                                                    }
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "id_904275830",
+                                                            "itemId": "V_MDLUC_JOINS.COLUMN_NAME",
+                                                            "itemLabel": "COLUMN_NAME",
+                                                            "selection": [
+                                                                {
+                                                                    "operation": "order",
+                                                                    "sort": {
+                                                                        "type": "asc",
+                                                                        "by": "caption",
+                                                                        "priority": 1
+                                                                    }
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "id_1160230107",
+                                                            "itemId": "V_MDLUC_JOINS.COLUMN_CLASSIFICATION",
+                                                            "itemLabel": "COLUMN_CLASSIFICATION",
+                                                            "selection": [
+                                                                {
+                                                                    "operation": "order",
+                                                                    "sort": {
+                                                                        "type": "desc",
+                                                                        "by": "caption",
+                                                                        "priority": 2
+                                                                    }
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "id1985414918",
+                                                            "itemId": "V_MDLUC_JOINS.TABLE_NAME",
+                                                            "itemLabel": "TABLE_NAME"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "visTypeLocked": true,
+                                        "slotmapping": {
+                                            "slots": [
+                                                {
+                                                    "name": "grid_cols",
+                                                    "dataItems": [
+                                                        "id1416516575",
+                                                        "id_904275830",
+                                                        "id_1160230107",
+                                                        "id1985414918"
+                                                    ]
+                                                }
+                                            ],
+                                            "multiMeasureGroups": {}
+                                        },
+                                        "savedPrompts": null,
+                                        "localFilters": [
+                                            {
+                                                "id": "V_MDLUC_JOINS.COLUMN_CLASSIFICATION",
+                                                "columnId": "V_MDLUC_JOINS.COLUMN_CLASSIFICATION",
+                                                "values": [
+                                                    {
+                                                        "d": "Personal Information",
+                                                        "u": "V_MDLUC_JOINS.COLUMN_CLASSIFICATION->[Personal Information]"
+                                                    },
+                                                    {
+                                                        "d": "Sensitive Personal Information",
+                                                        "u": "V_MDLUC_JOINS.COLUMN_CLASSIFICATION->[Sensitive Personal Information]"
+                                                    }
+                                                ],
+                                                "excludedValues": [],
+                                                "operator": "in",
+                                                "type": null
+                                            }
+                                        ]
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "model0000018baa2ff125_00000000",
+                "type": "container",
+                "title": {
+                    "translationTable": {
+                        "Default": "AI Models and Governance Policies & Rules"
+                    }
+                },
+                "templateName": "Template2",
+                "items": [
+                    {
+                        "id": "model0000018baa2ff125_00000002",
+                        "css": "templateBox aspectRatio_default",
+                        "type": "genericPage",
+                        "layoutPositioning": "relative",
+                        "items": [
+                            {
+                                "id": "model0000018bae94fe08_00000000",
+                                "style": {
+                                    "top": "0%",
+                                    "left": "0%",
+                                    "right": "75%",
+                                    "bottom": "75%"
+                                },
+                                "type": "templateDropZone",
+                                "templateName": "dz1",
+                                "relatedLayouts": ""
+                            },
+                            {
+                                "id": "model0000018bae94fe09_00000001",
+                                "css": "noBorderLeft",
+                                "style": {
+                                    "top": "0%",
+                                    "left": "25%",
+                                    "right": "50%",
+                                    "bottom": "75%"
+                                },
+                                "type": "templateDropZone",
+                                "templateName": "dz3",
+                                "relatedLayouts": ""
+                            },
+                            {
+                                "id": "model0000018bae94fe0a_00000001",
+                                "css": "noBorderLeft",
+                                "style": {
+                                    "top": "0%",
+                                    "left": "50%",
+                                    "right": "25%",
+                                    "bottom": "75%"
+                                },
+                                "type": "templateDropZone",
+                                "templateName": "dz4",
+                                "relatedLayouts": ""
+                            },
+                            {
+                                "id": "model0000018bae94fe0c_00000000",
+                                "css": "noBorderLeft",
+                                "style": {
+                                    "top": "0%",
+                                    "left": "75%",
+                                    "right": "0%",
+                                    "bottom": "75%"
+                                },
+                                "type": "templateDropZone",
+                                "templateName": "dz5",
+                                "relatedLayouts": ""
+                            },
+                            {
+                                "id": "model0000018bae94fe0d_00000000",
+                                "css": "noBorderTop",
+                                "style": {
+                                    "top": "25%",
+                                    "left": "0%",
+                                    "right": "0%",
+                                    "bottom": "0%"
+                                },
+                                "type": "templateDropZone",
+                                "templateName": "dz2",
+                                "relatedLayouts": ""
+                            },
+                            {
+                                "id": "model0000018baa30bf8b_00000000",
+                                "style": {
+                                    "left": "46.99512723335138%",
+                                    "top": "0%",
+                                    "height": "11.880781188338002%",
+                                    "width": "8.327937195452085%"
+                                },
+                                "type": "widget",
+                                "relatedLayouts": "",
+                                "features": {
+                                    "Models_internal": {
+                                        "type": "live",
+                                        "id": "model0000018baa30bf8b_00000000",
+                                        "visId": "summary",
+                                        "titleHtml": {
+                                            "translationTable": {
+                                                "Default": "<div class=\"widgetTitle titleShown\" title=\"Governance Policies\" aria-labelledby=\"model0000018baa30bf8b_00000000Title\" walkme-data-id=\"widgetTitle\"><div class=\"textArea\"><div class=\"summernote\" style=\"display: none;\"></div><div class=\"note-editor\"><div class=\"note-dropzone\">  <div class=\"note-dropzone-message\"></div></div><div class=\"note-editing-area\"><div class=\"note-handle\"><div class=\"note-control-selection\" style=\"display: none;\"><div class=\"note-control-selection-bg\"></div><div class=\"note-control-holder note-control-nw\"></div><div class=\"note-control-holder note-control-ne\"></div><div class=\"note-control-holder note-control-sw\"></div><div class=\"note-control-sizing note-control-se\"></div><div class=\"note-control-selection-info\"></div></div></div><div tabindex=\"-1\" contenteditable=\"true\" style=\"position: absolute; left: -100000px; opacity: 0;\"></div><div class=\"note-editable\" contenteditable=\"true\" id=\"model0000018baa30bf8b_00000000Title\"><span class=\"textFitted responsiveColor responsiveFontSize responsiveFontFamily\"><p style=\"text-align: center;\"><b><span class=\"color1\">Governance Policies</span><span class=\"color1\">﻿</span></b></p></span></div></div></div></div></div>"
+                                            }
+                                        },
+                                        "titleMode": "customTitle",
+                                        "responsiveTitle": false,
+                                        "name": {
+                                            "translationTable": {
+                                                "Default": "Governance Policies"
+                                            }
+                                        },
+                                        "data": {
+                                            "dataViews": [
+                                                {
+                                                    "id": "model0000018baa331ff9_00000000",
+                                                    "modelRef": "model0000018ba3f30345_00000003",
+                                                    "dataItems": [
+                                                        {
+                                                            "id": "id2096091182",
+                                                            "itemId": "V_MDLUC_JOINS.POLICY_NAME",
+                                                            "itemLabel": "POLICY_NAME"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "visTypeLocked": true,
+                                        "slotmapping": {
+                                            "slots": [
+                                                {
+                                                    "name": "actual",
+                                                    "dataItems": [
+                                                        "id2096091182"
+                                                    ]
+                                                }
+                                            ],
+                                            "multiMeasureGroups": {}
+                                        },
+                                        "savedPrompts": null,
+                                        "properties": [
+                                            {
+                                                "id": "elementColor",
+                                                "value": "color1"
+                                            },
+                                            {
+                                                "id": "textAlignment",
+                                                "value": "center"
+                                            },
+                                            {
+                                                "id": "showItemLabel",
+                                                "value": false
+                                            }
+                                        ],
+                                        "fillColor": "customColor009D9A",
+                                        "borderColor": "customColor009D9A"
+                                    }
+                                }
+                            },
+                            {
+                                "id": "model0000018baa31197b_00000000",
+                                "style": {
+                                    "left": "57.98592311857065%",
+                                    "top": "0.38501150221862873%",
+                                    "height": "11.487780697448336%",
+                                    "width": "8.03015701136979%"
+                                },
+                                "type": "widget",
+                                "relatedLayouts": "",
+                                "features": {
+                                    "Models_internal": {
+                                        "type": "live",
+                                        "id": "model0000018baa31197b_00000000",
+                                        "visId": "summary",
+                                        "titleHtml": {
+                                            "translationTable": {
+                                                "Default": "<div class=\"widgetTitle titleShown\" title=\"Governance Rules\" aria-labelledby=\"model0000018baa31197b_00000000Title\" walkme-data-id=\"widgetTitle\"><div class=\"textArea\"><div class=\"summernote\" style=\"display: none;\"></div><div class=\"note-editor\"><div class=\"note-dropzone\">  <div class=\"note-dropzone-message\"></div></div><div class=\"note-editing-area\"><div class=\"note-handle\"><div class=\"note-control-selection\" style=\"display: none;\"><div class=\"note-control-selection-bg\"></div><div class=\"note-control-holder note-control-nw\"></div><div class=\"note-control-holder note-control-ne\"></div><div class=\"note-control-holder note-control-sw\"></div><div class=\"note-control-sizing note-control-se\"></div><div class=\"note-control-selection-info\"></div></div></div><div tabindex=\"-1\" contenteditable=\"true\" style=\"position: absolute; left: -100000px; opacity: 0;\"></div><div class=\"note-editable\" contenteditable=\"true\" id=\"model0000018baa31197b_00000000Title\"><span class=\"textFitted responsiveColor responsiveFontSize responsiveFontFamily\"><p style=\"text-align: center;\"><b><span class=\"rt_fontFamilyIBMPlexSans-Bold color1\">Governance Rules</span><br></b></p></span></div></div></div></div></div>"
+                                            }
+                                        },
+                                        "titleMode": "customTitle",
+                                        "responsiveTitle": false,
+                                        "name": {
+                                            "translationTable": {
+                                                "Default": "Governance Rules"
+                                            }
+                                        },
+                                        "data": {
+                                            "dataViews": [
+                                                {
+                                                    "id": "model0000018baa33530e_00000000",
+                                                    "modelRef": "model0000018ba3f30345_00000003",
+                                                    "dataItems": [
+                                                        {
+                                                            "id": "id_1396826588",
+                                                            "itemId": "V_MDLUC_JOINS.RULE_NAME",
+                                                            "itemLabel": "RULE_NAME"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "visTypeLocked": true,
+                                        "slotmapping": {
+                                            "slots": [
+                                                {
+                                                    "name": "actual",
+                                                    "dataItems": [
+                                                        "id_1396826588"
+                                                    ]
+                                                }
+                                            ],
+                                            "multiMeasureGroups": {}
+                                        },
+                                        "savedPrompts": null,
+                                        "properties": [
+                                            {
+                                                "id": "elementColor",
+                                                "value": "color1"
+                                            },
+                                            {
+                                                "id": "showItemLabel",
+                                                "value": false
+                                            }
+                                        ],
+                                        "fillColor": "customColorEB6200"
+                                    }
+                                }
+                            },
+                            {
+                                "id": "model0000018baa316f2a_00000000",
+                                "style": {
+                                    "left": "36.16675690308609%",
+                                    "top": "0.19250575110931437%",
+                                    "height": "11.683462793450953%",
+                                    "width": "7.843367623172712%"
+                                },
+                                "type": "widget",
+                                "relatedLayouts": "",
+                                "features": {
+                                    "Models_internal": {
+                                        "type": "live",
+                                        "id": "model0000018baa316f2a_00000000",
+                                        "visId": "summary",
+                                        "titleHtml": {
+                                            "translationTable": {
+                                                "Default": "<div class=\"widgetTitle titleShown smallTitle\" title=\"Model Use cases\" aria-labelledby=\"model0000018baa316f2a_00000000Title\" walkme-data-id=\"widgetTitle\"><div class=\"textArea\"><div class=\"summernote\" style=\"display: none;\"></div><div class=\"note-editor\"><div class=\"note-dropzone\">  <div class=\"note-dropzone-message\"></div></div><div class=\"note-editing-area\"><div class=\"note-handle\"><div class=\"note-control-selection\" style=\"display: none;\"><div class=\"note-control-selection-bg\"></div><div class=\"note-control-holder note-control-nw\"></div><div class=\"note-control-holder note-control-ne\"></div><div class=\"note-control-holder note-control-sw\"></div><div class=\"note-control-sizing note-control-se\"></div><div class=\"note-control-selection-info\"></div></div></div><div tabindex=\"-1\" contenteditable=\"true\" style=\"position: absolute; left: -100000px; opacity: 0;\"></div><div class=\"note-editable\" contenteditable=\"true\" id=\"model0000018baa316f2a_00000000Title\"><span class=\"textFitted responsiveColor responsiveFontSize responsiveFontFamily\"><p><b><span class=\"rt_fontFamilyIBMPlexSans-Bold\">Model Use cases</span><br></b></p></span></div></div></div></div></div>"
+                                            }
+                                        },
+                                        "titleMode": "customTitle",
+                                        "responsiveTitle": false,
+                                        "name": {
+                                            "translationTable": {
+                                                "Default": "Model Use cases"
+                                            }
+                                        },
+                                        "data": {
+                                            "dataViews": [
+                                                {
+                                                    "id": "model0000018baa336d5e_00000000",
+                                                    "modelRef": "model0000018ba3f30345_00000003",
+                                                    "dataItems": [
+                                                        {
+                                                            "id": "id_242825549",
+                                                            "itemId": "V_MDLUC_JOINS.MODEL_USECASE_NAME",
+                                                            "itemLabel": "MODEL_USECASE_NAME"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "visTypeLocked": true,
+                                        "slotmapping": {
+                                            "slots": [
+                                                {
+                                                    "name": "actual",
+                                                    "dataItems": [
+                                                        "id_242825549"
+                                                    ]
+                                                }
+                                            ],
+                                            "multiMeasureGroups": {}
+                                        },
+                                        "savedPrompts": null,
+                                        "properties": [
+                                            {
+                                                "id": "elementColor",
+                                                "value": "transparent"
+                                            },
+                                            {
+                                                "id": "showItemLabel",
+                                                "value": false
+                                            }
+                                        ],
+                                        "fillColor": "color9"
+                                    }
+                                }
+                            },
+                            {
+                                "id": "model0000018baafed3c3_00000000",
+                                "style": {
+                                    "left": "0.9204114780725501%",
+                                    "top": "0.28875862666397156%",
+                                    "height": "12.156738182553203%",
+                                    "width": "30.11732539252843%"
+                                },
+                                "type": "widget",
+                                "relatedLayouts": "",
+                                "features": {
+                                    "Models_internal": {
+                                        "type": "live",
+                                        "id": "model0000018baafed3c3_00000000",
+                                        "visId": "dropdownList",
+                                        "titleHtml": {
+                                            "translationTable": {
+                                                "Default": "<div class=\"widgetTitle titleShown\" title=\"Filter by Policies\" aria-labelledby=\"model0000018baafed3c3_00000000Title\" walkme-data-id=\"widgetTitle\"><div class=\"textArea\"><div class=\"summernote\" style=\"display: none;\"></div><div class=\"note-editor\"><div class=\"note-dropzone\">  <div class=\"note-dropzone-message\"></div></div><div class=\"note-editing-area\"><div class=\"note-handle\"><div class=\"note-control-selection\" style=\"display: none;\"><div class=\"note-control-selection-bg\"></div><div class=\"note-control-holder note-control-nw\"></div><div class=\"note-control-holder note-control-ne\"></div><div class=\"note-control-holder note-control-sw\"></div><div class=\"note-control-sizing note-control-se\"></div><div class=\"note-control-selection-info\"></div></div></div><div tabindex=\"-1\" contenteditable=\"true\" style=\"position: absolute; left: -100000px; opacity: 0;\"></div><div class=\"note-editable\" contenteditable=\"true\" id=\"model0000018baafed3c3_00000000Title\"><span class=\"textFitted responsiveColor responsiveFontSize responsiveFontFamily\"><p style=\"text-align: center;\"><b><span class=\"rt_fontFamilyIBMPlexSans-Bold\">Filter by Policies</span><br></b></p></span></div></div></div></div></div>"
+                                            }
+                                        },
+                                        "titleMode": "customTitle",
+                                        "responsiveTitle": false,
+                                        "name": {
+                                            "translationTable": {
+                                                "Default": "Filter by Policies"
+                                            }
+                                        },
+                                        "data": {
+                                            "dataViews": [
+                                                {
+                                                    "id": "model0000018baafef811_00000000",
+                                                    "modelRef": "model0000018ba3f30345_00000003",
+                                                    "dataItems": [
+                                                        {
+                                                            "id": "id2096091182",
+                                                            "itemId": "V_MDLUC_JOINS.POLICY_NAME",
+                                                            "itemLabel": "POLICY_NAME"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "visTypeLocked": true,
+                                        "slotmapping": {
+                                            "slots": [
+                                                {
+                                                    "name": "selections",
+                                                    "dataItems": [
+                                                        "id2096091182"
+                                                    ]
+                                                }
+                                            ],
+                                            "multiMeasureGroups": {}
+                                        },
+                                        "savedPrompts": null,
+                                        "properties": [
+                                            {
+                                                "id": "placeholder",
+                                                "value": "Select Policies"
+                                            },
+                                            {
+                                                "id": "selection",
+                                                "value": "multiSelect"
+                                            }
+                                        ],
+                                        "fillColor": "customColorD0E2FF"
+                                    }
+                                }
+                            },
+                            {
+                                "id": "model0000018bae6f4150_00000000",
+                                "style": {
+                                    "left": "39.03627504060639%",
+                                    "top": "12.416620946550777%",
+                                    "height": "51.66854359773997%",
+                                    "width": "60.1959935029778%"
+                                },
+                                "type": "widget",
+                                "relatedLayouts": "",
+                                "features": {
+                                    "Models_internal": {
+                                        "type": "live",
+                                        "id": "model0000018bae6f4150_00000000",
+                                        "visId": "com.ibm.vis.rave2bundlebar",
+                                        "titleHtml": {
+                                            "translationTable": {
+                                                "Default": "<div class=\"widgetTitle mediumTitle\" title=\"Governance Policies and Rules Associated with Model Use cases\" aria-labelledby=\"model0000018bae6f4150_00000000Title\" walkme-data-id=\"widgetTitle\"><div class=\"textArea\"><div class=\"summernote\" style=\"display: none;\"></div><div class=\"note-editor\"><div class=\"note-dropzone\">  <div class=\"note-dropzone-message\"></div></div><div class=\"note-editing-area\"><div class=\"note-handle\"><div class=\"note-control-selection\" style=\"display: none;\"><div class=\"note-control-selection-bg\"></div><div class=\"note-control-holder note-control-nw\"></div><div class=\"note-control-holder note-control-ne\"></div><div class=\"note-control-holder note-control-sw\"></div><div class=\"note-control-sizing note-control-se\"></div><div class=\"note-control-selection-info\"></div></div></div><div tabindex=\"-1\" contenteditable=\"true\" style=\"position: absolute; left: -100000px; opacity: 0;\"></div><div class=\"note-editable\" contenteditable=\"true\" id=\"model0000018bae6f4150_00000000Title\"><span class=\"textFitted responsiveColor responsiveFontSize responsiveFontFamily\"><p>Governance Policies and Rules Associated with Model Use cases<br></p></span></div></div></div></div></div>"
+                                            }
+                                        },
+                                        "titleMode": "customTitle",
+                                        "name": {
+                                            "translationTable": {
+                                                "Default": "Governance Policies and Rules Associated with Model Use cases"
+                                            }
+                                        },
+                                        "data": {
+                                            "dataViews": [
+                                                {
+                                                    "id": "model0000018bae6fc8b4_00000000",
+                                                    "modelRef": "model0000018ba3f30345_00000003",
+                                                    "dataItems": [
+                                                        {
+                                                            "id": "id_242825549",
+                                                            "itemId": "V_MDLUC_JOINS.MODEL_USECASE_NAME",
+                                                            "itemLabel": "MODEL_USECASE_NAME"
+                                                        },
+                                                        {
+                                                            "id": "id_1396826588",
+                                                            "itemId": "V_MDLUC_JOINS.RULE_NAME",
+                                                            "itemLabel": "RULE_NAME"
+                                                        },
+                                                        {
+                                                            "id": "id2096091182",
+                                                            "itemId": "V_MDLUC_JOINS.POLICY_NAME",
+                                                            "itemLabel": "POLICY_NAME"
+                                                        },
+                                                        {
+                                                            "id": "_multiMeasuresSeries_data",
+                                                            "itemId": "_multiMeasuresSeries",
+                                                            "itemLabel": "Measures group (2)"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "visTypeLocked": true,
+                                        "slotmapping": {
+                                            "slots": [
+                                                {
+                                                    "name": "categories",
+                                                    "dataItems": [
+                                                        "id_242825549"
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "color",
+                                                    "dataItems": [
+                                                        "_multiMeasuresSeries_data"
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "values",
+                                                    "dataItems": [
+                                                        "id_1396826588",
+                                                        "id2096091182"
+                                                    ]
+                                                }
+                                            ],
+                                            "multiMeasureGroups": {
+                                                "data": {
+                                                    "slotId": "color",
+                                                    "position": 1
+                                                }
+                                            }
+                                        },
+                                        "annotations": {
+                                            "selectedAnnotations": []
+                                        },
+                                        "properties": [
+                                            {
+                                                "id": "widget.legend.color",
+                                                "value": "color1"
+                                            },
+                                            {
+                                                "id": "widget.legend.font",
+                                                "value": "font-family: \"IBM Plex Sans Condensed\"; font-size: 16px; font-weight: normal;"
+                                            },
+                                            {
+                                                "id": "widget.legend.titleColor",
+                                                "value": "color1"
+                                            },
+                                            {
+                                                "id": "widget.legend.swatch.symbol.default",
+                                                "value": "square-hatched"
+                                            },
+                                            {
+                                                "id": "valueAxis.title.visible",
+                                                "value": true
+                                            },
+                                            {
+                                                "id": "itemAxis.ticks.labels.font",
+                                                "value": "font-family: \"IBM Plex Sans Condensed\"; font-size: 12px; font-weight: normal;"
+                                            },
+                                            {
+                                                "id": "itemAxis.ticks.labels.color",
+                                                "value": "color1"
+                                            },
+                                            {
+                                                "id": "itemAxis.title.color",
+                                                "value": "color1"
+                                            },
+                                            {
+                                                "id": "valueAxis.title.color",
+                                                "value": "color1"
+                                            },
+                                            {
+                                                "id": "itemAxis.title",
+                                                "value": {
+                                                    "translationTable": {
+                                                        "Default": "Model Use case"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "id": "valueAxis.title",
+                                                "value": {
+                                                    "translationTable": {
+                                                        "Default": "Count"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "id": "valueLabels.visible",
+                                                "value": false
+                                            },
+                                            {
+                                                "id": "widget.legend.titleVisible",
+                                                "value": false
+                                            },
+                                            {
+                                                "id": "itemAxis.line.color",
+                                                "value": "color1"
+                                            },
+                                            {
+                                                "id": "valueAxis.line.color",
+                                                "value": "color1"
+                                            },
+                                            {
+                                                "id": "colorPalette",
+                                                "value": "carbonColorPalette0"
+                                            },
+                                            {
+                                                "id": "widget.legend.aggregateTypeVisible",
+                                                "value": false
+                                            }
+                                        ],
+                                        "fillColor": "color3",
+                                        "borderColor": "color3",
+                                        "savedPrompts": null
+                                    }
+                                }
+                            },
+                            {
+                                "id": "model0000018bae77f8cc_00000000",
+                                "style": {
+                                    "left": "0%",
+                                    "top": "12.416620946550777%",
+                                    "height": "75.02112750618424%",
+                                    "width": "39.060638873849484%"
+                                },
+                                "type": "widget",
+                                "relatedLayouts": "",
+                                "features": {
+                                    "Models_internal": {
+                                        "type": "live",
+                                        "id": "model0000018bae77f8cc_00000000",
+                                        "visId": "JQGrid",
+                                        "titleHtml": {
+                                            "translationTable": {
+                                                "Default": "<div class=\"widgetTitle titleShown mediumTitle\" title=\"Governance Policies and Rules associated with Model Usecase\" aria-labelledby=\"model0000018bae77f8cc_00000000Title\" walkme-data-id=\"widgetTitle\"><div class=\"textArea\"><div class=\"summernote\" style=\"display: none;\"></div><div class=\"note-editor\"><div class=\"note-dropzone\">  <div class=\"note-dropzone-message\"></div></div><div class=\"note-editing-area\"><div class=\"note-handle\"><div class=\"note-control-selection\" style=\"display: none;\"><div class=\"note-control-selection-bg\"></div><div class=\"note-control-holder note-control-nw\"></div><div class=\"note-control-holder note-control-ne\"></div><div class=\"note-control-holder note-control-sw\"></div><div class=\"note-control-sizing note-control-se\"></div><div class=\"note-control-selection-info\"></div></div></div><div tabindex=\"-1\" contenteditable=\"true\" style=\"position: absolute; left: -100000px; opacity: 0;\"></div><div class=\"note-editable\" contenteditable=\"true\" id=\"model0000018bae77f8cc_00000000Title\"><span class=\"textFitted responsiveColor responsiveFontSize responsiveFontFamily\"><p>Governance Policies and Rules associated with Model Usecase<br></p></span></div></div></div></div></div>"
+                                            }
+                                        },
+                                        "titleMode": "customTitle",
+                                        "name": {
+                                            "translationTable": {
+                                                "Default": "Governance Policies and Rules associated with Model Usecase"
+                                            }
+                                        },
+                                        "data": {
+                                            "dataViews": [
+                                                {
+                                                    "id": "model0000018bae78d526_00000000",
+                                                    "modelRef": "model0000018ba3f30345_00000003",
+                                                    "dataItems": [
+                                                        {
+                                                            "id": "id_242825549",
+                                                            "itemId": "V_MDLUC_JOINS.MODEL_USECASE_NAME",
+                                                            "itemLabel": "MODEL_USECASE_NAME"
+                                                        },
+                                                        {
+                                                            "id": "id2096091182",
+                                                            "itemId": "V_MDLUC_JOINS.POLICY_NAME",
+                                                            "itemLabel": "POLICY_NAME"
+                                                        },
+                                                        {
+                                                            "id": "id_1396826588",
+                                                            "itemId": "V_MDLUC_JOINS.RULE_NAME",
+                                                            "itemLabel": "RULE_NAME"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "visTypeLocked": true,
+                                        "slotmapping": {
+                                            "slots": [
+                                                {
+                                                    "name": "grid_cols",
+                                                    "dataItems": [
+                                                        "id_242825549",
+                                                        "id2096091182",
+                                                        "id_1396826588"
+                                                    ]
+                                                }
+                                            ],
+                                            "multiMeasureGroups": {}
+                                        },
+                                        "localFilters": [
+                                            {
+                                                "id": "V_MDLUC_JOINS.POLICY_NAME",
+                                                "columnId": "V_MDLUC_JOINS.POLICY_NAME",
+                                                "values": [],
+                                                "excludedValues": [],
+                                                "conditions": {
+                                                    "not": {
+                                                        "operator": "in",
+                                                        "itemId": "V_MDLUC_JOINS.POLICY_NAME",
+                                                        "ignoreCase": true,
+                                                        "values": [
+                                                            "null"
+                                                        ],
+                                                        "valueType": "display"
+                                                    }
+                                                },
+                                                "operator": "in",
+                                                "type": null
+                                            }
+                                        ],
+                                        "savedPrompts": null
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "features": {
+        "DataSources": [
+            {
+                "id": "model0000018ba3f30345_00000003",
+                "assetId": "7ded8f1e-3513-4b1e-b73e-2d938c7ecda2",
+                "type": "data_asset",
+                "name": "V_MDLUC_JOINS",
+                "shaping": {
+                    "references": {},
+                    "embeddedModuleUpToDate": true
+                }
+            },
+            {
+                "id": "model0000018ba3f30346_00000001",
+                "assetId": "8e35c1f6-f62f-4132-9544-f2a654c515f1",
+                "type": "data_asset",
+                "name": "ASSET_ARTIFACT_RELATIONS",
+                "shaping": {
+                    "references": {},
+                    "embeddedModuleUpToDate": true
+                }
+            },
+            {
+                "id": "model0000018ba3f30346_00000004",
+                "assetId": "b8ebafe9-3c37-4693-bbbe-906b80dd7d1f",
+                "type": "data_asset",
+                "name": "BUSINESS_TERM_ASSOCIATIONS",
+                "shaping": {
+                    "references": {},
+                    "embeddedModuleUpToDate": true
+                }
+            },
+            {
+                "id": "model0000018ba3f30346_00000007",
+                "assetId": "286b96d2-bdfd-4d44-bdbb-0abe7d42dc1c",
+                "type": "data_asset",
+                "name": "CLASSIFICATION_ASSOCIATIONS",
+                "shaping": {
+                    "references": {},
+                    "embeddedModuleUpToDate": true
+                }
+            },
+            {
+                "id": "model0000018ba3f30346_0000000d",
+                "assetId": "cb68aa89-7c0f-49d2-8919-adc652b2949b",
+                "type": "data_asset",
+                "name": "CONTAINER_DATA_ASSET_COLUMNS",
+                "shaping": {
+                    "references": {},
+                    "embeddedModuleUpToDate": true
+                }
+            },
+            {
+                "id": "model0000018ba3f30346_00000010",
+                "assetId": "1d7e8388-28e6-4dda-a458-ee91d0fdf621",
+                "type": "data_asset",
+                "name": "CONTAINER_DATA_ASSETS",
+                "shaping": {
+                    "references": {},
+                    "embeddedModuleUpToDate": true
+                }
+            },
+            {
+                "id": "model0000018ba3f30346_00000013",
+                "assetId": "0cdd05d4-6154-4c88-b47d-0094641cdeae",
+                "type": "data_asset",
+                "name": "GOVERNANCE_ARTIFACT_ASSOCIATIONS",
+                "shaping": {
+                    "references": {},
+                    "embeddedModuleUpToDate": true
+                }
+            },
+            {
+                "id": "model0000018ba3f30346_00000016",
+                "assetId": "f0a1bf44-b16a-46e0-993a-35f0aa334b3a",
+                "type": "data_asset",
+                "name": "GOVERNANCE_ARTIFACT_CONTAINER_ASSOCIATIONS",
+                "shaping": {
+                    "references": {},
+                    "embeddedModuleUpToDate": true
+                }
+            }
+        ]
+    }
+}

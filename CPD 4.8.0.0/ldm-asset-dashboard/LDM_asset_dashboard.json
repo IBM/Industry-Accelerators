@@ -1,0 +1,2701 @@
+{
+    "name": "LDM entities attributes terms dashboard",
+    "theme": "carbonGrey10",
+    "version": 3000,
+    "eventGroups": [
+        {
+            "id": "model0000018b426b5e38_00000007:1",
+            "widgetIds": [
+                "model0000018b426b5e36_00000001",
+                "model0000018b426b5e36_00000002",
+                "model0000018b426b5e36_00000003"
+            ]
+        },
+        {
+            "id": "model0000018b4d64ae85_00000007:1",
+            "widgetIds": [
+                "model0000018b4d64ae83_00000001",
+                "model0000018b4d64ae83_00000002",
+                "model0000018b4d64ae84_00000000",
+                "model0000018b4d659e57_00000000"
+            ]
+        },
+        {
+            "id": "model0000018b4d8bf760_00000004:1",
+            "widgetIds": [
+                "model0000018b4d8bf75d_00000000",
+                "model0000018b4d8bf75d_00000001",
+                "model0000018b4d8bf75d_00000002",
+                "model0000018b4d8bf75e_00000000",
+                "model0000018b4d8bf75e_00000001",
+                "model0000018b4d8d5291_00000000"
+            ]
+        },
+        {
+            "id": "model0000018b4da235e5_00000004:1",
+            "widgetIds": [
+                "model0000018b4da235e3_00000000",
+                "model0000018b4da29988_00000000"
+            ]
+        },
+        {
+            "id": "model0000018b4da375b7_00000005:1",
+            "widgetIds": [
+                "model0000018b4da375b6_00000000",
+                "model0000018b4da375b6_00000001"
+            ]
+        }
+    ],
+    "properties": {
+        "customColors": {
+            "colors": [
+                "#212529",
+                "#161616",
+                "#6f6f6f",
+                "#1D2473",
+                "#8d8d8d",
+                "#e0e0e0",
+                "#a8a8a8"
+            ]
+        },
+        "defaultLocale": "Default",
+        "fredIsRed": true
+    },
+    "fredIsRed": {
+        "id": "model0000018b42397a86_00000005",
+        "colorMap": {
+            "1": {
+                "v": 0,
+                "s": 4
+            },
+            "00125be6-424a-4cb4-a09d-749a3694738e": {
+                "v": 1,
+                "s": 2
+            },
+            "fff9d21e-3821-4854-a651-eff040a7ea92": {
+                "v": 2,
+                "s": 2
+            },
+            "ffdf3533-5e6c-4aa8-b619-5f46827b4a0d": {
+                "v": 3,
+                "s": 2
+            },
+            "ff6908f5-deb6-4e77-b42e-976960b9c9df": {
+                "v": 4,
+                "s": 2
+            },
+            "fd689ec0-3a58-4a70-b473-adc5fe17bfa3": {
+                "v": 5,
+                "s": 2
+            },
+            "fd4a207f-9ae4-49ec-a919-22e6d740e176": {
+                "v": 6,
+                "s": 2
+            },
+            "fd312cf8-7a3a-48b6-93e6-768bf5e5a291": {
+                "v": 7,
+                "s": 2
+            },
+            "fd2e911d-29b0-4cee-b616-4550f310d208": {
+                "v": 8,
+                "s": 2
+            },
+            "fd065b61-85d5-4c26-98f2-a9479fa40eda": {
+                "v": 9,
+                "s": 2
+            },
+            "fcea137f-0c7e-4d86-b392-8b00ac5b7f86": {
+                "v": 10,
+                "s": 2
+            },
+            "fca703f7-adf8-4c61-a722-d2789759d136": {
+                "v": 11,
+                "s": 2
+            },
+            "fc443f73-768b-46cf-ac46-efe95c2d8289": {
+                "v": 12,
+                "s": 2
+            },
+            "fc23c573-1d87-43c2-89fe-ac5bb9357be5": {
+                "v": 13,
+                "s": 2
+            },
+            "fc09de7a-4533-44e3-b9b7-931eea2d9fae": {
+                "v": 14,
+                "s": 2
+            },
+            "fbe70c88-cc55-41c1-ba13-ad4f958cfa5b": {
+                "v": 15,
+                "s": 2
+            },
+            "fbc9e539-33fc-4ae7-8429-6a796e2d6e79": {
+                "v": 16,
+                "s": 2
+            },
+            "fb720b6f-a227-4353-8037-d2ded187284c": {
+                "v": 17,
+                "s": 2
+            },
+            "fb4def78-371e-4307-a7f4-e023a7aa3af2": {
+                "v": 18,
+                "s": 2
+            },
+            "fb408ab2-5394-4868-af73-dd2eddf83b4f": {
+                "v": 19,
+                "s": 2
+            },
+            "fb1f7e8d-b135-4fd4-b0b3-11eff6e9959b": {
+                "v": 20,
+                "s": 2
+            },
+            "faeafab1-10da-46de-88e1-d0f662b3a8e8": {
+                "v": 21,
+                "s": 2
+            },
+            "fabd5b9f-0789-4c91-9b7e-27f0ada25c9f": {
+                "v": 22,
+                "s": 2
+            },
+            "fa9946ee-4b30-482a-b477-e30f5fb6c55d": {
+                "v": 23,
+                "s": 2
+            },
+            "fa7c4a0a-5f29-4117-bdbe-b96c0b2a45f0": {
+                "v": 24,
+                "s": 2
+            },
+            "fa775b25-ca3b-4631-a323-4783cd83dbc8": {
+                "v": 25,
+                "s": 2
+            },
+            "fa0fe9c8-37bd-46c1-87d1-0cd6d72ee2ee": {
+                "v": 26,
+                "s": 2
+            },
+            "fa0c8405-9a20-42e5-a2ad-e9b5aebb1e50": {
+                "v": 27,
+                "s": 2
+            },
+            "f9ad3266-a396-4e87-adfd-f9e5d3a82f99": {
+                "v": 28,
+                "s": 2
+            },
+            "f94cc9f8-8b46-44cd-9d13-f19b6804f9ef": {
+                "v": 29,
+                "s": 2
+            },
+            "f935f6f1-ba07-4c87-a10c-90898a3919ec": {
+                "v": 30,
+                "s": 2
+            },
+            "f9289a02-6a11-4367-8c83-d6c33a1bc908": {
+                "v": 31,
+                "s": 2
+            },
+            "f91665e0-53f1-4412-8fb5-0ac49aab450c": {
+                "v": 32,
+                "s": 2
+            },
+            "f914c3f0-900f-4a19-9717-b75a2b1a085b": {
+                "v": 33,
+                "s": 2
+            },
+            "f8fde6ee-a8fd-4c47-90bc-9f546881727b": {
+                "v": 34,
+                "s": 2
+            },
+            "f8efaf7a-65ab-4c9f-adcd-9bf4569959da": {
+                "v": 35,
+                "s": 2
+            },
+            "f8ecd681-934c-4994-9d9d-b2bfa126f6ce": {
+                "v": 36,
+                "s": 2
+            },
+            "f8e5eefe-62be-4453-a661-63e48a3c0788": {
+                "v": 37,
+                "s": 2
+            },
+            "f8d9e1b3-67c7-4d64-aa46-8fe97f0dd530": {
+                "v": 38,
+                "s": 2
+            },
+            "f8c539f0-d6b2-48f8-a35f-0962ae3f352f": {
+                "v": 39,
+                "s": 2
+            },
+            "f8c04c04-25a3-4e4f-b120-b38f7e4562f4": {
+                "v": 40,
+                "s": 2
+            },
+            "f86e4cac-9600-4d3b-98f8-a85a83c9df35": {
+                "v": 41,
+                "s": 2
+            },
+            "f84e2423-a0c6-4db6-97b9-63df42dd086d": {
+                "v": 42,
+                "s": 2
+            },
+            "f843e9ca-dec4-40a0-a6cd-f8a339835e72": {
+                "v": 43,
+                "s": 2
+            },
+            "f826a48d-f118-4656-b71d-e3ac1f498736": {
+                "v": 44,
+                "s": 2
+            },
+            "f80940cc-f9ff-426c-b4d9-d4081d7de088": {
+                "v": 45,
+                "s": 2
+            },
+            "f7f71329-9ea3-467d-80f4-e18e04efd25b": {
+                "v": 46,
+                "s": 2
+            },
+            "f7e401f4-6961-4d4f-8839-91b6645141fd": {
+                "v": 47,
+                "s": 2
+            },
+            "f798f964-31dc-4036-9894-805f5bf5ac2f": {
+                "v": 0,
+                "s": 2
+            },
+            "f7949ca4-910e-4585-9db7-ce84a60b77b3": {
+                "v": 1,
+                "s": 2
+            },
+            "f77ec9b4-a76e-44c1-84e5-d7da98bc1687": {
+                "v": 2,
+                "s": 2
+            },
+            "f73d848c-f1c2-44bf-9a80-272fa8997a94": {
+                "v": 3,
+                "s": 2
+            },
+            "f72102e9-7d78-4c58-af6f-1a78cd6b36ae": {
+                "v": 4,
+                "s": 2
+            },
+            "f6e1c202-b7e0-4402-a335-22e603fe14d1": {
+                "v": 5,
+                "s": 2
+            },
+            "f6813afe-cdef-4b5d-a20b-a1865a75b6de": {
+                "v": 6,
+                "s": 2
+            },
+            "f64de906-9b14-44d0-8d8e-78f9102ed9f6": {
+                "v": 7,
+                "s": 2
+            },
+            "f64658c9-7dc2-4582-bb4f-01bd6f305d17": {
+                "v": 8,
+                "s": 2
+            },
+            "f6448325-2c9f-4feb-8c43-01b2b33affe6": {
+                "v": 9,
+                "s": 2
+            },
+            "f5d6bcad-1565-4bd6-8cc2-28bed0b86368": {
+                "v": 10,
+                "s": 2
+            },
+            "f5a93264-b58b-4176-be3c-770aaf34da88": {
+                "v": 11,
+                "s": 2
+            },
+            "f5a3d956-69ff-498e-bd33-1bd27dfd753b": {
+                "v": 12,
+                "s": 2
+            },
+            "f56f0172-0d14-43e7-8539-cdee155b9f49": {
+                "v": 13,
+                "s": 2
+            },
+            "f55a80fe-2dbf-4f94-8c1b-0fe77d93c687": {
+                "v": 14,
+                "s": 2
+            },
+            "f4fb0bc1-cbdd-4fe9-b368-ad4ca03660b6": {
+                "v": 15,
+                "s": 2
+            },
+            "f4e9e651-2f62-466b-8da9-d9c1928aa62f": {
+                "v": 16,
+                "s": 2
+            },
+            "f4bca6af-2a32-4311-84cb-dc12db762e7a": {
+                "v": 17,
+                "s": 2
+            },
+            "f4bc19dd-8e45-414a-8e66-75c34b974cbd": {
+                "v": 18,
+                "s": 2
+            },
+            "f4a14cc1-44a2-4d94-b7cc-3866d6dbdd85": {
+                "v": 19,
+                "s": 2
+            },
+            "f4571fe7-d902-4fe0-8524-65063c913842": {
+                "v": 20,
+                "s": 2
+            },
+            "f426ba34-263a-402b-871b-2ef0cea01592": {
+                "v": 21,
+                "s": 2
+            },
+            "f3fc0f69-075e-4357-bf6f-93636c4cdf1d": {
+                "v": 22,
+                "s": 2
+            },
+            "f3dfaa89-2da0-4530-a6c0-711a0697078b": {
+                "v": 23,
+                "s": 2
+            },
+            "f3b19449-8887-40f4-bc49-de78f28eda80": {
+                "v": 24,
+                "s": 2
+            },
+            "f3ae5953-53d0-4e54-a264-c83a5a0a10eb": {
+                "v": 25,
+                "s": 2
+            },
+            "f39668f5-226f-4453-b521-ba659bb4b6c5": {
+                "v": 26,
+                "s": 2
+            },
+            "f3491145-2421-46ed-b202-5d100bd46c59": {
+                "v": 27,
+                "s": 2
+            },
+            "f310bee5-2705-474f-8f37-663d5281585b": {
+                "v": 28,
+                "s": 2
+            },
+            "f29cdf50-635d-4640-afcf-aef28709ee93": {
+                "v": 29,
+                "s": 2
+            },
+            "f28b05cd-8a66-4430-aee3-99f5b8ff5dad": {
+                "v": 30,
+                "s": 2
+            },
+            "f283084e-4e2d-44c8-9343-5d3564e6caa1": {
+                "v": 31,
+                "s": 2
+            },
+            "f277f8c5-26cb-455f-bbe0-f162d582ed15": {
+                "v": 32,
+                "s": 2
+            },
+            "f26175f0-2512-48ce-822e-ba6b201bdbbe": {
+                "v": 33,
+                "s": 2
+            },
+            "f21db8c1-bf42-4c91-99db-1e97d50ca884": {
+                "v": 34,
+                "s": 2
+            },
+            "f1fed18e-5424-490f-a7bf-2340b6e1785b": {
+                "v": 35,
+                "s": 2
+            },
+            "f1fcb361-5d1a-47a6-8406-21e3c5e358a0": {
+                "v": 36,
+                "s": 2
+            },
+            "f1f17e09-9ded-44fa-96dc-1071e427698c": {
+                "v": 37,
+                "s": 2
+            },
+            "f1de4a5a-10f9-4a91-b533-f96be6e90521": {
+                "v": 38,
+                "s": 2
+            },
+            "f1ad7b5b-595b-4fbe-a628-78d105549e1e": {
+                "v": 39,
+                "s": 2
+            },
+            "f174b410-41c4-40d9-ad0d-a462e191ee33": {
+                "v": 40,
+                "s": 2
+            },
+            "f141e1bc-08d5-4193-9805-f4f754771db1": {
+                "v": 41,
+                "s": 2
+            },
+            "f12112d4-bb53-48e7-883e-33f913613c46": {
+                "v": 42,
+                "s": 2
+            },
+            "f11ab4b9-ddc0-4b4e-8b15-b578de52c295": {
+                "v": 43,
+                "s": 2
+            },
+            "f0cec5ec-09a3-498d-82fa-6fa7ae750222": {
+                "v": 44,
+                "s": 2
+            },
+            "f007b128-fe97-4122-a686-4cc797e564a4": {
+                "v": 45,
+                "s": 2
+            },
+            "ef9941e1-9bb2-4f3a-a786-a43bb57ac855": {
+                "v": 46,
+                "s": 2
+            },
+            "ef94fede-394f-46fa-acda-cab6bb2ee8a4": {
+                "v": 47,
+                "s": 2
+            },
+            "ef70abf2-0993-4a83-9bd3-c98ee2103866": {
+                "v": 0,
+                "s": 2
+            },
+            "ef61662b-a611-457e-8d12-c89a9d00cb9b": {
+                "v": 1,
+                "s": 2
+            },
+            "ef48b451-bac9-4384-b57e-757ec9fc1126": {
+                "v": 2,
+                "s": 2
+            },
+            "eeded27c-a8c5-4111-8533-d1a84acc7042": {
+                "v": 3,
+                "s": 2
+            },
+            "eede86e7-5b1a-4f60-b28d-d4159a13ba20": {
+                "v": 4,
+                "s": 2
+            },
+            "eebfe438-16f1-4d9b-9363-43008630b2f2": {
+                "v": 5,
+                "s": 2
+            },
+            "eebcc038-39d2-4ff1-8709-0cefc8c2243a": {
+                "v": 6,
+                "s": 2
+            },
+            "ee693a0d-f02f-4a0c-bb40-ff5adf28c402": {
+                "v": 7,
+                "s": 2
+            },
+            "ee66f593-8226-4065-8fae-395e758ebe88": {
+                "v": 8,
+                "s": 2
+            },
+            "ee550f54-09e5-4b45-b414-52a624cafc09": {
+                "v": 9,
+                "s": 2
+            },
+            "ee275dda-2f81-4c2f-a55f-d0cb19d6fb97": {
+                "v": 10,
+                "s": 2
+            },
+            "ee0bd20f-1a69-45a2-adda-6c6a1151aafd": {
+                "v": 11,
+                "s": 2
+            },
+            "edbce6b8-39f5-475c-b5d6-9fc63c3ca622": {
+                "v": 12,
+                "s": 2
+            },
+            "edb624d7-5d8a-425c-b1cb-6bb25dd5fc84": {
+                "v": 13,
+                "s": 2
+            },
+            "edb02c1a-29bf-4ca6-ba0f-75c94c0b1e95": {
+                "v": 14,
+                "s": 2
+            },
+            "ed4a1a2c-d788-48e1-9b26-fcdd64d428e7": {
+                "v": 15,
+                "s": 2
+            },
+            "ed22e6f2-7144-4287-96b9-560175f72cfb": {
+                "v": 16,
+                "s": 2
+            },
+            "ed1551da-1fce-4274-8a28-79f80b385d34": {
+                "v": 17,
+                "s": 2
+            },
+            "ed0587db-7dac-48a3-ae46-4d2f22920080": {
+                "v": 18,
+                "s": 2
+            },
+            "eca7414b-fa4f-469f-937d-f1d0da926721": {
+                "v": 19,
+                "s": 2
+            },
+            "eca25849-8113-4043-ae38-12619aefb93a": {
+                "v": 20,
+                "s": 2
+            },
+            "ec9c576a-c724-40ff-b408-7469990719b1": {
+                "v": 21,
+                "s": 2
+            },
+            "ec3af0d7-e6de-4bc6-8bf3-9c7dde4e9123": {
+                "v": 22,
+                "s": 2
+            },
+            "ec2bc383-cff8-4d40-bb62-f98245f90554": {
+                "v": 23,
+                "s": 2
+            },
+            "ebddce70-e234-492a-b361-4384fc64c95b": {
+                "v": 24,
+                "s": 2
+            },
+            "ebc7c2ad-03c2-4253-9c91-2848859df559": {
+                "v": 25,
+                "s": 2
+            },
+            "ebbfe7b5-048e-4cee-b755-bdcf68a3573a": {
+                "v": 26,
+                "s": 2
+            },
+            "ebb642bf-2c55-46ea-8be5-caa56d103895": {
+                "v": 27,
+                "s": 2
+            },
+            "ebab37b7-313a-401f-aac0-4747e8207fb1": {
+                "v": 28,
+                "s": 2
+            },
+            "eba566bc-ffea-4b73-b0c4-343f4dbfad43": {
+                "v": 29,
+                "s": 2
+            },
+            "eb67f107-0508-4e34-9298-e59e622adc85": {
+                "v": 30,
+                "s": 2
+            },
+            "eb4de850-92a6-4c9c-8558-2f4989541582": {
+                "v": 31,
+                "s": 2
+            },
+            "eb4b048d-e6a7-42c5-8482-7cf23bc167e8": {
+                "v": 32,
+                "s": 2
+            },
+            "eb3b1e53-f59d-48d2-92c5-a94b5eb996a7": {
+                "v": 33,
+                "s": 2
+            },
+            "eaf78ca8-e3f1-46d2-8db9-bce09caaed9f": {
+                "v": 34,
+                "s": 2
+            },
+            "eaee5ba7-e33a-47ab-bb59-2924ff754ba7": {
+                "v": 35,
+                "s": 2
+            },
+            "ead7f392-ec37-4177-b760-b59756c9d88e": {
+                "v": 36,
+                "s": 2
+            },
+            "ea9fc6d3-96c2-48ae-a238-04ea1c112592": {
+                "v": 37,
+                "s": 2
+            },
+            "ea968ba6-ba51-4c29-b4f1-b301401f35f4": {
+                "v": 38,
+                "s": 2
+            },
+            "ea8331d5-555a-4bca-bf66-6cf48ec70ff5": {
+                "v": 39,
+                "s": 2
+            },
+            "ea6b2af8-44cd-4cff-aa35-11b332dc73b5": {
+                "v": 40,
+                "s": 2
+            },
+            "ea60c1b3-1801-4b88-ac38-d9002782ba8f": {
+                "v": 41,
+                "s": 2
+            },
+            "ea470b5b-0b3e-4733-8494-88eb90636306": {
+                "v": 42,
+                "s": 2
+            },
+            "e9bb1772-7122-4621-8914-af3a933f8b36": {
+                "v": 43,
+                "s": 2
+            },
+            "e9ac2e49-ae65-4bf6-9041-6fb4f9e8883c": {
+                "v": 44,
+                "s": 2
+            },
+            "e90f5148-f464-485e-b8a7-2ff19ecd08e9": {
+                "v": 45,
+                "s": 2
+            },
+            "e8e29976-c7de-4a14-8835-5033ce707118": {
+                "v": 46,
+                "s": 2
+            },
+            "e8e064f3-60c4-409a-92ad-e8546bd4c826": {
+                "v": 47,
+                "s": 2
+            },
+            "e8a8a3b8-ac3e-464b-b0c4-b8f4236cf86d": {
+                "v": 0,
+                "s": 2
+            },
+            "e8956e07-4bfb-437a-b61c-51bd81fb5857": {
+                "v": 1,
+                "s": 2
+            },
+            "e8790b57-cc8f-49df-a0ab-46ada7d55752": {
+                "v": 2,
+                "s": 2
+            },
+            "e86ba22a-3ccb-433e-af3a-9bf3b74016cf": {
+                "v": 3,
+                "s": 2
+            },
+            "e8344f91-93e2-460c-b20e-67671609e5c7": {
+                "v": 4,
+                "s": 2
+            },
+            "e774665f-a86b-4eb0-885d-0226a7a9697d": {
+                "v": 5,
+                "s": 2
+            },
+            "e75d172d-1623-4a02-b153-f7902ef0ce46": {
+                "v": 6,
+                "s": 2
+            },
+            "e74156c5-11a0-498b-9a67-75fad7a49043": {
+                "v": 7,
+                "s": 2
+            },
+            "e73120f7-87be-48d8-8251-530cc03e94c4": {
+                "v": 8,
+                "s": 2
+            },
+            "e722446c-3769-4ad9-8307-eba6a5268214": {
+                "v": 9,
+                "s": 2
+            },
+            "e6f46aa4-7d95-47ec-81bf-d13ff5dd3c2b": {
+                "v": 10,
+                "s": 2
+            },
+            "e6ea0a76-623d-498f-810e-4908b561f646": {
+                "v": 11,
+                "s": 2
+            },
+            "e6c3cb36-dc86-4e85-b94f-3a3f9de8368f": {
+                "v": 12,
+                "s": 2
+            },
+            "e696f0c1-8927-426e-a151-03d804951999": {
+                "v": 13,
+                "s": 2
+            },
+            "e654c450-f6ae-4020-991d-1c9207fd3096": {
+                "v": 14,
+                "s": 2
+            },
+            "e6518c4a-67eb-43fc-b6c1-45cfa7c8d987": {
+                "v": 15,
+                "s": 2
+            },
+            "e62e5f05-6210-4a1c-a967-210e6f9af2a9": {
+                "v": 16,
+                "s": 2
+            },
+            "e628e535-942a-41a5-a5eb-7da6a396504e": {
+                "v": 17,
+                "s": 2
+            },
+            "e60f0814-61de-48f5-8f6c-b5bdcbade872": {
+                "v": 18,
+                "s": 2
+            },
+            "e5ce2fe3-9d6e-4eb3-b578-76369f95fcaf": {
+                "v": 19,
+                "s": 2
+            },
+            "e553c507-f045-44e9-9e86-f34be86f6a85": {
+                "v": 20,
+                "s": 2
+            },
+            "e530c67e-80a5-42ac-bae1-66a32cd513df": {
+                "v": 21,
+                "s": 2
+            },
+            "e5246f97-7112-4c94-8826-0c64ae4742ef": {
+                "v": 22,
+                "s": 2
+            },
+            "e49e2c58-bb6b-4e7a-9b8c-605d57e29b64": {
+                "v": 23,
+                "s": 2
+            },
+            "e460e89e-cee8-4d17-b183-cd093ca9c86f": {
+                "v": 24,
+                "s": 2
+            },
+            "e4557d14-ee68-499b-bc2f-57e013586353": {
+                "v": 25,
+                "s": 2
+            },
+            "e43fe7ec-fdfc-4ee1-80d8-e9a292f86c7c": {
+                "v": 26,
+                "s": 2
+            },
+            "e4329ea4-982c-4eeb-b887-ebcbc30aa5eb": {
+                "v": 27,
+                "s": 2
+            },
+            "e3c882fe-d565-4bc4-bed1-2d8314b28c66": {
+                "v": 28,
+                "s": 2
+            },
+            "e3b52069-73f1-472a-bc02-e0c593b22bf5": {
+                "v": 29,
+                "s": 2
+            },
+            "e391dfc8-04fe-46e7-a2ca-5a749ffa8f37": {
+                "v": 30,
+                "s": 2
+            },
+            "e390d456-a63f-49a6-9cf7-a67c742c09f2": {
+                "v": 31,
+                "s": 2
+            },
+            "e38308d4-1341-46a9-877b-af4690d72c79": {
+                "v": 32,
+                "s": 2
+            },
+            "e36d3d9e-044f-41ec-8e01-8ac075d9b1ff": {
+                "v": 33,
+                "s": 2
+            },
+            "e35c36e9-9420-4255-9663-b2308413a798": {
+                "v": 34,
+                "s": 2
+            },
+            "e2c424de-03da-4e25-b6d6-10cb8c36d4c6": {
+                "v": 35,
+                "s": 2
+            },
+            "e2c3645a-6c17-4049-96c1-bea61049df26": {
+                "v": 36,
+                "s": 2
+            },
+            "e288d2c2-ed40-4f16-907e-51193e0f19be": {
+                "v": 37,
+                "s": 2
+            },
+            "e1e86db3-c762-444f-aef8-0485b458eb4e": {
+                "v": 38,
+                "s": 2
+            },
+            "e12c17f9-8a89-4cdc-ba84-810dc6875ff0": {
+                "v": 39,
+                "s": 2
+            },
+            "e11539d2-559d-4f8b-ad46-1894e93e857b": {
+                "v": 40,
+                "s": 2
+            },
+            "e0c31960-57ab-4998-b977-de9334961652": {
+                "v": 41,
+                "s": 2
+            },
+            "e094a737-7dba-4a63-a10c-6b4eae8fd3c8": {
+                "v": 42,
+                "s": 2
+            },
+            "e081f488-d4ea-44b9-b25c-9eaa78ce3fdd": {
+                "v": 43,
+                "s": 2
+            },
+            "e04b2830-1425-4a92-b0f5-0172a66ee92d": {
+                "v": 44,
+                "s": 2
+            },
+            "dfea2ff8-8dbd-437d-aaaa-44010237e15f": {
+                "v": 45,
+                "s": 2
+            },
+            "dfe7ad6b-a8a4-4d6a-96de-fe3342fcd149": {
+                "v": 46,
+                "s": 2
+            },
+            "dfd55b86-f153-4682-ac0a-297d34f54131": {
+                "v": 47,
+                "s": 2
+            },
+            "df9aa46c-3c8e-4e73-90d6-dac7c9ed4231": {
+                "v": 0,
+                "s": 2
+            },
+            "df94587e-361c-4ac4-ac81-66ecadbe6c20": {
+                "v": 1,
+                "s": 2
+            },
+            "df868189-197a-4af4-a563-d3664bc0415e": {
+                "v": 2,
+                "s": 2
+            },
+            "df569ce5-ef64-4448-bcf8-09cc7c5f25a0": {
+                "v": 3,
+                "s": 2
+            },
+            "df2b4bb3-0860-4c7b-a19c-4a067c1d3567": {
+                "v": 4,
+                "s": 2
+            },
+            "df10db1c-baa5-45b8-9158-359dcb89f707": {
+                "v": 5,
+                "s": 2
+            },
+            "decaef19-9680-484e-acb2-86476762759c": {
+                "v": 6,
+                "s": 2
+            },
+            "deac2954-54d1-486b-8f5e-c809b4743e5c": {
+                "v": 7,
+                "s": 2
+            },
+            "de94e813-48c4-4433-8797-8681e8ef9fe8": {
+                "v": 8,
+                "s": 2
+            }
+        },
+        "saveId": 4
+    },
+    "pageContext": [
+        {
+            "origin": "filter",
+            "table": "",
+            "alias": "0",
+            "sourceId": "model0000018b42397a86_00000001",
+            "scope": "global",
+            "hierarchyNames": [
+                "CONTAINER_NAME"
+            ],
+            "hierarchyUniqueNames": [
+                "V_LDM_ENT_ATT_TERMS.CONTAINER_NAME"
+            ],
+            "isNamedSet": false,
+            "isModeledFilter": false
+        },
+        {
+            "origin": "filter",
+            "table": "",
+            "alias": "0",
+            "sourceId": "model0000018b42397a86_00000001",
+            "scope": "global",
+            "hierarchyNames": [
+                "ENTITY_ASSET_RESOURCE_KEY"
+            ],
+            "hierarchyUniqueNames": [
+                "V_LDM_ENT_ATT_TERMS.ENTITY_ASSET_RESOURCE_KEY"
+            ],
+            "exclude": false,
+            "isNamedSet": false,
+            "isModeledFilter": false,
+            "tupleSet": "{}"
+        }
+    ],
+    "dataSources": {
+        "version": "1.0",
+        "sources": [
+            {
+                "id": "model0000018b42397a86_00000001",
+                "assetId": "43ed6eb2-53da-4881-b2e2-3efb94be3c06",
+                "type": "data_asset",
+                "name": "V_LDM_ENT_ATT_TERMS",
+                "shaping": {
+                    "references": {},
+                    "embeddedModuleUpToDate": false
+                }
+            }
+        ]
+    },
+    "layout": {
+        "id": "model0000018b42397a87_00000000",
+        "style": {
+            "height": "100%"
+        },
+        "type": "tab",
+        "showGrid": true,
+        "snapGrid": true,
+        "snapObjects": true,
+        "pageSize": {
+            "height": 720,
+            "width": 1280
+        },
+        "layoutPositioning": "relative",
+        "selectedTabId": "model0000018b4d8bf760_00000004",
+        "items": [
+            {
+                "id": "model0000018b4d8bf760_00000004",
+                "from": "model0000018b42397a87_00000002",
+                "type": "container",
+                "title": {
+                    "translationTable": {
+                        "Default": "Logical Data Model overview"
+                    }
+                },
+                "templateName": "Template1",
+                "clones": 0,
+                "items": [
+                    {
+                        "id": "model0000018b4d8bf760_00000005",
+                        "from": "model0000018b42397a88_00000000",
+                        "css": "templateBox aspectRatio_default",
+                        "type": "genericPage",
+                        "layoutPositioning": "relative",
+                        "items": [
+                            {
+                                "id": "model0000018b4d8bf760_00000006",
+                                "from": "model0000018b42397a89_00000000",
+                                "style": {
+                                    "top": "0%",
+                                    "left": "0%",
+                                    "right": "0%",
+                                    "bottom": "0%"
+                                },
+                                "type": "templateIndicator"
+                            },
+                            {
+                                "id": "model0000018b4d8bf75d_00000000",
+                                "from": "model0000018b423c21d5_00000000",
+                                "style": {
+                                    "left": "0.52%",
+                                    "top": "0.7%",
+                                    "height": "8.27%",
+                                    "width": "39.96%"
+                                },
+                                "type": "widget",
+                                "relatedLayouts": "",
+                                "features": {
+                                    "Models_internal": {
+                                        "type": "live",
+                                        "id": "model0000018b4d8bf75d_00000000",
+                                        "visId": "summary",
+                                        "titleHtml": {
+                                            "translationTable": {
+                                                "Default": "<div class=\"widgetTitle titleShown smallTitle\" title=\"Number of Entities\" aria-labelledby=\"model0000018b423c21d5_00000000Title\" walkme-data-id=\"widgetTitle\"><div class=\"textArea\"><div class=\"summernote\" style=\"display: none;\"></div><div class=\"note-editor\"><div class=\"note-dropzone\">  <div class=\"note-dropzone-message\"></div></div><div class=\"note-editing-area\"><div class=\"note-handle\"><div class=\"note-control-selection\" style=\"display: none;\"><div class=\"note-control-selection-bg\"></div><div class=\"note-control-holder note-control-nw\"></div><div class=\"note-control-holder note-control-ne\"></div><div class=\"note-control-holder note-control-sw\"></div><div class=\"note-control-sizing note-control-se\"></div><div class=\"note-control-selection-info\"></div></div></div><div tabindex=\"-1\" contenteditable=\"true\" style=\"position: absolute; left: -100000px; opacity: 0;\"></div><div class=\"note-editable\" contenteditable=\"false\" id=\"model0000018b423c21d5_00000000Title\"><span class=\"textFitted responsiveColor responsiveFontSize responsiveFontFamily\"><p style=\"text-align: center;\">Number of Entities<br></p></span></div></div></div></div></div>"
+                                            }
+                                        },
+                                        "titleMode": "customTitle",
+                                        "name": {
+                                            "translationTable": {
+                                                "Default": "Number of Entities"
+                                            }
+                                        },
+                                        "data": {
+                                            "dataViews": [
+                                                {
+                                                    "id": "model0000018b423c416d_00000000",
+                                                    "modelRef": "model0000018b42397a86_00000001",
+                                                    "dataItems": [
+                                                        {
+                                                            "id": "id_1205605589",
+                                                            "itemId": "V_LDM_ENT_ATT_TERMS.ENTITY_ID",
+                                                            "itemLabel": "ENTITY_ID",
+                                                            "union": {}
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "visTypeLocked": true,
+                                        "slotmapping": {
+                                            "slots": [
+                                                {
+                                                    "name": "actual",
+                                                    "dataItems": [
+                                                        "id_1205605589"
+                                                    ]
+                                                }
+                                            ],
+                                            "multiMeasureGroups": {}
+                                        },
+                                        "savedPrompts": null,
+                                        "properties": [
+                                            {
+                                                "id": "showItemLabel",
+                                                "value": false
+                                            },
+                                            {
+                                                "id": "baseValueLabel",
+                                                "value": {
+                                                    "translationTable": {
+                                                        "Default": "Entities"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            {
+                                "id": "model0000018b4d8bf75d_00000001",
+                                "from": "model0000018b423cf458_00000000",
+                                "style": {
+                                    "left": "40.995415848068106%",
+                                    "top": "0.6985410969190845%",
+                                    "height": "8.269946549963734%",
+                                    "width": "37.958939096267194%"
+                                },
+                                "type": "widget",
+                                "relatedLayouts": "",
+                                "features": {
+                                    "Models_internal": {
+                                        "type": "live",
+                                        "id": "model0000018b4d8bf75d_00000001",
+                                        "visId": "summary",
+                                        "titleHtml": {
+                                            "translationTable": {
+                                                "Default": "<div class=\"widgetTitle smallTitle\" title=\"Number of Attributes\" aria-labelledby=\"model0000018b423c21d5_00000000Title\" walkme-data-id=\"widgetTitle\"><div class=\"textArea\"><div class=\"summernote\" style=\"display: none;\"></div><div class=\"note-editor\"><div class=\"note-dropzone\">  <div class=\"note-dropzone-message\"></div></div><div class=\"note-editing-area\"><div class=\"note-handle\"><div class=\"note-control-selection\" style=\"display: none;\"><div class=\"note-control-selection-bg\"></div><div class=\"note-control-holder note-control-nw\"></div><div class=\"note-control-holder note-control-ne\"></div><div class=\"note-control-holder note-control-sw\"></div><div class=\"note-control-sizing note-control-se\"></div><div class=\"note-control-selection-info\"></div></div></div><div tabindex=\"-1\" contenteditable=\"true\" style=\"position: absolute; left: -100000px; opacity: 0;\"></div><div class=\"note-editable\" contenteditable=\"true\" id=\"model0000018b423cf458_00000000Title\"><span class=\"textFitted responsiveColor responsiveFontSize responsiveFontFamily\"><p style=\"text-align: center;\"><span>Number of Attributes<br></span></p></span></div></div></div></div></div>"
+                                            }
+                                        },
+                                        "titleMode": "customTitle",
+                                        "name": {
+                                            "translationTable": {
+                                                "Default": "Number of Attributes"
+                                            }
+                                        },
+                                        "data": {
+                                            "dataViews": [
+                                                {
+                                                    "id": "model0000018b423d50b5_00000000",
+                                                    "modelRef": "model0000018b42397a86_00000001",
+                                                    "dataItems": [
+                                                        {
+                                                            "id": "id_384732918",
+                                                            "itemId": "V_LDM_ENT_ATT_TERMS.ATTRIBUTE_ID",
+                                                            "itemLabel": "ATTRIBUTE_ID",
+                                                            "union": {}
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "visTypeLocked": true,
+                                        "slotmapping": {
+                                            "slots": [
+                                                {
+                                                    "name": "actual",
+                                                    "dataItems": [
+                                                        "id_384732918"
+                                                    ]
+                                                }
+                                            ],
+                                            "multiMeasureGroups": {}
+                                        },
+                                        "savedPrompts": null,
+                                        "properties": [
+                                            {
+                                                "id": "showItemLabel",
+                                                "value": false
+                                            },
+                                            {
+                                                "id": "baseValueLabel",
+                                                "value": {
+                                                    "translationTable": {
+                                                        "Default": "Attributes"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            {
+                                "id": "model0000018b4d8bf75d_00000002",
+                                "from": "model0000018b423eb130_00000000",
+                                "style": {
+                                    "left": "0.52%",
+                                    "top": "9.66%",
+                                    "height": "32.38%",
+                                    "width": "39.94%"
+                                },
+                                "type": "widget",
+                                "relatedLayouts": "",
+                                "features": {
+                                    "Models_internal": {
+                                        "type": "live",
+                                        "id": "model0000018b4d8bf75d_00000002",
+                                        "visId": "com.ibm.vis.rave2bundlepie",
+                                        "titleHtml": {
+                                            "translationTable": {
+                                                "Default": "<div class=\"widgetTitle\" title=\"Entities mapped to Business Terms\" aria-labelledby=\"model0000018b423eb130_00000000Title\" walkme-data-id=\"widgetTitle\"><div class=\"textArea\"><div class=\"summernote\" style=\"display: none;\"></div><div class=\"note-editor\"><div class=\"note-dropzone\">  <div class=\"note-dropzone-message\"></div></div><div class=\"note-editing-area\"><div class=\"note-handle\"><div class=\"note-control-selection\" style=\"display: none;\"><div class=\"note-control-selection-bg\"></div><div class=\"note-control-holder note-control-nw\"></div><div class=\"note-control-holder note-control-ne\"></div><div class=\"note-control-holder note-control-sw\"></div><div class=\"note-control-sizing note-control-se\"></div><div class=\"note-control-selection-info\"></div></div></div><div tabindex=\"-1\" contenteditable=\"true\" style=\"position: absolute; left: -100000px; opacity: 0;\"></div><div class=\"note-editable\" contenteditable=\"true\" id=\"model0000018b423eb130_00000000Title\"><span class=\"textFitted responsiveColor responsiveFontSize responsiveFontFamily\"><p style=\"text-align: center;\"><span style=\"font-size: 14px;\">Entities mapped to Business Terms</span><br></p></span></div></div></div></div></div>"
+                                            }
+                                        },
+                                        "titleMode": "customTitle",
+                                        "responsiveTitle": false,
+                                        "name": {
+                                            "translationTable": {
+                                                "Default": "Entities mapped to Business Terms"
+                                            }
+                                        },
+                                        "data": {
+                                            "dataViews": [
+                                                {
+                                                    "id": "model0000018b423ef483_00000000",
+                                                    "modelRef": "model0000018b42397a86_00000001",
+                                                    "dataItems": [
+                                                        {
+                                                            "id": "id_412939197",
+                                                            "itemId": "V_LDM_ENT_ATT_TERMS.ENTITY_MAPPED",
+                                                            "itemLabel": "ENTITY_MAPPED",
+                                                            "union": {},
+                                                            "selection": [
+                                                                {
+                                                                    "operation": "order",
+                                                                    "sort": {
+                                                                        "type": "asc",
+                                                                        "by": "caption",
+                                                                        "priority": 0
+                                                                    }
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "id_1205605589",
+                                                            "itemId": "V_LDM_ENT_ATT_TERMS.ENTITY_ID",
+                                                            "itemLabel": "ENTITY_ID",
+                                                            "union": {}
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "visTypeLocked": true,
+                                        "slotmapping": {
+                                            "slots": [
+                                                {
+                                                    "name": "categories",
+                                                    "dataItems": [
+                                                        "id_412939197"
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "values",
+                                                    "dataItems": [
+                                                        "id_1205605589"
+                                                    ]
+                                                }
+                                            ],
+                                            "multiMeasureGroups": {}
+                                        },
+                                        "annotations": {
+                                            "selectedAnnotations": []
+                                        },
+                                        "properties": [
+                                            {
+                                                "id": "widget.legend.display",
+                                                "value": true
+                                            },
+                                            {
+                                                "id": "widget.legend.position",
+                                                "value": "default"
+                                            },
+                                            {
+                                                "id": "widget.legend.alignment",
+                                                "value": "start"
+                                            },
+                                            {
+                                                "id": "label.percentage",
+                                                "value": false
+                                            },
+                                            {
+                                                "id": "labels.visible",
+                                                "value": true
+                                            },
+                                            {
+                                                "id": "inner.label.visible",
+                                                "value": true
+                                            },
+                                            {
+                                                "id": "labelLocation",
+                                                "value": "inside"
+                                            },
+                                            {
+                                                "id": "labels.format",
+                                                "value": "Value"
+                                            },
+                                            {
+                                                "id": "widget.legend.splitter",
+                                                "value": true
+                                            },
+                                            {
+                                                "id": "widget.legend.swatch.symbol.default",
+                                                "value": "circle"
+                                            },
+                                            {
+                                                "id": "defaultPaletteIndex",
+                                                "value": 1
+                                            }
+                                        ],
+                                        "savedPrompts": null
+                                    }
+                                }
+                            },
+                            {
+                                "id": "model0000018b4d8bf75e_00000000",
+                                "from": "model0000018b423fff5b_00000000",
+                                "style": {
+                                    "left": "40.995415848068106%",
+                                    "top": "9.663151840714002%",
+                                    "height": "32.37935904197417%",
+                                    "width": "38.082318271119846%"
+                                },
+                                "type": "widget",
+                                "relatedLayouts": "",
+                                "features": {
+                                    "Models_internal": {
+                                        "type": "live",
+                                        "id": "model0000018b4d8bf75e_00000000",
+                                        "visId": "com.ibm.vis.rave2bundlepie",
+                                        "titleHtml": {
+                                            "translationTable": {
+                                                "Default": "<div class=\"widgetTitle titleShown\" title=\"Attributes mapped to Business Terms\" aria-labelledby=\"model0000018b423eb130_00000000Title\" walkme-data-id=\"widgetTitle\"><div class=\"textArea\"><div class=\"summernote\" style=\"display: none;\"></div><div class=\"note-editor\"><div class=\"note-dropzone\">  <div class=\"note-dropzone-message\"></div></div><div class=\"note-editing-area\"><div class=\"note-handle\"><div class=\"note-control-selection\" style=\"display: none;\"><div class=\"note-control-selection-bg\"></div><div class=\"note-control-holder note-control-nw\"></div><div class=\"note-control-holder note-control-ne\"></div><div class=\"note-control-holder note-control-sw\"></div><div class=\"note-control-sizing note-control-se\"></div><div class=\"note-control-selection-info\"></div></div></div><div tabindex=\"-1\" contenteditable=\"true\" style=\"position: absolute; left: -100000px; opacity: 0;\"></div><div class=\"note-editable\" contenteditable=\"true\" id=\"model0000018b423fff5b_00000000Title\"><span class=\"textFitted responsiveColor responsiveFontSize responsiveFontFamily\"><p style=\"text-align: center;\"><span style=\"font-size: 14px;\">Attributes mapped to Business Terms</span><br></p></span></div></div></div></div></div>"
+                                            }
+                                        },
+                                        "titleMode": "customTitle",
+                                        "responsiveTitle": false,
+                                        "name": {
+                                            "translationTable": {
+                                                "Default": "Attributes mapped to Business Terms"
+                                            }
+                                        },
+                                        "data": {
+                                            "dataViews": [
+                                                {
+                                                    "id": "model0000018b4240f7b1_00000000",
+                                                    "modelRef": "model0000018b42397a86_00000001",
+                                                    "dataItems": [
+                                                        {
+                                                            "id": "id944540322",
+                                                            "itemId": "V_LDM_ENT_ATT_TERMS.ATTRIBUTE_MAPPED",
+                                                            "itemLabel": "ATTRIBUTE_MAPPED",
+                                                            "union": {},
+                                                            "selection": [
+                                                                {
+                                                                    "operation": "order",
+                                                                    "sort": {
+                                                                        "type": "asc",
+                                                                        "by": "caption",
+                                                                        "priority": 0
+                                                                    }
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "id_384732918",
+                                                            "itemId": "V_LDM_ENT_ATT_TERMS.ATTRIBUTE_ID",
+                                                            "itemLabel": "ATTRIBUTE_ID",
+                                                            "union": {}
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "visTypeLocked": true,
+                                        "slotmapping": {
+                                            "slots": [
+                                                {
+                                                    "name": "categories",
+                                                    "dataItems": [
+                                                        "id944540322"
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "values",
+                                                    "dataItems": [
+                                                        "id_384732918"
+                                                    ]
+                                                }
+                                            ],
+                                            "multiMeasureGroups": {}
+                                        },
+                                        "annotations": {
+                                            "selectedAnnotations": []
+                                        },
+                                        "savedPrompts": null,
+                                        "properties": [
+                                            {
+                                                "id": "widget.legend.display",
+                                                "value": true
+                                            },
+                                            {
+                                                "id": "widget.legend.position",
+                                                "value": "default"
+                                            },
+                                            {
+                                                "id": "widget.legend.alignment",
+                                                "value": "start"
+                                            },
+                                            {
+                                                "id": "label.percentage",
+                                                "value": false
+                                            },
+                                            {
+                                                "id": "labels.visible",
+                                                "value": true
+                                            },
+                                            {
+                                                "id": "labels.format",
+                                                "value": "Value"
+                                            },
+                                            {
+                                                "id": "contrast.label.color",
+                                                "value": true
+                                            },
+                                            {
+                                                "id": "label.shadow",
+                                                "value": false
+                                            },
+                                            {
+                                                "id": "widget.legend.swatch.symbol.default",
+                                                "value": "circle"
+                                            },
+                                            {
+                                                "id": "widget.legend.titleVisible",
+                                                "value": true
+                                            },
+                                            {
+                                                "id": "defaultPaletteIndex",
+                                                "value": 1
+                                            },
+                                            {
+                                                "id": "widget.legend.aggregateTypeVisible",
+                                                "value": true
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            {
+                                "id": "model0000018b4d8bf75e_00000001",
+                                "from": "model0000018b427fabea_00000000",
+                                "style": {
+                                    "left": "0.45841519318926%",
+                                    "top": "42.611006912064155%",
+                                    "height": "49.88945587141255%",
+                                    "width": "40.088408644400786%"
+                                },
+                                "type": "widget",
+                                "relatedLayouts": "",
+                                "features": {
+                                    "Models_internal": {
+                                        "type": "live",
+                                        "id": "model0000018b4d8bf75e_00000001",
+                                        "visId": "JQGrid",
+                                        "titleHtml": {
+                                            "translationTable": {
+                                                "Default": "<div class=\"widgetTitle mediumTitle\" title=\"ENTITY_NAME\" aria-labelledby=\"model0000018b427fabea_00000000Title\" walkme-data-id=\"widgetTitle\"><div class=\"textArea\"><div class=\"summernote\" style=\"display: none;\"></div><div class=\"note-editor\"><div class=\"note-dropzone\">  <div class=\"note-dropzone-message\"></div></div><div class=\"note-editing-area\"><div class=\"note-handle\"><div class=\"note-control-selection\"><div class=\"note-control-selection-bg\"></div><div class=\"note-control-holder note-control-nw\"></div><div class=\"note-control-holder note-control-ne\"></div><div class=\"note-control-holder note-control-sw\"></div><div class=\"note-control-sizing note-control-se\"></div><div class=\"note-control-selection-info\"></div></div></div><div tabindex=\"-1\" contenteditable=\"true\" style=\"position: absolute; left: -100000px; opacity: 0;\"></div><div class=\"note-editable\" contenteditable=\"false\" id=\"model0000018b427fabea_00000000Title\"><span class=\"textFitted responsiveColor responsiveFontSize responsiveFontFamily\"><p><span>ENTITY_NAME, ENTITY_TERM_NAME, ATTRIBUTE_NAME and ATTRIBUTE_TERM_NAME</span></p></span></div></div></div></div></div>"
+                                            }
+                                        },
+                                        "titleMode": "noTitle",
+                                        "name": {
+                                            "translationTable": {
+                                                "Default": "ENTITY_NAME, ENTITY_TERM_NAME, ATTRIBUTE_NAME and ATTRIBUTE_TERM_NAME"
+                                            }
+                                        },
+                                        "data": {
+                                            "dataViews": [
+                                                {
+                                                    "id": "model0000018b427ffc59_00000000",
+                                                    "modelRef": "model0000018b42397a86_00000001",
+                                                    "dataItems": [
+                                                        {
+                                                            "id": "id1054347419",
+                                                            "itemId": "V_LDM_ENT_ATT_TERMS.ENTITY_NAME",
+                                                            "itemLabel": "ENTITY_NAME",
+                                                            "union": {}
+                                                        },
+                                                        {
+                                                            "id": "id_757760402",
+                                                            "itemId": "V_LDM_ENT_ATT_TERMS.ENTITY_TERM_NAME",
+                                                            "itemLabel": "ENTITY_TERM_NAME",
+                                                            "union": {}
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "visTypeLocked": true,
+                                        "slotmapping": {
+                                            "slots": [
+                                                {
+                                                    "name": "grid_cols",
+                                                    "dataItems": [
+                                                        "id1054347419",
+                                                        "id_757760402"
+                                                    ]
+                                                }
+                                            ],
+                                            "multiMeasureGroups": {}
+                                        },
+                                        "savedPrompts": null
+                                    }
+                                }
+                            },
+                            {
+                                "id": "model0000018b4d8d5291_00000000",
+                                "from": "model0000018b427fabea_00000000",
+                                "style": {
+                                    "left": "40.995415848068106%",
+                                    "top": "42.611006912064155%",
+                                    "height": "49.88945587141255%",
+                                    "width": "38.08009168303864%"
+                                },
+                                "type": "widget",
+                                "relatedLayouts": "",
+                                "features": {
+                                    "Models_internal": {
+                                        "type": "live",
+                                        "id": "model0000018b4d8d5291_00000000",
+                                        "visId": "JQGrid",
+                                        "titleHtml": {
+                                            "translationTable": {
+                                                "Default": "<div class=\"widgetTitle mediumTitle\" title=\"ENTITY_NAME\" aria-labelledby=\"model0000018b427fabea_00000000Title\" walkme-data-id=\"widgetTitle\"><div class=\"textArea\"><div class=\"summernote\" style=\"display: none;\"></div><div class=\"note-editor\"><div class=\"note-dropzone\">  <div class=\"note-dropzone-message\"></div></div><div class=\"note-editing-area\"><div class=\"note-handle\"><div class=\"note-control-selection\"><div class=\"note-control-selection-bg\"></div><div class=\"note-control-holder note-control-nw\"></div><div class=\"note-control-holder note-control-ne\"></div><div class=\"note-control-holder note-control-sw\"></div><div class=\"note-control-sizing note-control-se\"></div><div class=\"note-control-selection-info\"></div></div></div><div tabindex=\"-1\" contenteditable=\"true\" style=\"position: absolute; left: -100000px; opacity: 0;\"></div><div class=\"note-editable\" contenteditable=\"false\" id=\"model0000018b427fabea_00000000Title\"><span class=\"textFitted responsiveColor responsiveFontSize responsiveFontFamily\"><p><span>ENTITY_NAME, ENTITY_TERM_NAME, ATTRIBUTE_NAME and ATTRIBUTE_TERM_NAME</span></p></span></div></div></div></div></div>"
+                                            }
+                                        },
+                                        "titleMode": "noTitle",
+                                        "name": {
+                                            "translationTable": {
+                                                "Default": "ENTITY_NAME, ENTITY_TERM_NAME, ATTRIBUTE_NAME and ATTRIBUTE_TERM_NAME"
+                                            }
+                                        },
+                                        "data": {
+                                            "dataViews": [
+                                                {
+                                                    "id": "model0000018b4d8daa48_00000000",
+                                                    "modelRef": "model0000018b42397a86_00000001",
+                                                    "dataItems": [
+                                                        {
+                                                            "id": "id_360998214",
+                                                            "itemId": "V_LDM_ENT_ATT_TERMS.ATTRIBUTE_NAME",
+                                                            "itemLabel": "ATTRIBUTE_NAME",
+                                                            "union": {}
+                                                        },
+                                                        {
+                                                            "id": "id_1497469009",
+                                                            "itemId": "V_LDM_ENT_ATT_TERMS.ATTRIBUTE_TERM_NAME",
+                                                            "itemLabel": "ATTRIBUTE_TERM_NAME",
+                                                            "union": {}
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "visTypeLocked": true,
+                                        "slotmapping": {
+                                            "slots": [
+                                                {
+                                                    "name": "grid_cols",
+                                                    "dataItems": [
+                                                        "id_360998214",
+                                                        "id_1497469009"
+                                                    ]
+                                                }
+                                            ],
+                                            "multiMeasureGroups": {}
+                                        },
+                                        "savedPrompts": null
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "model0000018b4d64ae85_00000007",
+                "from": "model0000018b424868e9_00000000",
+                "type": "container",
+                "title": {
+                    "translationTable": {
+                        "Default": "Entity view"
+                    }
+                },
+                "templateName": "Template1",
+                "clones": 1,
+                "items": [
+                    {
+                        "id": "model0000018b4d64ae85_00000008",
+                        "from": "model0000018b424868ea_00000001",
+                        "css": "templateBox aspectRatio_default",
+                        "type": "genericPage",
+                        "layoutPositioning": "relative",
+                        "items": [
+                            {
+                                "id": "model0000018b4d64ae85_00000009",
+                                "from": "model0000018b424868ea_00000003",
+                                "style": {
+                                    "top": "0%",
+                                    "left": "0%",
+                                    "right": "0%",
+                                    "bottom": "0%"
+                                },
+                                "type": "templateIndicator"
+                            },
+                            {
+                                "id": "model0000018b4d64ae83_00000001",
+                                "from": "model0000018b42615746_00000000",
+                                "style": {
+                                    "left": "40.92992796332678%",
+                                    "top": "0.6985410969190845%",
+                                    "height": "41.44292977449929%",
+                                    "width": "57.14800261951539%"
+                                },
+                                "type": "widget",
+                                "relatedLayouts": "",
+                                "features": {
+                                    "Models_internal": {
+                                        "type": "live",
+                                        "id": "model0000018b4d64ae83_00000001",
+                                        "visId": "com.ibm.vis.rave2bundlebar",
+                                        "titleHtml": {
+                                            "translationTable": {
+                                                "Default": "<div class=\"widgetTitle\" title=\"Entity assigned terms by Category\" aria-labelledby=\"model0000018b42615746_00000000Title\" walkme-data-id=\"widgetTitle\"><div class=\"textArea\"><div class=\"summernote\" style=\"display: none;\"></div><div class=\"note-editor\"><div class=\"note-dropzone\">  <div class=\"note-dropzone-message\"></div></div><div class=\"note-editing-area\"><div class=\"note-handle\"><div class=\"note-control-selection\" style=\"display: none;\"><div class=\"note-control-selection-bg\"></div><div class=\"note-control-holder note-control-nw\"></div><div class=\"note-control-holder note-control-ne\"></div><div class=\"note-control-holder note-control-sw\"></div><div class=\"note-control-sizing note-control-se\"></div><div class=\"note-control-selection-info\"></div></div></div><div tabindex=\"-1\" contenteditable=\"true\" style=\"position: absolute; left: -100000px; opacity: 0;\"></div><div class=\"note-editable\" contenteditable=\"true\" id=\"model0000018b42615746_00000000Title\"><span class=\"textFitted responsiveColor responsiveFontSize responsiveFontFamily\"><p style=\"text-align: center;\"><span style=\"font-size: 14px;\">Entity assigned terms by Category</span><br></p></span></div></div></div></div></div>"
+                                            }
+                                        },
+                                        "titleMode": "customTitle",
+                                        "responsiveTitle": false,
+                                        "name": {
+                                            "translationTable": {
+                                                "Default": "Entity assigned terms by Category"
+                                            }
+                                        },
+                                        "data": {
+                                            "dataViews": [
+                                                {
+                                                    "id": "model0000018b4261865b_00000000",
+                                                    "modelRef": "model0000018b42397a86_00000001",
+                                                    "dataItems": [
+                                                        {
+                                                            "id": "id_88068763",
+                                                            "itemId": "V_LDM_ENT_ATT_TERMS.ENTITY_TERM_ARTIFACT_ID",
+                                                            "itemLabel": "ENTITY_TERM_ARTIFACT_ID",
+                                                            "union": {}
+                                                        },
+                                                        {
+                                                            "id": "id46539036",
+                                                            "itemId": "V_LDM_ENT_ATT_TERMS.ENTITY_CATEGORY_NAME",
+                                                            "itemLabel": "ENTITY_CATEGORY_NAME",
+                                                            "union": {}
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "visTypeLocked": true,
+                                        "slotmapping": {
+                                            "slots": [
+                                                {
+                                                    "name": "categories",
+                                                    "dataItems": [
+                                                        "id46539036"
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "values",
+                                                    "dataItems": [
+                                                        "id_88068763"
+                                                    ]
+                                                }
+                                            ],
+                                            "multiMeasureGroups": {}
+                                        },
+                                        "annotations": {
+                                            "selectedAnnotations": []
+                                        },
+                                        "properties": [
+                                            {
+                                                "id": "itemAxis.title.visible",
+                                                "value": false
+                                            },
+                                            {
+                                                "id": "valueAxis.title.visible",
+                                                "value": false
+                                            }
+                                        ],
+                                        "savedPrompts": null
+                                    }
+                                }
+                            },
+                            {
+                                "id": "model0000018b4d64ae83_00000002",
+                                "from": "model0000018b4264334e_00000000",
+                                "style": {
+                                    "left": "0.8513425016371972%",
+                                    "top": "0.465694064612723%",
+                                    "height": "41.57681681807546%",
+                                    "width": "39.29600523903078%"
+                                },
+                                "type": "widget",
+                                "relatedLayouts": "",
+                                "features": {
+                                    "Models_internal": {
+                                        "type": "live",
+                                        "id": "model0000018b4d64ae83_00000002",
+                                        "visId": "com.ibm.vis.rave2bundlepie",
+                                        "titleHtml": {
+                                            "translationTable": {
+                                                "Default": "<div class=\"widgetTitle\" title=\"Entities mapped to Business Terms\" aria-labelledby=\"model0000018b4264334e_00000000Title\" walkme-data-id=\"widgetTitle\"><div class=\"textArea\"><div class=\"summernote\" style=\"display: none;\"></div><div class=\"note-editor\"><div class=\"note-dropzone\">  <div class=\"note-dropzone-message\"></div></div><div class=\"note-editing-area\"><div class=\"note-handle\"><div class=\"note-control-selection\" style=\"display: none;\"><div class=\"note-control-selection-bg\"></div><div class=\"note-control-holder note-control-nw\"></div><div class=\"note-control-holder note-control-ne\"></div><div class=\"note-control-holder note-control-sw\"></div><div class=\"note-control-sizing note-control-se\"></div><div class=\"note-control-selection-info\"></div></div></div><div tabindex=\"-1\" contenteditable=\"true\" style=\"position: absolute; left: -100000px; opacity: 0;\"></div><div class=\"note-editable\" contenteditable=\"true\" id=\"model0000018b4264334e_00000000Title\"><span class=\"textFitted responsiveColor responsiveFontSize responsiveFontFamily\"><p style=\"text-align: center;\"><span style=\"font-size: 14px;\">Entities mapped to Business Terms</span><br></p></span></div></div></div></div></div>"
+                                            }
+                                        },
+                                        "titleMode": "customTitle",
+                                        "responsiveTitle": false,
+                                        "name": {
+                                            "translationTable": {
+                                                "Default": "Entities mapped to Business Terms"
+                                            }
+                                        },
+                                        "data": {
+                                            "dataViews": [
+                                                {
+                                                    "id": "model0000018b4264d780_00000000",
+                                                    "modelRef": "model0000018b42397a86_00000001",
+                                                    "dataItems": [
+                                                        {
+                                                            "id": "id_412939197",
+                                                            "itemId": "V_LDM_ENT_ATT_TERMS.ENTITY_MAPPED",
+                                                            "itemLabel": "ENTITY_MAPPED",
+                                                            "union": {},
+                                                            "selection": [
+                                                                {
+                                                                    "operation": "order",
+                                                                    "sort": {
+                                                                        "type": "asc",
+                                                                        "by": "caption",
+                                                                        "priority": 0
+                                                                    }
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "id_1205605589",
+                                                            "itemId": "V_LDM_ENT_ATT_TERMS.ENTITY_ID",
+                                                            "itemLabel": "ENTITY_ID",
+                                                            "union": {}
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "visTypeLocked": true,
+                                        "slotmapping": {
+                                            "slots": [
+                                                {
+                                                    "name": "categories",
+                                                    "dataItems": [
+                                                        "id_412939197"
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "values",
+                                                    "dataItems": [
+                                                        "id_1205605589"
+                                                    ]
+                                                }
+                                            ],
+                                            "multiMeasureGroups": {}
+                                        },
+                                        "annotations": {
+                                            "selectedAnnotations": []
+                                        },
+                                        "properties": [
+                                            {
+                                                "id": "labels.format",
+                                                "value": "Value"
+                                            },
+                                            {
+                                                "id": "optimizeSize",
+                                                "value": true
+                                            },
+                                            {
+                                                "id": "defaultPaletteIndex",
+                                                "value": 1
+                                            }
+                                        ],
+                                        "savedPrompts": null
+                                    }
+                                }
+                            },
+                            {
+                                "id": "model0000018b4d64ae84_00000000",
+                                "from": "model0000018b4268bba9_00000000",
+                                "style": {
+                                    "left": "0.4331348132106118%",
+                                    "top": "42.64002387071314%",
+                                    "height": "48.44570856554339%",
+                                    "width": "48.638332430969136%"
+                                },
+                                "type": "widget",
+                                "relatedLayouts": "",
+                                "features": {
+                                    "Models_internal": {
+                                        "type": "live",
+                                        "id": "model0000018b4d64ae84_00000000",
+                                        "visId": "JQGrid",
+                                        "titleHtml": {
+                                            "translationTable": {
+                                                "Default": "<div class=\"widgetTitle mediumTitle\" title=\"ENTITY_TERM_NAME\" aria-labelledby=\"model0000018b4268bba9_00000000Title\" walkme-data-id=\"widgetTitle\"><div class=\"textArea hidden\"><div class=\"summernote\" style=\"display: none;\"></div><div class=\"note-editor\"><div class=\"note-dropzone\">  <div class=\"note-dropzone-message\"></div></div><div class=\"note-editing-area\"><div class=\"note-handle\"><div class=\"note-control-selection\"><div class=\"note-control-selection-bg\"></div><div class=\"note-control-holder note-control-nw\"></div><div class=\"note-control-holder note-control-ne\"></div><div class=\"note-control-holder note-control-sw\"></div><div class=\"note-control-sizing note-control-se\"></div><div class=\"note-control-selection-info\"></div></div></div><div tabindex=\"-1\" contenteditable=\"true\" style=\"position: absolute; left: -100000px; opacity: 0;\"></div><div class=\"note-editable\" contenteditable=\"false\" id=\"model0000018b4268bba9_00000000Title\"><span class=\"textFitted responsiveColor responsiveFontSize responsiveFontFamily\"><p><span>ENTITY_TERM_NAME and ENTITY_NAME</span></p></span></div></div></div></div></div>"
+                                            }
+                                        },
+                                        "titleMode": "noTitle",
+                                        "name": {
+                                            "translationTable": {
+                                                "Default": "ENTITY_TERM_NAME and ENTITY_NAME"
+                                            }
+                                        },
+                                        "data": {
+                                            "dataViews": [
+                                                {
+                                                    "id": "model0000018b4d65739d_00000000",
+                                                    "modelRef": "model0000018b42397a86_00000001",
+                                                    "dataItems": [
+                                                        {
+                                                            "id": "id1054347419",
+                                                            "itemId": "V_LDM_ENT_ATT_TERMS.ENTITY_NAME",
+                                                            "itemLabel": "ENTITY_NAME",
+                                                            "union": {}
+                                                        },
+                                                        {
+                                                            "id": "id_757760402",
+                                                            "itemId": "V_LDM_ENT_ATT_TERMS.ENTITY_TERM_NAME",
+                                                            "itemLabel": "ENTITY_TERM_NAME",
+                                                            "union": {}
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "visTypeLocked": true,
+                                        "slotmapping": {
+                                            "slots": [
+                                                {
+                                                    "name": "grid_cols",
+                                                    "dataItems": [
+                                                        "id1054347419",
+                                                        "id_757760402"
+                                                    ]
+                                                }
+                                            ],
+                                            "multiMeasureGroups": {}
+                                        },
+                                        "savedPrompts": null
+                                    }
+                                }
+                            },
+                            {
+                                "id": "model0000018b4d659e57_00000000",
+                                "from": "model0000018b4268bba9_00000000",
+                                "style": {
+                                    "left": "48.94423389279913%",
+                                    "top": "42.64002387071314%",
+                                    "height": "48.44570856554339%",
+                                    "width": "49.15446670276123%"
+                                },
+                                "type": "widget",
+                                "relatedLayouts": "",
+                                "features": {
+                                    "Models_internal": {
+                                        "type": "live",
+                                        "id": "model0000018b4d659e57_00000000",
+                                        "visId": "JQGrid",
+                                        "titleHtml": {
+                                            "translationTable": {
+                                                "Default": "<div class=\"widgetTitle mediumTitle\" title=\"ENTITY_TERM_NAME\" aria-labelledby=\"model0000018b4268bba9_00000000Title\" walkme-data-id=\"widgetTitle\"><div class=\"textArea hidden\"><div class=\"summernote\" style=\"display: none;\"></div><div class=\"note-editor\"><div class=\"note-dropzone\">  <div class=\"note-dropzone-message\"></div></div><div class=\"note-editing-area\"><div class=\"note-handle\"><div class=\"note-control-selection\"><div class=\"note-control-selection-bg\"></div><div class=\"note-control-holder note-control-nw\"></div><div class=\"note-control-holder note-control-ne\"></div><div class=\"note-control-holder note-control-sw\"></div><div class=\"note-control-sizing note-control-se\"></div><div class=\"note-control-selection-info\"></div></div></div><div tabindex=\"-1\" contenteditable=\"true\" style=\"position: absolute; left: -100000px; opacity: 0;\"></div><div class=\"note-editable\" contenteditable=\"false\" id=\"model0000018b4268bba9_00000000Title\"><span class=\"textFitted responsiveColor responsiveFontSize responsiveFontFamily\"><p><span>ENTITY_TERM_NAME and ENTITY_NAME</span></p></span></div></div></div></div></div>"
+                                            }
+                                        },
+                                        "titleMode": "noTitle",
+                                        "name": {
+                                            "translationTable": {
+                                                "Default": "ENTITY_TERM_NAME and ENTITY_NAME"
+                                            }
+                                        },
+                                        "data": {
+                                            "dataViews": [
+                                                {
+                                                    "id": "model0000018b4d666abf_00000000",
+                                                    "modelRef": "model0000018b42397a86_00000001",
+                                                    "dataItems": [
+                                                        {
+                                                            "id": "id_360998214",
+                                                            "itemId": "V_LDM_ENT_ATT_TERMS.ATTRIBUTE_NAME",
+                                                            "itemLabel": "ATTRIBUTE_NAME",
+                                                            "union": {}
+                                                        },
+                                                        {
+                                                            "id": "id_1497469009",
+                                                            "itemId": "V_LDM_ENT_ATT_TERMS.ATTRIBUTE_TERM_NAME",
+                                                            "itemLabel": "ATTRIBUTE_TERM_NAME",
+                                                            "union": {}
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "visTypeLocked": true,
+                                        "slotmapping": {
+                                            "slots": [
+                                                {
+                                                    "name": "grid_cols",
+                                                    "dataItems": [
+                                                        "id_360998214",
+                                                        "id_1497469009"
+                                                    ]
+                                                }
+                                            ],
+                                            "multiMeasureGroups": {}
+                                        },
+                                        "savedPrompts": null
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "model0000018b426b5e38_00000007",
+                "from": "model0000018b424868e9_00000000",
+                "type": "container",
+                "title": {
+                    "translationTable": {
+                        "Default": "Attribute view"
+                    }
+                },
+                "templateName": "Template1",
+                "clones": 0,
+                "items": [
+                    {
+                        "id": "model0000018b426b5e38_00000008",
+                        "from": "model0000018b424868ea_00000001",
+                        "css": "templateBox aspectRatio_default",
+                        "type": "genericPage",
+                        "layoutPositioning": "relative",
+                        "items": [
+                            {
+                                "id": "model0000018b426b5e38_00000009",
+                                "from": "model0000018b424868ea_00000003",
+                                "style": {
+                                    "top": "0%",
+                                    "left": "0%",
+                                    "right": "0%",
+                                    "bottom": "0%"
+                                },
+                                "type": "templateIndicator"
+                            },
+                            {
+                                "id": "model0000018b426b5e36_00000001",
+                                "from": "model0000018b42615746_00000000",
+                                "style": {
+                                    "left": "40.4060248853962%",
+                                    "top": "0.6985410969190845%",
+                                    "height": "40.30966326826423%",
+                                    "width": "57.358677144728226%"
+                                },
+                                "type": "widget",
+                                "relatedLayouts": "",
+                                "features": {
+                                    "Models_internal": {
+                                        "type": "live",
+                                        "id": "model0000018b426b5e36_00000001",
+                                        "visId": "com.ibm.vis.rave2bundlebar",
+                                        "titleHtml": {
+                                            "translationTable": {
+                                                "Default": "<div class=\"widgetTitle titleShown\" title=\"Attribute assigned terms by Categor﻿y\" aria-labelledby=\"model0000018b42615746_00000000Title\" walkme-data-id=\"widgetTitle\"><div class=\"textArea\"><div class=\"summernote\" style=\"display: none;\"></div><div class=\"note-editor\"><div class=\"note-dropzone\">  <div class=\"note-dropzone-message\"></div></div><div class=\"note-editing-area\"><div class=\"note-handle\"><div class=\"note-control-selection\" style=\"display: none;\"><div class=\"note-control-selection-bg\"></div><div class=\"note-control-holder note-control-nw\"></div><div class=\"note-control-holder note-control-ne\"></div><div class=\"note-control-holder note-control-sw\"></div><div class=\"note-control-sizing note-control-se\"></div><div class=\"note-control-selection-info\"></div></div></div><div tabindex=\"-1\" contenteditable=\"true\" style=\"position: absolute; left: -100000px; opacity: 0;\"></div><div class=\"note-editable\" contenteditable=\"true\" id=\"model0000018b426b5e36_00000001Title\"><span class=\"textFitted responsiveColor responsiveFontSize responsiveFontFamily\"><p style=\"text-align: center;\"><span style=\"font-size: 14px;\">Attribute assigned terms by Categor</span><span style=\"font-size: 14px;\">﻿</span><span style=\"font-size: 14px;\">y</span><br></p></span></div></div></div></div></div>"
+                                            }
+                                        },
+                                        "titleMode": "customTitle",
+                                        "responsiveTitle": false,
+                                        "name": {
+                                            "translationTable": {
+                                                "Default": "Attribute assigned terms by Categor﻿y"
+                                            }
+                                        },
+                                        "data": {
+                                            "dataViews": [
+                                                {
+                                                    "id": "model0000018b426d7e86_00000000",
+                                                    "modelRef": "model0000018b42397a86_00000001",
+                                                    "dataItems": [
+                                                        {
+                                                            "id": "id_362640931",
+                                                            "itemId": "V_LDM_ENT_ATT_TERMS.ATTRIBUTE_CATEGORY_NAME",
+                                                            "itemLabel": "ATTRIBUTE_CATEGORY_NAME",
+                                                            "union": {}
+                                                        },
+                                                        {
+                                                            "id": "id_851279612",
+                                                            "itemId": "V_LDM_ENT_ATT_TERMS.ATTRIBUTE_TERM_ARTIFACT_ID",
+                                                            "itemLabel": "ATTRIBUTE_TERM_ARTIFACT_ID",
+                                                            "union": {}
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "visTypeLocked": true,
+                                        "slotmapping": {
+                                            "slots": [
+                                                {
+                                                    "name": "categories",
+                                                    "dataItems": [
+                                                        "id_362640931"
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "values",
+                                                    "dataItems": [
+                                                        "id_851279612"
+                                                    ]
+                                                }
+                                            ],
+                                            "multiMeasureGroups": {}
+                                        },
+                                        "annotations": {
+                                            "selectedAnnotations": []
+                                        },
+                                        "savedPrompts": null,
+                                        "properties": [
+                                            {
+                                                "id": "itemAxis.title.visible",
+                                                "value": false
+                                            },
+                                            {
+                                                "id": "valueAxis.title.visible",
+                                                "value": false
+                                            },
+                                            {
+                                                "id": "itemAxis.line.visible",
+                                                "value": true
+                                            }
+                                        ],
+                                        "borderColor": "transparent"
+                                    }
+                                }
+                            },
+                            {
+                                "id": "model0000018b426b5e36_00000002",
+                                "from": "model0000018b4264334e_00000000",
+                                "style": {
+                                    "left": "0.91683038637852%",
+                                    "top": "0.465694064612723%",
+                                    "height": "40.52120479711456%",
+                                    "width": "39.25232481990832%"
+                                },
+                                "type": "widget",
+                                "relatedLayouts": "",
+                                "features": {
+                                    "Models_internal": {
+                                        "type": "live",
+                                        "id": "model0000018b426b5e36_00000002",
+                                        "visId": "com.ibm.vis.rave2bundlepie",
+                                        "titleHtml": {
+                                            "translationTable": {
+                                                "Default": "<div class=\"widgetTitle titleShown\" title=\"Attributes mapped to Business Terms\" aria-labelledby=\"model0000018b4264334e_00000000Title\" walkme-data-id=\"widgetTitle\"><div class=\"textArea\"><div class=\"summernote\" style=\"display: none;\"></div><div class=\"note-editor\"><div class=\"note-dropzone\">  <div class=\"note-dropzone-message\"></div></div><div class=\"note-editing-area\"><div class=\"note-handle\"><div class=\"note-control-selection\" style=\"display: none;\"><div class=\"note-control-selection-bg\"></div><div class=\"note-control-holder note-control-nw\"></div><div class=\"note-control-holder note-control-ne\"></div><div class=\"note-control-holder note-control-sw\"></div><div class=\"note-control-sizing note-control-se\"></div><div class=\"note-control-selection-info\"></div></div></div><div tabindex=\"-1\" contenteditable=\"true\" style=\"position: absolute; left: -100000px; opacity: 0;\"></div><div class=\"note-editable\" contenteditable=\"true\" id=\"model0000018b426b5e36_00000002Title\"><span class=\"textFitted responsiveColor responsiveFontSize responsiveFontFamily\"><p style=\"text-align: center;\">Attributes mapped to Business Terms<br></p></span></div></div></div></div></div>"
+                                            }
+                                        },
+                                        "titleMode": "customTitle",
+                                        "responsiveTitle": false,
+                                        "name": {
+                                            "translationTable": {
+                                                "Default": "Attributes mapped to Business Terms"
+                                            }
+                                        },
+                                        "data": {
+                                            "dataViews": [
+                                                {
+                                                    "id": "model0000018b4264d780_00000000",
+                                                    "modelRef": "model0000018b42397a86_00000001",
+                                                    "dataItems": [
+                                                        {
+                                                            "id": "id944540322",
+                                                            "itemId": "V_LDM_ENT_ATT_TERMS.ATTRIBUTE_MAPPED",
+                                                            "itemLabel": "ATTRIBUTE_MAPPED",
+                                                            "union": {},
+                                                            "selection": [
+                                                                {
+                                                                    "operation": "order",
+                                                                    "sort": {
+                                                                        "type": "asc",
+                                                                        "by": "caption",
+                                                                        "priority": 0
+                                                                    }
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "id_384732918",
+                                                            "itemId": "V_LDM_ENT_ATT_TERMS.ATTRIBUTE_ID",
+                                                            "itemLabel": "ATTRIBUTE_ID",
+                                                            "union": {}
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "visTypeLocked": true,
+                                        "slotmapping": {
+                                            "slots": [
+                                                {
+                                                    "name": "categories",
+                                                    "dataItems": [
+                                                        "id944540322"
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "values",
+                                                    "dataItems": [
+                                                        "id_384732918"
+                                                    ]
+                                                }
+                                            ],
+                                            "multiMeasureGroups": {}
+                                        },
+                                        "annotations": {
+                                            "selectedAnnotations": []
+                                        },
+                                        "savedPrompts": null,
+                                        "borderColor": "transparent",
+                                        "properties": [
+                                            {
+                                                "id": "labels.format",
+                                                "value": "Value"
+                                            },
+                                            {
+                                                "id": "defaultPaletteIndex",
+                                                "value": 1
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            {
+                                "id": "model0000018b426b5e36_00000003",
+                                "from": "model0000018b4268bba9_00000000",
+                                "style": {
+                                    "left": "0.45841519318926%",
+                                    "top": "42.611006912064155%",
+                                    "height": "49.93020410206617%",
+                                    "width": "97.22462344466274%"
+                                },
+                                "type": "widget",
+                                "relatedLayouts": "",
+                                "features": {
+                                    "Models_internal": {
+                                        "type": "live",
+                                        "id": "model0000018b426b5e36_00000003",
+                                        "visId": "JQGrid",
+                                        "titleHtml": {
+                                            "translationTable": {
+                                                "Default": "<div class=\"widgetTitle titleShown mediumTitle\" title=\"ENTITY_NAME, ATTRIBUTE_NAME and ATTRIBUTE_TERM_NAME\" aria-labelledby=\"model0000018b4268bba9_00000000Title\" walkme-data-id=\"widgetTitle\"><div class=\"textArea\"><div class=\"summernote\" style=\"display: none;\"></div><div class=\"note-editor\"><div class=\"note-dropzone\">  <div class=\"note-dropzone-message\"></div></div><div class=\"note-editing-area\"><div class=\"note-handle\"><div class=\"note-control-selection\" style=\"display: none;\"><div class=\"note-control-selection-bg\"></div><div class=\"note-control-holder note-control-nw\"></div><div class=\"note-control-holder note-control-ne\"></div><div class=\"note-control-holder note-control-sw\"></div><div class=\"note-control-sizing note-control-se\"></div><div class=\"note-control-selection-info\"></div></div></div><div tabindex=\"-1\" contenteditable=\"true\" style=\"position: absolute; left: -100000px; opacity: 0;\"></div><div class=\"note-editable\" contenteditable=\"false\" id=\"model0000018b426b5e36_00000003Title\"><span class=\"textFitted responsiveColor responsiveFontSize responsiveFontFamily\"><p><span>ENTITY_NAME, ATTRIBUTE_NAME and ATTRIBUTE_TERM_NAME</span></p></span></div></div></div></div></div>"
+                                            }
+                                        },
+                                        "titleMode": "noTitle",
+                                        "name": {
+                                            "translationTable": {
+                                                "Default": "ENTITY_NAME, ATTRIBUTE_NAME and ATTRIBUTE_TERM_NAME"
+                                            }
+                                        },
+                                        "data": {
+                                            "dataViews": [
+                                                {
+                                                    "id": "model0000018b426e551a_00000000",
+                                                    "modelRef": "model0000018b42397a86_00000001",
+                                                    "dataItems": [
+                                                        {
+                                                            "id": "id1054347419",
+                                                            "itemId": "V_LDM_ENT_ATT_TERMS.ENTITY_NAME",
+                                                            "itemLabel": "ENTITY_NAME",
+                                                            "union": {}
+                                                        },
+                                                        {
+                                                            "id": "id_360998214",
+                                                            "itemId": "V_LDM_ENT_ATT_TERMS.ATTRIBUTE_NAME",
+                                                            "itemLabel": "ATTRIBUTE_NAME",
+                                                            "union": {}
+                                                        },
+                                                        {
+                                                            "id": "id_1497469009",
+                                                            "itemId": "V_LDM_ENT_ATT_TERMS.ATTRIBUTE_TERM_NAME",
+                                                            "itemLabel": "ATTRIBUTE_TERM_NAME",
+                                                            "union": {}
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "visTypeLocked": true,
+                                        "slotmapping": {
+                                            "slots": [
+                                                {
+                                                    "name": "grid_cols",
+                                                    "dataItems": [
+                                                        "id1054347419",
+                                                        "id_360998214",
+                                                        "id_1497469009"
+                                                    ]
+                                                }
+                                            ],
+                                            "multiMeasureGroups": {}
+                                        },
+                                        "savedPrompts": null,
+                                        "borderColor": "transparent"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "model0000018b4da235e5_00000004",
+                "from": "model0000018b4d8f0cff_00000001",
+                "type": "container",
+                "title": {
+                    "translationTable": {
+                        "Default": "Entity-Term view"
+                    }
+                },
+                "templateName": "Template1",
+                "clones": 1,
+                "items": [
+                    {
+                        "id": "model0000018b4da235e5_00000005",
+                        "from": "model0000018b4d8f0cff_00000002",
+                        "css": "templateBox aspectRatio_default",
+                        "type": "genericPage",
+                        "layoutPositioning": "relative",
+                        "items": [
+                            {
+                                "id": "model0000018b4da235e5_00000006",
+                                "from": "model0000018b4d8f0cff_00000003",
+                                "style": {
+                                    "top": "0%",
+                                    "left": "0%",
+                                    "right": "0%",
+                                    "bottom": "0%"
+                                },
+                                "type": "templateIndicator"
+                            },
+                            {
+                                "id": "model0000018b4da235e3_00000000",
+                                "from": "model0000018b4d9ecfdf_00000000",
+                                "style": {
+                                    "height": "55.16569932526734%",
+                                    "width": "49.180671358960474%",
+                                    "top": "1.8288046355384866%",
+                                    "left": "0.9204114780725501%"
+                                },
+                                "type": "widget",
+                                "relatedLayouts": "",
+                                "features": {
+                                    "Models_internal": {
+                                        "type": "live",
+                                        "id": "model0000018b4da235e3_00000000",
+                                        "visId": "com.ibm.vis.rave2bundlepackedbubble",
+                                        "titleHtml": {
+                                            "translationTable": {
+                                                "Default": "<div class=\"widgetTitle mediumTitle\" title=\"ENTITY_CATEGORY_NAME\" aria-labelledby=\"model0000018b4d9ecfdf_00000000Title\" walkme-data-id=\"widgetTitle\"><div class=\"textArea hidden\"><div class=\"summernote\" style=\"display: none;\"></div><div class=\"note-editor\"><div class=\"note-dropzone\">  <div class=\"note-dropzone-message\"></div></div><div class=\"note-editing-area\"><div class=\"note-handle\"><div class=\"note-control-selection\"><div class=\"note-control-selection-bg\"></div><div class=\"note-control-holder note-control-nw\"></div><div class=\"note-control-holder note-control-ne\"></div><div class=\"note-control-holder note-control-sw\"></div><div class=\"note-control-sizing note-control-se\"></div><div class=\"note-control-selection-info\"></div></div></div><div tabindex=\"-1\" contenteditable=\"true\" style=\"position: absolute; left: -100000px; opacity: 0;\"></div><div class=\"note-editable\" contenteditable=\"false\" id=\"model0000018b4d9ecfdf_00000000Title\"><span class=\"textFitted responsiveColor responsiveFontSize responsiveFontFamily\"><p><span>ENTITY_CATEGORY_NAME sized by ENTITY_MAPPED</span></p></span></div></div></div></div></div>"
+                                            }
+                                        },
+                                        "titleMode": "smartTitle",
+                                        "name": {
+                                            "translationTable": {
+                                                "Default": "ENTITY_CATEGORY_NAME sized by ENTITY_MAPPED"
+                                            }
+                                        },
+                                        "data": {
+                                            "dataViews": [
+                                                {
+                                                    "id": "model0000018b4d9f3379_00000000",
+                                                    "modelRef": "model0000018b42397a86_00000001",
+                                                    "dataItems": [
+                                                        {
+                                                            "id": "id46539036",
+                                                            "itemId": "V_LDM_ENT_ATT_TERMS.ENTITY_CATEGORY_NAME",
+                                                            "itemLabel": "ENTITY_CATEGORY_NAME",
+                                                            "union": {}
+                                                        },
+                                                        {
+                                                            "id": "id_412939197",
+                                                            "itemId": "V_LDM_ENT_ATT_TERMS.ENTITY_MAPPED",
+                                                            "itemLabel": "ENTITY_MAPPED",
+                                                            "union": {}
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "visTypeLocked": true,
+                                        "slotmapping": {
+                                            "slots": [
+                                                {
+                                                    "name": "categories",
+                                                    "dataItems": [
+                                                        "id46539036"
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "size",
+                                                    "dataItems": [
+                                                        "id_412939197"
+                                                    ]
+                                                }
+                                            ],
+                                            "multiMeasureGroups": {}
+                                        },
+                                        "annotations": {
+                                            "selectedAnnotations": [
+                                                "AVERAGE",
+                                                "MEANINGFUL_DIFFERENCES"
+                                            ]
+                                        },
+                                        "properties": [
+                                            {
+                                                "id": "widget.legend.display",
+                                                "value": false
+                                            },
+                                            {
+                                                "id": "labels.format",
+                                                "value": "Item"
+                                            },
+                                            {
+                                                "id": "defaultPaletteIndex",
+                                                "value": 0
+                                            }
+                                        ],
+                                        "savedPrompts": null
+                                    }
+                                }
+                            },
+                            {
+                                "id": "model0000018b4da29988_00000000",
+                                "style": {
+                                    "left": "50.94748240389821%",
+                                    "top": "2.117563262202458%",
+                                    "height": "54.96202824059369%",
+                                    "width": "49.027233351380616%"
+                                },
+                                "type": "widget",
+                                "relatedLayouts": "",
+                                "features": {
+                                    "Models_internal": {
+                                        "type": "live",
+                                        "id": "model0000018b4da29988_00000000",
+                                        "visId": "JQGrid",
+                                        "titleHtml": {
+                                            "translationTable": {
+                                                "Default": "<div class=\"widgetTitle mediumTitle\" title=\"ENTITY_TERM_NAME\" aria-labelledby=\"model0000018b4da29988_00000000Title\" walkme-data-id=\"widgetTitle\"><div class=\"textArea\"><div class=\"summernote\" style=\"display: none;\"></div><div class=\"note-editor\"><div class=\"note-dropzone\">  <div class=\"note-dropzone-message\"></div></div><div class=\"note-editing-area\"><div class=\"note-handle\"><div class=\"note-control-selection\"><div class=\"note-control-selection-bg\"></div><div class=\"note-control-holder note-control-nw\"></div><div class=\"note-control-holder note-control-ne\"></div><div class=\"note-control-holder note-control-sw\"></div><div class=\"note-control-sizing note-control-se\"></div><div class=\"note-control-selection-info\"></div></div></div><div tabindex=\"-1\" contenteditable=\"true\" style=\"position: absolute; left: -100000px; opacity: 0;\"></div><div class=\"note-editable\" contenteditable=\"false\" id=\"model0000018b4da29988_00000000Title\"><span class=\"textFitted responsiveColor responsiveFontSize responsiveFontFamily\"><p><span>ENTITY_TERM_NAME and ENTITY_NAME</span></p></span></div></div></div></div></div>"
+                                            }
+                                        },
+                                        "titleMode": "smartTitle",
+                                        "name": {
+                                            "translationTable": {
+                                                "Default": "ENTITY_TERM_NAME and ENTITY_NAME"
+                                            }
+                                        },
+                                        "data": {
+                                            "dataViews": [
+                                                {
+                                                    "id": "model0000018b4da2f79c_00000000",
+                                                    "modelRef": "model0000018b42397a86_00000001",
+                                                    "dataItems": [
+                                                        {
+                                                            "id": "id_757760402",
+                                                            "itemId": "V_LDM_ENT_ATT_TERMS.ENTITY_TERM_NAME",
+                                                            "itemLabel": "ENTITY_TERM_NAME",
+                                                            "union": {}
+                                                        },
+                                                        {
+                                                            "id": "id1054347419",
+                                                            "itemId": "V_LDM_ENT_ATT_TERMS.ENTITY_NAME",
+                                                            "itemLabel": "ENTITY_NAME",
+                                                            "union": {}
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "visTypeLocked": true,
+                                        "slotmapping": {
+                                            "slots": [
+                                                {
+                                                    "name": "grid_cols",
+                                                    "dataItems": [
+                                                        "id_757760402",
+                                                        "id1054347419"
+                                                    ]
+                                                }
+                                            ],
+                                            "multiMeasureGroups": {}
+                                        },
+                                        "localFilters": [
+                                            {
+                                                "id": "V_LDM_ENT_ATT_TERMS.ENTITY_TERM_ARTIFACT_ID",
+                                                "columnId": "V_LDM_ENT_ATT_TERMS.ENTITY_TERM_ARTIFACT_ID",
+                                                "values": [],
+                                                "excludedValues": [],
+                                                "conditions": {
+                                                    "not": {
+                                                        "operator": "in",
+                                                        "itemId": "V_LDM_ENT_ATT_TERMS.ENTITY_TERM_ARTIFACT_ID",
+                                                        "ignoreCase": true,
+                                                        "values": [
+                                                            "(no value)"
+                                                        ],
+                                                        "valueType": "display"
+                                                    }
+                                                },
+                                                "operator": "in",
+                                                "type": null
+                                            }
+                                        ],
+                                        "savedPrompts": null
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "model0000018b4da375b7_00000005",
+                "from": "model0000018b4da235e5_00000004",
+                "type": "container",
+                "title": {
+                    "translationTable": {
+                        "Default": "Attribute-Term view"
+                    }
+                },
+                "templateName": "Template1",
+                "clones": 0,
+                "items": [
+                    {
+                        "id": "model0000018b4da375b7_00000006",
+                        "from": "model0000018b4da235e5_00000005",
+                        "css": "templateBox aspectRatio_default",
+                        "type": "genericPage",
+                        "layoutPositioning": "relative",
+                        "items": [
+                            {
+                                "id": "model0000018b4da375b7_00000007",
+                                "from": "model0000018b4da235e5_00000006",
+                                "style": {
+                                    "top": "0%",
+                                    "left": "0%",
+                                    "right": "0%",
+                                    "bottom": "0%"
+                                },
+                                "type": "templateIndicator"
+                            },
+                            {
+                                "id": "model0000018b4da375b6_00000000",
+                                "from": "model0000018b4da235e3_00000000",
+                                "style": {
+                                    "height": "55.45927059570904%",
+                                    "width": "49.180671358960474%",
+                                    "top": "1.540046008874515%",
+                                    "left": "0.8662696264212236%"
+                                },
+                                "type": "widget",
+                                "relatedLayouts": "",
+                                "features": {
+                                    "Models_internal": {
+                                        "type": "live",
+                                        "id": "model0000018b4da375b6_00000000",
+                                        "visId": "com.ibm.vis.rave2bundlepackedbubble",
+                                        "titleHtml": {
+                                            "translationTable": {
+                                                "Default": "<div class=\"widgetTitle titleShown mediumTitle\" title=\"ATTRIBUTE_CATEGORY_NAME sized by ENTITY_MAPPED\" aria-labelledby=\"model0000018b4d9ecfdf_00000000Title\" walkme-data-id=\"widgetTitle\"><div class=\"textArea hidden\"><div class=\"summernote\" style=\"display: none;\"></div><div class=\"note-editor\"><div class=\"note-dropzone\">  <div class=\"note-dropzone-message\"></div></div><div class=\"note-editing-area\"><div class=\"note-handle\"><div class=\"note-control-selection\" style=\"display: none;\"><div class=\"note-control-selection-bg\"></div><div class=\"note-control-holder note-control-nw\"></div><div class=\"note-control-holder note-control-ne\"></div><div class=\"note-control-holder note-control-sw\"></div><div class=\"note-control-sizing note-control-se\"></div><div class=\"note-control-selection-info\"></div></div></div><div tabindex=\"-1\" contenteditable=\"true\" style=\"position: absolute; left: -100000px; opacity: 0;\"></div><div class=\"note-editable\" contenteditable=\"false\" id=\"model0000018b4da375b6_00000000Title\"><span class=\"textFitted responsiveColor responsiveFontSize responsiveFontFamily\"><p><span>ATTRIBUTE_CATEGORY_NAME sized by ATTRIBUTE_MAPPED</span></p></span></div></div></div></div></div>"
+                                            }
+                                        },
+                                        "titleMode": "smartTitle",
+                                        "name": {
+                                            "translationTable": {
+                                                "Default": "ATTRIBUTE_CATEGORY_NAME sized by ATTRIBUTE_MAPPED"
+                                            }
+                                        },
+                                        "data": {
+                                            "dataViews": [
+                                                {
+                                                    "id": "model0000018b4d9f3379_00000000",
+                                                    "modelRef": "model0000018b42397a86_00000001",
+                                                    "dataItems": [
+                                                        {
+                                                            "id": "id_362640931",
+                                                            "itemId": "V_LDM_ENT_ATT_TERMS.ATTRIBUTE_CATEGORY_NAME",
+                                                            "itemLabel": "ATTRIBUTE_CATEGORY_NAME",
+                                                            "union": {}
+                                                        },
+                                                        {
+                                                            "id": "id944540322",
+                                                            "itemId": "V_LDM_ENT_ATT_TERMS.ATTRIBUTE_MAPPED",
+                                                            "itemLabel": "ATTRIBUTE_MAPPED",
+                                                            "union": {}
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "visTypeLocked": true,
+                                        "slotmapping": {
+                                            "slots": [
+                                                {
+                                                    "name": "categories",
+                                                    "dataItems": [
+                                                        "id_362640931"
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "size",
+                                                    "dataItems": [
+                                                        "id944540322"
+                                                    ]
+                                                }
+                                            ],
+                                            "multiMeasureGroups": {}
+                                        },
+                                        "annotations": {
+                                            "selectedAnnotations": [
+                                                "AVERAGE",
+                                                "MEANINGFUL_DIFFERENCES"
+                                            ]
+                                        },
+                                        "properties": [
+                                            {
+                                                "id": "widget.legend.display",
+                                                "value": false
+                                            }
+                                        ],
+                                        "savedPrompts": null
+                                    }
+                                }
+                            },
+                            {
+                                "id": "model0000018b4da375b6_00000001",
+                                "from": "model0000018b4da29988_00000000",
+                                "style": {
+                                    "left": "50.94748240389821%",
+                                    "top": "1.540046008874515%",
+                                    "height": "55.4914190561443%",
+                                    "width": "49.0263670817542%"
+                                },
+                                "type": "widget",
+                                "relatedLayouts": "",
+                                "features": {
+                                    "Models_internal": {
+                                        "type": "live",
+                                        "id": "model0000018b4da375b6_00000001",
+                                        "visId": "JQGrid",
+                                        "titleHtml": {
+                                            "translationTable": {
+                                                "Default": "<div class=\"widgetTitle titleShown mediumTitle\" title=\"ATTRIBUTE_TERM_NAME\" aria-labelledby=\"model0000018b4da375b6_00000001Title\" walkme-data-id=\"widgetTitle\"><div class=\"textArea\"><div class=\"summernote\" style=\"display: none;\"></div><div class=\"note-editor\"><div class=\"note-dropzone\">  <div class=\"note-dropzone-message\"></div></div><div class=\"note-editing-area\"><div class=\"note-handle\"><div class=\"note-control-selection\"><div class=\"note-control-selection-bg\"></div><div class=\"note-control-holder note-control-nw\"></div><div class=\"note-control-holder note-control-ne\"></div><div class=\"note-control-holder note-control-sw\"></div><div class=\"note-control-sizing note-control-se\"></div><div class=\"note-control-selection-info\"></div></div></div><div tabindex=\"-1\" contenteditable=\"true\" style=\"position: absolute; left: -100000px; opacity: 0;\"></div><div class=\"note-editable\" contenteditable=\"false\" id=\"model0000018b4da375b6_00000001Title\"><span class=\"textFitted responsiveColor responsiveFontSize responsiveFontFamily\"><p><span>ATTRIBUTE_TERM_NAME, ENTITY_NAME and ATTRIBUTE_NAME</span></p></span></div></div></div></div></div>"
+                                            }
+                                        },
+                                        "titleMode": "smartTitle",
+                                        "name": {
+                                            "translationTable": {
+                                                "Default": "ATTRIBUTE_TERM_NAME, ENTITY_NAME and ATTRIBUTE_NAME"
+                                            }
+                                        },
+                                        "data": {
+                                            "dataViews": [
+                                                {
+                                                    "id": "model0000018b4db34266_00000000",
+                                                    "modelRef": "model0000018b42397a86_00000001",
+                                                    "dataItems": [
+                                                        {
+                                                            "id": "id_1497469009",
+                                                            "itemId": "V_LDM_ENT_ATT_TERMS.ATTRIBUTE_TERM_NAME",
+                                                            "itemLabel": "ATTRIBUTE_TERM_NAME",
+                                                            "union": {}
+                                                        },
+                                                        {
+                                                            "id": "id1054347419",
+                                                            "itemId": "V_LDM_ENT_ATT_TERMS.ENTITY_NAME",
+                                                            "itemLabel": "ENTITY_NAME",
+                                                            "union": {}
+                                                        },
+                                                        {
+                                                            "id": "id_360998214",
+                                                            "itemId": "V_LDM_ENT_ATT_TERMS.ATTRIBUTE_NAME",
+                                                            "itemLabel": "ATTRIBUTE_NAME",
+                                                            "union": {}
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "visTypeLocked": true,
+                                        "slotmapping": {
+                                            "slots": [
+                                                {
+                                                    "name": "grid_cols",
+                                                    "dataItems": [
+                                                        "id_1497469009",
+                                                        "id1054347419",
+                                                        "id_360998214"
+                                                    ]
+                                                }
+                                            ],
+                                            "multiMeasureGroups": {}
+                                        },
+                                        "savedPrompts": null,
+                                        "localFilters": [
+                                            {
+                                                "id": "V_LDM_ENT_ATT_TERMS.ATTRIBUTE_TERM_NAME",
+                                                "columnId": "V_LDM_ENT_ATT_TERMS.ATTRIBUTE_TERM_NAME",
+                                                "values": [],
+                                                "excludedValues": [],
+                                                "conditions": {
+                                                    "not": {
+                                                        "operator": "in",
+                                                        "itemId": "V_LDM_ENT_ATT_TERMS.ATTRIBUTE_TERM_NAME",
+                                                        "ignoreCase": true,
+                                                        "values": [
+                                                            "(no value)"
+                                                        ],
+                                                        "valueType": "display"
+                                                    }
+                                                },
+                                                "operator": "in",
+                                                "type": null
+                                            }
+                                        ]
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "features": {
+        "DataSources": [
+            {
+                "id": "model0000018b42397a86_00000001",
+                "assetId": "43ed6eb2-53da-4881-b2e2-3efb94be3c06",
+                "type": "data_asset",
+                "name": "V_LDM_ENT_ATT_TERMS",
+                "shaping": {
+                    "references": {},
+                    "embeddedModuleUpToDate": false
+                }
+            }
+        ],
+        "LocalDataStore": {
+            "cacheTableRowLimit": 300000,
+            "cacheTableOverallSizeLimit": 100000000,
+            "dataStoreDefinitions": [
+                {
+                    "isEnabled": true,
+                    "instanceNumber": 1,
+                    "id": "id770622877",
+                    "dataSourceId": "model0000018b42397a86_00000001",
+                    "columns": [
+                        {
+                            "columnId": "V_LDM_ENT_ATT_TERMS.ATTRIBUTE_NAME",
+                            "type": "attribute"
+                        },
+                        {
+                            "columnId": "V_LDM_ENT_ATT_TERMS.ATTRIBUTE_TERM_NAME",
+                            "type": "attribute"
+                        },
+                        {
+                            "columnId": "V_LDM_ENT_ATT_TERMS.ENTITY_NAME",
+                            "type": "attribute"
+                        },
+                        {
+                            "columnId": "V_LDM_ENT_ATT_TERMS.ENTITY_TERM_NAME",
+                            "type": "attribute"
+                        }
+                    ],
+                    "filterDefinition": {
+                        "localFilterApiList": [],
+                        "localFilterSpecList": []
+                    }
+                },
+                {
+                    "isEnabled": true,
+                    "instanceNumber": 2,
+                    "id": "id770622899",
+                    "dataSourceId": "model0000018b42397a86_00000001",
+                    "columns": [
+                        {
+                            "columnId": "V_LDM_ENT_ATT_TERMS.ENTITY_CATEGORY_NAME",
+                            "type": "attribute"
+                        },
+                        {
+                            "columnId": "V_LDM_ENT_ATT_TERMS.ENTITY_MAPPED",
+                            "aggregation": "sum",
+                            "type": "fact"
+                        }
+                    ],
+                    "filterDefinition": {
+                        "localFilterApiList": [],
+                        "localFilterSpecList": []
+                    }
+                },
+                {
+                    "isEnabled": true,
+                    "instanceNumber": 3,
+                    "id": "id770622900",
+                    "dataSourceId": "model0000018b42397a86_00000001",
+                    "columns": [
+                        {
+                            "columnId": "V_LDM_ENT_ATT_TERMS.ATTRIBUTE_CATEGORY_NAME",
+                            "type": "attribute"
+                        },
+                        {
+                            "columnId": "V_LDM_ENT_ATT_TERMS.ATTRIBUTE_MAPPED",
+                            "aggregation": "sum",
+                            "type": "fact"
+                        }
+                    ],
+                    "filterDefinition": {
+                        "localFilterApiList": [],
+                        "localFilterSpecList": []
+                    }
+                },
+                {
+                    "isEnabled": true,
+                    "instanceNumber": 4,
+                    "id": "id_1566293672",
+                    "dataSourceId": "model0000018b42397a86_00000001",
+                    "columns": [
+                        {
+                            "columnId": "V_LDM_ENT_ATT_TERMS.ATTRIBUTE_NAME",
+                            "type": "attribute"
+                        },
+                        {
+                            "columnId": "V_LDM_ENT_ATT_TERMS.ATTRIBUTE_TERM_NAME",
+                            "type": "attribute"
+                        },
+                        {
+                            "columnId": "V_LDM_ENT_ATT_TERMS.ENTITY_NAME",
+                            "type": "attribute"
+                        }
+                    ],
+                    "filterDefinition": {
+                        "localFilterApiList": [],
+                        "localFilterSpecList": []
+                    }
+                }
+            ],
+            "tableInstanceCounter": 5,
+            "autogenerateOnSave": true
+        }
+    }
+}
