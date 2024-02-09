@@ -1,5 +1,5 @@
 {
-    "name": "AI Governance Dashboard",
+    "name": "ai-test-dash",
     "theme": "carbonGrey10",
     "version": 3000,
     "eventGroups": [
@@ -62,7 +62,7 @@
             },
             "Limited Risk": {
                 "v": 1,
-                "s": 23
+                "s": 25
             },
             "None": {
                 "v": 2,
@@ -78,15 +78,15 @@
             },
             "Sensitive Personal Information": {
                 "v": 5,
-                "s": 23
+                "s": 25
             },
             "(no value)": {
                 "v": 6,
-                "s": 23
+                "s": 25
             },
             "Personal Information": {
                 "v": 7,
-                "s": 23
+                "s": 25
             },
             "Verify Address Information": {
                 "v": 8,
@@ -206,18 +206,18 @@
             },
             "RULE_NAMEcountdistinct": {
                 "v": 37,
-                "s": 23
+                "s": 24
             },
             "POLICY_NAMEcountdistinct": {
                 "v": 38,
-                "s": 23
+                "s": 24
             },
             "Medium Risk": {
                 "v": 39,
-                "s": 23
+                "s": 25
             }
         },
-        "saveId": 23
+        "saveId": 25
     },
     "pageContext": [],
     "dataSources": {
@@ -225,82 +225,12 @@
         "sources": [
             {
                 "id": "model0000018ba3f30345_00000003",
-                "assetId": "7ded8f1e-3513-4b1e-b73e-2d938c7ecda2",
+                "assetId": "0c5dda01-61d5-421a-973b-9264b6250e1a",
                 "type": "data_asset",
                 "name": "V_MDLUC_JOINS",
                 "shaping": {
                     "references": {},
-                    "embeddedModuleUpToDate": true
-                }
-            },
-            {
-                "id": "model0000018ba3f30346_00000001",
-                "assetId": "8e35c1f6-f62f-4132-9544-f2a654c515f1",
-                "type": "data_asset",
-                "name": "ASSET_ARTIFACT_RELATIONS",
-                "shaping": {
-                    "references": {},
-                    "embeddedModuleUpToDate": true
-                }
-            },
-            {
-                "id": "model0000018ba3f30346_00000004",
-                "assetId": "b8ebafe9-3c37-4693-bbbe-906b80dd7d1f",
-                "type": "data_asset",
-                "name": "BUSINESS_TERM_ASSOCIATIONS",
-                "shaping": {
-                    "references": {},
-                    "embeddedModuleUpToDate": true
-                }
-            },
-            {
-                "id": "model0000018ba3f30346_00000007",
-                "assetId": "286b96d2-bdfd-4d44-bdbb-0abe7d42dc1c",
-                "type": "data_asset",
-                "name": "CLASSIFICATION_ASSOCIATIONS",
-                "shaping": {
-                    "references": {},
-                    "embeddedModuleUpToDate": true
-                }
-            },
-            {
-                "id": "model0000018ba3f30346_0000000d",
-                "assetId": "cb68aa89-7c0f-49d2-8919-adc652b2949b",
-                "type": "data_asset",
-                "name": "CONTAINER_DATA_ASSET_COLUMNS",
-                "shaping": {
-                    "references": {},
-                    "embeddedModuleUpToDate": true
-                }
-            },
-            {
-                "id": "model0000018ba3f30346_00000010",
-                "assetId": "1d7e8388-28e6-4dda-a458-ee91d0fdf621",
-                "type": "data_asset",
-                "name": "CONTAINER_DATA_ASSETS",
-                "shaping": {
-                    "references": {},
-                    "embeddedModuleUpToDate": true
-                }
-            },
-            {
-                "id": "model0000018ba3f30346_00000013",
-                "assetId": "0cdd05d4-6154-4c88-b47d-0094641cdeae",
-                "type": "data_asset",
-                "name": "GOVERNANCE_ARTIFACT_ASSOCIATIONS",
-                "shaping": {
-                    "references": {},
-                    "embeddedModuleUpToDate": true
-                }
-            },
-            {
-                "id": "model0000018ba3f30346_00000016",
-                "assetId": "f0a1bf44-b16a-46e0-993a-35f0aa334b3a",
-                "type": "data_asset",
-                "name": "GOVERNANCE_ARTIFACT_CONTAINER_ASSOCIATIONS",
-                "shaping": {
-                    "references": {},
-                    "embeddedModuleUpToDate": true
+                    "embeddedModuleUpToDate": false
                 }
             }
         ]
@@ -319,7 +249,7 @@
             "height": 720
         },
         "layoutPositioning": "relative",
-        "selectedTabId": "model0000018ba3f30347_00000002",
+        "selectedTabId": "model0000018baa2ff125_00000000",
         "items": [
             {
                 "id": "model0000018ba3f30347_00000002",
@@ -383,7 +313,8 @@
                                                         {
                                                             "id": "id_242825549",
                                                             "itemId": "V_MDLUC_JOINS.MODEL_USECASE_NAME",
-                                                            "itemLabel": "MODEL_USECASE_NAME"
+                                                            "itemLabel": "MODEL_USECASE_NAME",
+                                                            "union": {}
                                                         },
                                                         {
                                                             "id": "id171403292",
@@ -391,7 +322,8 @@
                                                             "itemLabel": "MODEL_USECASE_RISK_LEVEL",
                                                             "format": {
                                                                 "formatSpec": null
-                                                            }
+                                                            },
+                                                            "union": {}
                                                         }
                                                     ]
                                                 }
@@ -476,12 +408,14 @@
                                                         {
                                                             "id": "id_242825549",
                                                             "itemId": "V_MDLUC_JOINS.MODEL_USECASE_NAME",
-                                                            "itemLabel": "MODEL_USECASE_NAME"
+                                                            "itemLabel": "MODEL_USECASE_NAME",
+                                                            "union": {}
                                                         },
                                                         {
                                                             "id": "id34888206",
                                                             "itemId": "V_MDLUC_JOINS.MODEL_USECASE_CLASSIFICATION",
-                                                            "itemLabel": "MODEL_USECASE_CLASSIFICATION"
+                                                            "itemLabel": "MODEL_USECASE_CLASSIFICATION",
+                                                            "union": {}
                                                         }
                                                     ]
                                                 }
@@ -566,17 +500,20 @@
                                                         {
                                                             "id": "id_1160230107",
                                                             "itemId": "V_MDLUC_JOINS.COLUMN_CLASSIFICATION",
-                                                            "itemLabel": "COLUMN_CLASSIFICATION"
+                                                            "itemLabel": "COLUMN_CLASSIFICATION",
+                                                            "union": {}
                                                         },
                                                         {
                                                             "id": "id_904275830",
                                                             "itemId": "V_MDLUC_JOINS.COLUMN_NAME",
-                                                            "itemLabel": "COLUMN_NAME"
+                                                            "itemLabel": "COLUMN_NAME",
+                                                            "union": {}
                                                         },
                                                         {
                                                             "id": "id_242825549",
                                                             "itemId": "V_MDLUC_JOINS.MODEL_USECASE_NAME",
-                                                            "itemLabel": "MODEL_USECASE_NAME"
+                                                            "itemLabel": "MODEL_USECASE_NAME",
+                                                            "union": {}
                                                         }
                                                     ]
                                                 }
@@ -687,7 +624,8 @@
                                                         {
                                                             "id": "id_242825549",
                                                             "itemId": "V_MDLUC_JOINS.MODEL_USECASE_NAME",
-                                                            "itemLabel": "MODEL_USECASE_NAME"
+                                                            "itemLabel": "MODEL_USECASE_NAME",
+                                                            "union": {}
                                                         }
                                                     ]
                                                 }
@@ -756,7 +694,8 @@
                                                             "id": "id_904275830",
                                                             "itemId": "V_MDLUC_JOINS.COLUMN_NAME",
                                                             "itemLabel": "COLUMN_NAME",
-                                                            "aggregate": "countdistinct"
+                                                            "aggregate": "countdistinct",
+                                                            "union": {}
                                                         }
                                                     ]
                                                 }
@@ -850,7 +789,8 @@
                                                         {
                                                             "id": "id_242825549",
                                                             "itemId": "V_MDLUC_JOINS.MODEL_USECASE_NAME",
-                                                            "itemLabel": "MODEL_USECASE_NAME"
+                                                            "itemLabel": "MODEL_USECASE_NAME",
+                                                            "union": {}
                                                         }
                                                     ]
                                                 }
@@ -917,7 +857,8 @@
                                                                         "priority": 0
                                                                     }
                                                                 }
-                                                            ]
+                                                            ],
+                                                            "union": {}
                                                         },
                                                         {
                                                             "id": "id_904275830",
@@ -932,7 +873,8 @@
                                                                         "priority": 1
                                                                     }
                                                                 }
-                                                            ]
+                                                            ],
+                                                            "union": {}
                                                         },
                                                         {
                                                             "id": "id_1160230107",
@@ -947,12 +889,14 @@
                                                                         "priority": 2
                                                                     }
                                                                 }
-                                                            ]
+                                                            ],
+                                                            "union": {}
                                                         },
                                                         {
                                                             "id": "id1985414918",
                                                             "itemId": "V_MDLUC_JOINS.TABLE_NAME",
-                                                            "itemLabel": "TABLE_NAME"
+                                                            "itemLabel": "TABLE_NAME",
+                                                            "union": {}
                                                         }
                                                     ]
                                                 }
@@ -1116,7 +1060,8 @@
                                                         {
                                                             "id": "id2096091182",
                                                             "itemId": "V_MDLUC_JOINS.POLICY_NAME",
-                                                            "itemLabel": "POLICY_NAME"
+                                                            "itemLabel": "POLICY_NAME",
+                                                            "union": {}
                                                         }
                                                     ]
                                                 }
@@ -1190,7 +1135,8 @@
                                                         {
                                                             "id": "id_1396826588",
                                                             "itemId": "V_MDLUC_JOINS.RULE_NAME",
-                                                            "itemLabel": "RULE_NAME"
+                                                            "itemLabel": "RULE_NAME",
+                                                            "union": {}
                                                         }
                                                     ]
                                                 }
@@ -1259,7 +1205,8 @@
                                                         {
                                                             "id": "id_242825549",
                                                             "itemId": "V_MDLUC_JOINS.MODEL_USECASE_NAME",
-                                                            "itemLabel": "MODEL_USECASE_NAME"
+                                                            "itemLabel": "MODEL_USECASE_NAME",
+                                                            "union": {}
                                                         }
                                                     ]
                                                 }
@@ -1328,7 +1275,8 @@
                                                         {
                                                             "id": "id2096091182",
                                                             "itemId": "V_MDLUC_JOINS.POLICY_NAME",
-                                                            "itemLabel": "POLICY_NAME"
+                                                            "itemLabel": "POLICY_NAME",
+                                                            "union": {}
                                                         }
                                                     ]
                                                 }
@@ -1396,17 +1344,20 @@
                                                         {
                                                             "id": "id_242825549",
                                                             "itemId": "V_MDLUC_JOINS.MODEL_USECASE_NAME",
-                                                            "itemLabel": "MODEL_USECASE_NAME"
+                                                            "itemLabel": "MODEL_USECASE_NAME",
+                                                            "union": {}
                                                         },
                                                         {
                                                             "id": "id_1396826588",
                                                             "itemId": "V_MDLUC_JOINS.RULE_NAME",
-                                                            "itemLabel": "RULE_NAME"
+                                                            "itemLabel": "RULE_NAME",
+                                                            "union": {}
                                                         },
                                                         {
                                                             "id": "id2096091182",
                                                             "itemId": "V_MDLUC_JOINS.POLICY_NAME",
-                                                            "itemLabel": "POLICY_NAME"
+                                                            "itemLabel": "POLICY_NAME",
+                                                            "union": {}
                                                         },
                                                         {
                                                             "id": "_multiMeasuresSeries_data",
@@ -1569,17 +1520,20 @@
                                                         {
                                                             "id": "id_242825549",
                                                             "itemId": "V_MDLUC_JOINS.MODEL_USECASE_NAME",
-                                                            "itemLabel": "MODEL_USECASE_NAME"
+                                                            "itemLabel": "MODEL_USECASE_NAME",
+                                                            "union": {}
                                                         },
                                                         {
                                                             "id": "id2096091182",
                                                             "itemId": "V_MDLUC_JOINS.POLICY_NAME",
-                                                            "itemLabel": "POLICY_NAME"
+                                                            "itemLabel": "POLICY_NAME",
+                                                            "union": {}
                                                         },
                                                         {
                                                             "id": "id_1396826588",
                                                             "itemId": "V_MDLUC_JOINS.RULE_NAME",
-                                                            "itemLabel": "RULE_NAME"
+                                                            "itemLabel": "RULE_NAME",
+                                                            "union": {}
                                                         }
                                                     ]
                                                 }
@@ -1634,84 +1588,70 @@
         "DataSources": [
             {
                 "id": "model0000018ba3f30345_00000003",
-                "assetId": "7ded8f1e-3513-4b1e-b73e-2d938c7ecda2",
+                "assetId": "0c5dda01-61d5-421a-973b-9264b6250e1a",
                 "type": "data_asset",
                 "name": "V_MDLUC_JOINS",
                 "shaping": {
                     "references": {},
-                    "embeddedModuleUpToDate": true
-                }
-            },
-            {
-                "id": "model0000018ba3f30346_00000001",
-                "assetId": "8e35c1f6-f62f-4132-9544-f2a654c515f1",
-                "type": "data_asset",
-                "name": "ASSET_ARTIFACT_RELATIONS",
-                "shaping": {
-                    "references": {},
-                    "embeddedModuleUpToDate": true
-                }
-            },
-            {
-                "id": "model0000018ba3f30346_00000004",
-                "assetId": "b8ebafe9-3c37-4693-bbbe-906b80dd7d1f",
-                "type": "data_asset",
-                "name": "BUSINESS_TERM_ASSOCIATIONS",
-                "shaping": {
-                    "references": {},
-                    "embeddedModuleUpToDate": true
-                }
-            },
-            {
-                "id": "model0000018ba3f30346_00000007",
-                "assetId": "286b96d2-bdfd-4d44-bdbb-0abe7d42dc1c",
-                "type": "data_asset",
-                "name": "CLASSIFICATION_ASSOCIATIONS",
-                "shaping": {
-                    "references": {},
-                    "embeddedModuleUpToDate": true
-                }
-            },
-            {
-                "id": "model0000018ba3f30346_0000000d",
-                "assetId": "cb68aa89-7c0f-49d2-8919-adc652b2949b",
-                "type": "data_asset",
-                "name": "CONTAINER_DATA_ASSET_COLUMNS",
-                "shaping": {
-                    "references": {},
-                    "embeddedModuleUpToDate": true
-                }
-            },
-            {
-                "id": "model0000018ba3f30346_00000010",
-                "assetId": "1d7e8388-28e6-4dda-a458-ee91d0fdf621",
-                "type": "data_asset",
-                "name": "CONTAINER_DATA_ASSETS",
-                "shaping": {
-                    "references": {},
-                    "embeddedModuleUpToDate": true
-                }
-            },
-            {
-                "id": "model0000018ba3f30346_00000013",
-                "assetId": "0cdd05d4-6154-4c88-b47d-0094641cdeae",
-                "type": "data_asset",
-                "name": "GOVERNANCE_ARTIFACT_ASSOCIATIONS",
-                "shaping": {
-                    "references": {},
-                    "embeddedModuleUpToDate": true
-                }
-            },
-            {
-                "id": "model0000018ba3f30346_00000016",
-                "assetId": "f0a1bf44-b16a-46e0-993a-35f0aa334b3a",
-                "type": "data_asset",
-                "name": "GOVERNANCE_ARTIFACT_CONTAINER_ASSOCIATIONS",
-                "shaping": {
-                    "references": {},
-                    "embeddedModuleUpToDate": true
+                    "embeddedModuleUpToDate": false
                 }
             }
-        ]
+        ],
+        "LocalDataStore": {
+            "cacheTableRowLimit": 300000,
+            "cacheTableOverallSizeLimit": 100000000,
+            "dataStoreDefinitions": [
+                {
+                    "isEnabled": true,
+                    "instanceNumber": 1,
+                    "id": "id_9513918",
+                    "dataSourceId": "model0000018ba3f30345_00000003",
+                    "columns": [
+                        {
+                            "columnId": "V_MDLUC_JOINS.COLUMN_CLASSIFICATION",
+                            "type": "attribute"
+                        },
+                        {
+                            "columnId": "V_MDLUC_JOINS.COLUMN_NAME",
+                            "type": "attribute"
+                        },
+                        {
+                            "columnId": "V_MDLUC_JOINS.COLUMN_TERM_NAME",
+                            "type": "attribute"
+                        },
+                        {
+                            "columnId": "V_MDLUC_JOINS.MODEL_USECASE_NAME",
+                            "type": "attribute"
+                        },
+                        {
+                            "columnId": "V_MDLUC_JOINS.TABLE_NAME",
+                            "type": "attribute"
+                        }
+                    ],
+                    "filterDefinition": {
+                        "localFilterApiList": [],
+                        "localFilterSpecList": []
+                    }
+                },
+                {
+                    "isEnabled": true,
+                    "instanceNumber": 2,
+                    "id": "id_9513917",
+                    "dataSourceId": "model0000018ba3f30345_00000003",
+                    "columns": [
+                        {
+                            "columnId": "V_MDLUC_JOINS.POLICY_NAME",
+                            "type": "attribute"
+                        }
+                    ],
+                    "filterDefinition": {
+                        "localFilterApiList": [],
+                        "localFilterSpecList": []
+                    }
+                }
+            ],
+            "tableInstanceCounter": 3,
+            "autogenerateOnSave": true
+        }
     }
 }
