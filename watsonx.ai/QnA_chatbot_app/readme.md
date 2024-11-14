@@ -112,12 +112,12 @@ For the IBM Cloud SaaS version, please refer to the [IBM Resource Hub](https://d
    `ibmcloud ce app logs --name <name_of_your_streamlitapp>`
 
 ## Terms of use
-**Sample Materials, provided under license.</a> <br>
+**Sample Materials, provided under license.</a> <br>**
 Licensed Materials - Property of IBM. <br>
 © Copyright IBM Corp. 2024. All Rights Reserved. <br>
-US Government Users Restricted Rights - Use, duplication or disclosure restricted by GSA ADP Schedule Contract with IBM Corp. <br>**
+US Government Users Restricted Rights - Use, duplication or disclosure restricted by GSA ADP Schedule Contract with IBM Corp. <br>
 
-**The pillow library is used in this application. Pillow is licensed under the open source MIT-CMU License:</a><br>
+**The pillow library is used in this application. Pillow is licensed under the open source MIT-CMU License:</a><br>**
 The Python Imaging Library (PIL) is<br>
     Copyright © 1997-2011 by Secret Labs AB<br>
     Copyright © 1995-2011 by Fredrik Lundh and contributors<br>
@@ -142,4 +142,4 @@ IN NO EVENT SHALL SECRET LABS AB OR THE AUTHOR BE LIABLE FOR ANY SPECIAL,<br>
 INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM<br>
 LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE<br>
 OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR<br>
-PERFORMANCE OF THIS SOFTWARE.<br>**
+PERFORMANCE OF THIS SOFTWARE.<br>
