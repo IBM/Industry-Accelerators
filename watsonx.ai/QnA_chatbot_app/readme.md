@@ -1,13 +1,13 @@
-# Chatbot Interface for QnA with RAG
+# Sample Streamlit app for QnA with RAG
 
-This Streamlit app provides a chatbot interface for the `Q&A with RAG accelerator`. It allows a user to ask questions about a given corpus of documents which are answered using a Retrieval Augmented Generation (RAG) approach. Along with the answer, the chatbot references the source documents used to generate the answer. In addition, the user can provide feedback in a configurable range along with a free text comment. There is also an option to recommend a subject matter expert if the user is not satisfied with the answer.
+This is Sample Streamlit app provides a UI interface for the `Q&A with RAG accelerator`. It allows a user to ask questions about a given corpus of documents which are answered using a Retrieval Augmented Generation (RAG) approach. Along with the answer, the app references the source documents used to generate the answer. In addition, the user can provide feedback in a configurable range along with a free text comment. There is also an option to recommend a subject matter expert if the user is not satisfied with the answer.
 
 This app requires an external API which is provided by the `Q&A with RAG accelerator` project template deployed on `Watsonx.ai` `SaaS` or `On Prem`.
 For the IBM Cloud SaaS version, please refer to the [IBM Resource Hub](https://dataplatform.cloud.ibm.com/exchange/public/entry/view/75b22cbe-8a20-44a5-ac65-3a927e92cb0e?context=wx). For the CPD On Prem version, access to the `Q&A with RAG accelerator` can be requested through your IBM client team. The `Q&A with RAG accelerator` must be configured and deployed according to the needs of your use case.
 
 ## Features
-- Chatbot interface that sends user queries to the API and displays the response based on Q&A RAG deployment on watsonx.ai.
-- Chatbot feedback rating options to select.
+- UI interface that sends user queries to the API and displays the response based on Q&A RAG deployment on watsonx.ai.
+- Feedback rating options to select.
 - Toggle button to display or hide the source documents.
 - Feedback buttons (based on rating options selected) for each response. By default - we have added support from min 2 to 5 max feedback ratings in this app.
 - Expert Recommendations are available for each user question based on user rating below 100%. (Optional)
@@ -35,8 +35,7 @@ For the IBM Cloud SaaS version, please refer to the [IBM Resource Hub](https://d
          - `QNA_RAG_ONPREM_CPD_USERNAME` is username of your cpd based on prem cluster
          - `QNA_RAG_ONPREM_CPD_APIKEY` is API key generated to access your on prem based cpd cluster. 
    - To initialize the streamlit app for QnA [Optional]. Default values are already set.
-      - `DEFAULT_FEEDBACK_RATING_OPTIONS` is set to `5` by default, is configured during app initialization. end-user can update this during runtime.
-      - `MAX_FEEDBACK_RATING_OPTIONS` is set to `5` by default, admin user configured this & update them as per need. can include more ratings as well by updating the code.
+      - `FEEDBACK_RATING_OPTIONS` is set to `5` by default, admin user can configure this. app can support feedback rating options from 2 to 7. 
       - `ENABLE_EXPERT_RECOMMENDATION` is set to `True` , disable if you don't need it by default
       - `SAMPLE_EXPERT_RECOMMENDATION` is set to `True`, disable if you have ingested your own expert profiles instead of sample
 
@@ -99,14 +98,14 @@ For the IBM Cloud SaaS version, please refer to the [IBM Resource Hub](https://d
    **Note** You might face issues with quota limits with your IBM cloud account. Please run below steps in this scenario.
    - Please make sure that you have enough resource/quota limits on container registry or code engine application to run. If not please increase your quota limits or delete unused older applications/images on ibmcloud.
    - check existing applications with `ibmcloud ce app list` identify any unused apps. if have limited quota limit, either delete by running below cmd or increase your quota limits for application
-     `ibmcloud ce app delete --app <name_any_outdated_unused_app_to_delete>`
+     `ibmcloud ce app delete --name <name_any_outdated_unused_app_to_delete>`
    - check IBM Container Repository images which were previously created. if have limited quota limit, either delete unused images or increase your quota limits for images storage.
       - [Optional] if you havn't installed plugin for IBM Continer Registry. Please run below
         `ibmcloud plugin install container-registry`
-      - To delete previous images. fetch image details using `ibmcloud cr images` and then retrieve corresponding Namespace value and run below cmd to delete
-        `ibmcloud cr namespace-rm <name_any_outdated_unused_image-namespace_to_delete>`
+      - To delete any outdated previous images. fetch image details using `ibmcloud cr images` and then retrieve corresponding Repository and tag name of the image created for your app.
+        `ibmcloud cr image-rm <repository-image-name>:<tag-name>`
 9. Get your public deployment on Code Engine by listing your app name when it is Ready.
-   `ibmcloud ce app <name_of_your_streamlitapp>`
+   `ibmcloud ce app list | grep <name_of_your_streamlitapp>`
 10. Copy the URL and paste on your browser to connect your streamlit app. it may take few secs to bring the app up.
 11. To check logs of the application, please run below.
    `ibmcloud ce app logs --name <name_of_your_streamlitapp>`
@@ -114,11 +113,11 @@ For the IBM Cloud SaaS version, please refer to the [IBM Resource Hub](https://d
 ## Terms of use
 **Sample Materials, provided under license.</a> <br>**
 Licensed Materials - Property of IBM. <br>
-© Copyright IBM Corp. 2024. All Rights Reserved. <br>
+© Copyright IBM Corp. 2024,2025. All Rights Reserved. <br>
 US Government Users Restricted Rights - Use, duplication or disclosure restricted by GSA ADP Schedule Contract with IBM Corp. <br>
 
-**The pillow library is used in this application. Pillow is licensed under the open source MIT-CMU License:</a><br>**
-The Python Imaging Library (PIL) is<br>
+**The pillow library is used in this application. Pillow is licensed under the open source MIT-CMU License:</a><br>
+The Python Imaging Library (PIL) is<br>**
     Copyright © 1997-2011 by Secret Labs AB<br>
     Copyright © 1995-2011 by Fredrik Lundh and contributors<br>
 Pillow is the friendly PIL fork. It is<br>

@@ -1,6 +1,6 @@
 #Sample Materials, provided under license.
 #Licensed Materials - Property of IBM.
-#© Copyright IBM Corp. 2024. All Rights Reserved.
+#© Copyright IBM Corp. 2024,2025. All Rights Reserved.
 #US Government Users Restricted Rights - Use, duplication or disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
 
 #The Python Imaging Library (PIL) is
@@ -80,7 +80,7 @@ sample_recommendation=""
 if 'IS_EXPERT_SAMPLE' in server_config:
     try:
         if bool(server_config['IS_EXPERT_SAMPLE']):
-            sample_recommendation="This is synthetic expert profile generated using watsonx.ai.,"   
+            sample_recommendation="This is synthetic expert profile generated using watsonx.ai."   
     except:
         SAMPLE_EXPERT_RECOMMENDATION = ''
 
@@ -180,7 +180,7 @@ def send_feedback(log_id, value, comment=None):
         if feedback_Value < 100 and comment == None:
             st.session_state.feedback = value
             st.session_state.log_id = log_id
-            new_msg = msg_entry(id=str(uuid.uuid4()), role='assistant', text='Thanks for your feedback! Please add a comment in input box.')
+            new_msg = msg_entry(id=str(uuid.uuid4()), role='assistant', text='Thanks for your feedback! Please add a comment in below input box.')
             st.session_state.history.append(new_msg)
             return None
         else:
@@ -208,7 +208,12 @@ def get_expert_recommendation(log_id):
         response_update = exec_request({"input_data": [{"fields": ["_function", "log_id"], "values": [["recommend_top_experts", log_id]] }]})
         print(f"response is {response_update.json()}")
         expert_msg = msg_entry(id=str(uuid.uuid4()), role='assistant', \
-            text=sample_recommendation+' Please contact expert '+response_update.json()['predictions'][0]['values'][0][0][0]["name"] + ' , Email id: '+ response_update.json()['predictions'][0]['values'][0][0][0]["email"] + " to know more details. \n Please ask Next Question!" if response_update.status_code == 200 and 'expert_details' in response_update.json()['predictions'][0]['values'][0][1] else 'No Experts found on this topic, Please ask next Question!')
+            text=str(sample_recommendation) + " Please contact below expert for more details." 
+            + "\n \n **Name**: "+ response_update.json()['predictions'][0]['values'][0][0][0]["name"]
+            + ",\n \n **Email**: " + response_update.json()['predictions'][0]['values'][0][0][0]["email"]
+            + ",\n \n **Designation**: " + response_update.json()['predictions'][0]['values'][0][0][0]["position"]
+            + ",\n \n **Industry**: " + response_update.json()['predictions'][0]['values'][0][0][0]["domain"]
+            + ".\n \n Please type your next question in below input box!" if response_update.status_code == 200 and 'expert_details' in response_update.json()['predictions'][0]['values'][0][1] else "No Experts found on this topic, Please ask next Question!")
             
         # text='Please contact expert '+response_update.json()['predictions'][0]['values'][0][0][0]["name"] + ' , Email id: '+ response_update.json()['predictions'][0]['values'][0][0][0]["email"] + 'Profile Info: '+ response_update.json()['predictions'][0]['values'][0][0][0]["text"] if response_update.status_code == 200 and response_update.json()['predictions'][0]['values'][0][1] == 'expert_details retrieved from log records' else 'No Experts found on this topic')
         st.session_state.expert_disabled=True
@@ -289,10 +294,7 @@ if not 'active' in st.session_state:
 
 # default feedback rating options
 if not 'rating_options' in st.session_state:
-    st.session_state.rating_options = int(server_config["DEFAULT_FEEDBACK_RATING_OPTIONS"])
-
-if not 'max_rating_options' in st.session_state:
-    st.session_state.max_rating_options = int(server_config["MAX_FEEDBACK_RATING_OPTIONS"])
+    st.session_state.rating_options = int(server_config["FEEDBACK_RATING_OPTIONS"])
 
 st.set_page_config(page_title='QnA with RAG Bot', layout = "wide")
 st.title("Q&A RAG interactive UI with streamlit based app")
@@ -305,7 +307,7 @@ else:
     st.error(f"Connection test failed, status code: {str(status_code)}")
     st.session_state.connection=False
 
-_sub_title_description , _feedback_slider, _reset_button = st.columns([0.60,0.20,0.10], gap="large")
+_sub_title_description , _reset_button = st.columns([0.85,0.15], gap="large")
 
 if not st.session_state.connection:
     _sub_title_description.error("This dashboard cannot be generated! Please configure your app with deployment function properly! Contact Adminstrator")
@@ -313,17 +315,15 @@ if not st.session_state.connection:
 else:
     match = re.search(r'/deployments/([^/]*)/', QNA_RAG_DEPLOYMENT_URL)
     _sub_title_description.markdown("This is QnA Chat Bot - Retrieval Augmented Generation by calling deployment function "+ f"**{match.group(1)}**" + " of watsonx.ai " + QNA_RAG_ENV_TYPE )
-    _sub_title_description.markdown(f"\n Rating options slider is set to default {st.session_state.rating_options} options, please feel free to change it!. To clear chat history, click on reset chat button on the right side" )
-
-## maximum of 5 feedback ratings are allowed
-if rating_options := _feedback_slider.slider("Number of rating options", 2, st.session_state.max_rating_options, st.session_state.rating_options):
-    st.session_state.rating_options = rating_options
-    if (act_msg := get_msg_by_id(st.session_state.active)) != None:
-        act_msg.rating_options = st.session_state.rating_options
+    _sub_title_description.markdown(f"\nTo clear chat history, click on reset chat button on the right side." )
 
 if _reset_button.button('Reset chat'):
     if 'history' in st.session_state:
         del st.session_state.history
+        st.session_state.feedback = ''
+        st.session_state.active = ''
+        st.session_state.log_id = ''
+        st.session_state.expert_disabled = True
 
 # chat history (with welcome message)
 if not 'history' in st.session_state:
@@ -331,7 +331,7 @@ if not 'history' in st.session_state:
         text="Hi there! I am a chat bot, please type your question in below input box!")]
 
 # user's input
-if prompt := st.chat_input("Post your Question here to RAG Chat Bot!"):
+if prompt := st.chat_input("Ask questions and share feedback comment in the same chat box."):
 
     # print chat (all feedback buttons inactive)
     st.session_state.active = ''
@@ -349,8 +349,9 @@ if prompt := st.chat_input("Post your Question here to RAG Chat Bot!"):
 
     else:
         # run RAG function
-        text, documents, log_id = get_response(prompt)
-        new_msg = msg_entry(id=str(uuid.uuid4()), role='assistant', text=text, documents=documents, log_id=log_id, rating_options=st.session_state.rating_options )
+        with st.spinner("Please wait, chatbot is typing.."):
+            text, documents, log_id = get_response(prompt)
+            new_msg = msg_entry(id=str(uuid.uuid4()), role='assistant', text=text, documents=documents, log_id=log_id, rating_options=st.session_state.rating_options )
 
     st.session_state.active = new_msg.id if not new_msg.log_id == '' else ''
     print_message(new_msg, save=True)
