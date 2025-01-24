@@ -22,18 +22,29 @@ For the IBM Cloud SaaS version, please refer to the [IBM Resource Hub](https://d
 - Admin user should update the .env file in this folder. Must gather details of watsonx.ai endpoint configuration details before starting this.
 - Clone or download this repository.
 - Navigate to the project directory `QnA_chatbot_app`
-- Update `.env` file according to your usecase.
-   - To configure the endpoint of Q&A RAG Accelerator with streamlit app for connection. [Required] 
-      - `QNA_RAG_DEPLOYMENT_URL` is public endpoint URL of QnA RAG function on watsonx.ai aaS or On Prem.
-         - you can find this url Under `deployments` tab, select the deployment space which you used in your watsonx.ai project and then click on `deployments` tab to see deployments already available (If not found then please run Q&A RAG pipeline to deploy it quickly) and pick latest. Then select the deployment under `API reference` copy the `Public endpoint` url. 
-         For eg: 
-         link to deploments on SaaS is [here](https://dataplatform.cloud.ibm.com/ml-runtime/deployments)
-         link to On Prem is `https://<cpd-watsonx-endpoint-url>/ml-runtime/deployments`. update your watsonx cpd endpoint endpoint accordingly.
-      - Update `QNA_RAG_ENV_TYPE` to `saas`, please update below
-         - `QNA_RAG_SAAS_IAM_APIKEY` is IAM key of watsonx.ai project which has access to the Q&A RAG Accelerator project and its deployment space which you already used in your wx.ai aaS project
-      - Update `QNA_RAG_ENV_TYPE` to `on-prem`, please update below
-         - `QNA_RAG_ONPREM_CPD_USERNAME` is username of your cpd based on prem cluster
-         - `QNA_RAG_ONPREM_CPD_APIKEY` is API key generated to access your on prem based cpd cluster. 
+- Please update the .env file according to your specific use case.
+
+   - To configure the endpoint of the Q&A RAG Accelerator for connection with the Streamlit app: [Required]
+   
+     - `QNA_RAG_DEPLOYMENT_URL` should be set to the public endpoint URL of the QnA RAG function, either on watsonx.ai SaaS or on-prem.
+     - To obtain this URL, navigate to the `Deployments` tab. Select the deployment space used in your watsonx.ai project, then click on the Deployments tab to view the online deployments. Look for one named `rag_scoring_function_with_elasticsearch` or `rag_scoring_function_with_milvus`. If these are not available, please run the Q&A RAG pipeline to deploy it quickly.
+     - Once deployed, check the deployment details and choose the one with the matching `serving name` based on the `deployment serving name` parameter provided in your watsonx.ai **Q&A with RAG Accelerator** project. Then select the deployment under `API reference` & copy the `Public endpoint` url. For eg: 
+       - For SaaS deployments see [link here](https://dataplatform.cloud.ibm.com/ml-runtime/deployments), and the endpoint URL will be in the following format:
+       ```
+       https://<cloud_region>.ml.cloud.ibm.com/ml/v4/deployments/<serving_name>/predictions?version=2021-05-01
+       ```
+       - For on-prem deployments, the endpoint URL will be:
+       ```
+       https://<cpd-watsonx-endpoint-url>/ml-runtime/deployments
+       https://<cpd-watsonx-endpoint-url>/ml/v4/deployments/<serving_name>/predictions?version=2021-05-01
+       ```
+     - Please update your Watsonx-based endpoints accordingly.
+   - Please Update `QNA_RAG_ENV_TYPE`, an environment type where your deployed Q&A with RAG Accelerator. Supported values `saas` likely on IBMCloud or `on-prem` based CPD SW clusters. [Required]
+   - When `QNA_RAG_ENV_TYPE` to `saas`, please update below
+      - `QNA_RAG_SAAS_IAM_APIKEY` is IAM key of watsonx.ai project which has access to the Q&A RAG Accelerator project and its deployment space which you already used in your wx.ai aaS project
+   - When `QNA_RAG_ENV_TYPE` to `on-prem`, please update below
+      - `QNA_RAG_ONPREM_CPD_USERNAME` is username of your cpd based on prem cluster
+      - `QNA_RAG_ONPREM_CPD_APIKEY` is API key generated to access your on prem based cpd cluster. 
    - To initialize the streamlit app for QnA [Optional]. Default values are already set.
       - `FEEDBACK_RATING_OPTIONS` is set to `5` by default, admin user can configure this. app can support feedback rating options from 2 to 7. 
       - `ENABLE_EXPERT_RECOMMENDATION` is set to `True` , disable if you don't need it by default
