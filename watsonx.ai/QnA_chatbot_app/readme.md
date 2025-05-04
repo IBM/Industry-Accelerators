@@ -13,7 +13,7 @@ For the IBM Cloud SaaS version, please refer to the [IBM Resource Hub](https://d
 - Expert Recommendations are available for each user question based on user rating below 100%. (Optional)
 
 ## Requirements
-- `Python3` for local setup 
+- `Python3` for local setup both py3.9 and py3.11 versions works.
 - `Docker` or `Podman` container engine to build your local container image.[Optional]
 - `Q&A RAG Accelerator` project setup on `Watsonx.ai` `aaS` or `On Prem` must be deployed.
 
@@ -22,7 +22,7 @@ For the IBM Cloud SaaS version, please refer to the [IBM Resource Hub](https://d
 - Admin user should update the .env file in this folder. Must gather details of watsonx.ai endpoint configuration details before starting this.
 - Clone or download this repository.
 - Navigate to the project directory `QnA_chatbot_app`
-- Please update the .env file according to your specific use case.
+- Please make sure to update the `.env` hidden file according to your specific use case.
 
    - To configure the endpoint of the Q&A RAG Accelerator for connection with the Streamlit app: [Required]
    
@@ -47,7 +47,7 @@ For the IBM Cloud SaaS version, please refer to the [IBM Resource Hub](https://d
       - `QNA_RAG_ONPREM_CPD_APIKEY` is API key generated to access your on prem based cpd cluster. 
    - To initialize the streamlit app for QnA [Optional]. Default values are already set.
       - `FEEDBACK_RATING_OPTIONS` is set to `5` by default, admin user can configure this. app can support feedback rating options from 2 to 7. 
-      - `ENABLE_EXPERT_RECOMMENDATION` is set to `True` , disable if you don't need it by default
+      - `ENABLE_EXPERT_RECOMMENDATION` is set to `False` , enable this if you need to enable expert recommendations by default
       - `SAMPLE_EXPERT_RECOMMENDATION` is set to `True`, disable if you have ingested your own expert profiles instead of sample
 
 ## How to Run locally
@@ -58,7 +58,7 @@ For the IBM Cloud SaaS version, please refer to the [IBM Resource Hub](https://d
 ### Steps 
 1. Create a virtual environment and activate it (optional):
    ```bash
-   python3 -m venv venv
+   python3.11 -m venv venv
    source venv/bin/activate
    ```
 2. Install dependencies:
@@ -86,7 +86,7 @@ For the IBM Cloud SaaS version, please refer to the [IBM Resource Hub](https://d
 - Admin user can use IBM Cloud Repository and IBM Cloud code engine to deploy their app which is by following below steps from their local source code.
 - In this procedure, private IBM cloud repository will be used by Code Engine to build your image and use for deployment automatically via background process in a secure way & this has less pre-reqs to deploy your app.
 
-#### Steps to deploy
+#### Steps to deploy on Cloud
 - Make sure you have required details below to deploy
 
 1. Logon to IBM Cloud via apikey:
@@ -96,7 +96,7 @@ For the IBM Cloud SaaS version, please refer to the [IBM Resource Hub](https://d
    **Note** for each IBMaccount you have different api key. please make sure to use right account and its apikey which has enough permissions to access IBM Code Engine and IBM Container Repository to deploy this app.
 2. Install IBM code engine plugin if not done already
    `ibmcloud plugin install code-engine`
-3. Make sure to setup target region, account, resourcegroup on your ibmcloud client.
+3. Make sure to setup target region, account, resourcegroup on your ibmcloud client. Make sure you select resource group which has enough permissions to access IBM Code Engine and IBM Container Repository to deploy this app.
    `ibmcloud target -g <resourcegroup>`
 4. Create project on your code engine account if you don't have existing one -  https://cloud.ibm.com/docs/codeengine?topic=codeengine-manage-project
    `ibmcloud ce project create -n <name_your_project_on_ce>`
@@ -104,22 +104,83 @@ For the IBM Cloud SaaS version, please refer to the [IBM Resource Hub](https://d
 6. Select the project where you want to deploy
    `ibmcloud ce project select -n <name_your_project_on_ce>`
 7. Make sure you are in `QnA_chatbot_app` folder location. 
-8. Then Create and Deploy your streamlit application on Code Engine & wait for it to complete
-   `ibmcloud ce app create --name <name_your_streamlitapp> --build-source .`
-   **Note** You might face issues with quota limits with your IBM cloud account. Please run below steps in this scenario.
-   - Please make sure that you have enough resource/quota limits on container registry or code engine application to run. If not please increase your quota limits or delete unused older applications/images on ibmcloud.
-   - check existing applications with `ibmcloud ce app list` identify any unused apps. if have limited quota limit, either delete by running below cmd or increase your quota limits for application
-     `ibmcloud ce app delete --name <name_any_outdated_unused_app_to_delete>`
-   - check IBM Container Repository images which were previously created. if have limited quota limit, either delete unused images or increase your quota limits for images storage.
-      - [Optional] if you havn't installed plugin for IBM Continer Registry. Please run below
-        `ibmcloud plugin install container-registry`
-      - To delete any outdated previous images. fetch image details using `ibmcloud cr images` and then retrieve corresponding Repository and tag name of the image created for your app.
-        `ibmcloud cr image-rm <repository-image-name>:<tag-name>`
+8. Then Create and Deploy your streamlit application on Code Engine & wait for it to complete.
+   - `ibmcloud ce app create --name <name_your_streamlitapp> --build-source .` <br> **Note** You might face issues with quota limits or IAM configurations with your IBM cloud account. Please check troubleshoot steps before running above cmd.
+   <br> The . indicates the build source is located in your current working directory or specify the path where `QnA_chatbot_app` folder exists.
 9. Get your public deployment on Code Engine by listing your app name when it is Ready.
    `ibmcloud ce app list | grep <name_of_your_streamlitapp>`
 10. Copy the URL and paste on your browser to connect your streamlit app. it may take few secs to bring the app up.
 11. To check logs of the application, please run below.
    `ibmcloud ce app logs --name <name_of_your_streamlitapp>`
+
+
+### How to deploy on Prem RedHat OCP
+
+This procedure requries On Prem Cluster based on RedHat Openshift, OpenShift CLI and Container Engine(Optional)
+
+#### Pre-reqs
+- Install OC cli follow steps from official documentation https://docs.redhat.com/en/documentation/openshift_container_platform/4.13/html/cli_tools/openshift-cli-oc#cli-installing-cli_cli-developer-commands
+- Install Container Registry like Podman/Docker & also make use existing Openshift Container Engine is exposed on Cluster to use.
+- RH Cluster details and its Kubeadmin level creds to access.
+- Any Linux node with minimum configuration or infra node of cluster
+
+#### Steps to deploy on Prem (Required advanced admin previlages)
+
+1. Log on to the Red Hat OpenShift Container Platform cluster using the OpenShift Cli from any linux node or infra node.
+  - Please provide required creds for login to the OC cluster and run below cmd. Need kubeadmin privilages.
+  `oc login <openshift-console-url> --insecure-skip-tls-verify=true -u <kubeadmin-username> -p <kubeadmin-password>`
+
+2. create in-cluster image registry default route
+   ```
+   oc patch configs.imageregistry.operator.openshift.io/cluster --type merge -p '{"spec"{"defaultRoute":true}} -n openshift-image-registry'
+   ```
+   - once enabled. you should see details default route for container engine exposed.
+   for example below, Host/port:
+   ```
+   oc get routes -n openshift-image-registry
+   NAME            HOST/PORT                                                            PATH   SERVICES         PORT    TERMINATION   WILDCARD
+   default-route   default-route-openshift-image-registry.apps.<example.cp.fyre.ibm>.com          image-registry   <all>   reencrypt     None
+   ```
+   - check if default route is exposed by running below cmd which should same as route host as above for example.
+   `oc registry info -n openshift-image-registry`
+3. Login to container registry using the installed local container engine 
+   `<contianer-engine> login -u <kubeadmin-username> -p $(oc whoami -t) $(oc registry info -n openshift-image-registry) --tls-verify=false`
+4. Navigate to location of QnA_chatbot_app where you downloaded this repo. Assuming you have already updated required env updates in this project.
+5. Build a Contianer image of the application that needs to be deployed to an OpenShift cluster
+   `<contianer-engine> build -t qna_streamlit_chat_app:v1.6 .`
+6. Create a new namespace for the application 
+   `oc new-project <name-qna-namespace>`
+7. Tag the container image as shown below - make sure to update the registry url accordingly.
+   `<contianer-engine> tag qna_streamlit_chat_app:v1.6 $(oc registry info -n openshift-image-registry)/<name-qna-namespace>/qna_streamlit_chat_app:v1.6`
+8. Push the Container image to the OpenShift image registry.
+   `<contianer-engine> push $(oc registry info -n openshift-image-registry)/<name-qna-namespace>/qna_streamlit_chat_app:v1.6  --tls-verify=false`
+9. Verify if above image is pushed. 
+   `oc get is -n <name-qna-namespace>`
+10. Deploy the image to OpenShift and expose the Route:
+   `oc new-app --image-stream="<name-qna-namespace>/qna_streamlit_chat_app:v1.6" --name=<update-name-of-the-app> -n <name-qna-namespace>`
+   `oc expose svc/<update-name-of-the-app> -n <name-qna-namespace>`
+11. Retreive the deployed application service details for <update-name-of-the-app> and get the host url
+   `oc get routes -n <name-qna-namespace>`
+
+##### Note
+- This on prem support deployment is on OCP which is outside the CPD. End user needs to manage their deployments in this case and reachout to RH OCP documenation where ever necessary if you are failing any failures. 
+- To support on CPD, we are working on this to enhance this deployment to run inside CPD once solution is supported in future release.
+
+## Troubleshoot 
+
+-  While running step 8 to deploy app with cmd `ibmcloud ce app create --name <name_your_streamlitapp> --build-source .` you may face issues like below.
+   - Make sure your check your IAM account if you have enabled Restrict service ID creation if yes then you will see below failure<br> `The permission to create a service ID, which has access to IBM Container Registry, is insufficient` <br>
+      - To fix this, you have disable it by running below steps. <br>
+        On IBM Cloud Console, go to `Manage > Access (IAM)`, and select `Settings`. <br> In the `Account` section, **Disable** `Restrict service ID creation` and confirm. <br> **Note** Only User with Account owner/admin has required permissions to update this. 
+   - Please make sure that you have enough resource/quota limits on container registry or code engine application to run. If not please increase your quota limits or delete unused older applications/images on ibmcloud.
+      - check existing applications with `ibmcloud ce app list` identify any unused apps. if have limited quota limit, either delete by running below cmd or increase your quota limits for application
+      `ibmcloud ce app delete --name <name_any_outdated_unused_app_to_delete>`
+      - check IBM Container Repository images which were previously created. if have limited quota limit, either delete unused images or increase your quota limits for images storage.
+      - [Optional] if you havn't installed plugin for IBM Continer Registry. Please run below
+         `ibmcloud plugin install container-registry`
+      - To delete any outdated previous images. fetch image details using `ibmcloud cr images` and then retrieve corresponding Repository and tag name of the image created for your app.
+         `ibmcloud cr image-rm <repository-image-name>:<tag-name>`
+   - During This step IBM Code Engine tries build the application based on your local source code. Make sure you don't accidentally create/add any new files/folders under `QnA_chatbot_app` local folder. In case you have added any thing new which is not required for your application. please add them to `.ceignore` file before running the cmd.
 
 ## Terms of use
 **Sample Materials, provided under license.</a> <br>**
