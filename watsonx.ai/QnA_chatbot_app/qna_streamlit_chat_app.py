@@ -41,6 +41,12 @@ for theme_key, theme_val in dashboard_theme.items():
 if 'QNA_RAG_DEPLOYMENT_URL' in server_config:
     try:
         QNA_RAG_DEPLOYMENT_URL = server_config['QNA_RAG_DEPLOYMENT_URL']
+        if "/ai_service?" in QNA_RAG_DEPLOYMENT_URL:
+            print("using QnA RAG 2.x based deployment")
+            QNA_DEPLOYMENT_VERSION="2.0"
+        else: 
+            print("using QnA RAG 1.x based deployment")
+            QNA_DEPLOYMENT_VERSION="1.x"
     except:
         QNA_RAG_DEPLOYMENT_URL = ''
 
@@ -71,18 +77,17 @@ if 'QNA_RAG_ONPREM_CPD_APIKEY' in server_config:
 # set expert recommendation
 if 'ENABLE_EXPERT_RECOMMENDATION' in server_config:
     try:
-        EXPERT_RECOMMENDATION=server_config['ENABLE_EXPERT_RECOMMENDATION']
+        EXPERT_RECOMMENDATION= ( True if server_config['ENABLE_EXPERT_RECOMMENDATION'].lower() == "true" else False)
     except:
         EXPERT_RECOMMENDATION = False
 
-# set expert recommendation
+# set sample expert recommendation
 sample_recommendation=""
 if 'IS_EXPERT_SAMPLE' in server_config:
     try:
-        if bool(server_config['IS_EXPERT_SAMPLE']):
-            sample_recommendation="This is synthetic expert profile generated using watsonx.ai."   
+        sample_recommendation= ( "This is synthetic expert profile generated using watsonx.ai." if server_config['IS_EXPERT_SAMPLE'].lower() == "true" else "")
     except:
-        SAMPLE_EXPERT_RECOMMENDATION = ''
+        sample_recommendation = ''
 
 feedback_expert_text=""
 if EXPERT_RECOMMENDATION: 
@@ -130,7 +135,7 @@ def get_token(force=False):
 
 
 # call RAG function
-def exec_request(payload, ignore_errors=False):
+def exec_request(payload, qna_url, ignore_errors=False ):
     header={}
     if QNA_RAG_ENV_TYPE == "on-prem":
         if not QNA_RAG_ONPREM_CPD_USERNAME or not QNA_RAG_ONPREM_CPD_APIKEY or not QNA_RAG_DEPLOYMENT_URL:
@@ -141,10 +146,10 @@ def exec_request(payload, ignore_errors=False):
         AccessToken=base64.b64encode(user_pass_string.encode()).decode()
         header={'Content-Type': 'application/json', 'Authorization': 'ZenApiKey '+AccessToken}
     else:
-        header = {'Content-Type': 'application/json', 'Authorization': 'Bearer '+get_token()}
+        header = {'Content-Type': 'application/json', 'Accept': 'application/json', 'Authorization': 'Bearer '+get_token()}
     status_code = 0
     try:
-        response = requests.post(QNA_RAG_DEPLOYMENT_URL, json=payload, headers=header, verify=False)
+        response = requests.post(qna_url, json=payload, headers=header, verify=False)
         status_code = response.status_code
         if not status_code == 200 and not ignore_errors:
             st.error(f"Error with status code: {status_code}")
@@ -157,17 +162,30 @@ def exec_request(payload, ignore_errors=False):
 
 # run RAG function to generate response
 def get_response(prompt):
-    
-    response_scoring = exec_request({"input_data": [{"fields": ["Text"], "values": [[prompt]]}]})
+    qna_url=QNA_RAG_DEPLOYMENT_URL
+    if QNA_DEPLOYMENT_VERSION=="1.x":
         
-    # extract response, source documents and log id
-    if response_scoring == None:
-        return 'I am not able to reply due to a technical issue..', [], ''
-    
-    response = response_scoring.json()
-    text = response['predictions'][0]['values'][0][0]['response']
-    documents = response['predictions'][0]['values'][0][0].get('source_documents', [])
-    log_id = response['predictions'][0]['values'][0][0].get('log_id', '')
+        response_scoring = exec_request({"input_data": [{"fields": ["Text"], "values": [[prompt]]}]}, qna_url)
+        # extract response, source documents and log id
+        if response_scoring == None:
+            return 'I am not able to reply due to a technical issue..', [], ''
+        
+        response = response_scoring.json()
+        text = response['predictions'][0]['values'][0][0]['response']
+        documents = response['predictions'][0]['values'][0][0].get('source_documents', [])
+        log_id = response['predictions'][0]['values'][0][0].get('log_id', '')
+    else:
+        qna_url = QNA_RAG_DEPLOYMENT_URL.replace("/ai_service?", "/ai_service/qna?")
+        response_scoring = exec_request({"question": prompt}, qna_url)
+        # extract response, source documents and log id
+        if response_scoring == None:
+            return 'I am not able to reply due to a technical issue..', [], ''
+        
+        response = response_scoring.json()
+        text = response['result']['response']
+        documents = response['result'].get('source_documents', [])
+        log_id = response['result'].get('log_id', '')
+        
     return text, documents, log_id
 
 
@@ -184,16 +202,30 @@ def send_feedback(log_id, value, comment=None):
             st.session_state.history.append(new_msg)
             return None
         else:
-            response_update = exec_request({"input_data": [{"fields": ["log_id", "value", "comment"], "values": [[log_id, value, comment if not comment == None else '']]}]})
-            if feedback_Value < 100:
-                new_msg = msg_entry(id=str(uuid.uuid4()), role='assistant', \
-                text='Thanks! Feedback has been sent. \n'+ feedback_expert_text  if response_update.status_code == 200 and response_update.json()['predictions'][0]['values'][0][0] == 'ok' else 'Feedback update got failed' + feedback_expert_text)
-                st.session_state.expert_disabled=False
-                if EXPERT_RECOMMENDATION:
-                    st.button('Recommended Expert for this question', 'expert_toggle'+new_msg.id, on_click=get_expert_recommendation, args=(log_id,),disabled=st.session_state.expert_disabled)
-            else: 
-                new_msg = msg_entry(id=str(uuid.uuid4()), role='assistant', \
-                text='Thanks! Feedback has been sent. \n Type your next question in input box.' if response_update.status_code == 200 and response_update.json()['predictions'][0]['values'][0][0] == 'ok' else 'Feedback update got failed. Type your next Question in input box')
+            if QNA_DEPLOYMENT_VERSION=="1.x":
+                qna_url=QNA_RAG_DEPLOYMENT_URL
+                response_update = exec_request({"input_data": [{"fields": ["log_id", "value", "comment"], "values": [[log_id, value, comment if not comment == None else '']]}]}, qna_url)
+                if feedback_Value < 100:
+                    new_msg = msg_entry(id=str(uuid.uuid4()), role='assistant', \
+                    text='Thanks! Feedback has been sent. \n'+ feedback_expert_text  if response_update.status_code == 200 and response_update.json()['predictions'][0]['values'][0][0] == 'ok' else 'Feedback update got failed' + feedback_expert_text)
+                    st.session_state.expert_disabled=False
+                    if EXPERT_RECOMMENDATION:
+                        st.button('Recommended Expert for this question', 'expert_toggle'+new_msg.id, on_click=get_expert_recommendation, args=(log_id,),disabled=st.session_state.expert_disabled)
+                else: 
+                    new_msg = msg_entry(id=str(uuid.uuid4()), role='assistant', \
+                    text='Thanks! Feedback has been sent. \n Type your next question in input box.' if response_update.status_code == 200 and response_update.json()['predictions'][0]['values'][0][0] == 'ok' else 'Feedback update got failed. Type your next Question in input box')
+            else:
+                qna_url = QNA_RAG_DEPLOYMENT_URL.replace("/ai_service?", "/ai_service/log_feedback?")
+                response_update = exec_request({"log_id":log_id, "value":value, "comment":comment if not comment == None else ''}, qna_url)
+                if feedback_Value < 100:
+                    new_msg = msg_entry(id=str(uuid.uuid4()), role='assistant', \
+                    text='Thanks! Feedback has been sent. \n'+ feedback_expert_text  if response_update.status_code == 200 and response_update.json()['status'] == 'ok' else 'Feedback update got failed' + feedback_expert_text)
+                    st.session_state.expert_disabled=False
+                    if EXPERT_RECOMMENDATION:
+                        st.button('Recommended Expert for this question', 'expert_toggle'+new_msg.id, on_click=get_expert_recommendation, args=(log_id,),disabled=st.session_state.expert_disabled)
+                else: 
+                    new_msg = msg_entry(id=str(uuid.uuid4()), role='assistant', \
+                    text='Thanks! Feedback has been sent. \n Type your next question in input box.' if response_update.status_code == 200 and response_update.json()['status'] == 'ok' else 'Feedback update got failed. Type your next Question in input box')          
             if comment == None:
                 st.session_state.history.append(new_msg)
                 return None
@@ -205,16 +237,28 @@ def get_expert_recommendation(log_id):
     st.session_state.active = ''
     st.session_state.expert_recommendation = ''
     if not log_id == '':
-        response_update = exec_request({"input_data": [{"fields": ["_function", "log_id"], "values": [["recommend_top_experts", log_id]] }]})
-        print(f"response is {response_update.json()}")
-        expert_msg = msg_entry(id=str(uuid.uuid4()), role='assistant', \
-            text=str(sample_recommendation) + " Please contact below expert for more details." 
-            + "\n \n **Name**: "+ response_update.json()['predictions'][0]['values'][0][0][0]["name"]
-            + ",\n \n **Email**: " + response_update.json()['predictions'][0]['values'][0][0][0]["email"]
-            + ",\n \n **Designation**: " + response_update.json()['predictions'][0]['values'][0][0][0]["position"]
-            + ",\n \n **Industry**: " + response_update.json()['predictions'][0]['values'][0][0][0]["domain"]
-            + ".\n \n Please type your next question in below input box!" if response_update.status_code == 200 and 'expert_details' in response_update.json()['predictions'][0]['values'][0][1] else "No Experts found on this topic, Please ask next Question!")
-            
+        if QNA_DEPLOYMENT_VERSION=="1.x":
+            qna_url=QNA_RAG_DEPLOYMENT_URL
+            expert_response_update = exec_request({"input_data": [{"fields": ["_function", "log_id"], "values": [["recommend_top_experts", log_id]] }]}, qna_url)
+            expert_msg = msg_entry(id=str(uuid.uuid4()), role='assistant', \
+                text=str(sample_recommendation) + " Please contact below expert for more details." 
+                + "\n \n **Name**: "+ expert_response_update.json()['predictions'][0]['values'][0][0][0]["name"]
+                + ",\n \n **Email**: " + expert_response_update.json()['predictions'][0]['values'][0][0][0]["email"]
+                + ",\n \n **Designation**: " + expert_response_update.json()['predictions'][0]['values'][0][0][0]["position"]
+                + ",\n \n **Industry**: " + expert_response_update.json()['predictions'][0]['values'][0][0][0]["domain"]
+                + ".\n \n Please type your next question in below input box!" if expert_response_update.status_code == 200 and 'expert_details' in expert_response_update.json()['predictions'][0]['values'][0][1] else "No Experts found on this topic, Please ask next Question!")
+    
+        else:
+            qna_url = QNA_RAG_DEPLOYMENT_URL.replace("/ai_service?", "/ai_service/recommended_experts?")
+            expert_response_update = exec_request({"log_id": log_id}, qna_url)
+            expert_msg = msg_entry(id=str(uuid.uuid4()), role='assistant', \
+                text=str(sample_recommendation) + " Please contact below expert for more details." 
+                + "\n \n **Name**: "+ expert_response_update.json()['recommended_experts'][0]["name"]
+                + ",\n \n **Email**: " + expert_response_update.json()['recommended_experts'][0]["email"]
+                + ",\n \n **Designation**: " + expert_response_update.json()['recommended_experts'][0]["position"]
+                + ",\n \n **Industry**: " + expert_response_update.json()['recommended_experts'][0]["domain"]
+                + ".\n \n Please type your next question in below input box!" if expert_response_update.status_code == 200 and 'expert_details' in expert_response_update.json()['expert_status'] else "No Experts found on this topic, Please ask next Question!")
+   
         # text='Please contact expert '+response_update.json()['predictions'][0]['values'][0][0][0]["name"] + ' , Email id: '+ response_update.json()['predictions'][0]['values'][0][0][0]["email"] + 'Profile Info: '+ response_update.json()['predictions'][0]['values'][0][0][0]["text"] if response_update.status_code == 200 and response_update.json()['predictions'][0]['values'][0][1] == 'expert_details retrieved from log records' else 'No Experts found on this topic')
         st.session_state.expert_disabled=True
         st.session_state.history.append(expert_msg)
@@ -223,13 +267,22 @@ def get_expert_recommendation(log_id):
 
 # ping RAG function
 def ping():
-    response_ping = exec_request({"input_data": [{"fields": [""], "values": [[""]] }]}, ignore_errors=True)
+    qna_url=QNA_RAG_DEPLOYMENT_URL
+    if QNA_DEPLOYMENT_VERSION=="1.x":
+        default_payload={"input_data": [{"fields": [""], "values": [[""]] }]}
+    else:
+        default_payload={"":""}
+    response_ping = exec_request(default_payload, qna_url, ignore_errors=True)
     status_code = response_ping.status_code if not response_ping == None else 0
     if not status_code == 200:
         return False, status_code 
     response = response_ping.json()
     # expected response: {'predictions': [{'fields': ['status'], 'values': [['invalid parameters']]}]}
-    return 'predictions' in response and len(response['predictions']) > 0 and len(response['predictions'][0]['fields']) > 0 and response['predictions'][0]['fields'][0] == 'status', status_code
+    if QNA_DEPLOYMENT_VERSION=="1.x":
+        response_ok='predictions' in response and len(response['predictions']) > 0 and len(response['predictions'][0]['fields']) > 0 and response['predictions'][0]['fields'][0] == 'status'
+    else:
+        response_ok='status' in response and len(response['status']) > 0
+    return response_ok, status_code
 
 
 def get_msg_by_id(id):
@@ -297,8 +350,9 @@ if not 'rating_options' in st.session_state:
     st.session_state.rating_options = int(server_config["FEEDBACK_RATING_OPTIONS"])
 
 st.set_page_config(page_title='QnA with RAG Bot', layout = "wide")
-st.title("Q&A RAG interactive UI with streamlit based app")
+st.title("Q&A with RAG interactive streamlit based UI app")
 st.session_state.connection=False
+#st.QNA_DEPLOYMENT_VERSION=QNA_DEPLOYMENT_VERSION
 
 ok, status_code = ping()
 if ok:
@@ -314,7 +368,7 @@ if not st.session_state.connection:
     st.stop()
 else:
     match = re.search(r'/deployments/([^/]*)/', QNA_RAG_DEPLOYMENT_URL)
-    _sub_title_description.markdown("This is QnA Chat Bot - Retrieval Augmented Generation by calling deployment function "+ f"**{match.group(1)}**" + " of watsonx.ai " + QNA_RAG_ENV_TYPE )
+    _sub_title_description.markdown("This is QnA chatbot - Retrieval Augmented Generation by calling deployment function "+ f"**{match.group(1)}**" + " of watsonx.ai " + QNA_RAG_ENV_TYPE )
     _sub_title_description.markdown(f"\nTo clear chat history, click on reset chat button on the right side." )
 
 if _reset_button.button('Reset chat'):
@@ -328,10 +382,10 @@ if _reset_button.button('Reset chat'):
 # chat history (with welcome message)
 if not 'history' in st.session_state:
     st.session_state.history = [msg_entry(id=str(uuid.uuid4()), role='assistant', \
-        text="Hi there! I am a chat bot, please type your question in below input box!")]
+        text="Hi there! I am a QnA chatbot, please type your question in below input box!")]
 
 # user's input
-if prompt := st.chat_input("Ask questions and share feedback comment in the same chat box."):
+if prompt := st.chat_input("Ask questions and share feedback comment in this same input box."):
 
     # print chat (all feedback buttons inactive)
     st.session_state.active = ''
@@ -349,7 +403,7 @@ if prompt := st.chat_input("Ask questions and share feedback comment in the same
 
     else:
         # run RAG function
-        with st.spinner("Please wait, chatbot is typing.."):
+        with st.spinner("Please wait, QnA chatbot is typing.."):
             text, documents, log_id = get_response(prompt)
             new_msg = msg_entry(id=str(uuid.uuid4()), role='assistant', text=text, documents=documents, log_id=log_id, rating_options=st.session_state.rating_options )
 
