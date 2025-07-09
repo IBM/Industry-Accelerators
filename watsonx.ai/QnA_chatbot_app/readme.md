@@ -28,15 +28,24 @@ For the IBM Cloud SaaS version, please refer to the [IBM Resource Hub](https://d
    
      - `QNA_RAG_DEPLOYMENT_URL` should be set to the public endpoint URL of the QnA RAG function, either on watsonx.ai SaaS or on-prem.
      - To obtain this URL, navigate to the `Deployments` tab. Select the deployment space used in your watsonx.ai project, then click on the Deployments tab to view the online deployments. Look for one named `rag_scoring_function_with_elasticsearch` or `rag_scoring_function_with_milvus`. If these are not available, please run the Q&A RAG pipeline to deploy it quickly.
-     - Once deployed, check the deployment details and choose the one with the matching `serving name` based on the `deployment serving name` parameter provided in your watsonx.ai **Q&A with RAG Accelerator** project. Then select the deployment under `API reference` & copy the `Public endpoint` url. For eg: 
-       - For SaaS deployments see [link here](https://dataplatform.cloud.ibm.com/ml-runtime/deployments), and the endpoint URL will be in the following format:
+     - Once deployed, check the deployment details and choose the one with the matching `serving name` based on the `deployment serving name` parameter provided in your watsonx.ai **Q&A with RAG Accelerator** project. Then select the deployment under `API reference` & copy the `Public endpoint` url. For eg:
+     - For 1.x RAG deployments
+       - For SaaS deployments see [link here](https://dataplatform.cloud.ibm.com/ml-runtime/deployments), and the endpoint URL will be in the following format: 
        ```
        https://<cloud_region>.ml.cloud.ibm.com/ml/v4/deployments/<serving_name>/predictions?version=2021-05-01
        ```
-       - For on-prem deployments, the endpoint URL will be:
+       - For on-prem deployments, check `https://<cpd-watsonx-endpoint-url>/ml-runtime/deployments` link by updating your cluster details and the endpoint URL will be:
        ```
-       https://<cpd-watsonx-endpoint-url>/ml-runtime/deployments
        https://<cpd-watsonx-endpoint-url>/ml/v4/deployments/<serving_name>/predictions?version=2021-05-01
+       ```
+     - For 2.x RAG deployments 
+       - For SaaS deployments see [link here](https://dataplatform.cloud.ibm.com/ml-runtime/deployments), and the endpoint URL will be in the following format: 
+       ```
+       https://<cloud_region>.ml.cloud.ibm.com/ml/v4/deployments/<serving_name>/ai_service?version=2021-05-01
+       ```
+       - For on-prem deployments, check `https://<cpd-watsonx-endpoint-url>/ml-runtime/deployments` link by updating your cluster details and the endpoint URL will be:
+       ```
+       https://<cpd-watsonx-endpoint-url>/ml/v4/deployments/<serving_name>/ai_service?version=2021-05-01
        ```
      - Please update your Watsonx-based endpoints accordingly.
    - Please Update `QNA_RAG_ENV_TYPE`, an environment type where your deployed Q&A with RAG Accelerator. Supported values `saas` likely on IBMCloud or `on-prem` based CPD SW clusters. [Required]
@@ -47,8 +56,8 @@ For the IBM Cloud SaaS version, please refer to the [IBM Resource Hub](https://d
       - `QNA_RAG_ONPREM_CPD_APIKEY` is API key generated to access your on prem based cpd cluster. 
    - To initialize the streamlit app for QnA [Optional]. Default values are already set.
       - `FEEDBACK_RATING_OPTIONS` is set to `5` by default, admin user can configure this. app can support feedback rating options from 2 to 7. 
-      - `ENABLE_EXPERT_RECOMMENDATION` is set to `False` , enable this if you need to enable expert recommendations by default
-      - `SAMPLE_EXPERT_RECOMMENDATION` is set to `True`, disable if you have ingested your own expert profiles instead of sample
+      - `ENABLE_EXPERT_RECOMMENDATION` is set to `false` , enable this if you need to enable expert recommendations by default
+      - `IS_EXPERT_SAMPLE` is set to `true`, disable if you have ingested your own expert profiles instead of sample
 
 ## How to Run locally
 
