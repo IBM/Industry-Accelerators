@@ -27,7 +27,9 @@ For the IBM Cloud SaaS version, please refer to the [IBM Resource Hub](https://d
    - To configure the endpoint of the Q&A RAG Accelerator for connection with the Streamlit app: [Required]
    
      - `QNA_RAG_DEPLOYMENT_URL` should be set to the public endpoint URL of the QnA RAG function, either on watsonx.ai SaaS or on-prem.
-     - To obtain this URL, navigate to the `Deployments` tab. Select the deployment space used in your watsonx.ai project, then click on the Deployments tab to view the online deployments. Look for one named `rag_scoring_function_with_elasticsearch` or `rag_scoring_function_with_milvus`. If these are not available, please run the Q&A RAG pipeline to deploy it quickly.
+     - To obtain this URL, navigate to the `Deployments` tab. Select the deployment space used in your watsonx.ai project, then click on the Deployments tab to view the online deployments. For example if you have used default names provided or use your custom name to check. If you don't have existing deployments with QnA RAG, please run the Q&A RAG pipeline to deploy it.
+         - For 1.x QnA RAG version, look for one named `rag_scoring_function_with_elasticsearch` or `rag_scoring_function_with_milvus`. 
+         - For 2.x QnA RAG version, look for one named `rag_ai_service_with_elasticsearch` or `rag_ai_service_with_milvus` or `rag_ai_service_with_datastax`
      - Once deployed, check the deployment details and choose the one with the matching `serving name` based on the `deployment serving name` parameter provided in your watsonx.ai **Q&A with RAG Accelerator** project. Then select the deployment under `API reference` & copy the `Public endpoint` url. For eg:
      - For 1.x RAG deployments
        - For SaaS deployments see [link here](https://dataplatform.cloud.ibm.com/ml-runtime/deployments), and the endpoint URL will be in the following format: 
